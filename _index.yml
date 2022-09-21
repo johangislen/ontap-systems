@@ -39,6 +39,8 @@ indexpage:
           url: /fas2600/index.html
         - title: FAS2700
           url: /fas2700/index.html
+        - title: FAS2800
+          url: /fas2700/index.html
         - title: FAS8200
           url: /fas8200/index.html
         - title: FAS8300
@@ -86,7 +88,7 @@ indexpage:
         - title: NetApp Hardware Universe
           url: https://hwu.netapp.com/
         - title: NetApp Active IQ Digital Advisor
-          url: https://docs.netapp.com/us-en/active-iq/index.html          
+          url: https://docs.netapp.com/us-en/active-iq/index.html
         - title: NetApp Active IQ Config Advisor
           url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
         - title: NetApp Interoperability Matrix
