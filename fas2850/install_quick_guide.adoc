@@ -1,10 +1,10 @@
 ---
-permalink: fas2700/install-quick-guide.html
+permalink: fas2800/install-quick-guide.html
 sidebar: sidebar
-keywords: fas2700, aff a220, quick, guide, graphic, instructions, install, rack, cable
+keywords: fas2800, quick, guide, graphic, instructions, install, rack, cable
 summary: "This guide gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up."
 ---
-= Quick guide - AFF A220 and FAS2700
+= Quick guide - FAS2800
 :icons: font
 :imagesdir: ../media/
 
@@ -13,4 +13,4 @@ This guide gives graphic instructions for a typical installation of your system 
 
 Access the _Installation and Setup Instructions_ PDF poster:
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2842666[AFF A220/FAS2700 Systems Installation and Setup Instructions]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2842666[FAS2800 Systems Installation and Setup Instructions]

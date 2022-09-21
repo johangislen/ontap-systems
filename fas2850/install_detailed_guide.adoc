@@ -1,10 +1,10 @@
 ---
-permalink: fas2700/install-detailed-guide.html
+permalink: fas2800/install-detailed-guide.html
 sidebar: sidebar
-keywords: fas2700, aff a220, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
+keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
 summary: "This guide gives detailed step-by-step instructions for installing a typical NetApp system."
 ---
-= Detailed guide - AFF A220 and FAS2700
+= Detailed guide - FAS2800
 :icons: font
 :imagesdir: ../media/
 
@@ -14,7 +14,7 @@ This guide gives detailed step-by-step instructions for installing a typical Net
 == Step 1: Prepare for installation
 
 [.lead]
-To install your FAS2700 or AFF A220 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your FAS2800 or AFF A220 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
 

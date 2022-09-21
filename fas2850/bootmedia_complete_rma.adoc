@@ -1,10 +1,10 @@
 ---
-permalink: fas2850/bootmedia-complete-rma.html
+permalink: fas2800/bootmedia-complete-rma.html
 sidebar: sidebar
-keywords: fas2850, complete, replacement, process, replace, return, failed, rma, instructions
+keywords: fas2800, complete, replacement, process, replace, return, failed, rma, instructions
 summary: 'After you replace the part, you can return the failed part to NetApp, as described in the RMA instructions shipped with the kit.'
 ---
-= Return the failed part to NetApp - FAS2850
+= Return the failed part to NetApp - FAS2800
 :icons: font
 :imagesdir: ../media/
 

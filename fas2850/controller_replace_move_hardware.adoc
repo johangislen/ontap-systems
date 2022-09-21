@@ -1,10 +1,10 @@
 ---
-permalink: fas2700/controller-replace-move-hardware.html
+permalink: fas2800/controller-replace-move-hardware.html
 sidebar: sidebar
-keywords: fas2700, move the controller module hardware
+keywords: fas2800, move the controller module hardware
 summary: "To replace the controller module hardware, you must remove the impaired controller, move FRU components to the replacement controller module, install the replacement controller module in the chassis, and then boot the system to Maintenance mode."
 ---
-= Replace the controller module hardware - AFF A220 and FAS2700
+= Replace the controller module hardware - FAS2800
 :icons: font
 :imagesdir: ../media/
 
@@ -114,7 +114,7 @@ Make sure that the plug locks down onto the controller module.
 
 == Step 5: Move a caching module, if present
 
-If your AFF A220 or FAS2700 system has a caching module, you need to move the caching module from the old controller module to the replacement controller module. The caching module is referred to as the "`M.2 PCIe card`" on the controller module label.
+If your AFF A220 or FAS2800 system has a caching module, you need to move the caching module from the old controller module to the replacement controller module. The caching module is referred to as the "`M.2 PCIe card`" on the controller module label.
 
 You must have the new controller module ready so that you can move the caching module directly from the old controller module to the corresponding slot in the new one. All other components in the storage system must be functioning properly; if not, you must contact technical support.
 
