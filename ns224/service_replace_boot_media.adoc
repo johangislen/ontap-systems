@@ -94,7 +94,8 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 . Loosen the NSM module cover thumb screw and open the cover.
 . Physically locate the failed boot media.
 +
-The boot media is located along the shelf chassis wall opposite from the power supply. The boot media attention (amber) LED, located on the board next to the boot media slot, is illuminated.
+The boot media is located along the shelf chassis wall opposite from the power supply.
+//05Oct2022, Racer5: removed text describing location of onboard attention LED.
 +
 NOTE: The LED remains illuminated for 10 minutes after you remove the NSM module from the shelf.
 
