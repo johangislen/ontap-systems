@@ -96,8 +96,6 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 +
 The boot media is located along the shelf chassis wall opposite from the power supply.
 //05Oct2022, Racer5: removed text describing location of onboard attention LED.
-+
-NOTE: The LED remains illuminated for 10 minutes after you remove the NSM module from the shelf.
 
 . Replace the boot media:
  .. Using the Phillips #1 screwdriver, carefully remove the screw securing the bottom (notched) end of the boot media to the board.
