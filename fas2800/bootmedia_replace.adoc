@@ -46,7 +46,7 @@ You must locate the boot media in the controller module, located under the HIC (
 . If you are not already grounded, properly ground yourself.
 . Remove the HIC using the following illustration or the FRU map on the controller module:
 +
-image::../media/drw_2600_boot_media_move_aminated_gif.png***[]
+image::../media/drw_2600_boot_media_move_aminated_gif.png[]
 
 . Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
