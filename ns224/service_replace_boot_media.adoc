@@ -45,13 +45,15 @@ This allows enough time for ONTAP to process the NSM removal event.
 
 * *Best practice:* The best practice is to have current versions of NVMe shelf module (NSM) firmware and drive firmware on your system before replacing FRU components.
 +
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
++
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware^]
++
 [NOTE]
 ====
 Do not revert firmware to a version that does not support your shelf and its components.
 
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
 
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware^]
 ====
 
 * If needed, you can turn on the shelf's location (blue) LEDs to aid in physically locating the affected shelf: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
@@ -94,9 +96,8 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 . Loosen the NSM module cover thumb screw and open the cover.
 . Physically locate the failed boot media.
 +
-The boot media is located along the shelf chassis wall opposite from the power supply. The boot media attention (amber) LED, located on the board next to the boot media slot, is illuminated.
-+
-NOTE: The LED remains illuminated for 10 minutes after you remove the NSM module from the shelf.
+The boot media is located along the shelf chassis wall opposite from the power supply.
+//05Oct2022, Racer5: removed text describing location of onboard attention LED.
 
 . Replace the boot media:
  .. Using the Phillips #1 screwdriver, carefully remove the screw securing the bottom (notched) end of the boot media to the board.
