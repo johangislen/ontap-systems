@@ -33,14 +33,14 @@ Leave the cables in the cable management device so that when you reinstall the c
 
 . Remove and set aside the cable management devices from the left and right sides of the controller module.
 +
-image::../media/drw_25xx_cable_management_arm.png[]
-
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2240_x_opening_cam_latch.png[]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[with=340px]
 
 . Turn the controller module over and place it on a flat, stable surface.
-. Open the cover by sliding in the blue tabs to release the cover, and then swing the cover up and open.
+. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
++
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 
 == Step 3: Replace the NVMEM battery
 
@@ -53,7 +53,7 @@ To replace the NVMEM battery in your system, you must remove the failed NVMEM ba
  ** If your system is in an HA configuration, go to the next step.
  ** If your system is in a stand-alone configuration, cleanly shut down the controller module, and then check the NVRAM LED identified by the NV icon.
 +
-image::../media/drw_hw_nvram_icon.png[]
+image::../media/drw_hw_nvram_icon.svg[width=70px]
 +
 NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you halt the system. After the destage is complete, the LED turns off.
 
@@ -63,15 +63,16 @@ NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you
 This typically occurs during an uncontrolled shutdown after ONTAP has successfully booted.
 . Locate the NVMEM battery in the controller module.
 +
-image::../media/drw_2600_nvmem_batt_repl_animated_gif.png[]
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
 
-. Locate the battery plug and squeeze the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
-. Remove the battery from the controller module and set it aside.
+. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
+. Remove the battery from the controller module:
+.. Press the blue button on the side of the controller module.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
 . Remove the replacement battery from its package.
-. Loop the battery cable around the cable channel on the side of the battery holder.
-. Position the battery pack by aligning the battery holder key ribs to the "`V`" notches on the sheet metal side wall.
-. Slide the battery pack down along the sheet metal side wall until the support tabs on the side wall hook into the slots on the battery pack, and the battery pack latch engages and clicks into the opening on the side wall.
-. Plug the battery plug back into the controller module.
+. Aligning the battery with the holding brackets on the sheet metal side wall.
+. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
+. Plug the battery plug back into the socket on the controller module.
 
 == Step 4: Reinstall the controller module
 
@@ -81,7 +82,8 @@ After you replace components in the controller module, reinstall it into the cha
 .Steps
 . If you are not already grounded, properly ground yourself.
 . If you have not already done so, replace the cover on the controller module.
-. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+. Turn the controller module over and align the end with the opening in the chassis.
+. Gently push the controller module halfway into the system.Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 
@@ -90,15 +92,6 @@ NOTE: Do not completely insert the controller module in the chassis until instru
 If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
 
 . Complete the reinstallation of the controller module:
-+
-[options="header" cols="1,2"]
-|===
-| If your system is in...| Then perform these steps...
-a|
-An HA pair
-a|
-The controller module begins to boot as soon as it is fully seated in the chassis. Be prepared to interrupt the boot process.
-
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
 NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
@@ -112,24 +105,6 @@ The controller begins to boot as soon as it is seated in the chassis.
 NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
 
  .. Select the option to boot to Maintenance mode from the displayed menu.
-
-a|
-A stand-alone configuration
-a|
-
- .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
-+
-NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
-
- .. If you have not already done so, reinstall the cable management device.
- .. Bind the cables to the cable management device with the hook and loop strap.
- .. Reconnect the power cables to the power supplies and to the power sources, turn on the power to start the boot process, and then press `Ctrl-C` after you see the `Press Ctrl-C for Boot Menu` message.
-+
-NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. From the boot menu, select the option for Maintenance mode.
-
-|===
 
 == Step 5: Run system-level diagnostics
 
@@ -181,34 +156,6 @@ The controller displays the LOADER prompt.
 
  .. Boot the controller from the LOADER prompt: `bye`
  .. Return the controller to normal operation:
-
-|===
-+
-[options="header" cols="1,2"]
-|===
-| If your controller is in...| Then...
-a|
-An HA pair
-a|
-Perform a give back: `storage failover giveback -ofnode _replacement_node_name_`
-
-NOTE: If you disabled automatic giveback, re-enable it with the storage failover modify command.
-
-a|
-A two-node MetroCluster configuration
-a|
-Proceed to the next step.
-
-The MetroCluster switchback procedure is done in the next task in the replacement process.
-a|
-A stand-alone configuration
-a|
-Proceed to the next step.
-
-No action is required.
-
-You have completed system-level diagnostics.
-
 a|
 Resulted in some test failures
 a|
@@ -237,11 +184,13 @@ After you issue the command, wait until the system stops at the LOADER prompt.
 
 |===
 
-== Step 6: Switch back aggregates in a two-node MetroCluster configuration
+== Step 6: Restore automatic giveback and AutSupport
 
 [.lead]
-include::../_include/2n_mcc_switchback.adoc[]
+After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
 
+. Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
+. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 == Step 7: Return the failed part to NetApp
 
 [.lead]

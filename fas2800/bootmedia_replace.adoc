@@ -39,14 +39,20 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 :imagesdir: ../media/
 
 [.lead]
-You must locate the boot media in the controller module, located under the HIC (Host Interface Card),  and follow the directions to replace it.
+You must locate the boot media in the controller module, located under the mezzanine card and follow the directions to replace it.
 
 .Steps
 
 . If you are not already grounded, properly ground yourself.
-. Remove the HIC using the following illustration or the FRU map on the controller module:
+. Remove the mezzanine card using the following illustration or the FRU map on the controller module:
 +
 image::../media/drw_2600_boot_media_move_aminated_gif.png[]
+.. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
+.. Loosen the thumbscrews on the mezzanine card.  
++
+NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you use your fingers, you might need to rotate the NV battery up for better finger purchase on the thumbscrew next to it.
++
+.. Lift the mezzanine card straight up.  
 
 . Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
@@ -57,7 +63,9 @@ NOTE: Do not twist or pull the boot media straight up, because this could damage
 +
 If necessary, remove the boot media and reseat it into the socket.
 
-. Rotate the boot media down and push the boot media down to engage the locking button on the boot media housing.
+. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+. Reinstall the mezzanine card by aligning the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
+. Reinstall the mezzanine card bezel By aligning the pins on the controller module side with the slots on the bezel, and push it squarely into place. 
 . Reinstall the controller module cover and lock it into place.
 
 == Step 3: Transfer the boot image to the boot media

@@ -30,17 +30,15 @@ To access components inside the controller, you must first remove the controller
 Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
 
 . Remove and set aside the cable management devices from the left and right sides of the controller module.
-+
-image::../media/drw_25xx_cable_management_arm.png[]
 
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2240_x_opening_cam_latch.png[]
+image::../media/drw_2240_x_opening_cam_latch.svg[width=340px]
 
 . Turn the controller module over and place it on a flat, stable surface.
-. Open the cover by sliding in the blue tabs to release the cover, and then swing the cover up and open.
+. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2600_opening_pcm_cover.png[]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 
 == Step 3: Replace the RTC battery
 
@@ -50,7 +48,7 @@ To replace the RTC battery, locate it inside the controller and follow the speci
 . If you are not already grounded, properly ground yourself.
 . Locate the RTC battery.
 +
-image::../media/drw_2600_rtc_battery.png[]
+image::../media/drw_2850_replace_nvbattery-IEOPS-715.svg[eidth=340px]
 
 . Gently push the battery away from the holder, rotate it away from the holder, and then lift it out of the holder.
 +
@@ -66,8 +64,8 @@ NOTE: Note the polarity of the battery as you remove it from the holder. The bat
 [.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis, reset the time and date on the controller, and then boot it.
 
-. If you have not already done so, close the air duct or controller module cover.
-. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+. Turn the controller module over and align the end with the opening in the chassis.
+. Gently push the controller module halfway into the system.Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
 Do not completely insert the controller module in the chassis until instructed to do so.
 
@@ -93,14 +91,10 @@ NOTE: Do not use excessive force when sliding the controller module into the cha
  .. Confirm the date and time on the target controller.
 . At the LOADER prompt, enter `bye` to reinitialize the PCIe cards and other components and let the controller reboot.
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
-. If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
+. Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
+. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
-== Step 5: Switch back aggregates in a two-node MetroCluster configuration
-
-[.lead]
-include::../_include/2n_mcc_switchback.adoc[]
-
-== Step 6: Return the failed part to NetApp
+== Step 5: Return the failed part to NetApp
 
 [.lead]
 include::../_include/complete_rma.adoc[]
