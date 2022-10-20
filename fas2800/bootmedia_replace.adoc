@@ -65,7 +65,7 @@ If necessary, remove the boot media and reseat it into the socket.
 
 . Rotate the boot media down and push it down to engage the locking button on the boot media housing.
 . Reinstall the mezzanine card by aligning the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
-. Reinstall the mezzanine card bezel By aligning the pins on the controller module side with the slots on the bezel, and push it squarely into place. 
+. Tighten the three thumbscrews on the mezzanine card.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 3: Transfer the boot image to the boot media
