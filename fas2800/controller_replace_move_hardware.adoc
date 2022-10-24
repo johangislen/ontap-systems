@@ -23,7 +23,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 . Remove and set aside the cable management devices from the left and right sides of the controller module.
 +
 
-. If you left the SFP modules in the system after removing the cables, move them to the new controller module.
+. If you left the SFP modules in the system after removing the cables, move them to the replacement controller module.
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
 image::../media/drw_2240_x_opening_cam_latch.svg[width=340]
@@ -32,9 +32,10 @@ image::../media/drw_2240_x_opening_cam_latch.svg[width=340]
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+
 == Step 2: Move the NVMEM battery
 
-To move the NVMEM battery from the old controller module to the new controller module, you must perform a specific sequence of steps.
+To move the NVMEM battery from the old controller module to the replacement controller module, you must perform a specific sequence of steps.
 
 . Check the NVMEM LED:
  ** If your system is in an HA configuration, go to the next step.
@@ -50,53 +51,60 @@ NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you
 This typically occurs during an uncontrolled shutdown after ONTAP has successfully booted.
 . Locate the NVMEM battery in the controller module.
 +
-image::../media/drw_2600_nvmem_battery_move_animated_gif.png[]
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
 
 . Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 . Remove the battery from the controller module:
 .. Press the blue button on the side of the controller module.
-.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.****
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
 . Move the battery to the replacement controller module and install it:
 . Aligning the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Plug the battery plug back into the socket on the controller module.
++
+NOTE: Do not plug the battery in yet.  You will plug it in once the rest of the components are moved to the replacement controller module.
 
-== Step 3:  Remove the adapter card  
-. Remove the mezzanine card using the following illustration or the FRU map on the controller module:
+== Step 3:  Remove the mezzanine card 
+
+You can remove the mezzanine card using the following illustration or the FRU map on the controller module:
 +
 image::../media/drw_2850_replace_HIC_IEOPS-700.svg[width=340]
-.. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
-.. Loosen the thumbscrews on the mezzanine card.  
+. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
+. Loosen the thumbscrews on the mezzanine card.  
 +
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. 
 +
-.. Lift the mezzanine card straight up and set it aside on an anti-static surface.  
+. Lift the mezzanine card straight up and set it aside on an anti-static surface.  
 
-== Step 3: Move the boot media
+== Step 4: Move the boot media
 
-You must locate the boot media and follow the directions to remove it from the old controller module and insert it in the new controller module.
+You must locate the boot media under the mezzanine card and follow the directions to remove it from the old controller module and install it in the replacement controller module.
 
-. Locate the boot media using the following illustration or the FRU map on the controller module:
+. After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller module:
 +
 image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=340]
 
-. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
+. Remove the boot media:
+.. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
 NOTE: Do not twist or pull the boot media straight up, because this could damage the socket or the boot media.
 
-. Move the boot media to the new controller module, align the edges of the boot media with the socket housing, and then gently push it into the socket.
-. Check the boot media to make sure that it is seated squarely and completely in the socket.
+. Install the the boot media to the replacement controller module:
+.. Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
+.. Check the boot media to make sure that it is seated squarely and completely in the socket.
 +
 If necessary, remove the boot media and reseat it into the socket.
 
-. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+... Rotate the boot media down and push it down to engage the locking button on the boot media housing.
 
-== Step: 4 Install the mezzanine card in the new controller
-. Reinstall the mezzanine card by aligning the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
-. Tighten the three thumbscrews on the mezzanine card. 
-. Reinstall the mezzanine card bezel.  
+== Step 5:  Install the mezzanine card in the replacement controller
 
-== Step 5: Move the DIMMs
+. Reinstall the mezzanine card:
+.. Align mezzanine card with the socket on the motherboard. 
+.. Gently push down on the card to seat the card in the socket.
+.. Tighten the three thumbscrews on the mezzanine card.
+. Reinstall th mezzanine card bezel.
+
+== Step 6: Move the DIMMs
 
 To move the DIMMs, you must follow the directions to locate and move them from the old controller module into the replacement controller module.
 
@@ -104,53 +112,50 @@ To move the DIMMs, you must follow the directions to locate and move them from t
 . Note the orientation of the DIMM in the socket so that you can insert the DIMM in the replacement controller module in the proper orientation.
 
 The following illustration shows the location of system DIMMs:
-+
+
 image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=s40]
 
-. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM, and then slide the DIMM out of the slot.
+. Remove the DIMMs from the old controller module:
+.. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
++
+The DIMM socket will rotate up a little.
+.. Rotate the DIMM socket as far as it will go, and then slide the DIMM out of the socket. 
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
-+
-. Repeat these steps to remove additional DIMMs as needed.
-. Verify that the NVMEM battery is not plugged into the new controller module.
-. Locate the slot where you are installing the DIMM.
-. Make sure that the DIMM ejector tabs on the connector are in the open position, and then insert the DIMM squarely into the slot.
+.. Repeat these steps to remove additional DIMMs as needed.
+. Verify that the NVMEM battery is not plugged into the replacement controller module.
+. Install the DIMMs in the replacement controller:
+.. Make sure that the DIMM ejector tabs on the connector are in the open position, and then insert the DIMM squarely into the slot.
 +
 The DIMM fits tightly in the slot, but should go in easily. If not, realign the DIMM with the slot and reinsert it.
 +
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 
-. Repeat these steps for the remaining DIMMs.
-. Locate the NVMEM battery plug socket, and then squeeze the clip on the face of the battery cable plug to insert it into the socket.
+.. Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
+.. Repeat these steps for the other DIMM.  
+. Plug in the NVMRM battery.
 +
 Make sure that the plug locks down onto the controller module.
 
-== Step 5: Move a caching module, if present
+== Step 7: Move a caching module
 
-If your AFF A220 or FAS2800 system has a caching module, you need to move the caching module from the old controller module to the replacement controller module. The caching module is referred to as the "`M.2 PCIe card`" on the controller module label.
-
-You must have the new controller module ready so that you can move the caching module directly from the old controller module to the corresponding slot in the new one. All other components in the storage system must be functioning properly; if not, you must contact technical support.
-
-. Locate the caching module at the rear of the controller module and remove it.
- .. Press the release tab.
- .. Remove the heatsink.
-
+You need to move the caching module from the old controller module to the replacement controller module.
+. Locate the caching module near the rear of the controller module and remove it:
+ .. Press the blue release button and rotate the caching module upward.
 +
-image::../media/drw_2600_fcache.png[]
-. Gently pull the caching module straight out of the housing.
-. Move the caching module to the new controller module, and then align the edges of the caching module with the socket housing and gently push it into the socket.
-. Verify that the caching module is seated squarely and completely in the socket.
+image::../media/drw_2850_replace_caching module-IEOPS-697.svg[width=340px]
+.. Gently pull the caching module straight out of the housing.
+. Instal the caching module in the replacement controller module:
+.. Align the edges of the caching module with the socket in the housing, and then gently push it into the socket.
+.. Verify that the caching module is seated squarely and completely in the socket.
 +
 If necessary, remove the caching module and reseat it into the socket.
+.. Rotate the caching module down to engage the blue locking button.
+. Reinstall the controller module cover. 
 
-. Reseat and push the heatsink down to engage the locking button on the caching module housing.
-. Close the controller module cover, as needed.
+== Step 8: Install the controller
 
-== Step 6: Install the controller
-
-After you install the components from the old controller module into the new controller module, you must install the new controller module into the system chassis and boot the operating system.
-
-For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
+After you install the components from the old controller module into the replacement controller module, you must install the replacement controller module into the system chassis and boot ONTAP.
 
 NOTE: The system might update system firmware when it boots. Do not abort this process. The procedure requires you to interrupt the boot process, which you can typically do at any time after prompted to do so. However, if the system updates the system firmware when it boots, you must wait until after the update is complete before interrupting the boot process.
 
@@ -165,24 +170,29 @@ NOTE: Do not completely insert the controller module in the chassis until instru
 NOTE: You will connect the rest of the cables to the controller module later in this procedure.
 
 . Complete the reinstallation of the controller module:
+ If you are not already grounded, properly ground yourself.
+. If you have not already done so, replace the cover on the controller module.
+. Turn the controller module over and align the end with the opening in the chassis.
+. Gently push the controller module halfway into the system.Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
-[options="header" cols="1,2"]
-|===
-| If your system is in...| Then perform these steps...
-a|
-An HA pair
-a|
-The controller module begins to boot as soon as it is fully seated in the chassis. Be prepared to interrupt the boot process.
+NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 
+. Recable the system, as needed.
++
+If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
+
+. Complete the reinstallation of the controller module:
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
-NOTE: Do not use excessive force when sliding the controller module into the chassis; you might damage the connectors.
+NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
 +
 The controller begins to boot as soon as it is seated in the chassis.
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
- .. Interrupt the boot process *only* after determining the correct timing:
+ .. When you see the message `Press Ctrl-C for Boot Menu`, press `Ctrl-C` to interrupt the boot process.
++
+NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
 +
 You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete.
 +
@@ -193,33 +203,7 @@ NOTE: If the firmware update is aborted, the boot process exits to the LOADER pr
 If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
 
  .. Select the option to boot to Maintenance mode from the displayed menu.
-
-a|
-A stand-alone configuration
-a|
-
- .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
-+
-NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
-
- .. If you have not already done so, reinstall the cable management device.
- .. Bind the cables to the cable management device with the hook and loop strap.
- .. Reconnect the power cables to the power supplies and to the power sources, and then turn on the power to start the boot process.
- .. Interrupt the boot process *only* after determining the correct timing:
-+
-You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete.
-+
-Only press `Ctrl-C` after you see the `Press Ctrl-C for Boot Menu` message.
-+
-NOTE: If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the update_flash command and then exit LOADER and boot to Maintenance mode by pressing `Ctrl-C` when you see Starting AUTOBOOT press Ctrl-C to abort.
-+
-If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. From the boot menu, select the option for Maintenance mode.
-
-
-|===
-+
+ 
 *Important:* During the boot process, you might see the following prompts:
 
  ** A prompt warning of a system ID mismatch and asking to override the system ID.
