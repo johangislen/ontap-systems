@@ -23,10 +23,6 @@ include::../_include/restore_storage_encryption.adoc[]
 
 include::../_include/check_lifs_register_serial_number.adoc[]
 
-== Step 4: Switch back aggregates in a two-node MetroCluster configuration
-
-include::../_include/2n_mcc_switchback.adoc[]
-
-== Step 5: Return the failed part to NetApp
+== Step 4: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
