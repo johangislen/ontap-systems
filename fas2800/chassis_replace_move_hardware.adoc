@@ -47,12 +47,9 @@ Remove the controller module or modules from the old chassis.
 Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
 
 . Remove and set aside the cable management devices from the left and right sides of the controller module.
-+
-image::../media/drw_25xx_cable_management_arm.png[]
-
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
-+
-image::../media/drw_2240_x_opening_cam_latch.png[]
+
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=340]
 
 . Set the controller module aside in a safe place, and repeat these steps if you have another controller module in the chassis.
 
@@ -107,36 +104,13 @@ NOTE: Do not completely insert the controller module in the chassis until instru
 . Recable the console to the controller module, and then reconnect the management port.
 . Repeat the preceding steps if there is a second controller to install in the new chassis.
 . Complete the installation of the controller module:
-+
-[options="header" cols="1,2"]
-|===
-| If your system is in...| Then perform these steps...
-a|
-An HA pair
-a|
-
- .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
+.. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
 NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
  .. Repeat the preceding steps for the second controller module in the new chassis.
-
-a|
-A stand-alone configuration
-a|
-
- .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
-+
-NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
-
- .. If you have not already done so, reinstall the cable management device.
- .. Bind the cables to the cable management device with the hook and loop strap.
- .. Reinstall the blanking panel and then go to the next step.
-
-
-|===
 
 . Connect the power supplies to different power sources, and then turn them on.
 . Boot each controller to Maintenance mode:
