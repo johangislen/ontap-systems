@@ -26,7 +26,7 @@ Use the appropriate procedure for your type of PSU; AC or DC.
 
 .Option 1: Replace an AC power supply
 --
-To replace an AC power supply, Complete the following steps.
+To replace an AC power supply, complete the following steps.
 
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the red Fault LED on the power supply.
@@ -63,7 +63,7 @@ NOTE: To avoid damaging the internal connector, do not use excessive force when 
 Once power is restored to the power supply, the status LED should be green.
 --
 .Option 2: Replace a DC power supply
-To replace an AC power supply, Complete the following steps.
+To replace a DC power supply, complete the following steps.
 
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the red Fault LED on the power supply.
