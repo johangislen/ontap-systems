@@ -9,6 +9,7 @@ summary: "Replacing a power supply involves disconnecting the target power suppl
 :imagesdir: ../media/
 
 [.lead]
+.Before you begin
 Replacing a power supply involves disconnecting the target power supply (PSU) from the power source, unplugging the power cable, removing the old PSU and installing the replacement PSU, and then reconnecting it to the power source.
 
 * The power supplies are redundant and hot-swappable.
@@ -16,7 +17,16 @@ Replacing a power supply involves disconnecting the target power supply (PSU) fr
 +
 NOTE: It is a best practice to replace the power supply within two minutes of removing it from the chassis. The system continues to function, but ONTAP sends messages to the console about the degraded power supply until the power supply is replaced.
 +
-IMPORTANT: Do not mix PSUs with different efficiency ratings. Always replace like for like.
+IMPORTANT: Do not mix PSUs with different efficiency ratings or different input types. Always replace like for like.
+
+Use the appropriate procedure for your type of PSU; AC or DC.  
+
+[role="tabbed-block"]
+====
+
+.Option 1: Replace an AC power supply
+--
+To replace an AC power supply, Complete the following steps.
 
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the red Fault LED on the power supply.
@@ -51,5 +61,51 @@ NOTE: To avoid damaging the internal connector, do not use excessive force when 
 
 +
 Once power is restored to the power supply, the status LED should be green.
+--
+.Option 2: Replace a DC power supply
+To replace an AC power supply, Complete the following steps.
+
+. If you are not already grounded, properly ground yourself.
+. Identify the power supply you want to replace, based on console error messages or through the red Fault LED on the power supply.
+. Disconnect the power supply:
+.. Unplug the power cable from the power source.
+.. Unscrew the cable connector using the thumb screws on the plug.
+.. Unplug the cable from the power supply and set it aside. 
+. Remove the  power supply by rotating the cam handle up, press the locking tab, and then pull power supply out of the controller module.
+
++
+CAUTION: The power supply is short. Always use two hands to support it when removing it from the controller module so that it does not suddenly swing free from the controller module and injure you.
++
+image::../media/drw_a800_replace_psu.png[]
++
+|===
+a|
+image:../media/legend_icon_01.svg[width=20]|
+Orange power supply locking tab
+a|
+image:../media/legend_icon_02.svg[width=20]
+a|
+Power supply cam handle
+a|
+image:../media/legend_icon_03.svg[width=20]
+Thumbscrews
+|===
+
+. Install the replacement power supply in the controller module:
+.. Using both hands, support and align the edges of the power supply with the opening in the controller module.
+.. Gently push the power supply into the controller module until the locking tab clicks into place.
++
+The power supplies will only properly engage with the internal connector and lock in place one way.
++
+NOTE: To avoid damaging the internal connector, do not use excessive force when sliding the power supply into the system.
+
+. Reconnect the power supply cabling:
+ .. Plug the power supply cable connector into the power supply and secure it to the power supply using the thumb screws.
+ .. Reconnect the power cable to the power source.
++
+Once power is restored to the power supply, the status LED should be green.
+--
+
+====
 
 include::../_include/complete_rma_step.adoc[]
