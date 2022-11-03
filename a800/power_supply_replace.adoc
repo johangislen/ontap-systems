@@ -61,6 +61,7 @@ NOTE: To avoid damaging the internal connector, do not use excessive force when 
 
 +
 Once power is restored to the power supply, the status LED should be green.
+include::../_include/complete_rma_step.adoc[]
 --
 .Option 2: Replace a DC power supply
 --
@@ -77,7 +78,7 @@ To replace a DC power supply, complete the following steps.
 +
 CAUTION: The power supply is short. Always use two hands to support it when removing it from the controller module so that it does not suddenly swing free from the controller module and injure you.
 +
-image::../media/drw_a800_replace_psu.png[]
+image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788(3).svg[width=340pc]
 +
 |===
 a|
@@ -105,8 +106,8 @@ NOTE: To avoid damaging the internal connector, do not use excessive force when 
  .. Reconnect the power cable to the power source.
 +
 Once power is restored to the power supply, the status LED should be green.
+
+include::../_include/complete_rma_step.adoc[]
 --
 
 ====
-
-include::../_include/complete_rma_step.adoc[]
