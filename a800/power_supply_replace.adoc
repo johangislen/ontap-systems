@@ -82,7 +82,7 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340px]
 +
 |===
 a|
-image:../media/legend_icon_01.svg[width=20]|
+image:../media/legend_icon_01.svg[width=20]
 Thumbscrews
 a|
 image:../media/legend_icon_02.svg[width=20]
