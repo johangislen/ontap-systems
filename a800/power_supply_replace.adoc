@@ -78,19 +78,21 @@ To replace a DC power supply, complete the following steps.
 +
 CAUTION: The power supply is short. Always use two hands to support it when removing it from the controller module so that it does not suddenly swing free from the controller module and injure you.
 +
-image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788(3).svg[width=340px]
+image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340px]
 +
 |===
 a|
 image:../media/legend_icon_01.svg[width=20]|
-Orange power supply locking tab
+Thumbscrews
 a|
 image:../media/legend_icon_02.svg[width=20]
-a|
-Power supply cam handle
+Power cable plug
 a|
 image:../media/legend_icon_03.svg[width=20]
-Thumbscrews
+PSU cam handle
+a|
+image:../media/legend_icon_04.svg[width=20]
+Orange locking tab
 |===
 
 . Install the replacement power supply in the controller module:
