@@ -82,16 +82,16 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340px]
 [cols=1,2]
 |===
 a|
-image:../media/legend_icon_01.svg[width=20]
+image:../media/legend_icon_01.svg[width=20px]
 Thumbscrews
 a|
-image:../media/legend_icon_02.svg[width=20]
+image:../media/legend_icon_02.svg[width=20px]
 Power cable plug
 a|
-image:../media/legend_icon_03.svg[width=20]
+image:../media/legend_icon_03.svg[width=20px]
 PSU cam handle
 a|
-image:../media/legend_icon_04.svg[width=20]
+image:../media/legend_icon_04.svg[width=20px]
 Orange locking tab
 |===
 
