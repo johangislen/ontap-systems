@@ -112,7 +112,7 @@ NOTE: To avoid damaging the internal connector, do not use excessive force when 
 
 . Reconnect the power supply cabling:
  .. Plug the power supply cable connector into the power supply.
- .. Secure it to the power supply cable to the power supply with the thumb screws.
+ .. Secure the power supply cable to the power supply with the thumbscrews.
  .. Reconnect the power cable to the power source.
 +
 Once power is restored to the power supply, the status LED should be green.
