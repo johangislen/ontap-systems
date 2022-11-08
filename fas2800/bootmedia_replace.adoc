@@ -41,17 +41,17 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 [.lead]
 You must locate the boot media in the controller module, located under the mezzanine card and follow the directions to replace it.
 
+video::10a29a01-a86e-451c-b05a-af4701726f57[panopto, title="Animation - Replace the boot media"]
+
 .Steps
 
 . If you are not already grounded, properly ground yourself.
 . Remove the mezzanine card using the following illustration or the FRU map on the controller module:
-+
-image::../media/drw_2600_boot_media_move_aminated_gif.png[]
 .. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
 .. Loosen the thumbscrews on the mezzanine card.  
-+
+
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you use your fingers, you might need to rotate the NV battery up for better finger purchase on the thumbscrew next to it.
-+
+
 .. Lift the mezzanine card straight up.  
 
 . Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
