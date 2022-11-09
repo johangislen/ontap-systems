@@ -475,39 +475,35 @@ If you have network discovery enabled on your laptop, you can complete system se
 
 . Use the following animation or drawing  to set one or more drive shelf IDs:
 +
-The NS224 shelves are pre-set to shelf ID 00 and 01. If you want to change the shelf IDs, you must create a tool to insert into the hole where button is located.
+The NS224 shelves are pre-set to shelf ID 00 and 01. If you want to change the shelf IDs, you must create a tool to insert into the hole where button is located. see https://docs.netapp.com/us-en/ontap-systems/ns224/change-shelf-id.html[Change a shelf ID - NS224 shelves]  for detailed instructions.
 +
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto, title="Animation - Set SAS or NVMe drive shelf IDs"]
 
 +
 
-image::../media/drw_power-on_set_shelf_ID_set.png[]
+image::../media/drw_a900_oie_change_ns224_shelf ID.svg[width=500]
 +
 [cols="25h,~"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
-Remove the end cap.
+image:../media/legend_icon_01.png[] 
+a|
+Shelf end cap.
 a|
 image:../media/legend_icon_02.png[]
 a|
-Press and hold shelf ID button until first digit blinks, then push to advance to 0-9.
-
-Note: The first digit continues to blink
+Shelf faceplate, shelf ID LED, and shelf ID  setting button  
 a|
 image:../media/legend_icon_03.png[]
 a|
-Press and hold shelf ID button until second digit blinks, then push to advance to 0-9.
-Note: The first digit stops blinking, and the second digit continues to blink.
+Shelf ID LED
 a|
 image:../media/legend_icon_04.png[]
-a|
-Replace the end cap.
+Shlf end cap
 a|
 image:../media/legend_icon_05.png[]
 a|
-Wait 10 seconds for the Amber LED (!) to appear, then power-cycle the drive
-shelf to set shelf ID.
+Shelf alert icon
 
 |===
 
