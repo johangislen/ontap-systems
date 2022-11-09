@@ -45,6 +45,16 @@ video::10a29a01-a86e-451c-b05a-af4701726f57[panopto, title="Animation - Replace 
 
 image:../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=500]
 
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Boot media locking tab
+
+|===
+
 .Steps
 
 . If you are not already grounded, properly ground yourself.
