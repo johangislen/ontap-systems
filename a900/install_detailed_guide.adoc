@@ -492,14 +492,15 @@ Shelf end cap.
 a|
 image:../media/legend_icon_02.png[]
 a|
-Shelf faceplate, shelf ID LED, and shelf ID  setting button  
+Shelf faceplate, shelf ID LED, and shelf ID  setting button behind the faceplate 
 a|
 image:../media/legend_icon_03.png[]
 a|
 Shelf ID LED
 a|
 image:../media/legend_icon_04.png[]
-Shlf end cap
+a|
+Shelf end cap
 a|
 image:../media/legend_icon_05.png[]
 a|
