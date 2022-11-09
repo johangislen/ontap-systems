@@ -43,6 +43,8 @@ You must locate the boot media in the controller module, located under the mezza
 
 video::10a29a01-a86e-451c-b05a-af4701726f57[panopto, title="Animation - Replace the boot media"]
 
+image:../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=500]
+
 .Steps
 
 . If you are not already grounded, properly ground yourself.
