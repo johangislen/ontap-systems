@@ -480,8 +480,7 @@ The NS224 shelves are pre-set to shelf ID 00 and 01. If you want to change the s
 video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto, title="Animation - Set SAS or NVMe drive shelf IDs"]
 
 +
-
-image::../media/drw_power-on_set_shelf_ID_set.png[]
+image::../media/drw_a900_oie_change_ns224_shelf ID.svg[wodth-500px]
 +
 [cols="25h,~"]
 |===
