@@ -30,6 +30,8 @@ NOTE: Cooling is integrated with the power supply, so you must replace the power
  .. Unplug the power cable from the power source.
 . Squeeze the latch on the power supply cam handle, and then open the cam handle to fully release the power supply from the mid plane.
 +
+video::7420d101-23b1-4213-a8da-af4701725622[panopto, title="Animation - Replace a PSU"]
++
 image::../media/drw_2850_replace_PSU_IEOPS-702.svg[width=340px]
 +
 . Use the cam handle to slide the power supply out of the system.
