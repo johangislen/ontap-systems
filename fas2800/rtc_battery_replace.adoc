@@ -47,7 +47,7 @@ To replace the RTC battery, locate it inside the controller and follow the speci
 
 video::7420d100-23b1-4213-a8da-af4701725622[panopto, title="Animation - Replace the RTC battery"]
 
-image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
+image::../media/drw_2850_replace_rtc_battery_IEOPS-701.svg[width=340px]
 
 . If you are not already grounded, properly ground yourself.
 . Locate the RTC battery.
