@@ -18,7 +18,7 @@ All other components in the system must be functioning properly; if not, you mus
 [.lead]
 include::../_include/shutdown_most_frus.adoc[]
 
-== Step 2: Remove controller module
+== Step 2: Remove and open the controller module
 
 [.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
@@ -61,7 +61,25 @@ NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you
 This typically occurs during an uncontrolled shutdown after ONTAP has successfully booted.
 . Locate the NVMEM battery in the controller module.
 +
+video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV batery"]
++
 image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Battery release tab
+a|
+image::../media/legend_icon_02.svg[width=20px]
+a|
+Battery power connector
+
+|===
+
+
 
 . Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 . Remove the battery from the controller module:

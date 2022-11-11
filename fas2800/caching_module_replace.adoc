@@ -91,6 +91,8 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 [.lead]
 To replace a caching module, locate the slot inside the controller and follow the specific sequence of steps.
 
+video::12b339c5-640a-4be8-a5fc-af47017276fd[panopto, title="Animation - Replace the caching module"]
+
 Your storage system must meet certain criteria depending on your situation:
 
 * It must have the appropriate operating system for the caching module you are installing.
@@ -102,7 +104,18 @@ Your storage system must meet certain criteria depending on your situation:
 . Locate the failed caching module near the rear of the controller module and remove it.
  .. Press the blue release button and rotate the caching module upward.
 +
-image::../media/drw_2850_replace_caching module-IEOPS-697.svg[width=340px]
+image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=340px]
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Caching module release button
+
+|===
++
 .. Gently pull the caching module straight out of the housing.
 . Align the edges of the replacement caching module with the socket in the housing, and then gently push it into the socket.
 . Verify that the caching module is seated squarely and completely in the socket.
