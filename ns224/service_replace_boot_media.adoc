@@ -72,7 +72,7 @@ video::20ed85f9-1f80-4e0e-9219-ab4600070d8a[panopto, title="Animation - Replace 
 
 .Steps
 
-. Ensure both NSM modules in the affected shelf are running firmware version 0200 or later.
+. Make sure that both NSM modules in the shelf are running the same version of firmware: version 0200 or later.
 . Properly ground yourself.
 . Disconnect the cabling from the NSM module that contains the FRU that you are replacing:
  .. Disconnect the power cord from the power supply by opening the power cord retainer, and then unplug the power cord from the power supply.
