@@ -1,5 +1,7 @@
 For storage systems that you previously configured to use Storage or Volume Encryption, you must perform additional steps to provide uninterrupted Encryption functionality. You can skip this task on storage systems that do not have Storage or Volume Encryption enabled.
 
+NOTE: This step is not required when replacing a DIMM.
+
 .Steps
 
 . Restore Storage or Volume Encryption functionality by using the appropriate procedure in https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html[NetApp Encryption overview with the CLI^].
