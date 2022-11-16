@@ -11,7 +11,7 @@ summary: 'The NVRAM module consists of the NVRAM11 and DIMMs and up to two NVMe 
 [.lead]
 The NVRAM module consists of the NVRAM11 and DIMMs. You can replace a failed NVRAM module or the DIMMs inside the NVRAM module. To replace a failed NVRAM module, you must remove it from the chassis, move the DIMMs to the replacement module, and install the replacement NVRAM module into the chassis.
 
-To replace and NVRAM DIMM, you must remove the NVRAMmodule from th chassis, replace the failed DIMM in the module, and then reinstall the NVRAM module.
+To replace and NVRAM DIMM, you must remove the NVRAM module from the chassis, replace the failed DIMM in the module, and then reinstall the NVRAM module.
 
 .About this task
 Because the system ID is derived from the NVRAM module, if replacing the module, disks belonging to the system are reassigned to a new system ID.
@@ -22,7 +22,7 @@ Because the system ID is derived from the NVRAM module, if replacing the module,
 * This procedure uses the following terminology:
  ** The impaired controller is the controller on which you are performing maintenance.
  ** The healthy controller is the HA partner of the impaired controller.
-* This procedure includes steps for automatically or manually reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
+* This procedure includes steps for automatically reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
 * You must replace the failed component with a replacement FRU component you received from your provider.
 * You cannot change any disks or disk shelves as part of this procedure.
 
