@@ -15,7 +15,7 @@ Each SCSI-blade process should be in quorum with the other nodes in the cluster.
 .Steps
 . If AutoSupport is enabled, suppress automatic case creation by invoking an AutoSupport message: `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
 +
-The following AutoSupport message suppresses automatic case creation for two hours: `cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
+The following AutoSupport message suppresses automatic case creation for two hours: `cluster1:> system node autosupport invoke -node * -type all -message MAINT=2h`
 
 . Disable automatic giveback from the console of the healthy controller: `storage failover modify –node local -auto-giveback false`
 +
@@ -36,7 +36,7 @@ Waiting for giveback...
 a|
 Press Ctrl-C, and then respond `y` when prompted.
 a|
-System prompt or password prompt (enter system password)
+System prompt or password prompt
 a|
 Take over or halt the impaired controller from the healthy controller: `storage failover takeover -ofnode _impaired_node_name_`
 
