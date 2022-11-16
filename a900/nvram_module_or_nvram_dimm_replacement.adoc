@@ -75,11 +75,11 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
-Lettered and numbered I/O cam latch
+Lettered and numbered cam latch
 a|
 image:../media/legend_icon_02.png[]
 a|
-I/O latch completely unlocked
+Cam latch completely unlocked
 |===
 . Set the NVRAM module on a stable surface and remove the cover from the NVRAM module by pushing down on the blue locking button on the cover, and then, while holding down the blue button, slide the lid off the NVRAM module.
 
@@ -103,7 +103,7 @@ DIMM and DIMM ejector tabs
 . Close the cover on the module.
 . Install the replacement NVRAM module into the chassis:
  .. Align the module with the edges of the chassis opening in slot 6.
- .. Gently slide the module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin, and then push the I/O cam latch all the way up to lock the module in place.
+ .. Gently slide the module into the slot until the lettered and numbered cam latch begins to engage with the I/O cam pin, and then push the cam latch all the way up to lock the module in place.
 
 == Step 3: Replace a NVRAM DIMM
 
@@ -133,11 +133,11 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
-Lettered and numbered I/O cam latch
+Lettered and numbered cam latch
 a|
 image:../media/legend_icon_02.png[]
 a|
-I/O latch completely unlocked
+cam latch completely unlocked
 |===
 
 . Set the NVRAM module on a stable surface and remove the cover from the NVRAM module by pushing down on the blue locking button on the cover, and then, while holding down the blue button, slide the lid off the NVRAM module.
@@ -163,7 +163,7 @@ DIMM and DIMM ejector tabs
 . Close the cover on the module.
 . Install the NVRAM module into the chassis:
  .. Align the module with the edges of the chassis opening in slot 6.
- .. Gently slide the module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin, and then push the I/O cam latch all the way up to lock the module in place.
+ .. Gently slide the module into the slot until the lettered and numbered cam latch begins to engage with the I/O cam pin, and then push the cam latch all the way up to lock the module in place.
 
 == Step 4: Reboot the controller after FRU replacement
 
