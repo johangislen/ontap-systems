@@ -1,10 +1,8 @@
 To shut down the impaired controller, you must determine the status of the controller and, if necessary, take over the controller so that the healthy controller continues to serve data from the impaired controller storage.
 
 .About this task
-* If you are using NetApp Storage Encryption, you must have reset the MSID using the instructions in the "`Returning SEDs to unprotected mode`" section of the _ONTAP 9 NetApp Encryption Power Guide_.
+* If you are using NetApp Storage Encryption, you must have reset the MSID using the instructions in the link:https://docs.netapp.com/us-en/ontap/encryption-at-rest/return-seds-unprotected-mode-task.html[Returning SEDs to unprotected mode].
 +
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/home.html[ONTAP 9 NetApp Encryption Power Guide^]
-
 * If you have a SAN system, you must have checked event messages (`cluster kernel-service show`) for impaired controller SCSI blade. The `cluster kernel-service show` command displays the node name, quorum status of that node, availability status of that node, and operational status of that node.
 
 +

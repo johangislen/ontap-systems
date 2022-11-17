@@ -227,17 +227,6 @@ node1             node2             false        System ID changed on partner (O
 node2             node1             -            Waiting for giveback (HA mailboxes)
 ----
 
-. From the healthy controller, verify that any coredumps are saved:
- .. Change to the advanced privilege level: `set -privilege advanced`
-+
-You can respond `Y` when prompted to continue into advanced mode. The advanced mode prompt appears (*>).
-
- .. Save any coredumps: `system node run -node local-node-name partner savecore`
- .. Wait for the `savecore`command to complete before issuing the giveback.
-+
-You can enter the following command to monitor the progress of the savecore command: `system node run -node local-node-name partner savecore -s`
-
- .. Return to the admin privilege level: `set -privilege admin`
 . Give back the controller:
  .. From the healthy controller, give back the replaced controller's storage: `storage failover giveback -ofnode replacement_node_name`
 +
@@ -297,7 +286,9 @@ dr-group-id            cluster node           configuration-state
 ----
 
 . Verify that the expected volumes are present for each controller: `vol show -node node-name`
+. If storage encryption is enabled, you must ********
 . If you disabled automatic takeover on reboot, enable it from the healthy controller: `storage failover modify -node replacement-node-name -onreboot true`
+ 
 
 == Step 7: Restore Storage and Volume Encryption functionality
 
