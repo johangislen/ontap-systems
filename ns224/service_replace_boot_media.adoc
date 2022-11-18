@@ -72,6 +72,7 @@ video::20ed85f9-1f80-4e0e-9219-ab4600070d8a[panopto, title="Animation - Replace 
 
 .Steps
 
+. Make sure that both NSM modules in the shelf are running the same version of firmware: version 0200 or later.
 . Properly ground yourself.
 . Disconnect the cabling from the NSM module that contains the FRU that you are replacing:
  .. Disconnect the power cord from the power supply by opening the power cord retainer, and then unplug the power cord from the power supply.
@@ -97,7 +98,6 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 . Physically locate the failed boot media.
 +
 The boot media is located along the shelf chassis wall opposite from the power supply.
-//05Oct2022, Racer5: removed text describing location of onboard attention LED.
 
 . Replace the boot media:
  .. Using the Phillips #1 screwdriver, carefully remove the screw securing the bottom (notched) end of the boot media to the board.
