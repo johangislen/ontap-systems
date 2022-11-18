@@ -172,36 +172,7 @@ After you replace the FRU, you must reboot the controller module.
 
 . To boot ONTAP from the LOADER prompt, enter `bye`.
 
-== Step 5: Verify and set the HA state of the controller module
-
-You must verify the `HA` state of the controller module and, if necessary, update the state to match your system configuration.
-
-. In Maintenance mode from the replacement controller module, verify that all components display the same `HA` state: `ha-config show`
-+
-
-[options="header" cols="1,2"]
-
-|===
-| If your system is in...| The HA state for all components should be...
-a|
-An HA pair
-a|
-ha
-a|
-A MetroCluster FC configuration with four or more nodes
-a|
-mcc
-
-a|
-A MetroCluster IP configuration
-a|
-mccip
-|===
-
-. If the displayed system state of the controller module does not match your system configuration, set the `HA` state for the controller module: `ha-config modify controller _ha-state_`
-. If the displayed system state of the chassis does not match your system configuration, set the `HA` state for the chassis: `ha-config modify chassis _ha-state_`
-
-== Step 6: Reassigning disks
+== Step 5: Reassigning disks
 
 [.lead]
 You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
@@ -212,7 +183,7 @@ CAUTION: Disk reassignment is only needed when replacing the NVRAM module.
 
 .Steps
 . If the replacement controller is in Maintenance mode (showing the `*>` prompt), exit Maintenance mode and go to the LOADER prompt: `halt`
-. From the LOADER prompt on the replacement controller, boot the controller, entering `y` if you are prompted to override the system ID due to a system ID mismatch.
+. From the LOADER prompt on the replacement controller, boot the controller and entering y if you are prompted to override the system ID due to a system ID mismatch.
 . Wait until the Waiting for giveback... message is displayed on the console of the controller with the replacement module and then, from the healthy controller, verify that the new partner system ID has been automatically assigned: `storage failover show`
 +
 In the command output, you should see a message that the system ID has changed on the impaired controller, showing the correct old and new IDs. In the following example, node2 has undergone replacement and has a new system ID of 151759706.
@@ -290,12 +261,12 @@ dr-group-id            cluster node           configuration-state
 . If you disabled automatic takeover on reboot, enable it from the healthy controller: `storage failover modify -node replacement-node-name -onreboot true`
  
 
-== Step 7: Restore Storage and Volume Encryption functionality
+== Step 6: Restore Storage and Volume Encryption functionality
 
 [.lead]
 include::../_include/restore_storage_encryption.adoc[]
 
-== Step 8: Return the failed part to NetApp
+== Step 7: Return the failed part to NetApp
 
 [.lead]
 include::../_include/complete_rma.adoc[]
