@@ -14,6 +14,8 @@ To replace the mezzanine card, you must disconnect the cables and any SFP and QS
 * You can use this procedure with all versions of ONTAP supported by your system
 * All other components in the system must be functioning properly; if not, you must contact technical support.
 
+video::a8ec891d-f6f6-4479-9ca2-af47017254ff[panopto, title="Animation - Replace the  mezzanine card"]
+
 == Step 1: Shut down the impaired controller
 
 
@@ -23,7 +25,8 @@ include::../_include/shutdown_no_mcc.adoc[]
 == Step 2: Remove the controller module
 
 [.lead]
-To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
+Remove the controller module from the system and then remove the cover on the controller module.
+
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -47,7 +50,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 . If you are not already grounded, properly ground yourself.
 . Remove the mezzanine card using the following illustration or the FRU map on the controller module:
 +
-image::../media/drw_2600_boot_media_move_aminated_gif.png[]
+image::../media/drw_2850_replace_HIC_IEOPS-700.svg.svg[]
 .. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
 .. Loosen the thumbscrews on the mezzanine card.  
 +
@@ -64,7 +67,7 @@ NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you 
 == Step 4: Install the controller module
 
 [.lead]
-After you replace components in the controller module, reinstall it into the chassis.
+Reinstall the controller module.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
