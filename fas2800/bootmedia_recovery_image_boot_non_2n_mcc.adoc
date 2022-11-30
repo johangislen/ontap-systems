@@ -17,7 +17,7 @@ You must boot the ONTAP image from the USB drive, restore the file system, and v
 The image is downloaded from the USB flash drive.
 
 . When prompted, either enter the name of the image or accept the default image displayed inside the brackets on your screen.
-. Restore the var file system:
+. Restore the var file system :
 +
 [options="header" cols="1,2"]
 |===
@@ -27,11 +27,14 @@ A network connection
 a|
 
  .. Press `y` when prompted to restore the backup configuration.
- .. Set the healthy controller to advanced privilege level: `set -privilege advanced`
- .. Run the restore backup command: `system node restore-backup -node local -target-address _impaired_node_IP_address_`
- .. Return the controller to admin level: `set -privilege admin`
+ .. Press `y` when prompted to overwrite `/etc/ssh/ssh_host_ecdsa_key`.
+ .. Press `y` when prompted to confirm if the restore backup was successful.
+ .. Press `Y` when prompted to  the restored configuration copy.
+ .. Set the healthy node to advanced privilege level: `set -privilege advanced`
+ .. Run the restore backup command: `system node restore-backup -node local -target-address impaired_node_IP_address`
+ .. Return the node to admin level: `set -privilege admin`
  .. Press `y` when prompted to use the restored configuration.
- .. Press `y` when prompted to reboot the controller.
+ .. Press `y` when prompted to reboot the node.
 
 a|
 No network connection

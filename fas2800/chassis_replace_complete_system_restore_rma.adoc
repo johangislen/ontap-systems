@@ -9,7 +9,7 @@ summary: "You must verify the HA state of the chassis and run System-Level diagn
 :imagesdir: ../media/
 
 [.lead]
-You must verify the HA state of the chassis and run System-Level diagnostics, switch back aggregates, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
+Verify the HA state of the chassis and run System-Level diagnostics, switch back aggregates, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
 
 == Step 1: Verify and set the HA state of the chassis
 
@@ -53,7 +53,14 @@ After you issue the command, you should wait until the system stops at the LOADE
  ** If the test failed, correct the failure, and then rerun the test.
  ** If the test reported no failures, select Reboot from the menu to reboot the system.
 
+== Step 3: Restore automatic giveback and AutSupport
 
-== Step 3: Return the failed part to NetApp
+[.lead]
+After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
+
+. Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
+. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+
+== Step 4: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]

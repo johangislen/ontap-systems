@@ -35,6 +35,17 @@ image::../media/drw_2240_x_opening_cam_latch.svg[width=340]
 +
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Controller module cover release button
+
+|===
+
+
 == Step 2: Move the NVMEM battery
 
 Remove the NVMEM battery from the old controller module and install it into the replacement controller module.
@@ -42,6 +53,20 @@ Remove the NVMEM battery from the old controller module and install it into the 
 NOTE: Do not plug the NVMEM battery in until directed to do so.
 
 image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+NVMEM battery release button
+a|
+image::../media/legend_icon_02.svg[width=20px]
+a|
+NVMEM battery plug
+
+|===
 
 . Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 . Remove the battery from the controller module:
@@ -55,11 +80,26 @@ NOTE: Do not plug the battery in yet.  You will plug it in once the rest of the 
 
 == Step 3:  Remove the mezzanine card 
 
-Remove the mezzanine card from the old controller module.
-+
+Remove the mezzanine bezel and PCIe mezzanine card from the old controller module.
+
 image::../media/drw_2850_replace_HIC_IEOPS-700.svg[width=340]
-+
-. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Riser bezel
+a|
+image::../media/legend_icon_02.svg[width=20px]
+a|
+PCIe mezzanine card
+
+|===
+
+
+. Remove the mezzanine card bezel by sliding it straight out from the controller module.
 . Loosen the thumbscrews on the mezzanine card.  
 +
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. 
@@ -73,6 +113,16 @@ Remove the boot media from the old controller module and install it in the repla
 . After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller module:
 +
 image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=340]
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Boot media
+
+|===
 
 . Remove the boot media:
 .. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.

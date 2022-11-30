@@ -34,6 +34,17 @@ image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=340px]
 +
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Controller module cover release button
+
+|===
+
 == Step 2: Replace the boot media
 :icons: font
 :imagesdir: ../media/
@@ -61,24 +72,26 @@ Boot media locking tab
 . Remove the mezzanine card using the following illustration or the FRU map on the controller module:
 .. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
 .. Loosen the thumbscrews on the mezzanine card.  
++
 
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you use your fingers, you might need to rotate the NV battery up for better finger purchase on the thumbscrew next to it.
 
++
 .. Lift the mezzanine card straight up.  
 
-. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
+. Replace the boot media: 
+.. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
 NOTE: Do not twist or pull the boot media straight up, because this could damage the socket or the boot media.
 
-. Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
-. Check the boot media to make sure that it is seated squarely and completely in the socket.
-+
-If necessary, remove the boot media and reseat it into the socket.
+.. Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
+Check the boot media to make sure that it is seated squarely and completely in the socket, and if necessary, remove the boot media and reseat it into the socket.
 
-. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
-. Reinstall the mezzanine card by aligning the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
-. Tighten the three thumbscrews on the mezzanine card.
-. Reinstall the mezzanine bezel.
+.. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+. Reinstall the mezzanine card: 
+.. Align the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
+.. Tighten the three thumbscrews on the mezzanine card.
+.. Reinstall the mezzanine bezel.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 3: Transfer the boot image to the boot media
@@ -87,7 +100,7 @@ If necessary, remove the boot media and reseat it into the socket.
 
 
 [.lead]
-You can install the system image to the replacement boot media using a USB flash drive with the image installed on it. However, you must restore the var file system during this procedure.
+Install the system image on the replacement boot media using a USB flash drive with the image installed on it. You must restore the var file system during this procedure.
 
 * You must have a USB flash drive, formatted to FAT32, with at least 4GB capacity.
 * A copy of the same image version of ONTAP as what the impaired controller was running. You can download the appropriate image from the Downloads section on the NetApp Support Site
