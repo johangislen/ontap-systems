@@ -31,7 +31,7 @@ indexpage:
           url: /controller-replace-overview.html
         - title: DIMM
           url: /dimm-replace.html
-        - title: PCIe cards
+        - title: Mezzanine cards
           url: /fas2800/pci_cards_and_risers_replace.html
         - title: NVMEM battery
           url: /nvmem-nvram-battery-replace.html
