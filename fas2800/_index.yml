@@ -32,7 +32,7 @@ indexpage:
         - title: DIMM
           url: /dimm-replace.html
         - title: Mezzanine cards
-          url: /fas2800/pci_cards_and_risers_replace.html
+          url: /pci_cards_and_risers_replace.html
         - title: NVMEM battery
           url: /nvmem-nvram-battery-replace.html
         - title: Power supply
