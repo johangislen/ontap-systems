@@ -71,8 +71,8 @@ entries:
       - title: NVMEM battery
         pdf-filename: FAS2800 NVMEM Battery
         url: /fas2800/nvmem-nvram-battery-replace.html
-      - title: FAS2800 PCIe card
-        pdf-filename: FAS2800 PCIe card
+      - title: Mezzanine card
+        pdf-filename: FAS2800 Mezzanine card
         url: /fas2800/pci_cards_and_risers_replace.html
       - title: Power supply
         pdf-filename: FAS2800 Power Supply

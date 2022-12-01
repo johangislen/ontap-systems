@@ -16,12 +16,12 @@ All other components in the system must be functioning properly; if not, you mus
 == Step 1: Shut down the impaired controller
 
 [.lead]
-include::../_include/shutdown_most_frus.adoc[]
+include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove and open the controller module
 
 [.lead]
-To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
+Remove nd open the controller module.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -43,7 +43,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 == Step 3: Replace the NVMEM battery
 
 [.lead]
-To replace the NVMEM battery in your system, you must remove the failed NVMEM battery from the system and replace it with a new NVMEM battery.
+Remove the failed NVMEM battery from the system and replace it with a new NVMEM battery.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -89,6 +89,7 @@ Battery power connector
 . Aligning the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Plug the battery plug back into the socket on the controller module.
+. Reinstall the controller module cover and lock it into place.
 
 == Step 4: Reinstall the controller module
 

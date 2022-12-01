@@ -20,7 +20,7 @@ video::f2805d18-ab49-464c-b3bc-af470172547a[panopto, title="Animation - Replace 
 == Step 1: Shut down the impaired controller
 
 [.lead]
-include::../_include/shutdown_most_frus.adoc[]
+include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove controller module
 
@@ -43,6 +43,16 @@ image::../media/drw_2240_x_opening_cam_latch.svg[width=340px]
 +
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
 
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Controller module cover release button
+
+|===
+
 == Step 3: Replace the DIMMs
 
 [.lead]
@@ -61,10 +71,11 @@ image::../media/drw_hw_nvram_icon.svg[width=70px]
 . If the NVMEM LED is flashing, there is data in the NVMEM and you must disconnect the battery to clear the memory:
  .. Locate the battery cable, press the clip on the battery plug to release the lock clip from the plug socket, and then unplug the battery cable from the socket.
  .. Confirm that the NVMEM LED is no longer lit.
- .. Reconnect the battery connector and recheck the LED on the back of the controller, and then unplug the battery cable again..
+ .. Reconnect the battery connector and recheck the LED on the back of the controller.
+ .. Unplug the battery cable.
 . Locate the DIMMs on your controller module.
 +
-. Note the orientation of the DIMM in the socket so that you can insert the replacement DIMM in the proper orientation.
+. Note the orientation and location of the DIMM in the socket so that you can insert the replacement DIMM in the proper orientation.
 . Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM, and then slide the DIMM out of the slot.
 +
 The DIMM socket will rotate up a little.
@@ -72,9 +83,23 @@ The DIMM socket will rotate up a little.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 +
-The following illustration shows the location of system DIMMs:
+
+image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
+
 +
-image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=340]
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+DIMM locking latches
+a|
+image::../media/legend_icon_02.svg[width=20px]
+a|
+DIMM
+
+|===
 
 . Remove the replacement DIMM from the antistatic shipping bag, hold the DIMM by the corners, and align it to the slot.
 +
@@ -87,9 +112,10 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 
 . Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
-. Plug in the NVMRM battery.Locate the NVMEM battery plug socket, and then squeeze the clip on the face of the battery cable plug to insert it into the socket.
+. Plug in the NVMRM battery.
 +
-Make sure that the plug locks down onto the controller module.
+Make sure that the plug locks down into the battery power socket on the motherboard. 
++
 . Reinstall the controller module cover.
 
 == Step 4: Reinstall the controller module

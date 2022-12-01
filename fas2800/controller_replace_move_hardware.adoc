@@ -120,12 +120,13 @@ image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=340]
 a|
 image::../media/legend_icon_01.svg[width=20px]
 a|
-Boot media
+Boot media release button
 
 |===
 
 . Remove the boot media:
-.. Press the blue button on the boot media housing to release the boot media from its housing, rotate the boot media up, and then gently pull it straight out of the boot media socket.
+.. Press the blue button on the boot media housing to release the boot media from its housing.
+.. Rotate the boot media up, and then gently pull it straight out of the boot media socket.
 +
 NOTE: Do not twist or pull the boot media straight up, because this could damage the socket or the boot media.
 
@@ -134,7 +135,7 @@ NOTE: Do not twist or pull the boot media straight up, because this could damage
 .. Check the boot media to make sure that it is seated squarely and completely in the socket.
 +
 If necessary, remove the boot media and reseat it into the socket.
-
++
 .. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
 
 == Step 5:  Install the mezzanine card in the replacement controller
@@ -149,15 +150,27 @@ Install the mezzanine card in the replacement controller module.
 
 == Step 6: Move the DIMMs
 
-Remove the DIMMS from the old controller module ans install them into the replacement controller module.
-
-. Locate the DIMMs on your controller module.
-. Note the orientation of the DIMM in the socket so that you can insert the DIMM in the replacement controller module in the proper orientation.
-
-The following illustration shows the location of system DIMMs:
+Remove the DIMMS from the old controller module and install them into the replacement controller module.
 
 image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=s40]
 
+
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+DIMM locking latches
+a|
+image::../media/legend_icon_02.svg[width=20px]
+a|
+DIMM
+
+|===
+
+. Locate the DIMMs on your controller module
+NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller module and in the proper orientation.
 . Remove the DIMMs from the old controller module:
 .. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
 +
@@ -167,7 +180,7 @@ The DIMM socket will rotate up a little.
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 .. Repeat these steps to remove additional DIMMs as needed.
 . Verify that the NVMEM battery is not plugged into the replacement controller module.
-. Install the DIMMs in the replacement controller:
+. Install the DIMMs in the replacement controller in the same place they were in the failed controller:
 .. Make sure that the DIMM ejector tabs on the connector are in the open position, and then insert the DIMM squarely into the slot.
 +
 The DIMM fits tightly in the slot, but should go in easily. If not, realign the DIMM with the slot and reinsert it.
@@ -176,18 +189,27 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 .. Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
 .. Repeat these steps for the other DIMM.  
-. Plug in the NVMRM battery.
 +
 Make sure that the plug locks down onto the controller module.
 
 == Step 7: Move a caching module
 
 Remove the caching module from the old controller module install it into replacement controller module.
-. Locate the caching module near the rear of the controller module and remove it:
- .. Press the blue release button and rotate the caching module upward.
 
 image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=340px]
 
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=20px]
+a|
+Caching module locking button
+
+|===
+
+. Locate the caching module near the rear of the controller module and remove it:
+.. Press the blue release button and rotate the caching module upward.
 .. Gently pull the caching module straight out of the housing.
 . Instal the caching module in the replacement controller module:
 .. Align the edges of the caching module with the socket in the housing, and then gently push it into the socket.
@@ -195,6 +217,9 @@ image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=340px]
 +
 If necessary, remove the caching module and reseat it into the socket.
 .. Rotate the caching module down to engage the blue locking button.
+. Plug in the NVMEM battery.
++
+Make sure that the plug locks down into the battery power socket on the motherboard. 
 . Reinstall the controller module cover. 
 
 == Step 8: Install the controller
@@ -205,6 +230,7 @@ NOTE: The system might update system firmware when it boots. Do not abort this p
 
 . If you are not already grounded, properly ground yourself.
 . If you have not already done so, replace the cover on the controller module.
+. Turn the controller module. 
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
@@ -213,18 +239,7 @@ NOTE: Do not completely insert the controller module in the chassis until instru
 +
 NOTE: You will connect the rest of the cables to the controller module later in this procedure.
 
-. Complete the reinstallation of the controller module: ******************
- If you are not already grounded, properly ground yourself.
-. If you have not already done so, replace the cover on the controller module.
-. Turn the controller module over and align the end with the opening in the chassis.
-. Gently push the controller module halfway into the system.Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
-NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
-
-. Recable the system, as needed.
-+
-If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
-
 . Complete the reinstallation of the controller module:
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +

@@ -16,7 +16,7 @@ All other components in the system must be functioning properly; if not, you mus
 * The power supplies are redundant and hot-swappable.
 * This procedure is written for replacing one power supply at a time.
 +
-NOTE: Cooling is integrated with the power supply, so you must replace the power supply within two minutes of removal to prevent overheating due to reduced airflow. Because the chassis provides a shared cooling configuration for the two HA nodes, a delay longer than two minutes will shut down all controller modules in the chassis. If both controller modules do shut down, make sure that both power supplies are inserted, turn both off for 30 seconds, and then turn both on.
+NOTE: It is a best practice to replace the power supply within two minutes of removing it from the chassis. The system continues to function, but ONTAP sends messages to the console about the degraded power supply until the power supply is replaced.  
 
 * Power supplies are auto-ranging.
 
