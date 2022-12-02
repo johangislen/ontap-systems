@@ -73,7 +73,7 @@ entries:
         url: /fas2800/nvmem-nvram-battery-replace.html
       - title: Mezzanine card
         pdf-filename: FAS2800 Mezzanine card
-        url: /fas2800/pci_cards_and_risers_replace.html
+        url: /fas2800/pci-cards-and-risers-replace.html
       - title: Power supply
         pdf-filename: FAS2800 Power Supply
         url: /fas2800/power-supply-swap-out.html
