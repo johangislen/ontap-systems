@@ -99,7 +99,7 @@ Power supply cam handle
 a|
 image:../media/legend_icon_04.svg[width=10]
 a|
-Orange power supply locking tab
+Blue power supply locking tab
 |===
 
 . Install the replacement power supply in the controller module:
