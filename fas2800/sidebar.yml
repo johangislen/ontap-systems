@@ -25,7 +25,7 @@ entries:
             url: /fas2800/bootmedia-encryption-preshutdown-checks.html
           - title: Shut down impaired controller
             url: /fas2800/bootmedia-impaired-controller-shutdown.html
-          - title: Replace boot image
+          - title: Replace boot the boot media and transfer the boot image
             url: /fas2800/bootmedia-replace.html
           - title: Boot recovery image
             url: /fas2800/bootmedia-recovery-image-boot-non-2n-mcc.html
@@ -71,6 +71,9 @@ entries:
       - title: NVMEM battery
         pdf-filename: FAS2800 NVMEM Battery
         url: /fas2800/nvmem-nvram-battery-replace.html
+      - title: Mezzanine card
+        pdf-filename: FAS2800 Mezzanine card
+        url: /fas2800/pci-cards-and-risers-replace.html
       - title: Power supply
         pdf-filename: FAS2800 Power Supply
         url: /fas2800/power-supply-swap-out.html

@@ -17,7 +17,7 @@ You must boot the ONTAP image from the USB drive, restore the file system, and v
 The image is downloaded from the USB flash drive.
 
 . When prompted, either enter the name of the image or accept the default image displayed inside the brackets on your screen.
-. Restore the var file system:
+. Restore the var file system :
 +
 [options="header" cols="1,2"]
 |===
@@ -27,11 +27,14 @@ A network connection
 a|
 
  .. Press `y` when prompted to restore the backup configuration.
- .. Set the healthy controller to advanced privilege level: `set -privilege advanced`
- .. Run the restore backup command: `system node restore-backup -node local -target-address _impaired_node_IP_address_`
- .. Return the controller to admin level: `set -privilege admin`
+ .. Press `y` when prompted to overwrite `/etc/ssh/ssh_host_ecdsa_key`.
+ .. Press `y` when prompted to confirm if the restore backup was successful.
+ .. Press `Y` when prompted to  the restored configuration copy.
+ .. Set the healthy node to advanced privilege level: `set -privilege advanced`
+ .. Run the restore backup command: `system node restore-backup -node local -target-address impaired_node_IP_address`
+ .. Return the node to admin level: `set -privilege admin`
  .. Press `y` when prompted to use the restored configuration.
- .. Press `y` when prompted to reboot the controller.
+ .. Press `y` when prompted to reboot the node.
 
 a|
 No network connection
@@ -80,4 +83,6 @@ a|
 If any interfaces are listed as "false", revert those interfaces back to their home port using the `net int revert` command.
 
 . Move the console cable to the repaired controller and run the `version -v` command to check the ONTAP versions.
-. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+. If you are not using storage encryption, restore automatic giveback and Autosupport:
+.. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+.. Restore Autosupport was disabled, restore it by using the `system node autosupport invoke -node * -type all -message MAINT=END`

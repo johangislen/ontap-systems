@@ -31,6 +31,8 @@ indexpage:
           url: /controller-replace-overview.html
         - title: DIMM
           url: /dimm-replace.html
+        - title: Mezzanine cards
+          url: /pci-cards-and-risers-replace.html
         - title: NVMEM battery
           url: /nvmem-nvram-battery-replace.html
         - title: Power supply
