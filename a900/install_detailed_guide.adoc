@@ -481,18 +481,18 @@ video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto, title="Animation - Set SAS 
 
 +
 
-image::../media/drw_a900_oie_change_ns224_shelf ID.svg[width=500]
+image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[width=500]
 +
 [cols="25h,~"]
 |===
 a|
 image:../media/legend_icon_01.png[] 
 a|
-Shelf end cap.
+Shelf end cap
 a|
 image:../media/legend_icon_02.png[]
 a|
-Shelf faceplate, shelf ID LED, and shelf ID  setting button behind the faceplate 
+Shelf faceplate 
 a|
 image:../media/legend_icon_03.png[]
 a|
@@ -500,11 +500,7 @@ Shelf ID LED
 a|
 image:../media/legend_icon_04.png[]
 a|
-Shelf end cap
-a|
-image:../media/legend_icon_05.png[]
-a|
-Shelf alert icon
+Shelf ID setting button
 
 |===
 
@@ -590,18 +586,18 @@ video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto, title="Animation - Set SAS 
 
 +
 
-image::../media/drw_a900_oie_change_ns224_shelf ID.svg[width=500]
+image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[width=500]
 +
 [cols="25h,~"]
 |===
 a|
 image:../media/legend_icon_01.png[] 
 a|
-Shelf end cap.
+Shelf end cap
 a|
 image:../media/legend_icon_02.png[]
 a|
-Shelf faceplate, shelf ID LED, and shelf ID  setting button behind the faceplate 
+Shelf faceplate 
 a|
 image:../media/legend_icon_03.png[]
 a|
@@ -609,11 +605,7 @@ Shelf ID LED
 a|
 image:../media/legend_icon_04.png[]
 a|
-Shelf end cap
-a|
-image:../media/legend_icon_05.png[]
-a|
-Shelf alert icon
+Shelf ID setting button
 
 |===
 
