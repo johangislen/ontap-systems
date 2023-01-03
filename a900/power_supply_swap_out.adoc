@@ -9,7 +9,7 @@ summary: 'Swapping out a power supply involves turning off, disconnecting, and r
 :imagesdir: ../media/
 
 [.lead]
-Swapping out a power supply involves turning off, disconnecting, and removing the old power supply and installing, connecting, and turning on the replacement power supply.
+Swapping out a power supply involves turning off, disconnecting, and removing the power supply and installing, connecting, and turning on the replacement power supply.
 
 All other components in the system must be functioning properly; if not, you must contact technical support.
 
@@ -19,7 +19,7 @@ All other components in the system must be functioning properly; if not, you mus
 +
 NOTE: It is a best practice to replace the power supply within two minutes of removing it from the chassis. The system continues to function, but ONTAP sends messages to the console about the degraded power supply until the power supply is replaced.
 
-* The number of power supplies in the system depends on the model.
+* There are four power supplies in the system.
 * Power supplies are auto-ranging.
 +
 IMPORTANT: Do not mix PSUs with different efficiency ratings. Always replace like for like.
