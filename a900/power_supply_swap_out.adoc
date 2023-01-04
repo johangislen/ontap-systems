@@ -31,7 +31,6 @@ IMPORTANT: Do not mix PSUs with different efficiency ratings. Always replace lik
 . Turn off the power supply and disconnect the power cables:
  .. Turn off the power switch on the power supply.
  .. Open the power cable retainer, and then unplug the power cable from the power supply.
- .. Unplug the power cable from the power source.
 . Press and hold the terra cotta button on the power supply handle, and then pull the power supply out of the chassis.
 +
 CAUTION:
@@ -58,7 +57,7 @@ The power supplies are keyed and can only be installed one way.
 IMPORTANT: Do not use excessive force when sliding the power supply into the system. You can damage the connector.
 
 . Reconnect the power supply cabling:
- .. Reconnect the power cable to the power supply and the power source.
+ .. Reconnect the power cable to the power supply.
  .. Secure the power cable to the power supply using the power cable retainer.
 +
 Once power is restored to the power supply, the status LED should be green.
