@@ -159,7 +159,7 @@ image::../media/drw_a320_cable_management_arms.png[]
 [.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
-NOTE: If you are cabling an MCC-IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace). 
+NOTE: If you are cabling an MetroCluster IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace). 
 
 === Option 1: Cable a two-node switchless cluster
 
