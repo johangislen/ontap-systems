@@ -31,8 +31,6 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp 
 [NOTE]
 ====
 Do not revert firmware to a version that does not support your shelf and its components.
-
-
 ====
 * If needed, you can turn on the shelf's location (blue) LEDs to aid in physically locating the affected shelf: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
 +
@@ -44,11 +42,14 @@ A shelf has three location LEDs: one on the operator display panel and one on ea
 +
 If you need the RMA number or additional help with the replacement procedure, contact technical support at https://mysupport.netapp.com/site/global/dashboard[NetApp Support^], 888-463-8277 (North America), 00-800-44-638277 (Europe), or +800-800-80-800 (Asia/Pacific).
 
-* You can use the following video or the written steps to replace a power supply.
-+
-video::5794da63-99aa-425a-825f-aa86002f154d[panopto, title="Animation - Hot-swap a power supply in an NS224 drive shelf"]
+[roll="tabbed-block"]
+====
 
-.Steps
+.Option1: Replace an AC power supply
+--
+To replace an AC power supply, you can watch the video or complete the following steps. 
+
+video::5794da63-99aa-425a-825f-aa86002f154d[panopto, title="Animation - Hot-swap a power supply in an NS224 drive shelf"]
 
 . Properly ground yourself.
 . Physically identify the failed power supply.
@@ -59,7 +60,7 @@ The system logs a warning message to the system console indicating which power s
 +
 Power supplies do not have a power switch.
 
-. Remove the failed power supply:
+. Remove the power supply:
  .. Rotate the cam handle to its open (horizontal) position, and then grasp it.
  .. With your thumb, press the blue tab to release the locking mechanism.
  .. Pull the power supply out of the NSM module while using your other hand to support its weight.
@@ -73,3 +74,44 @@ NOTE: Do not use excessive force or you might damage the internal connector.
 . Connect the power cord to the power supply and secure the power cord with the power cord retainer.
 +
 When functioning correctly, a power supply's bicolored LED illuminates green.
+--
+.Option2: Replace a DC power supply
+--
+To replace a DC power supply, complete the following steps.
+
+. Properly ground yourself.
+. Physically identify the failed power supply.
++
+The system logs a warning message to the system console indicating which power supply failed. Additionally, the attention (amber) LED on the shelf operator display panel illuminates and the bicolored LED on the failed power supply illuminates red.
+
+. Disconnect the power supply: 
++
+The illustration and table in the next step shows the two thumb screws (item #1) and the cable connector (item #2).
++
+.. Unscrew the two thumb screws on the cable connector.
+.. Unplug the cable connector from the power supply and set it aside.
+
+. Remove the power supply:
+.. Rotate the cam handle up, to its open position, and then grasp it.
+.. With your thumb, press the blue tab to release the locking mechanism.
+.. Pull the power supply out of the NSM module while using your other hand to support its weight.
++
+NOTE: The power supply is short. Always use two hands to support it when removing it from the NSM module so that it does not suddenly swing free from the NSM module and injure you.
++
+image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[]
+
+. Insert the replacement power supply:
+.. Using both hands, support and align the edges of the power supply with the opening in the NSM module.
+.. Gently push the power supply into the NSM module until the locking mechanism (tab) clicks into place.
++
+A power supply only properly engages with the internal connector and lock mechanism in place one way.
++
+NOTE: Do not use excessive force or you might damage the internal connector.
+
+.. Rotate the cam handle down, to the closed position.
+. Reconnect the power supply:
++
+Once power is restored to the power supply, the status LED should be green.
++
+.. Plug the cable connector into the power supply.
+.. Tighten the two thumb screws to secure the cable connector to the power supply.
