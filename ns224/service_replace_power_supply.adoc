@@ -45,7 +45,7 @@ If you need the RMA number or additional help with the replacement procedure, co
 [roll="tabbed-block"]
 ====
 
-.Option1: Replace an AC power supply
+.Option 1: Replace an AC power supply
 --
 To replace an AC power supply, you can watch the video or complete the following steps. 
 
@@ -75,7 +75,7 @@ NOTE: Do not use excessive force or you might damage the internal connector.
 +
 When functioning correctly, a power supply's bicolored LED illuminates green.
 --
-.Option2: Replace a DC power supply
+.Option 2: Replace a DC power supply
 --
 To replace a DC power supply, complete the following steps.
 
