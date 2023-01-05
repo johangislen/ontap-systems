@@ -135,3 +135,6 @@ Once power is restored to the power supply, the status LED should be green.
 +
 .. Plug the cable connector into the power supply.
 .. Tighten the two thumb screws to secure the cable connector to the power supply.
+--
+
+====
