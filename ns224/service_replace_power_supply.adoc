@@ -49,7 +49,7 @@ If you need the RMA number or additional help with the replacement procedure, co
 --
 To replace an AC power supply, you can watch the video or complete the following steps. 
 
-video::5794da63-99aa-425a-825f-aa86002f154d[panopto, title="Animation - Hot-swap a power supply in an NS224 drive shelf"]
+video::5794da63-99aa-425a-825f-aa86002f154d[]
 
 . Properly ground yourself.
 . Physically identify the failed power supply.
