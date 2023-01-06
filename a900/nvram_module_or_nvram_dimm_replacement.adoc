@@ -11,7 +11,7 @@ summary: 'The NVRAM module consists of the NVRAM11 and DIMMs and up to two NVMe 
 [.lead]
 The NVRAM module consists of the NVRAM11 and DIMMs. You can replace a failed NVRAM module or the DIMMs inside the NVRAM module. To replace a failed NVRAM module, you must remove it from the chassis, move the DIMMs to the replacement module, and install the replacement NVRAM module into the chassis.
 
-To replace and NVRAM DIMM, you must remove the NVRAMmodule from th chassis, replace the failed DIMM in the module, and then reinstall the NVRAM module.
+To replace and NVRAM DIMM, you must remove the NVRAM module from the chassis, replace the failed DIMM in the module, and then reinstall the NVRAM module.
 
 .About this task
 Because the system ID is derived from the NVRAM module, if replacing the module, disks belonging to the system are reassigned to a new system ID.
@@ -22,7 +22,7 @@ Because the system ID is derived from the NVRAM module, if replacing the module,
 * This procedure uses the following terminology:
  ** The impaired controller is the controller on which you are performing maintenance.
  ** The healthy controller is the HA partner of the impaired controller.
-* This procedure includes steps for automatically or manually reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
+* This procedure includes steps for automatically reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
 * You must replace the failed component with a replacement FRU component you received from your provider.
 * You cannot change any disks or disk shelves as part of this procedure.
 
@@ -75,11 +75,11 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
-Lettered and numbered I/O cam latch
+Lettered and numbered cam latch
 a|
 image:../media/legend_icon_02.png[]
 a|
-I/O latch completely unlocked
+Cam latch completely unlocked
 |===
 . Set the NVRAM module on a stable surface and remove the cover from the NVRAM module by pushing down on the blue locking button on the cover, and then, while holding down the blue button, slide the lid off the NVRAM module.
 
@@ -103,7 +103,7 @@ DIMM and DIMM ejector tabs
 . Close the cover on the module.
 . Install the replacement NVRAM module into the chassis:
  .. Align the module with the edges of the chassis opening in slot 6.
- .. Gently slide the module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin, and then push the I/O cam latch all the way up to lock the module in place.
+ .. Gently slide the module into the slot until the lettered and numbered cam latch begins to engage with the I/O cam pin, and then push the cam latch all the way up to lock the module in place.
 
 == Step 3: Replace a NVRAM DIMM
 
@@ -133,11 +133,11 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
-Lettered and numbered I/O cam latch
+Lettered and numbered cam latch
 a|
 image:../media/legend_icon_02.png[]
 a|
-I/O latch completely unlocked
+cam latch completely unlocked
 |===
 
 . Set the NVRAM module on a stable surface and remove the cover from the NVRAM module by pushing down on the blue locking button on the cover, and then, while holding down the blue button, slide the lid off the NVRAM module.
@@ -163,7 +163,7 @@ DIMM and DIMM ejector tabs
 . Close the cover on the module.
 . Install the NVRAM module into the chassis:
  .. Align the module with the edges of the chassis opening in slot 6.
- .. Gently slide the module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin, and then push the I/O cam latch all the way up to lock the module in place.
+ .. Gently slide the module into the slot until the lettered and numbered cam latch begins to engage with the I/O cam pin, and then push the cam latch all the way up to lock the module in place.
 
 == Step 4: Reboot the controller after FRU replacement
 
@@ -172,51 +172,24 @@ After you replace the FRU, you must reboot the controller module.
 
 . To boot ONTAP from the LOADER prompt, enter `bye`.
 
-== Step 5: Verify and set the HA state of the controller module
-
-You must verify the `HA` state of the controller module and, if necessary, update the state to match your system configuration.
-
-. In Maintenance mode from the replacement controller module, verify that all components display the same `HA` state: `ha-config show`
-+
-
-[options="header" cols="1,2"]
-
-|===
-| If your system is in...| The HA state for all components should be...
-a|
-An HA pair
-a|
-ha
-a|
-A MetroCluster FC configuration with four or more nodes
-a|
-mcc
-
-a|
-A MetroCluster IP configuration
-a|
-mccip
-|===
-
-. If the displayed system state of the controller module does not match your system configuration, set the `HA` state for the controller module: `ha-config modify controller _ha-state_`
-. If the displayed system state of the chassis does not match your system configuration, set the `HA` state for the chassis: `ha-config modify chassis _ha-state_`
-
-== Step 6: Reassigning disks
+== Step 5: Reassigning disks
 
 [.lead]
 You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
 
-This procedure applies only to systems running ONTAP in an HA pair.
+NOTE: This procedure applies only to systems running ONTAP in an HA pair.
+
+CAUTION: Disk reassignment is only needed when replacing the NVRAM module. 
 
 .Steps
-. If the replacement controller is in Maintenance mode (showing the `*>` prompt, exit Maintenance mode and go to the LOADER prompt: `halt`
-. From the LOADER prompt on the replacement controller, boot the controller, entering `y` if you are prompted to override the system ID due to a system ID mismatch.
-. Wait until the Waiting for giveback... message is displayed on the replacement controller console and then, from the healthy controller, verify that the new partner system ID has been automatically assigned: `storage failover show`
+. If the replacement controller is in Maintenance mode (showing the `*>` prompt), exit Maintenance mode and go to the LOADER prompt: `halt`
+. From the LOADER prompt on the replacement controller, boot the controller and entering y if you are prompted to override the system ID due to a system ID mismatch.
+. Wait until the Waiting for giveback... message is displayed on the console of the controller with the replacement module and then, from the healthy controller, verify that the new partner system ID has been automatically assigned: `storage failover show`
 +
 In the command output, you should see a message that the system ID has changed on the impaired controller, showing the correct old and new IDs. In the following example, node2 has undergone replacement and has a new system ID of 151759706.
 +
 ----
-node1> `storage failover show`
+node1:> storage failover show
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -225,17 +198,6 @@ node1             node2             false        System ID changed on partner (O
 node2             node1             -            Waiting for giveback (HA mailboxes)
 ----
 
-. From the healthy controller, verify that any coredumps are saved:
- .. Change to the advanced privilege level: `set -privilege advanced`
-+
-You can respond `Y` when prompted to continue into advanced mode. The advanced mode prompt appears (*>).
-
- .. Save any coredumps: `system node run -node local-node-name partner savecore`
- .. Wait for the `savecore`command to complete before issuing the giveback.
-+
-You can enter the following command to monitor the progress of the savecore command: `system node run -node local-node-name partner savecore -s`
-
- .. Return to the admin privilege level: `set -privilege admin`
 . Give back the controller:
  .. From the healthy controller, give back the replaced controller's storage: `storage failover giveback -ofnode replacement_node_name`
 +
@@ -252,15 +214,15 @@ For more information, see the https://docs.netapp.com/us-en/ontap/high-availabil
 The output from the `storage failover show` command should not include the System ID changed on partner message.
 . Verify that the disks were assigned correctly: `storage disk show -ownership`
 +
-The disks belonging to the replacement controller should show the new system ID. In the following example, the disks owned by node1 now show the new system ID, 1873775277:
+The disks belonging to the replacement controller should show the new system ID. In the following example, the disks owned by node1 now show the new system ID, 151759706:
 +
 ----
-node1> `storage disk show -ownership`
+node1:> storage disk show -ownership
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
-1.0.0  aggr0_1  node1 node1  -        1873775277 1873775277  -       1873775277 Pool0
-1.0.1  aggr0_1  node1 node1           1873775277 1873775277  -       1873775277 Pool0
+1.0.0  aggr0_1  node1 node1  -        151759706  151759706  -       151759706 Pool0
+1.0.1  aggr0_1  node1 node1           151759706  151759706  -       151759706 Pool0
 .
 .
 .
@@ -295,14 +257,16 @@ dr-group-id            cluster node           configuration-state
 ----
 
 . Verify that the expected volumes are present for each controller: `vol show -node node-name`
+. If storage encryption is enabled, you must ********
 . If you disabled automatic takeover on reboot, enable it from the healthy controller: `storage failover modify -node replacement-node-name -onreboot true`
+ 
 
-== Step 7: Restore Storage and Volume Encryption functionality
+== Step 6: Restore Storage and Volume Encryption functionality
 
 [.lead]
 include::../_include/restore_storage_encryption.adoc[]
 
-== Step 8: Return the failed part to NetApp
+== Step 7: Return the failed part to NetApp
 
 [.lead]
 include::../_include/complete_rma.adoc[]
