@@ -57,9 +57,6 @@ CAUTION: The fan modules are short. Always support the bottom of the fan module 
 The cam handle raises slightly when the fan module is completely seated.
 
 . Swing the cam handle up to its closed position, making sure that the cam handle release latch clicks into the locked position.
-+
-The fan LED should be green after the fan is seated and has spun up to operational speed.
-
 . Repeat these steps for the remaining fan modules.
 
 == Step 3: Replace a chassis from within the equipment rack or system cabinet
