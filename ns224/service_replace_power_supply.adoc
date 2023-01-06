@@ -105,11 +105,11 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340pc]
 [cols="1,3"]
 |===
 a|
-image:../media/legend_icon_01.svg[width=8]
+image:../media/legend_icon_01.svg[width=5]
 a|
 Thumb screws
 a| 
-image:../media/legend_icon_02.svg[width=8]
+image:../media/legend_icon_02.svg[width=6]
 a|
 Power supply cable connector
 a|
