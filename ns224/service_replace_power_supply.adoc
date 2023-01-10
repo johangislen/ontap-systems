@@ -104,7 +104,7 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340pc]
 +
 [cols="1,3"]
 |===
-a| image:../media/legend_icon_01.svg[width=8px]
+a| image:../media/legend_icon_01.svg[width=10px]
 a| Thumb screws
 a| image:../media/legend_icon_02.svg[width=10px]
 a| Power supply cable connector
@@ -116,9 +116,9 @@ a| Blue power supply locking tab
 
 . Insert the replacement power supply:
 .. Using both hands, support and align the edges of the power supply with the opening in the NSM module.
-.. Gently push the power supply into the NSM module until the locking mechanism (tab) clicks into place.
+.. Gently push the power supply into the NSM module until the locking mechanism clicks into place.
 +
-A power supply only properly engages with the internal connector and lock mechanism in place one way.
+A power supply must properly engage with the internal connector and locking mechanism. Repeat this step if you feel the power supply is not properly seated.
 +
 NOTE: Do not use excessive force or you might damage the internal connector.
 
