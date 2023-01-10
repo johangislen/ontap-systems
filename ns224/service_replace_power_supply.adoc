@@ -115,6 +115,9 @@ a| Blue power supply locking tab
 |===
 
 . Insert the replacement power supply:
++
+image:../media/legend_icon_01.svg[width=10]
+
 .. Using both hands, support and align the edges of the power supply with the opening in the NSM module.
 .. Gently push the power supply into the NSM module until the locking mechanism clicks into place.
 +
