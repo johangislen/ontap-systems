@@ -100,7 +100,7 @@ The illustration and table in the next step shows the two thumb screws (item #1)
 +
 NOTE: The power supply is short. Always use two hands to support it when removing it from the NSM module so that it does not suddenly swing free from the NSM module and injure you.
 +
-image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=340pc]
+image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=500px]
 +
 [cols="1,3"]
 |===
