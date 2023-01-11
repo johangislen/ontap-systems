@@ -48,7 +48,7 @@ All commands in the diagnostic procedures are issued from the controller where t
 +
 After you issue the command, you should wait until the system stops at the LOADER prompt.
 
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
+. At the LOADER prompt, access the special drivers specifically designed for diagnostics to function properly: `boot_diags`
 . Select *Scan System* from the displayed menu to enable running the diagnostics tests.
 . Select *Test system* from the displayed menu to run diagnostics tests.
 . Select the test or series of tests from the various sub-menus.
