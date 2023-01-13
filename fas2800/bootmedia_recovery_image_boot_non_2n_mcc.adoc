@@ -27,13 +27,11 @@ A network connection
 a|
 
  .. Press `y` when prompted to restore the backup configuration.
- .. Press `y` when prompted to overwrite `/etc/ssh/ssh_host_ecdsa_key`.
- .. Press `y` when prompted to confirm if the restore backup was successful.
- .. Press `Y` when prompted to  the restored configuration copy.
  .. Set the healthy node to advanced privilege level: `set -privilege advanced`
  .. Run the restore backup command: `system node restore-backup -node local -target-address impaired_node_IP_address`
  .. Return the node to admin level: `set -privilege admin`
- .. Press `y` when prompted to use the restored configuration.
+ .. Press `y` when prompted to confirm if the restore backup was successful.
+ .. Press `y` when prompted to restore the configuration copy.
  .. Press `y` when prompted to reboot the node.
 
 a|
@@ -78,11 +76,11 @@ a|
 
 . Connect the console cable to the partner controller.
 . Give back the controller using the `storage failover giveback -fromnode local` command.
-. At the cluster prompt, check the logical interfaces with the `net int -is-home false` command.
+. At the cluster prompt, check the logical interfaces with the `net int show -is-home false` command.
 +
-If any interfaces are listed as "false", revert those interfaces back to their home port using the `net int revert` command.
+If any interfaces are listed as "false", revert those interfaces back to their home port using the `net int revert -vserver Cluster -lif _nodename_` command.
 
 . Move the console cable to the repaired controller and run the `version -v` command to check the ONTAP versions.
 . If you are not using storage encryption, restore automatic giveback and Autosupport:
 .. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
-.. Restore Autosupport was disabled, restore it by using the `system node autosupport invoke -node * -type all -message MAINT=END`
+.. If Autosupport was disabled, restore it by using the `system node autosupport invoke -node * -type all -message MAINT=END`
