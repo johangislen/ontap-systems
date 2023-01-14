@@ -84,7 +84,7 @@ Disk         Size Shelf Bay Type     Type        Name       Owner
 
 . Physically locate the shelf you are removing.
 . Disconnect the cabling from the shelf you are removing:
- .. Disconnect the power cords from the power supplies by opening the power cord retainer if you have AC power supplies, or unscrewing the two thumb screws if you have DC power supplies, and then unplug the power cords from the power supplies.
+ .. Disconnect the power cords from the power supplies by opening the power cord retainer if they are AC power supplies, or unscrewing the two thumb screws if they are DC power supplies, and then unplug the power cords from the power supplies.
 +
 Power supplies do not have a power switch.
 

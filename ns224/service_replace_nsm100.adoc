@@ -67,7 +67,7 @@ video::f57693b3-b164-4014-a827-aa86002f4b34[panopto, title="Animation - Replace 
 The system logs a warning message to the system console indicating which module is impaired. Additionally, the attention (amber) LED on the drive shelf operator display panel and the impaired module illuminate.
 
 . Disconnect the cabling from the impaired NSM module:
- .. Disconnect the power cord from the power supply by opening the power cord retainer if you have AC power supplies, or unscrewing the two thumbs screws if you have a DC power supply, and then unplug the power cord from the power supply.
+ .. Disconnect the power cord from the power supply by opening the power cord retainer if it is an AC power supply, or unscrewing the two thumbs screws if it is a DC power supply, and then unplug the power cord from the power supply.
 +
 Power supplies do not have a power switch.
 
