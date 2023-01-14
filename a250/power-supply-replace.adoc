@@ -75,8 +75,8 @@ To replace a DC power supply, complete the following steps.
 . Identify the power supply you want to replace, based on console error messages or through the red Fault LED on the power supply.
 . Disconnect the power supply:
 .. Unplug the D-SUB DC power cable from the power source.
-.. Unscrew the cable connector using the thumb screws on the plug.
-.. Unplug the cable from the power supply and set it aside. 
+.. Unscrew the D-SUB DC power cable connector using the thumb screws on the plug.
+.. Unplug the D-SUB DC power cable from the power supply and set it aside. 
 . Remove the  power supply by rotating the handle up, press the locking tab, and then pull power supply out of the controller module.
 
 +
@@ -93,7 +93,7 @@ Thumb screws
 a| 
 image:../media/legend_icon_02.svg[width=10px]
 a|
-Power supply cable connector
+D-SUB DC power cable connector
 a|
 image:../media/legend_icon_03.svg[width=10px]
 a|
