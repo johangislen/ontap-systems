@@ -63,7 +63,7 @@ The system logs a warning message to the system console indicating which power s
 Power supplies do not have a power switch.
 
 . Remove the power supply:
- .. Rotate the cam handle to its open (horizontal) position, and then grasp it.
+ .. Rotate the handle up, to its horizontal position, and then grasp it.
  .. With your thumb, press the blue tab to release the locking mechanism.
  .. Pull the power supply out of the NSM module while using your other hand to support its weight.
 . Insert the replacement power supply:
@@ -72,7 +72,7 @@ Power supplies do not have a power switch.
 +
 NOTE: Do not use excessive force or you might damage the internal connector.
 
- .. Rotate the cam handle to the closed position.
+ .. Rotate the handle down, so it is out of the way of normal operations.
 . Connect the power cord to the power supply and secure the power cord with the power cord retainer.
 +
 When functioning correctly, a power supply's bicolored LED illuminates green.
@@ -88,13 +88,13 @@ The system logs a warning message to the system console indicating which power s
 
 . Disconnect the power supply: 
 +
-The illustration and table in the next step shows the two thumb screws (item #1) and the cable connector (item #2).
+The illustration and table in the next step shows the two thumb screws (item #1) and the D-SUB DC cable connector (item #2).
 +
-.. Unscrew the two thumb screws on the cable connector.
-.. Unplug the cable connector from the power supply and set it aside.
+.. Unscrew the two thumb screws on the D-SUB DC cable connector.
+.. Unplug the D-SUB DC cable connector from the power supply and set it aside.
 
 . Remove the power supply:
-.. Rotate the cam handle up, to its open position, and then grasp it.
+.. Rotate the handle up, to its horizontal position, and then grasp it.
 .. With your thumb, press the blue tab to release the locking mechanism.
 .. Pull the power supply out of the NSM module while using your other hand to support its weight.
 +
@@ -107,9 +107,9 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=500px]
 a| image:../media/legend_icon_01.svg[width=10px]
 a| Thumb screws
 a| image:../media/legend_icon_02.svg[width=10px]
-a| Power supply cable connector
+a| Power supply D-SUB DC cable connector
 a| image:../media/legend_icon_03.svg[width=10px]
-a| Power supply cam handle
+a| Power supply handle
 a| image:../media/legend_icon_04.svg[width=10px]
 a| Blue power supply locking tab
 |===
@@ -122,13 +122,13 @@ A power supply must properly engage with the internal connector and locking mech
 +
 NOTE: Do not use excessive force or you might damage the internal connector.
 
-.. Rotate the cam handle down, to the closed position.
+.. Rotate the handle down, so it is out of the way of normal operations.
 . Reconnect the power supply:
 +
 Once power is restored to the power supply, the status LED should be green.
 +
-.. Plug the cable connector into the power supply.
-.. Tighten the two thumb screws to secure the cable connector to the power supply.
+.. Plug the D-SUB DC cable connector into the power supply.
+.. Tighten the two thumb screws to secure the D-SUB DC cable connector to the power supply.
 --
 
 ====
