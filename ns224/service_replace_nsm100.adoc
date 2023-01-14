@@ -159,3 +159,4 @@ The operator display panel attention LED turns off after the NSM module reboots.
 If any cabling errors are generated, follow the corrective actions provided.
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
+. Make sure that both NSM modules in the shelf are running the same version of firmware: version 0200 or later.
