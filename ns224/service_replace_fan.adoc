@@ -80,10 +80,8 @@ NOTE: The FRU label on the NSM module cover shows the location of the five fans,
 
 . Physically identify the failed fan.
 +
-When a fan fails, the system logs a warning message to the system console indicating which fan failed. Additionally, the fan attention (amber) LED, located on the board near the fan slot, illuminates.
-+
-NOTE: The LED for the failed fan remains illuminated for 10 minutes after you remove the NSM module from the shelf.
-
+When a fan fails, the system logs a warning message to the system console indicating which fan failed.
+//05Oct2022, Racer5: removed text describing location of onboard attention LED.
 . Replace the failed fan:
  .. Remove the failed fan by firmly grasping the sides, where the blue touch points are located, and then lift it vertically to disconnect it from the socket.
  .. Insert the replacement fan by aligning it within the guides, and then push down until the fan module connector is fully seated in the socket.
