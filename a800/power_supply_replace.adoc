@@ -85,19 +85,19 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=500px]
 [cols="1,3"]
 |===
 a|
-image:../media/legend_icon_01.svg[width=5px]
+image:../media/legend_icon_01.svg[width=10px]
 a|
 Thumb screws
 a| 
-image:../media/legend_icon_02.svg[width=5px]
+image:../media/legend_icon_02.svg[width=10px]
 a|
 D-SUB DC power power supply cable connector
 a|
-image:../media/legend_icon_03.svg[width=5px]
+image:../media/legend_icon_03.svg[width=10px]
 a|
 Power supply handle
 a|
-image:../media/legend_icon_04.svg[width=5x]
+image:../media/legend_icon_04.svg[width=10x]
 a|
 Blue power supply locking tab
 |===
