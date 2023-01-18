@@ -88,10 +88,10 @@ The system logs a warning message to the system console indicating which power s
 
 . Disconnect the power supply: 
 +
-The illustration and table in the next step shows the two thumb screws (item #1) and the D-SUB DC cable connector (item #2).
+The illustration and table in the next step shows the two thumb screws (item #1) and the D-SUB DC power cable connector (item #2).
 +
-.. Unscrew the two thumb screws on the D-SUB DC cable connector.
-.. Unplug the D-SUB DC cable connector from the power supply and set it aside.
+.. Unscrew the two thumb screws on the power cable connector.
+.. Unplug the power cable connector from the power supply and set it aside.
 
 . Remove the power supply:
 .. Rotate the handle up, to its horizontal position, and then grasp it.
@@ -107,7 +107,7 @@ image::../media/drw_dcpsu_remove-replace-generic_IEOPS-788.svg[width=500px]
 a| image:../media/legend_icon_01.svg[width=10px]
 a| Thumb screws
 a| image:../media/legend_icon_02.svg[width=10px]
-a| Power supply D-SUB DC cable connector
+a| D-SUB DC power cable connector
 a| image:../media/legend_icon_03.svg[width=10px]
 a| Power supply handle
 a| image:../media/legend_icon_04.svg[width=10px]
@@ -123,12 +123,12 @@ A power supply must properly engage with the internal connector and locking mech
 NOTE: Do not use excessive force or you might damage the internal connector.
 
 .. Rotate the handle down, so it is out of the way of normal operations.
-. Reconnect the power supply:
+. Reconnect the D-SUB DC power cable:
 +
 Once power is restored to the power supply, the status LED should be green.
 +
-.. Plug the D-SUB DC cable connector into the power supply.
-.. Tighten the two thumb screws to secure the D-SUB DC cable connector to the power supply.
+.. Plug the power cable connector into the power supply.
+.. Tighten the two thumb screws to secure the power cable connector to the power supply.
 --
 
 ====
