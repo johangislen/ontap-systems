@@ -9,7 +9,7 @@ summary: "You must verify the HA state of the chassis and run System-Level diagn
 :imagesdir: ../media/
 
 [.lead]
-Verify the HA state of the chassis and run System-Level diagnostics, switch back aggregates, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
+Verify the HA state of the chassis and run diagnostics, switch back aggregates, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
 
 == Step 1: Verify and set the HA state of the chassis
 
@@ -46,7 +46,7 @@ All commands in the diagnostic procedures are issued from the controller where t
 +
 After you issue the command, you should wait until the system stops at the LOADER prompt.
 
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
+. At the LOADER prompt, access the special drivers specifically designed for diagnostics to function properly: `boot_diags`
 . Select *Scan System* from the displayed menu to enable running the diagnostics tests.
 . Select *Test System* from the displayed menu.
 . Proceed based on the result of the preceding step:
