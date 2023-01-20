@@ -167,34 +167,27 @@ NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `ha
 
  .. Select the option to boot to Maintenance mode from the displayed menu.
 
-== Step 5: Run system-level diagnostics
+== Step 5: Run  diagnostics
 
 [.lead]
-After installing a new caching module, you should run diagnostics.
+After you have replaced the cching module in your system, you should run diagnostic tests on that component.
 
-Your system must be at the LOADER prompt to start System Level Diagnostics.
+Your system must be at the LOADER prompt to start diagnostics.
 
 All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
 
-.Steps
-. If the controller to be serviced is not at the LOADER prompt, perform the following steps:
- .. Select the Maintenance mode option from the displayed menu.
- .. After the controller boots to Maintenance mode, halt the controller: `halt`
+. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
 +
 After you issue the command, you should wait until the system stops at the LOADER prompt.
-+
-NOTE: During the boot process, you can safely respond `y` to prompts:
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-+
-During the boot process, you can safely respond `y` to the prompts until the Maintenance mode prompt (*>) appears.
 
-. Run diagnostics on the caching module: `sldiag device run -dev fcache`
-. Verify that no hardware problems resulted from the replacement of the caching module: `sldiag device status -dev fcache -long -state failed`
-+
-System-level diagnostics returns you to the prompt if there are no test failures, or lists the full status of failures resulting from testing the component.
-+
-[.lead]
-include::../_include/sldiags-proceed-step.adoc[]
+. At the LOADER prompt, access the special drivers specifically designed for diagnostics to function properly: `boot_diags`
+. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
+. Select *Test Memory* from the displayed menu.
+. Select an option from the displayed sub-menu and run the test.
+. Proceed based on the result of the preceding step:
+ ** If the test failed, correct the failure, and then rerun the test.
+ ** If the test reported no failures, select Reboot from the menu to reboot the system.
+
 
 == Step 6: Restore automatic giveback and AutSupport
 

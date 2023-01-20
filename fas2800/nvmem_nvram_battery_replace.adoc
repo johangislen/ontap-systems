@@ -123,83 +123,25 @@ NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `ha
 
  .. Select the option to boot to Maintenance mode from the displayed menu.
 
-== Step 5: Run system-level diagnostics
+== Step 5: Run diagnostics
 
 [.lead]
-After installing a new NVMEM battery, you should run diagnostics.
+After you have replaced a component in your system, you should run diagnostic tests on that component.
 
-Your system must be at the LOADER prompt to start System Level Diagnostics.
+Your system must be at the LOADER prompt to start diagnostics.
 
 All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
 
-.Steps
-. If the controller to be serviced is not at the LOADER prompt, perform the following steps:
- .. Select the Maintenance mode option from the displayed menu.
- .. After the controller boots to Maintenance mode, halt the controller: `halt`
+. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
 +
 After you issue the command, you should wait until the system stops at the LOADER prompt.
-+
-NOTE: During the boot process, you can safely respond `y` to prompts:
 
-  *** A prompt warning that when entering Maintenance mode in an HA configuration, you must ensure that the healthy controller remains down.
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-+
-During the boot process, you can safely respond `y` to the prompts until the Maintenance mode prompt (*>) appears.
-
-. Run diagnostics on the NVMEM memory: `sldiag device run -dev nvmem`
-. Verify that no hardware problems resulted from the replacement of the NVMEM battery: `sldiag device status -dev nvmem -long -state failed`
-+
-System-level diagnostics returns you to the prompt if there are no test failures, or lists the full status of failures resulting from testing the component.
-
+. At the LOADER prompt, access the special drivers specifically designed for diagnostics to function properly: `boot_diags`
+. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
+. Select *Test Memory* from the displayed menu to run diagnostics tests.
 . Proceed based on the result of the preceding step:
-+
-[options="header" cols="1,2"]
-|===
-| If the system-level diagnostics tests...| Then...
-a|
-Were completed without any failures
-a|
-
- .. Clear the status logs: `sldiag device clearstatus`
- .. Verify that the log was cleared: `sldiag device status`
-+
-The following default response is displayed:
-+
-SLDIAG: No log messages are present.
-
- .. Exit Maintenance mode: `halt`
-+
-The controller displays the LOADER prompt.
-
- .. Boot the controller from the LOADER prompt: `bye`
- .. Return the controller to normal operation:
-a|
-Resulted in some test failures
-a|
-Determine the cause of the problem:
-
- .. Exit Maintenance mode: `halt`
-+
-After you issue the command, wait until the system stops at the LOADER prompt.
-
- .. Turn off or leave on the power supplies, depending on how many controller modules are in the chassis:
-  *** If you have two controller modules in the chassis, leave the power supplies turned on to provide power to the other controller module.
-  *** If you have one controller module in the chassis, turn off the power supplies and unplug them from the power sources.
- .. Verify that you have observed all the considerations identified for running system-level diagnostics, that cables are securely connected, and that hardware components are properly installed in the storage system.
- .. Boot the controller module you are servicing, interrupting the boot by pressing `Ctrl-C` when prompted to get to the Boot menu:
-  *** If you have two controller modules in the chassis, fully seat the controller module you are servicing in the chassis.
-+
-The controller module boots up when fully seated.
-
-  *** If you have one controller module in the chassis, connect the power supplies, and then turn them on.
- .. Select Boot to maintenance mode from the menu.
- .. Exit Maintenance mode by entering the following command: `halt`
-+
-After you issue the command, wait until the system stops at the LOADER prompt.
-
- .. Rerun the system-level diagnostic test.
-
-|===
+ ** If the scan show problems, correct the issue, and then rerun the scan.
+ ** If the scan reported no failures, select Reboot from the menu to reboot the system.
 
 == Step 6: Restore automatic giveback and AutSupport
 
