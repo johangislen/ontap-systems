@@ -25,6 +25,9 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp 
 +
 This allows enough time for ONTAP to process the NSM removal event.
 
+* After you replace the RTC battery, reinstall the NSM module, and the module boots, the real-time clock time is updated by ONTAP.
+//05oct2022, Racer5/supercap: added bullet per Andris. No additional steps to set the clock since the ONTAP SES layer will sync its RTC with the shelf module/expander
+
 * *Best practice:* The best practice is to have current versions of NVMe shelf module (NSM) firmware and drive firmware on your system before replacing FRU components.
 +
 https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
@@ -79,10 +82,7 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 The FRU label on the NSM module cover shows the location of the RTC battery, near the front of the NSM module and to the right of the power supply.
 
 . Physically identify the failed RTC battery.
-+
-The RTC battery attention (amber) LED, located on the board next to the battery slot, illuminates.
-+
-NOTE: The LED for the failed RTC battery remains illuminated for 10 minutes after you remove the NSM module from the shelf.
+//05Oct2022, Racer5: removed text describing location of onboard attention LED.
 
 . Replace the RTC battery:
  .. Remove the battery by gently pushing it away from the holder until it is at an inclined angle (tilted away from the holder), and then lift it out of the holder.
