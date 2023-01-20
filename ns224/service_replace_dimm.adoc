@@ -55,7 +55,7 @@ video::eef28b10-ed93-4aa7-bfce-aa86002f20a2[panopto, title="Animation - Replace 
 
 . Properly ground yourself.
 . Disconnect the cabling from the NSM module that contains the FRU that you are replacing:
- .. Disconnect the power cord from the power supply by opening the power cord retainer, and then unplug the power cord from the power supply.
+ .. Disconnect the power cord from the power supply by opening the power cord retainer if it is an AC power supply, or unscrewing the two thumb screws if it is a DC power supply, and then unplug the power cord from the power supply.
 +
 Power supplies do not have a power switch.
 
@@ -121,7 +121,7 @@ The NSM module should be fully inserted into the shelf and flush with the edges 
 +
 Cables are inserted with the connector pull-tab facing up. When a cable is inserted correctly, it clicks into place.
 
- .. Reconnect the power cord to the power supply, and then secure the power cord with the power cord retainer.
+ .. Reconnect the power cord to the power supply, and then secure the power cord with the power cord retainer if it is an AC power supply, or tighten the two thumb screws if it is a DC power supply.
 +
 When functioning correctly, a power supply's bicolored LED illuminates green.
 +
