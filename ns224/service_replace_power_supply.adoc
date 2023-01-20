@@ -22,16 +22,6 @@ Always replace like for like.
 +
 If you exceed the two minutes, the shelf continues to function, but ONTAP sends messages to the console about the degraded power supply until the power supply is replaced.
 
-* *Best practice:* The best practice is to have current versions of NVMe shelf module (NSM) firmware and drive firmware on your system before replacing FRU components.
-+
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
-+
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware^]
-+
-[NOTE]
-====
-Do not revert firmware to a version that does not support your shelf and its components.
-====
 * If needed, you can turn on the shelf's location (blue) LEDs to aid in physically locating the affected shelf: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
 +
 If you do not know the `shelf_name` of the affected shelf, run the `storage shelf show` command.
