@@ -257,5 +257,5 @@ Back to FAS2800...
 
 The following shows the SAS ports on the FAS2800:
 
-image::../media/drw_sas3_ports_on_fas2800_IEOPS-946.svg[width=340px]
+image::../media/drw_sas3_ports_on_fas2800_IEOPS-946.svg[width=440px]
 
