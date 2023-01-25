@@ -189,7 +189,7 @@ After you issue the command, you should wait until the system stops at the LOADE
  ** If the test reported no failures, select Reboot from the menu to reboot the system.
 
 
-== Step 6: Restore automatic giveback and AutSupport
+== Step 6: Restore automatic giveback and AutoSupport
 
 [.lead]
 After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
