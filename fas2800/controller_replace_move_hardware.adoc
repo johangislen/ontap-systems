@@ -68,10 +68,10 @@ NVMEM battery plug
 
 |===
 
-. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
-. Remove the battery from the controller module:
+Remove the battery from the controller module:
 .. Press the blue button on the side of the controller module.
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
+. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
 . Move the battery to the replacement controller module and install it:
 . Aligning the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
@@ -135,7 +135,7 @@ NOTE: Do not twist or pull the boot media straight up, because this could damage
 +
 If necessary, remove the boot media and reseat it into the socket.
 +
-.. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+.. Push the blue locking button on the boot media housing, rotate the boot media all the way down, and then release the locking button to lock the boot media in place.
 
 == Step 5:  Install the mezzanine card in the replacement controller
 
@@ -208,17 +208,20 @@ Caching module locking button
 |===
 
 . Locate the caching module near the rear of the controller module and remove it:
-.. Press the blue release button and rotate the caching module upward.
+.. Press the blue locking button and rotate the caching module upward.
 .. Gently pull the caching module straight out of the housing.
 . Instal the caching module in the replacement controller module:
 .. Align the edges of the caching module with the socket in the housing, and then gently push it into the socket.
 .. Verify that the caching module is seated squarely and completely in the socket.
 +
 If necessary, remove the caching module and reseat it into the socket.
-.. Rotate the caching module down to engage the blue locking button.
-. Plug in the NVMEM battery.
+.. Push the blue locking button, rotate the caching module all the way down, and then release the locking button to lock the caching module in place.
+. Plug in the NVMEM battery. 
 +
-Make sure that the plug locks down into the battery power socket on the motherboard. 
+Make sure that the plug locks down into the battery power socket on the motherboard.
++
+NOTE: If plugging in the battery is difficult, remove the battery from the controller module, plug it in, and then reinstall the battery into the controller module.  
++
 . Reinstall the controller module cover. 
 
 == Step 8: Install the controller

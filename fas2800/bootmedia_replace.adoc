@@ -87,7 +87,7 @@ NOTE: Do not twist or pull the boot media straight up, because this could damage
 .. Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
 Check the boot media to make sure that it is seated squarely and completely in the socket, and if necessary, remove the boot media and reseat it into the socket.
 
-.. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+.. Push the blue locking button, rotate the boot media all the way down, and then release the locking button to lock the boot media in place.
 . Reinstall the mezzanine card: 
 .. Align the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
 .. Tighten the three thumbscrews on the mezzanine card.

@@ -132,7 +132,7 @@ Caching module release button
 +
 If necessary, remove the caching module and reseat it into the socket.
 
-. Rotate the caching module down to engage the blue locking button.
+. Push the blue locking button, rotate the caching module all the way down, and then release the locking button to lock the caching module in place.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 4: Reinstall the controller module
@@ -170,7 +170,7 @@ NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `ha
 == Step 5: Run  diagnostics
 
 [.lead]
-After you have replaced the cching module in your system, you should run diagnostic tests on that component.
+After you have replaced the caching module in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
 

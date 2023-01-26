@@ -69,6 +69,8 @@ image::../media/drw_hw_nvram_icon.svg[width=70px]
 
 . If the NVMEM LED is not flashing, there is no content in the NVMEM; you can skip the following steps and proceed to the next task in this procedure.
 . If the NVMEM LED is flashing, there is data in the NVMEM and you must disconnect the battery to clear the memory:
+.. Remove the battery from the controller module by presing the blue button on the side of the controller module.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
  .. Locate the battery cable, press the clip on the battery plug to release the lock clip from the plug socket, and then unplug the battery cable from the socket.
  .. Confirm that the NVMEM LED is no longer lit.
  .. Reconnect the battery connector and recheck the LED on the back of the controller.
