@@ -69,7 +69,7 @@ image::../media/drw_hw_nvram_icon.svg[width=70px]
 
 . If the NVMEM LED is not flashing, there is no content in the NVMEM; you can skip the following steps and proceed to the next task in this procedure.
 . If the NVMEM LED is flashing, there is data in the NVMEM and you must disconnect the battery to clear the memory:
-.. Remove the battery from the controller module by presing the blue button on the side of the controller module.
+.. Remove the battery from the controller module by pressing the blue button on the side of the controller module.
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
  .. Locate the battery cable, press the clip on the battery plug to release the lock clip from the plug socket, and then unplug the battery cable from the socket.
  .. Confirm that the NVMEM LED is no longer lit.
@@ -114,10 +114,13 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 
 . Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
-. Plug in the NVMRM battery.
+. Reconnect the NVMRM battery:
+.. Plug in the NVRAM battery.
 +
 Make sure that the plug locks down into the battery power socket on the motherboard. 
 +
+.. Align the battery with the holding brackets on the sheet metal side wall.
+.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Reinstall the controller module cover.
 
 == Step 4: Reinstall the controller module

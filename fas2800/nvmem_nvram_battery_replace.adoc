@@ -86,9 +86,9 @@ Battery power connector
 .. Press the blue button on the side of the controller module.
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
 . Remove the replacement battery from its package.
+. Plug the battery plug back into the socket on the controller module.
 . Aligning the battery with the holding brackets on the sheet metal side wall.
 . Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Plug the battery plug back into the socket on the controller module.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 4: Reinstall the controller module
