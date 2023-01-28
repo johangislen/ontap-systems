@@ -28,12 +28,12 @@ Leave the cables in the cable management device so that when you reinstall the c
 . If you left the SFP modules in the system after removing the cables, move them to the replacement controller module.
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2240_x_opening_cam_latch.svg[width=340]
+image::../media/drw_2240_x_opening_cam_latch.svg[width=500px]
 
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -52,7 +52,7 @@ Remove the NVMEM battery from the old controller module and install it into the 
 
 NOTE: Do not plug the NVMEM battery in until directed to do so.
 
-image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -111,7 +111,7 @@ Remove the boot media from the old controller module and install it in the repla
 
 . After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller module:
 +
-image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=340]
+image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -151,7 +151,7 @@ Install the mezzanine card in the replacement controller module.
 
 Remove the DIMMS from the old controller module and install them into the replacement controller module.
 
-image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=s40]
+image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
 
 
 [cols="1,3"]
@@ -195,7 +195,7 @@ Make sure that the plug locks down onto the controller module.
 
 Remove the caching module from the old controller module install it into replacement controller module.
 
-image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=340px]
+image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
 
 [cols="1,3"]
 |===
