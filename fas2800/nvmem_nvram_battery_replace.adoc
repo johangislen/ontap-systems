@@ -64,7 +64,7 @@ This typically occurs during an uncontrolled shutdown after ONTAP has successful
 video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV batery"]
 +
 image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
-
++
 [cols="1,3"]
 |===
 
