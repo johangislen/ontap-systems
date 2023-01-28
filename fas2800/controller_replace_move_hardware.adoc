@@ -187,7 +187,6 @@ The DIMM fits tightly in the slot, but should go in easily. If not, realign the 
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 
 . Repeat these steps for the other DIMM.  
-+
 
 == Step 7: Move a caching module
 
