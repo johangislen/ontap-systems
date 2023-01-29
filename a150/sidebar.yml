@@ -1,5 +1,5 @@
 section: a150
-title: AFF A220 systems
+title: AFF A150 systems
 url: /a150/index.html
 entries:
     - title: Install and setup
@@ -37,7 +37,7 @@ entries:
         pdf-filename: AFF A150 Caching Module
         url: /fas2700/caching-module-replace.html
       - title: Chassis
-        pdf-filename: AFF A220 and FAS2700 Chassis
+        pdf-filename: AFF A150, AFF A220 and FAS2700 Chassis
         entries:
           - title: Overview
             url: /fas2700/chassis-replace-overview.html
@@ -48,7 +48,7 @@ entries:
           - title: Restore configuration
             url: /fas2700/chassis-replace-complete-system-restore-rma.html
       - title: Controller
-        pdf-filename: AFF A220 Controller
+        pdf-filename: AFF A150 Controller
         entries:
           - title: Overview
             url: /fas2700/controller-replace-overview.html
@@ -63,17 +63,17 @@ entries:
           - title: Complete system restoration
             url: /fas2700/controller-replace-restore-system-rma.html
       - title: DIMM
-        pdf-filename: AFF A220 DIMM
+        pdf-filename: AFF A150 DIMM
         url: /fas2700/dimm-replace.html
       - title: Drive
-        pdf-filename: AFF A220 Drive
+        pdf-filename: AFF A150 Drive
         url: /fas2700/drive-replace.html
       - title: NVMEM battery
-        pdf-filename: AFF A220 and FAS2700 NVMEM Battery
+        pdf-filename: AFF A150, AFF A220 and FAS2700 NVMEM Battery
         url: /fas2700/nvmem-nvram-battery-replace.html
       - title: Power supply
-        pdf-filename: AFF A220 and FAS2700 Power Supply
+        pdf-filename: AFF A150, AFF A220 and FAS2700 Power Supply
         url: /fas2700/power-supply-swap-out.html
       - title: Real-time clock battery
-        pdf-filename: AFF A220 Real-Time Clock Battery
+        pdf-filename: AFF A150 Real-Time Clock Battery
         url: /fas2700/rtc-battery-replace.html
