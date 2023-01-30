@@ -1,10 +1,10 @@
 ---
-permalink: a400/install-detailed-guide.html
+permalink: c400/install-detailed-guide.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, step-by-step, instruction, install, typical, netapp, system, instruction, detail, guide, prepare, installation, hardware, cable, controller, network, drive, shelves, shelf, complete, setup, configuration, detailed guide, prepare for installation, install the hardware, cable controllers to your network, cable controllers to drive shelves, complete system setup and configuration
+keywords: aff c400, aff, c400, step-by-step, instruction, install, typical, netapp, system, instruction, detail, guide, prepare, installation, hardware, cable, controller, network, drive, shelves, shelf, complete, setup, configuration, detailed guide, prepare for installation, install the hardware, cable controllers to your network, cable controllers to drive shelves, complete system setup and configuration
 summary: This guide gives detailed step-by-step instructions for installing a typical NetApp system. Use this guide if you want more detailed installation instructions.
 ---
-= Detailed guide - AFF A400
+= Detailed guide - AFF C400
 :icons: font
 :imagesdir: ../media/
 
@@ -181,7 +181,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::48552ddf-0925-4f88-8e93-ab1b00666489[panopto, title="Animation - Two-node switchless cluster cabling"]
 +
-image::../media/drw_A400_TNSC-network-cabling.png[]
+image::../media/drw_C400_TNSC-network-cabling.png[]
 
 . Go to <<Step 4: Cable controllers to drive shelves>> for drive shelf cabling instructions.
 
@@ -205,7 +205,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::8fefba75-f395-4cf2-ba3c-ab1b00665870[panopto, title="Animation - Switched cluster cabling"]
 +
-image::../media/drw_a400_switched_network_cabling.png[]
+image::../media/drw_c400_switched_network_cabling.png[]
 
 . Go to <<Step 4: Cable controllers to drive shelves>> for drive shelf cabling instructions.
 
@@ -230,7 +230,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::48d68897-c91d-47dc-b4b0-ab1b0066808a[panopto, title="Animation - Cable the controllers to one NS224 drive shelf"]
 +
-image::../media/drw_a400_one_ns224_shelves.png[]
+image::../media/drw_c400_one_ns224_shelves.png[]
 
 . Go to <<Step 5: Complete system setup and configuration>> to complete system setup and configuration.
 
@@ -250,7 +250,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::5501c7bf-8b74-49e8-8067-ab1b00668804[panopto, title="Animation - Cable the controllers to one NS224 drive shelf"]
 +
-image::../media/drw_a400_two_ns224_shelves.png[]
+image::../media/drw_c400_two_ns224_shelves.png[]
 
 . Go to <<Step 5: Complete system setup and configuration>> to complete system setup and configuration.
 
@@ -270,7 +270,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::cbb0280e-708d-4365-92b6-ab1b006677ef[panopto, title="Animation - Cable the controllers to SAS drive shelves"]
 +
-image::../media/drw_a400_three_ds224c_shelves.png[]
+image::../media/drw_c400_three_ds224c_shelves.png[]
 
 . Go to <<Step 5: Complete system setup and configuration>> to complete system setup and configuration.
 

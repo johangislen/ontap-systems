@@ -1,19 +1,19 @@
 ---
-permalink: a250/install-detailed-guide.html
+permalink: c250/install-detailed-guide.html
 sidebar: sidebar
-keywords: aff a250, detailed installation
-summary: This section gives detailed step-by-step instructions for installing an AFF A250 system.
+keywords: aff c250, detailed installation
+summary: This section gives detailed step-by-step instructions for installing an AFF C250 system.
 ---
-= Detailed steps - AFF A250
+= Detailed steps - AFF C250
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This section gives detailed step-by-step instructions for installing an AFF A250 system.
+This section gives detailed step-by-step instructions for installing an AFF C250 system.
 
 == Step 1: Prepare for installation
 
-To install your AFF A250 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your AFF C250 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 You need to have access to the link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. You might also want to have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes for your version of ONTAP^] for more information about this system.
 

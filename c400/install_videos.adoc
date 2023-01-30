@@ -1,10 +1,10 @@
 ---
-permalink: a400/install-videos.html
+permalink: c400/install-videos.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, video, rack, cable, system, manager, guide, setup, initial, configuration, hardware, installation, cabling, perform, end-to-end, software, configuration, hardware installation and cabling, perform end-to-end software configuration
+keywords: aff c400, aff, c400, video, rack, cable, system, manager, guide, setup, initial, configuration, hardware, installation, cabling, perform, end-to-end, software, configuration, hardware installation and cabling, perform end-to-end software configuration
 summary: There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
 ---
-= Videos - AFF A400
+= Videos - AFF C400
 :icons: font
 :imagesdir: ../media/
 
@@ -15,7 +15,7 @@ There are two videos; one showing how to rack and cable your system and one show
 
 The following video shows how to install and cable your new system.
 
-video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto, title="Animation - AFF A400 Installation and setup instructions"]
+video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto, title="Animation - AFF C400 Installation and setup instructions"]
 
 == Video two of two: Perform end-to-end software configuration
 
