@@ -15,7 +15,7 @@ All other components in the system must be functioning properly; if not, you mus
 
 You must replace the failed component with a replacement FRU component you received from your provider.
 
-video::f2805d18-ab49-464c-b3bc-af470172547a[panopto, title="Animation - Replace a DIMM"]
+video::6c035199-9b79-494b-9c65-af9a015ffaf0 [panopto, title="Animation - Replace a DIMM"]
 
 == Step 1: Shut down the impaired controller
 
