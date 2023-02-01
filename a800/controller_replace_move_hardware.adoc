@@ -61,7 +61,8 @@ image:../media/legend_icon_01.png[]
 a|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]|
+image:../media/legend_icon_02.png[]
+a|
 Slide air duct towards fan modules
 a|
 image:../media/legend_icon_03.png[]
