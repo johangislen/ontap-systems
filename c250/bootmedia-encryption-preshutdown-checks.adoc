@@ -1,10 +1,10 @@
 ---
-permalink: a250/bootmedia-encryption-preshutdown-checks.html
+permalink: c250/bootmedia-encryption-preshutdown-checks.html
 sidebar: sidebar
-keywords: aff a250, check onboard encryption keys as needed
+keywords: aff c250, check onboard encryption keys as needed
 summary: Prior to shutting down the impaired controller and checking the status of the onboard encryption keys, you must check the status of the impaired controller, disable automatic giveback, and check what version of ONTAP the system is running.
 ---
-= Check onboard encryption keys - AFF A250
+= Check onboard encryption keys - AFF C250
 :icons: font
 :imagesdir: ../media/
 

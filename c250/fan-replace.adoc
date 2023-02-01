@@ -1,11 +1,10 @@
 ---
-permalink: a250/fan-replace.html
+permalink: c250/fan-replace.html
 sidebar: sidebar
-keywords: aff a250, replace a fan
+keywords: aff c250, replace a fan
 summary: To replace a fan, remove the failed fan module and replace it with a new fan module.
 ---
-
-= Replace a fan -- AFF a250
+= Replace a fan - AFF C250
 :icons: font
 :imagesdir: ../media/
 

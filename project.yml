@@ -20,6 +20,9 @@ sidebar:
     - title: AFF systems
       entries:
       - section: c190
+      - section: c250
+      - section: c400
+      - section: c800
       - section: a200
       - section: a220
       - section: a250

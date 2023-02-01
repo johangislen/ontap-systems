@@ -1,10 +1,10 @@
 ---
-permalink: a250/controller-replace-move-hardware.html
+permalink: c250/controller-replace-move-hardware.html
 sidebar: sidebar
-keywords: aff a250, move the hardware components
+keywords: aff c250, move the hardware components
 summary: "To replace the controller module hardware, you must remove the impaired controller module, move FRU components to the replacement controller module, install the replacement controller module in the chassis, and then boot the system to Maintenance mode."
 ---
-= Replace the controller module hardware - AFF A250
+= Replace the controller module hardware - AFF c250
 :icons: font
 :imagesdir: ../media/
 
@@ -119,7 +119,7 @@ Fan module
 == Step 4: Move the boot media
 
 [.lead]
-There is one boot media device in the AFF A250 under the air duct in the controller module. You must move it from the impaired controller module to the replacement controller module.
+There is one boot media device in the AFF C250 under the air duct in the controller module. You must move it from the impaired controller module to the replacement controller module.
 
 You need a #1 magnetic Phillips head screwdriver to remove the screw that holds the boot media in place. Due to the space constraints within the controller module, you should also have a magnet to transfer the screw on to so that you do not lose it.
 

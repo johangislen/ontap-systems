@@ -1,11 +1,11 @@
 ---
 layout: landing-page
 sidebar: sidebar
-permalink: a250/index.html
-summary: The AFF A250 system documentation lets you install, setup, and maintain your system.
+permalink: c250/index.html
+summary: The AFF C250 system documentation lets you install, setup, and maintain your system.
 ---
 
-= AFF A250 System Documentation
+= AFF C250 System Documentation
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

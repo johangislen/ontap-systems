@@ -1,10 +1,10 @@
 ---
-permalink: a250/nvmem-nvram-battery-replace.html
+permalink: c250/nvmem-nvram-battery-replace.html
 sidebar: sidebar
-keywords: aff a250, nvmem battery replacement
+keywords: aff c250, nvmem battery replacement
 summary: "To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module."
 ---
-= Replace the NVMEM battery - AFF A250
+= Replace the NVMEM battery - AFF C250
 :icons: font
 :imagesdir: ../media/
 
