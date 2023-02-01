@@ -40,11 +40,15 @@ a|
 Locking pin
 |===
 
-. Slide the controller module out of the chassis.
+. Slide the controller module out of the chassis and place it on a stable, flat surface.
 +
 Make sure that you support the bottom of the controller module as you slide it out of the chassis.
-
-. Place the controller module on a stable, flat surface, and then open the air duct:
+. On the front of the chassis, use your thumbs to firmly push each drive in until you feel a positive stop. This ensures that the drives are firmly seated against the chassis midplane.  
++
+image::/media/drw_a800_drive_seated_IEOPS-960.svg[width=500px]
++
+. Place the controller module on a stable, flat surface.
+. Open the controller module air duct:
  .. Press in the locking tabs on the sides of the air duct toward the middle of the controller module.
  .. Slide the air duct toward the fan modules, and then rotate it upward to its completely open position.
 +
