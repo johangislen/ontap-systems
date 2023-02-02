@@ -1,11 +1,11 @@
 ---
-permalink: a800/nvdimm-battery-replace.html
+permalink: c800/nvdimm-battery-replace.html
 sidebar: sidebar
-keywords: aff a800, replace the nvdimm battery
+keywords: aff c800, replace the nvdimm battery
 summary: "To replace the NVDIMM battery, you must remove the controller module, remove the battery, replace the battery, and then reinstall the controller module."
 
 ---
-= Replace the NVDIMM battery - AFF A800
+= Replace the NVDIMM battery - AFF C800
 :icons: font
 :imagesdir: ../media/
 
