@@ -45,7 +45,7 @@ Locking pin
 Make sure that you support the bottom of the controller module as you slide it out of the chassis.
 . On the front of the chassis, use your thumbs to firmly push each drive in until you feel a positive stop. This ensures that the drives are firmly seated against the chassis midplane.  
 +
-image::/media/drw_a800_drive_seated_IEOPS-960.svg[width=500px]
+image::../media/drw_a800_drive_seated_IEOPS-960.svg[width=400px]
 +
 . Place the controller module on a stable, flat surface.
 . Open the controller module air duct:
