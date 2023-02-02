@@ -1,10 +1,10 @@
 ---
-permalink: a400/controller-replace-shutdown.html
+permalink: c400/controller-replace-shutdown.html
 sidebar: sidebar
-keywords: aff a400, shut down the impair controller
+keywords: aff c400, shut down the impair controller
 summary: "You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration."
 ---
-= Shut down the impaired controller - AFF A400
+= Shut down the impaired controller - AFF C400
 :icons: font
 :imagesdir: ../media/
 

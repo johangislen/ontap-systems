@@ -1,10 +1,10 @@
 ---
-permalink: a400/nvdimm-battery-replace.html
+permalink: c400/nvdimm-battery-replace.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, replace, nvdimm, battery, remove, controller, module, reinstall, impair, aggregate, switch, back, two-node, metrocluster, configuration, replacement, complete, process, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics, switch back aggregates in a two-node metrocluster configuration, complete the replacement process
+keywords: aff c400, aff, c400, replace, nvdimm, battery, remove, controller, module, reinstall, impair, aggregate, switch, back, two-node, metrocluster, configuration, replacement, complete, process, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics, switch back aggregates in a two-node metrocluster configuration, complete the replacement process
 summary: To replace the NVDIMM battery, you must remove the controller module, remove the battery, replace the battery, and then reinstall the controller module.
 ---
-= Replace the NVDIMM battery - AFF A400
+= Replace the NVDIMM battery - AFF C400
 :icons: font
 :imagesdir: ../media/
 
