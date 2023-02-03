@@ -1,10 +1,10 @@
 ---
-permalink: a250/power-supply-replace.html
+permalink: c250/power-supply-replace.html
 sidebar: sidebar
-keywords: aff a250, replace a power supply
+keywords: aff c250, replace a power supply
 summary: Replacing a power supply involves disconnecting the target power supply \(PSU\) from the power source, unplugging the power cable, removing the old PSU and installing the replacement PSU, and then reconnecting it to the power source.
 ---
-= Replace a power supply - AFF A250
+= Replace a power supply - AFF C250
 :icons: font
 :imagesdir: ../media/
 

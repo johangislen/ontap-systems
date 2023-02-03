@@ -1,10 +1,10 @@
 ---
-permalink: a400/bootmedia-recovery-image-boot-options.html
+permalink: c400/bootmedia-recovery-image-boot-options.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, procedure, boot, impair, controller, recovery, image, system, two-node, metrocluster, configuration, boot the recovery image
+keywords: aff c400, aff, c400, procedure, boot, impair, controller, recovery, image, system, two-node, metrocluster, configuration, boot the recovery image
 summary: The procedure for booting the impaired controller from the recovery image depends on whether the system is in a two-node MetroCluster configuration.
 ---
-= Boot the recovery image - AFF A400
+= Boot the recovery image - AFF C400
 :icons: font
 :imagesdir: ../media/
 
