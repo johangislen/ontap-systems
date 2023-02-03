@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a900, verify and set HA state, run diagnostics, complete the replacement process
 summary: "You must verify the HA state of the chassis, run diagnostics, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit."
 ---
-= Restore and verify the configuration - AFF C190
+= Restore and verify the configuration - AFF A900
 :icons: font
 :imagesdir: ../media/
 
@@ -125,6 +125,8 @@ Determine the cause of the problem.
  .. Verify that you have observed all of the considerations identified for running system-level diagnostics, that cables are securely connected, and that hardware components are properly installed in the storage system.
  .. Reconnect the power supplies, and then power on the storage system.
  .. Rerun the system-level diagnostics test.
+ +
+ If the system-level diagnostics test fails again, contact link:http://mysupport.netapp.com/[mysupport.netapp.com^]. 
 
 +
 |===
