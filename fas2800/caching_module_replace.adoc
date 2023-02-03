@@ -79,12 +79,12 @@ Leave the cables in the cable management device so that when you reinstall the c
 
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2240_x_opening_cam_latch.svg[width=340px]
+image::../media/drw_2240_x_opening_cam_latch.svg[width=500px]
 
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -114,7 +114,7 @@ Your storage system must meet certain criteria depending on your situation:
 . Locate the failed caching module near the rear of the controller module and remove it.
  .. Press the blue release button and rotate the caching module upward.
 +
-image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=340px]
+image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -132,7 +132,7 @@ Caching module release button
 +
 If necessary, remove the caching module and reseat it into the socket.
 
-. Rotate the caching module down to engage the blue locking button.
+. Push the blue locking button, rotate the caching module all the way down, and then release the locking button to lock the caching module in place.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 4: Reinstall the controller module
@@ -170,7 +170,7 @@ NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `ha
 == Step 5: Run  diagnostics
 
 [.lead]
-After you have replaced the cching module in your system, you should run diagnostic tests on that component.
+After you have replaced the caching module in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
 
@@ -189,7 +189,7 @@ After you issue the command, you should wait until the system stops at the LOADE
  ** If the test reported no failures, select Reboot from the menu to reboot the system.
 
 
-== Step 6: Restore automatic giveback and AutSupport
+== Step 6: Restore automatic giveback and AutoSupport
 
 [.lead]
 After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.

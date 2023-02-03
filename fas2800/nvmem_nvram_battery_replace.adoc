@@ -33,12 +33,12 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=340px]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 == Step 3: Replace the NVMEM battery
 
@@ -63,8 +63,8 @@ This typically occurs during an uncontrolled shutdown after ONTAP has successful
 +
 video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV batery"]
 +
-image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=340px]
-
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
++
 [cols="1,3"]
 |===
 
@@ -79,16 +79,15 @@ Battery power connector
 
 |===
 
-
-
-. Unplug the battery plug by squeezing the clip on the face of the battery plug to release the plug from the socket, and then unplug the battery cable from the socket.
-. Remove the battery from the controller module:
+. Remove the failed battery from the controller module:
 .. Press the blue button on the side of the controller module.
 .. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
+.. Unplug the battery from the controller module
 . Remove the replacement battery from its package.
-. Aligning the battery with the holding brackets on the sheet metal side wall.
-. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
-. Plug the battery plug back into the socket on the controller module.
+Install the replacement battery:
+.. Plug the battery plug back into the socket on the controller module.
+.. Aligning the battery with the holding brackets on the sheet metal side wall.
+.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Reinstall the controller module cover and lock it into place.
 
 == Step 4: Reinstall the controller module

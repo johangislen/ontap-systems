@@ -15,7 +15,8 @@ All other components in the system must be functioning properly; if not, you mus
 
 You must replace the failed component with a replacement FRU component you received from your provider.
 
-video::f2805d18-ab49-464c-b3bc-af470172547a[panopto, title="Animation - Replace a DIMM"]
+video::6c035199-9b79-494b-9c65-af9a015ffaf0[panopto, title="Animation - Replace a DIMM"]
+
 
 == Step 1: Shut down the impaired controller
 
@@ -36,12 +37,12 @@ Leave the cables in the cable management device so that when you reinstall the c
 . Remove and set aside the cable management devices from the left and right sides of the controller module.
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2240_x_opening_cam_latch.svg[width=340px]
+image::../media/drw_2240_x_opening_cam_latch.svg[width=500px]
 
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 [cols="1,3"]
 |===
@@ -69,6 +70,8 @@ image::../media/drw_hw_nvram_icon.svg[width=70px]
 
 . If the NVMEM LED is not flashing, there is no content in the NVMEM; you can skip the following steps and proceed to the next task in this procedure.
 . If the NVMEM LED is flashing, there is data in the NVMEM and you must disconnect the battery to clear the memory:
+.. Remove the battery from the controller module by pressing the blue button on the side of the controller module.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
  .. Locate the battery cable, press the clip on the battery plug to release the lock clip from the plug socket, and then unplug the battery cable from the socket.
  .. Confirm that the NVMEM LED is no longer lit.
  .. Reconnect the battery connector and recheck the LED on the back of the controller.
@@ -78,8 +81,8 @@ image::../media/drw_hw_nvram_icon.svg[width=70px]
 . Note the orientation and location of the DIMM in the socket so that you can insert the replacement DIMM in the proper orientation.
 . Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM, and then slide the DIMM out of the slot.
 +
-The DIMM socket will rotate up a little.
-. Rotate the DIMM socket as far as it will go, and then slide the DIMM out of the socket. 
+The DIMM will rotate up a little.
+. Rotate the DIMM as far as it will go, and then slide the DIMM out of the socket. 
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 +
@@ -105,17 +108,20 @@ DIMM
 +
 The notch among the pins on the DIMM should line up with the tab in the socket.
 
-. Make sure that the DIMM ejector tabs on the connector are in the open position, and then insert the DIMM squarely into the slot.
+. Insert the DIMM squarely into the slot.
 +
 The DIMM fits tightly in the slot, but should go in easily. If not, realign the DIMM with the slot and reinsert it.
 +
 NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully inserted into the slot.
 
 . Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
-. Plug in the NVMRM battery.
+. Reconnect the NVMRM battery:
+.. Plug in the NVRAM battery.
 +
 Make sure that the plug locks down into the battery power socket on the motherboard. 
 +
+.. Align the battery with the holding brackets on the sheet metal side wall.
+.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Reinstall the controller module cover.
 
 == Step 4: Reinstall the controller module

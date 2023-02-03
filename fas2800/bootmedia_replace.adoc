@@ -27,12 +27,12 @@ Leave the cables in the cable management device so that when you reinstall the c
 
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
-image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=340px]
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
-image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=340px]
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 
 [cols="1,3"]
@@ -87,7 +87,7 @@ NOTE: Do not twist or pull the boot media straight up, because this could damage
 .. Align the edges of the replacement boot media with the boot media socket, and then gently push it into the socket.
 Check the boot media to make sure that it is seated squarely and completely in the socket, and if necessary, remove the boot media and reseat it into the socket.
 
-.. Rotate the boot media down and push it down to engage the locking button on the boot media housing.
+.. Push the blue locking button, rotate the boot media all the way down, and then release the locking button to lock the boot media in place.
 . Reinstall the mezzanine card: 
 .. Align the socket on the motherboard with the socket on the mezzanine card, and then gently seat the card in the socket.
 .. Tighten the three thumbscrews on the mezzanine card.
