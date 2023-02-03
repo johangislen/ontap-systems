@@ -32,6 +32,7 @@ If you have a cluster with more than two nodes, it must be in quorum. If the clu
 
 link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum[Synchronize a node with the cluster^]
 
+
 You might want to erase the contents of your caching module before replacing it.
 
 .Steps

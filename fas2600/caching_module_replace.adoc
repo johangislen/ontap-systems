@@ -24,6 +24,7 @@ If you have a cluster with more than two nodes, it must be in quorum. If the clu
 
 link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum[Synchronize a node with the cluster^]
 
+
 You might want to erase the contents of your caching module before replacing it.
 
 . Although data on the caching module is encrypted, you might want to erase any data from the impaired caching module and verify that the caching module has no data:
