@@ -55,7 +55,7 @@ A shelf has three location LEDs: one on the operator display panel and one on ea
 +
 If you need the RMA number or additional help with the replacement procedure, contact technical support at https://mysupport.netapp.com/site/global/dashboard[NetApp Support^], 888-463-8277 (North America), 00-800-44-638277 (Europe), or +800-800-80-800 (Asia/Pacific).
 
-* You can use the following video or the written steps to replace an NSM module.
+* You can use the following animation or the written steps to replace an NSM module.
 +
 video::f57693b3-b164-4014-a827-aa86002f4b34[panopto, title="Animation - Replace an NSM module in an NS224 drive shelf"]
 
