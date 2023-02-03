@@ -1,10 +1,10 @@
 ---
-permalink: a800/bootmedia-transfer-boot-image.html
+permalink: c800/bootmedia-transfer-boot-image.html
 sidebar: sidebar
-keywords: aff a800, transfer the boot image to the boot media
+keywords: aff c800, transfer the boot image to the boot media
 summary: "The replacement boot media that you installed is without a boot image so you need to transfer a boot image using a USB flash drive."
 ---
-= Transfer the boot image to the boot media - AFF A800
+= Transfer the boot image to the boot media - AFF C800
 :icons: font
 :imagesdir: ../media/
 
