@@ -17,7 +17,9 @@ The following AutoSupport message suppresses automatic case creation for two hou
 a|
 Two controllers in the cluster
 a|
-`cluster ha modify -configured false` `storage failover modify -node node0 -enabled false`
+`cluster ha modify -configured false`
+
+`storage failover modify -node node0 -enabled false`
 a|
 More than two controllers in the cluster
 a|
