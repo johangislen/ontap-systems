@@ -503,7 +503,7 @@ When viewed from the rear of the platform chassis, the RoCE-capable card port on
  +
 The following illustration shows the shelf cabling when completed.
 +
-image::../media/drw_ns224_aff250_fas500f_1shelf.png[]
+image::../media/drw_ns224_a250_c250_f500f_1shelf_IEOPS-963.svg[width=452px]
 . Verify that the hot-added shelf is cabled correctly.
 +
 If any cabling errors are generated, follow the corrective actions provided.
@@ -629,7 +629,7 @@ NOTE: This step assumes you installed the RoCE-capable PCIe card in slot 5.
 +
 The following illustration shows cabling for one hot-added shelf using one RoCE-capable PCIe card on each controller module:
 +
-image::../media/drw_ns224_a800_1shelf.png[]
+image::../media/drw_ns224_a800_c800_1shelf_IEOPS-964.svg[width=452px]
 
 . If you are hot-adding one or two shelves using two sets of RoCE-capable ports (two RoCE-capable PCIe cards) on each controller module, complete the applicable substeps.
 +
@@ -664,7 +664,7 @@ NOTE: These substeps assume you are beginning the cabling by cabling shelf port 
 |===
 The following illustration shows cabling for two hot-added shelves:
 +
-image::../media/drw_ns224_a800_2shelves.png[]
+image::../media/drw_ns224_a800_c800_2shelves_IEOPS-966.svg[width=542px]
 
 . Verify that the hot-added shelf is cabled correctly.
 +
