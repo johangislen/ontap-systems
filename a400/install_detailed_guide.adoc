@@ -159,6 +159,8 @@ image::../media/drw_a320_cable_management_arms.png[]
 [.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
+NOTE: If the port labels on the card are not visible, check the card installation orientation (the PCIe connector socket is on the left side of the card slot in the A400 and FAS8300/8700), and then look for the card,then look for the card, by part number, in the https://hwu.netapp.com[NetApp Hardware Universe^] for a graphic of the bezel which will show the port labels. The card part number can be found using the `sysconfig -a` command or on the system packing list.
+
 NOTE: If you are cabling an MetroCluster IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace). 
 
 === Option 1: Cable a two-node switchless cluster
