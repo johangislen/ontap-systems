@@ -96,11 +96,20 @@ image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
 a|
 image::../media/legend_icon_01.svg[width=20px]
 a|
-DIMM locking latches
+NVRAM battery release button
 a|
 image::../media/legend_icon_02.svg[width=20px]
 a|
-DIMM
+NVRAM battery plug
+a|
+image::../media/legend_icon_03.svg[width=20px]
+a|
+DIMM ejector tabs
+a|
+image::../media/legend_icon_04.svg[width=20px]
+a|
+DIMMs
+a|
 
 |===
 
