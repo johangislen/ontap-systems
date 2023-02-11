@@ -109,7 +109,7 @@ a|
 image::../media/legend_icon_04.svg[width=20px]
 a|
 DIMMs
-a|
+
 
 |===
 
