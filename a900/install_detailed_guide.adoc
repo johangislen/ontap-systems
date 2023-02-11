@@ -420,7 +420,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 . Use the following animation or diagram to cable your controllers to two NS224 drive shelves.
 
 +
-video::c143c32-9e4b-47e5-893e-afa5017da6b4[panopto, title="Animation - Cable two NS224 shelves"]
+video::ec143c32-9e4b-47e5-893e-afa5017da6b4[panopto, title="Animation - Cable two NS224 shelves"]
 
 +
 
