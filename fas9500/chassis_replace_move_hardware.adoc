@@ -5,7 +5,7 @@ keywords:
 summary: 'All other components in the system must be functioning properly; if not, you must contact technical support.'
 ---
 
-= Move and replace hardware - FAS9500
+== Move and replace hardware - FAS9500
 :icons: font
 :imagesdir: ../media/
 
@@ -15,7 +15,7 @@ To replace the chassis, you must remove the components from the old chassis and 
 == Step 1: Remove the power supplies
 
 [.lead]
-Removing the power supplies when replacing a chassis involves turning off, disconnecting, and then removing the power supply from the old chassis.
+Removing the power supplies when replacing a chassis involves turning off, disconnecting, and then removing the four power supplies from the rear of the old chassis.
 
 . If you are not already grounded, properly ground yourself.
 . Turn off the power supply and disconnect the power cables:
@@ -44,7 +44,7 @@ Locking button
 == Step 2: Remove the fans
 
 [.lead]
-To remove the fan modules when replacing the chassis, you must perform a specific sequence of tasks.
+You must remove the six fan modules, located on in the front of the chassis, when replacing the chassis.
 
 . If you are not already grounded, properly ground yourself.
 . Remove the bezel (if necessary) with two hands, by grasping the openings on each side of the bezel, and then pulling it toward you until the bezel releases from the ball studs on the chassis frame.
@@ -143,7 +143,7 @@ I/O cam latch completely unlocked
 == Step 5: Remove the De-stage Controller Power Module
 
 [.lead]
-You must remove the de-stage controller power modules from the old chassis in preparation for installing the replacement chassis.
+Remove the two de-stage controller power modules from the front of the old chassis.
 
 . If you are not already grounded, properly ground yourself.
 . Press the terra cotta locking button on the module handle, and then slide the DCPM module out of the chassis.
@@ -183,7 +183,7 @@ NOTE: If the system is in a system cabinet, you might need to remove the rear ti
 == Step 7: Move the USB LED module to the new chassis
 
 [.lead]
-Once the new chassis is installed into the rack or cabinet, you must move the USB LED module from the old chassis to the new chassis.
+Once the new chassis is installed into the rack or cabinet, move the USB LED module from the front of the old chassis to the new chassis.
 
 video::bc46a3e8-6541-444e-973b-ae78004bf153[panopto, title="Animation - Remove/install USB module"]
 
@@ -201,7 +201,7 @@ a|
 Slide out of chassis.
 |===
 
-. Locate the USB LED module on the front of the old chassis, directly under the power supply bays.
+. Locate the USB LED module on the front of the old chassis, directly under the DCPM modules.
 . Press the black locking button on the right side of the module to release the module from the chassis, and then slide it out of the old chassis.
 . Align the edges of the module with the USB LED bay at the bottom-front of the replacement chassis, and gently push the module all the way into the chassis until it clicks into place.
 
@@ -284,4 +284,7 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 +
 NOTE: If you miss the prompt and the controller modules boot to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then repeat this step.
 
-.. From the boot menu, select the option for Maintenance mode.
++
+Answer `y` when you see the prompt to boot to Maintenance mode
+
+ .. From the boot menu, select the option for Maintenance mode.
