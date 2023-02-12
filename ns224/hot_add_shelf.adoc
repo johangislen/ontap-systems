@@ -721,18 +721,18 @@ Shelf 1
 a|
 
  .. Cable NSM A port e0a to controller A port e0c.
- .. Cable NSM A port e0b to controller B slot 5 port b.
+ .. Cable NSM A port e0b to controller B slot 5 port 2 (e5b).
  .. Cable NSM B port e0a to controller B port e0c.
- .. Cable NSM B port e0b to controller A slot 5 port b.
+ .. Cable NSM B port e0b to controller A slot 5 port 2 (e5b).
  .. If you are hot-adding a second shelf, complete the "`Shelf 2`" substeps; otherwise, go to step 3.
 
 a|
 Shelf 2
 a|
 
- .. Cable NSM A port e0a to controller A slot 5 port a.
+ .. Cable NSM A port e0a to controller A slot 5 port 1 (e5a).
  .. Cable NSM A port e0b to controller B port e0d.
- .. Cable NSM B port e0a to controller B slot 5 port a.
+ .. Cable NSM B port e0a to controller B slot 5 port 1 (e5a).
  .. Cable NSM B port e0b to controller A port e0d.
  .. Go to step 3.
 
@@ -778,10 +778,10 @@ How you cable an NS224 drive shelf in an AFF C400 HA pair depends on the number 
 +
 Otherwise, go to the next step.
 
- .. Cable shelf NSM A port e0a to controller A slot 4 port a (e4a).
- .. Cable shelf NSM A port e0b to controller B slot 4 port b (e4b).
- .. Cable shelf NSM B port e0a to controller B slot 4 port a (e4a).
- .. Cable shelf NSM B port e0b to controller A slot 4 port b (e4b).
+ .. Cable shelf NSM A port e0a to controller A slot 4 port 1 (e4a).
+ .. Cable shelf NSM A port e0b to controller B slot 4 port 2 (e4b).
+ .. Cable shelf NSM B port e0a to controller B slot 4 port 1 (e4a).
+ .. Cable shelf NSM B port e0b to controller A slot 4 port 2 (e4b).
 +
 The following illustration shows cabling for one hot-added shelf using one set of RoCE-capable ports on each controller module:
 +
@@ -796,20 +796,20 @@ a|
 Shelf 1
 a|
 
- .. Cable NSM A port e0a to controller A slot 4 port a (e4a).
- .. Cable NSM A port e0b to controller B slot 5 port b (e5b).
- .. Cable NSM B port e0a to controller B port slot 4 port a (e4a).
- .. Cable NSM B port e0b to controller A slot 5 port b (e5b).
+ .. Cable NSM A port e0a to controller A slot 4 port 1 (e4a).
+ .. Cable NSM A port e0b to controller B slot 5 port 2 (e5b).
+ .. Cable NSM B port e0a to controller B port slot 4 port 1 (e4a).
+ .. Cable NSM B port e0b to controller A slot 5 port 2 (e5b).
  .. If you are hot-adding a second shelf, complete the "`Shelf 2`" substeps; otherwise, go to step 3.
 
 a|
 Shelf 2
 a|
 
- .. Cable NSM A port e0a to controller A slot 5 port a (e5a).
- .. Cable NSM A port e0b to controller B slot 4 port b (e4b).
- .. Cable NSM B port e0a to controller B slot 5 port a (e5a).
- .. Cable NSM B port e0b to controller A slot 4 port b (e4b).
+ .. Cable NSM A port e0a to controller A slot 5 port 1 (e5a).
+ .. Cable NSM A port e0b to controller B slot 4 port 2 (e4b).
+ .. Cable NSM B port e0a to controller B slot 5 port 1 (e5a).
+ .. Cable NSM B port e0b to controller A slot 4 port 2 (e4b).
  .. Go to step 3.
 
 +
