@@ -5,7 +5,7 @@ keywords:
 summary: 'All other components in the system must be functioning properly; if not, you must contact technical support.'
 ---
 
-= Move and replace hardware - AFF A900
+== Move and replace hardware - AFF A900
 :icons: font
 :imagesdir: ../media/
 
@@ -212,7 +212,7 @@ a|
 Slide out of chassis.
 |===
 
-. Locate the USB LED module on the front of the old chassis, directly under the power supply bays.
+. Locate the USB LED module on the front of the old chassis, directly under the DCPM modules.
 . Press the black locking button on the right side of the module to release the module from the chassis, and then slide it out of the old chassis.
 . Align the edges of the module with the USB LED bay at the bottom-front of the replacement chassis, and gently push the module all the way into the chassis until it clicks into place.
 
@@ -293,10 +293,10 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 . Repeat the preceding steps to install the second controller into the new chassis.
 . Boot each controller to Maintenance mode:
- .. As each controller starts the booting, press `Ctrl-C` to interrupt the boot process when you see the message Press Ctrl-C for Boot Menu.
+.. As each controller starts the booting, press `Ctrl-C` to interrupt the boot process when you see the message Press Ctrl-C for Boot Menu.
 +
 NOTE: If you miss the prompt and the controller modules boot to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then repeat this step.
 +
 Answer `y` when you see the prompt to boot to Maintenance mode
 
- .. From the boot menu, select the option for Maintenance mode.
+.. From the boot menu, select the option for Maintenance mode.
