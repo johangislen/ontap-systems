@@ -740,7 +740,7 @@ a|
 |===
 The following illustration shows cabling for two hot-added shelves:
 +
-image::../media/drw_ns224_a400_2shelves.png[]
+image::../media/drw_ns224_a400_2shelves_IEOPS-983.svg[width=452px]
 
 . Verify that the hot-added shelf is cabled correctly.
 +
