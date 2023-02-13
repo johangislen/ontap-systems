@@ -5,7 +5,7 @@ keywords: aff fas9500, shutdown the controllers
 summary: "To replace the chassis, you must shutdown the controllers."
 ---
 
-= Shutdown the impaired controller - FAS9500
+== Shutdown the impaired controller - FAS9500
 :icons: font
 :imagesdir: ../media/
 

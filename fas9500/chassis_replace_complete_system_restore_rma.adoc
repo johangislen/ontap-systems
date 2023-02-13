@@ -123,8 +123,10 @@ Determine the cause of the problem.
  .. Verify that you have observed all of the considerations identified for running system-level diagnostics, that cables are securely connected, and that hardware components are properly installed in the storage system.
  .. Reconnect the power supplies, and then power on the storage system.
  .. Rerun the system-level diagnostics test.
-
 +
+ If the system-level diagnostics test fails again, contact link:http://mysupport.netapp.com/[mysupport.netapp.com^]. 
+
+
 |===
 == Step 3: Return the failed part to NetApp
 
