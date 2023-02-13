@@ -18,9 +18,9 @@ To install your system, you need to create an account, register the system, and 
 
 You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
 
-https://hwu.netapp.com[NetApp Hardware Universe]
+https://hwu.netapp.com[NetApp Hardware Universe^]
 
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9^]
 
 You need to provide the following at your site:
 
@@ -36,9 +36,7 @@ image::../media/drw_ssn_label.png[]
 
 . Inventory and make a note of the number and types of cables you received.
 +
-The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see the Hardware Universe to locate the cable and identify its use.
-+
-https://hwu.netapp.com[NetApp Hardware Universe]
+The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see the https://hwu.netapp.com[NetApp Hardware Universe^] to locate the cable and identify its use.
 +
 [options="header" cols="1,2,1,2"]
 |===
@@ -156,6 +154,8 @@ image::../media/drw_a320_cable_management_arms.png[]
 
 [.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+
+NOTE: If the port labels on the card are not visible, check the card installation orientation (the PCIe connector socket is on the left side of the card slot in the A400 and FAS8300/8700), and then look for the card,then look for the card, by part number, in the https://hwu.netapp.com[NetApp Hardware Universe^] for a graphic of the bezel which will show the port labels. The card part number can be found using the `sysconfig -a` command or on the system packing list.
 
 === Option 1: Cable a two-node switchless cluster
 
