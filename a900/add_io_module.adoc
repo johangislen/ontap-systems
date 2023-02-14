@@ -17,10 +17,8 @@ You can add an I/O module to your system by either adding a new I/O nodule into 
 * To non-disruptively add an I/O module, you must take over the target controller, remove the slot blanking cover in the target slot or remove an existing I/O module, add the new or replacement I/O module, and then giveback the target controller.
 
 * Make sure that all other components are functioning properly.
-[role="tabbed-block"]
-====
 
-.Option 1: Add the I/O module to a system with open slots
+== Option 1: Add the I/O module to a system with open slots
 
 :icons: font
 :imagesdir: ../media/
@@ -45,6 +43,7 @@ include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
 include::../_include/shutdown_any_mcc_supported_no_PCM_remove.adoc[]
 --
 
+====
 
 == Step 2: Add I/O modules
 
@@ -71,9 +70,9 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 . Repeat these steps for controller B.
 . If you installed a storage I/O module, install and cable your NS224 shelves, as described in https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html[Hot-adding an NS224 drive shelf].
 
-===
 
-.Option 2: Add an I/O module in a system with no open slots
+
+== Option 2: Add an I/O module in a system with no open slots
 
 [.lead]
 You must remove one or more existing NIC or storage modules in your system in order to install one or more I/O modules into your fully-populated system.
