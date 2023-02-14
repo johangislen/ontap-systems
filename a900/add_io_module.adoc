@@ -34,7 +34,6 @@ Shut down or take over the impaired controller using one of the following option
 [role="tabbed-block"]
 ====
 
-
 .Option 1: Most systems
 --
 include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
@@ -71,10 +70,12 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 . Repeat these steps for controller B.
 . If you installed a storage I/O module, install and cable your NS224 shelves, as described in https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html[Hot-adding an NS224 drive shelf].
 
+
+
 == Option 2: Add an I/O module in a system with no open slots
 
 [.lead]
-You must remove one or more existing NIC or storage modules in your system in order to install one or more I/O modules into your fully-populated system.
+If your system is fully populated, you can change an I/O module in an I/O slot by removing an existing I/O module and replacing it with a different I/O module.
 
 . If you are:
 +
@@ -103,7 +104,6 @@ Shut down or take over the impaired controller using one of the following option
 
 [role="tabbed-block"]
 ====
-
 
 .Option 1: Most systems
 --
