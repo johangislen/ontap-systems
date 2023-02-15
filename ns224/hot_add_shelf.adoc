@@ -785,7 +785,7 @@ Otherwise, go to the next step.
 +
 The following illustration shows cabling for one hot-added shelf using one set of RoCE-capable ports on each controller module:
 +
-image::../media/drw_ns224_c400_1shelf_IEOPS-951.svg[width=452px]
+image::../media/drw_ns224_c400_1shelf_IEOPS-985.svg[width=452px]
 
 . If you are hot-adding one or two shelves using two sets of RoCE-capable ports on each controller module, complete the following substeps.
 +
@@ -816,7 +816,7 @@ a|
 |===
 The following illustration shows cabling for two hot-added shelves:
 +
-image::../media/drw_ns224_c400_2shelves_IEOPS-952.svg[width=452px]
+image::../media/drw_ns224_c400_2shelves_IEOPS-984.svg[width=452px]
 
 . Verify that the hot-added shelf is cabled correctly.
 +
