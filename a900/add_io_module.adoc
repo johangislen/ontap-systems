@@ -142,11 +142,11 @@ image:../media/drw_a900_remove_PCIe_module.png[]
 
 |===
 a|
-image::../media/legend_icon_01.png[]
+image::../media/legend_icon_01.svg[width=20px]
 a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.svg[width=20px]]
 
 a|
 
