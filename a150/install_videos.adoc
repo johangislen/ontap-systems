@@ -15,7 +15,7 @@ There are two videos; one showing how to rack and cable your system and one show
 
 The following video shows how to install and cable your new system.
 
-video::5g-34qxG9HA?[youtube]
+video::561d941a-f387-4eb9-a10a-afb30029eb36[panopto, title="Animation - Install and setup of an AFF A150"]
 
 == Video two of two: Performing end-to-end software configuration
 
