@@ -281,6 +281,7 @@ Example of backup data:
 +
 
 --------------------------BEGIN BACKUP--------------------------
++
 TmV0QXBwIEtleSBCbG9iAAEAAAAEAAAAcAEAAAAAAADuD+byAAAAACEAAAAAAAAA
 QAAAAAAAAABvOlH0AAAAAMh7qDLRyH1DBz12piVdy9ATSFMT0C0TlYFss4PDjTaV
 dzRYkLd1PhQLxAWJwOIyqSr8qY1SEBgm1IWgE5DLRqkiAAAAAAAAACgAAAAAAAAA
@@ -337,6 +338,12 @@ If any interfaces are listed as `false`, revert those interfaces back to their h
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
 . Reset the MSID if it was previously set and was captured at the beginning of this procedure:
 .. Assign a data authentication key to a FIPS drive or SED using the `storage encryption disk modify -disk _disk_ID_ -data-key-id _key_ID_` command. 
++
+
+NOTE: You can use the `security key-manager key query -key-type NSE-AK` command to view key IDs.
+
++
+.. Verify that the authentication keys have been assigned using the `storage encryption disk show` command.
 
 --
 .Option 2: Using External Manager
@@ -377,14 +384,18 @@ Use the `security key-manager key-query` command to verify that the `Restored` c
 . Connect the console cable to the partner controller.
 . Give back the controller using the storage failover giveback -fromnode local command.
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+. Reset the MSID if it was previously set and was captured at the beginning of this procedure:
+.. Assign a data authentication key to a FIPS drive or SED using the `storage encryption disk modify -disk _disk_ID_ -data-key-id _key_ID_` command. 
++
+
+NOTE: You can use the `security key-manager key query -key-type NSE-AK` command to view key IDs.
+
++
+.. Verify that the authentication keys have been assigned using the `storage encryption disk show` command.
 
 --
 
 ====
-. Reset the MSID for the disks:
-.. If you are using onboard storage encryption, follow the procedure in https://docs.netapp.com/us-en/ontap/encryption-at-rest/assign-authentication-keys-seds-onboard-task.html[Assign a data authentication key to a FIPS drive or SED (onboard key management)^]
-.. I you are using external keymanager, follow the procedure in https://docs.netapp.com/us-en/ontap/encryption-at-rest/assign-authentication-keys-seds-external-task.html[Assign a data authentication key to a FIPS drive or SED (external key management)^]
-
 
 == Step 7: Return the failed part to NetApp
 
