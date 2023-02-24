@@ -212,7 +212,7 @@ image::../media/drw_c400_switched_network_cabling.png[]
 == Step 4: Cable controllers to drive shelves
 
 [.lead]
-You can cable either NSS224 or SAS shelves to you system.
+The following options show you how to cable one or two NS224 drive shelves to your system.
 
 === Option 1: Cable the controllers to a single drive shelf
 
