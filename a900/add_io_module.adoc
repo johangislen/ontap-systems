@@ -146,7 +146,7 @@ image::../media/legend_icon_01.svg[width=20px]
 a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.svg[width=20px]]
+image:../media/legend_icon_02.svg[width=20px]
 
 a|
 
