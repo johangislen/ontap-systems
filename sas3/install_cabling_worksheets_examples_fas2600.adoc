@@ -22,6 +22,22 @@ image::../media/drw_fas2600_controller_to_stack_cable_type_key.png[]
 +
 image::../media/drw_fas2600_cable_color_key.png[]
 
+== FAS2800 platform in a multipath HA configuration...with one multi-shelf stack?
+
+The following worksheet and cabling example uses port pair 0a/0b1: DO I even need a worksheet for this?
+
+image::../media/drw_fas2600_mpha_worksheet.png[]
+
+image::../media/drw_fas2600_mpha.png[]
+
+== FAS2800 platform in a tri-path HA configuration with one multi-shelf stack
+
+The following worksheet and cabling example uses port pair 0a/0b1:
+
+image::../media/drw_fas2600_mpha_worksheet.png[]
+
+image::../media/drw_fas2600_mpha.png[]
+
 == Platforms with internal storage in a multipath HA configuration with one multi-shelf stack
 
 The following worksheet and cabling example uses port pair 0a/0b:
