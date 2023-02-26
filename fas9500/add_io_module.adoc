@@ -17,15 +17,35 @@ You can add an I/O module to your system by either replacing a NIC or storage ad
 * To non-disruptively add an I/O module, you must take over the target controller, remove the slot blanking cover in the target slot or remove an existing I/O module, add the new or replacement I/O module, and then giveback the target controller.
 * Make sure that all other components are functioning properly.
 
-== Option 1: Add the I/O module to a system with open slots
+== Option 1: Add the I/O module to a system with open slots 
 
-You can add an I/O module into an empty module slot in your system as either a NIC or a storage module for the SAS storage shelves.
+:icons: font
+:imagesdir: ../media/
 
-. Shutdown controller A:
-.. Disable automatic giveback: `storage failover modify -node local -auto-giveback false`
-.. Take over the target node: `storage failover takeover -ofnode target_node_name`
-+
-The console connection shows that the node drops to the LOADER prompt when the take over is complete.
+[.lead]
+You can add an I/O module into an empty module slot in your system.
+
+== Step 1: Shut down the impaired node
+
+[.lead]
+Shut down or take over the impaired controller using one of the following options.
+
+[role="tabbed-block"]
+====
+
+.Option 1: Most systems
+--
+include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
+--
+.Option 2: Controller is in a MetroCluster
+--
+include::../_include/shutdown_any_mcc_supported_no_PCM_remove.adoc[]
+--
+
+====
+
+== Step 2: Add I/O modules
+
 . If you are not already grounded, properly ground yourself.
 . Remove the target slot blanking cover:
 .. Depress the lettered and numbered cam button.
@@ -51,7 +71,8 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 
 == Option 2: Add an I/O module in a system with no open slots
 
-You must remove one or more existing NIC or storage modules in your system in order to install one or more I/O modules into your fully-populated system.
+[.lead]
+If your system is fully populated, you can change an I/O module in an I/O slot by removing an existing I/O module and replacing it with a different I/O module.
 
 . If you are:
 +
@@ -72,11 +93,26 @@ a|
 Use System Manager to permanently migrate the LIFs to different home ports, as described in https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-208BB0B8-3F84-466D-9F4F-6E1542A2BE7D.html[Migrating a LIF^].
 |===
 
-. Shut down controller A:
-.. Disable automatic giveback: `storage failover modify -node local -auto-giveback false`
-.. Take over the target node: `storage failover takeover -ofnode target_node_name`
-+
-The console connection shows that the node drops to the LOADER prompt when the take over is complete.
+== Step 1: Shut down the impaired node
+
+[.lead]
+Shut down or take over the impaired controller using one of the following options.
+
+[role="tabbed-block"]
+====
+
+.Option 1: Most systems
+--
+include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
+--
+.Option 2: Controller is in a MetroCluster
+--
+include::../_include/shutdown_any_mcc_supported_no_PCM_remove.adoc[]
+--
+
+====
+
+== Step 2: Replace I/O modules
 . If you are not already grounded, properly ground yourself.
 . Unplug any cabling on the target I/O module.
 . Remove the target I/O module from the chassis:
@@ -97,11 +133,11 @@ image::../media/drw_9500_remove_PCIe_module.svg[width=340px]
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
 a|
 Lettered and numbered I/O cam latch
 a|
-image::../media/legend_icon_02.svg[width=20]
+image::../media/legend_icon_02.svg[width=20px]
 a|
 I/O cam latch completely unlocked
 |===
