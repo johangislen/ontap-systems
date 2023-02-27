@@ -46,7 +46,7 @@ https://hwu.netapp.com[NetApp Hardware Universe]
 |===
 | Type of cable...| Part number and length| Connector type| For...
 a|
-100 GbE cable (QSF(28)
+100 GbE cable (QSFP28)
 a|
 X66211A-05 (112-00595), 0.5m
 
@@ -82,20 +82,6 @@ image:../media/oie_cable_sfp_gbe_copper.png[]
 []
 a|
 FC network connection
-a|
-Storage Cables
-a|
-X66030A (112-00435), .5m
-
-X66031A (112-00436), 1m
-
-X66032A (112-00437), 2m
-
-X66033A (112-00438), 3m
-a|
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]
-a|
-mini-SAS HD to mini-SAS HD cables (order-dependent)
 a|
 Optical cables
 a|
@@ -158,6 +144,8 @@ image::../media/drw_a320_cable_management_arms.png[]
 
 [.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+
+NOTE: If the port labels on the card are not visible, you can identify the ports by checking the card installation orientation (for C400, the PCIe connector socket is on the left side of the card slot), and then look for the card by part number in NetApp Hardware Universe, which shows a graphic of the bezel with the port labels. You can find the card part number using the sysconfig -a command or on the system packing list.
 
 NOTE: If you are cabling an MetroCluster IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace). 
 
