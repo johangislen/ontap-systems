@@ -249,13 +249,13 @@ Tri-path HA connectivity is available on FAS2800 platforms. Tri-path HA connecti
 
 The benefits of tri-path HA are...
 
-NOTE: The FAS2800 0b1 port behaves the same as 0b ports on other platforms with internal storage, such as FAS2600; only the label has changed.
+The following shows the tri-path internal and external connectivity:
 
-Also note  the 0b2 port is not used. It is disabled. If a cable is connection, an error message is generated.
+image::../media/IEOPS-950, drw_fas2800_concept_tpha.svg[width=440px]
 
-Back to FAS2800...
+The FAS2800 SAS ports are 0a and 0b1: 
 
-The following shows the SAS ports on the FAS2800:
+* The 0b1 port behaves the same as 0b ports on other platforms with internal storage, such as FAS2600. Only the label has changed.
+* The 0b2 port is not used. It is disabled. If a cable is connection, an error message is generated.
 
 image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[width=440px]
-
