@@ -15,7 +15,6 @@ You must replace the caching module in the controller module when your system re
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 To shut down the impaired controller, you must determine the status of the controller and, if necessary, take over the controller so that the healthy controller continues to serve data from the impaired controller storage.
 
 .About this task
@@ -64,7 +63,6 @@ When the impaired controller shows Waiting for giveback..., press Ctrl-C, and th
 
 == Step 2: Remove controller module
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
@@ -88,7 +86,6 @@ image::../media/drw_2600_opening_pcm_cover.png[]
 
 == Step 3: Replace a caching module
 
-[.lead]
 To replace a caching module referred to as the M.2 PCIe card on the label on your controller, locate the slot inside the controller and follow the specific sequence of steps.
 
 Your storage system must meet certain criteria depending on your situation:
@@ -116,7 +113,6 @@ If necessary, remove the caching module and reseat it into the socket.
 
 == Step 4: Reinstall the controller module
 
-[.lead]
 After you replace components in the controller module, reinstall it into the chassis.
 
 .Steps
@@ -175,7 +171,6 @@ NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `ha
 
 == Step 5: Run system-level diagnostics
 
-[.lead]
 After installing a new caching module, you should run diagnostics.
 
 Your system must be at the LOADER prompt to start System Level Diagnostics.
@@ -199,15 +194,12 @@ During the boot process, you can safely respond `y` to the prompts until the Mai
 +
 System-level diagnostics returns you to the prompt if there are no test failures, or lists the full status of failures resulting from testing the component.
 
-[.lead]
 include::../_include/sldiags-proceed-step.adoc[]
 
 == Step 6: Switch back aggregates in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
