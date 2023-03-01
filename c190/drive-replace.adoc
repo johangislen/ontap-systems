@@ -9,6 +9,8 @@ summary: You must replace a drive when the platform logs a warning message to th
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
+
 include::../_include/drive_hotswap_intro.adoc[]
 
 
