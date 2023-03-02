@@ -24,7 +24,7 @@ image::../media/drw_fas2600_cable_color_key.png[]
 
 == FAS2800 platform in a multipath HA configuration with no external shelves
 
-The following example shows no cabling is needed to acheive multipath HA connectivity:
+The following example shows that no cabling is needed to acheive multipath HA connectivity:
 
 image::../media/IEOPS-954, drw_fas2800_noshelf_mpha.svg[width=440px]
 
