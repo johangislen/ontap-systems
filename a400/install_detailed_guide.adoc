@@ -13,7 +13,6 @@ This guide gives detailed step-by-step instructions for installing a typical Net
 
 == Step 1: Prepare for installation
 
-[.lead]
 To install your system, you need to create an account, register the system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
@@ -138,7 +137,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuratio
 
 == Step 2: Install the hardware
 
-[.lead]
 You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 . Install the rail kits, as needed.
@@ -156,7 +154,6 @@ image::../media/drw_a320_cable_management_arms.png[]
 
 == Step 3: Cable controllers to your network
 
-[.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
 NOTE: If the port labels on the card are not visible, check the card installation orientation (the PCIe connector socket is on the left side of the card slot in the A400 and FAS8300/8700), and then look for the card,then look for the card, by part number, in the https://hwu.netapp.com[NetApp Hardware Universe^] for a graphic of the bezel which will show the port labels. The card part number can be found using the `sysconfig -a` command or on the system packing list.
@@ -165,7 +162,6 @@ NOTE: If you are cabling an MetroCluster IP configuration, ports e0a/e0b are ava
 
 === Option 1: Cable a two-node switchless cluster
 
-[.lead]
 The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches. The cluster interconnect and HA ports are cabled on both controller modules.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -189,7 +185,6 @@ image::../media/drw_A400_TNSC-network-cabling.png[]
 
 === Option 2: Cable a switched cluster
 
-[.lead]
 The optional data ports, optional NIC cards, mezzanine cards, and management ports on the controller modules are connected to switches. The cluster interconnect and HA ports are cabled on to the cluster/HA switch.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -213,12 +208,10 @@ image::../media/drw_a400_switched_network_cabling.png[]
 
 == Step 4: Cable controllers to drive shelves
 
-[.lead]
 You can cable either NSS224 or SAS shelves to you system.
 
 === Option 1: Cable the controllers to a single drive shelf
 
-[.lead]
 You must cable each controller to the NSM modules on the NS224 drive shelf.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the NS224 are up.
@@ -238,7 +231,6 @@ image::../media/drw_a400_one_ns224_shelves.png[]
 
 === Option 2: Cable the controllers to two drive shelves
 
-[.lead]
 You must cable each controller to the NSM modules on both NS224 drive shelves.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the NS224 are up.
@@ -258,7 +250,6 @@ image::../media/drw_a400_two_ns224_shelves.png[]
 
 === Option 3: Cable the controllers to SAS drive shelves
 
-[.lead]
 You must cable each controller to the IOM modules on both SAS drive shelves.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the DS224-C are down.
@@ -278,12 +269,10 @@ image::../media/drw_a400_three_ds224c_shelves.png[]
 
 == Step 5: Complete system setup and configuration
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 === Option 1: Completing system setup and configuration if network discovery is enabled
 
-[.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 . Use the following animation to set one or more drive shelf IDs:
@@ -336,8 +325,6 @@ https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp 
 
 === Option 2: Completing system setup and configuration if network discovery is not enabled
 
-
-[.lead]
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
 . Cable and configure your laptop or console:

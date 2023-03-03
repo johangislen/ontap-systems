@@ -17,7 +17,6 @@ You cannot use this procedure to mix a stack: hot-add a shelf with IOM12/IOM12B 
 
 == Requirements for hot-adding disk shelves with IOM12/IOM12B modules
 
-[.lead]
 Your system must meet certain requirements before hot-adding disk shelves with IOM12/IOM12B modules.
 
 === State of your system
@@ -57,7 +56,6 @@ After hot-adding the disk shelf, you must replace the SAS copper cables for the 
 
 == Considerations for hot-adding disk shelves with IOM12/IOM12B modules
 
-[.lead]
 You should familiarize yourself with aspects and best practices about this procedure before hot-adding disk shelves.
 
 === General considerations
@@ -141,7 +139,6 @@ If a wrist strap is unavailable, touch an unpainted surface on your storage encl
 
 == Install disk shelves with IOM12/IOM12B modules for a hot-add
 
-[.lead]
 For each disk shelf you are hot-adding, you install the disk shelf into a rack, connect the power cords, power on the disk shelf, and set the disk shelf ID before cabling the SAS connections.
 
 .Steps
@@ -245,7 +242,6 @@ The shelf ID blinks and the operator display panel amber LED blinks until you po
 
 == Cable disk shelves with IOM12/IOM12B modules for a hot-add
 
-[.lead]
 You cable the SAS connections--shelf-to-shelf and controller-to-stack--as applicable for hot-added disk shelves so they have connectivity to the system.
 
 .Before you begin
@@ -418,7 +414,6 @@ In the output, "`in-band`" is listed as "`active`" for each node.
 
 == Move or transport DS460C shelves
 
-[.lead]
 If in the future, you move DS460C shelves to a different part of the data center or transport the shelves to a different location, you need to remove the drives from the drive drawers to avoid possible damage to the drive drawers and drives.
 
 * If when you installed DS460C shelves as part of your shelf hot-add, you saved the drive packaging materials, use these to repackage the drives before moving them.
