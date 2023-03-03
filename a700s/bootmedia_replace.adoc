@@ -15,7 +15,6 @@ You must remove the controller module from the chassis, open it, and then replac
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -70,7 +69,6 @@ Air duct
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must locate the failed boot media in the controller module by removing the middle PCIe module on the controller module, locate the failed boot media, and then replace the boot media.
 
 You need a Phillips head screwdriver to remove the screw that holds the boot media in place.
