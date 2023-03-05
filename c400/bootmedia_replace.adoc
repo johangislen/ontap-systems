@@ -38,7 +38,7 @@ Locking latches
 a|
 image:../media/legend_icon_02.png[]
 a|
-Slide controller out of chassis
+controller moves slightly out of chassis
 |===
 
 . Slide the controller module out of the chassis.
