@@ -27,6 +27,16 @@ Leave the cables in the cable management device so that when you reinstall the c
 The controller module moves slightly out of the chassis.
 +
 image:../media/drw_A400_Remove_controller.png[]
++
+|===
+a|
+image:../media/legend_icon_01.png[] a|
+Locking latches  
+a|
+image:../media/legend_icon_02.png[]
+a|
+Controller moves slightly out of chassis
+|===
 
 . Slide the controller module out of the chassis.
 +
@@ -187,14 +197,22 @@ Make sure that the plug locks down onto the controller module.
 
 After all of the components have been moved from the impaired controller module to the replacement controller module, you must install the replacement controller module into the chassis, and then boot it to Maintenance mode.
 
-You can use the following illustration with the written steps to install the replacement controller module in the chassis.
-
-image::../media/drw_A400_Install_controller_source.png[]
-
 . If you have not already done so, close the air duct.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
+
+image::../media/drw_A400_Install_controller_source.png[]
++
+|===
+a|
+image:../media/legend_icon_01.png[] a|
+Slide controller into the chassis 
+a|
+image:../media/legend_icon_02.png[]
+a|
+Locking latches
+|===
 
 . Cable the management and console ports only, so that you can access the system to perform the tasks in the following sections.
 +
