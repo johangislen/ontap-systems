@@ -46,9 +46,7 @@ include::../_include/shutdown_2n_mcc.adoc[]
 [.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
-You can use the following animations, illustration, or the written steps to remove the controller module from the chassis.
-
-video::ca74d345-e213-4390-a599-aae10019ec82[panopto, title="Animation - Remove the controller module"]
+You can use the following illustration with the written steps to remove the controller module from the chassis.
 
 image::../media/drw_A400_Remove_controller.png[]
 
@@ -100,9 +98,7 @@ NOTE: Note the polarity of the battery as you remove it from the holder. The bat
 [.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis, reset the time and date on the controller, and then boot it.
 
-You can use the following animation, illustration, or the written steps to install the controller module in the chassis.
-
-video::0310fe80-b129-4685-8fef-ab19010e720a[panopto, title="Animation - Install the controller module"]
+You can use the following illustration with the written steps to install the controller module in the chassis.
 
 image::../media/drw_A400_Install_controller_source.png[]
 

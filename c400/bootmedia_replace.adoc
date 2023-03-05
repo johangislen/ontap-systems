@@ -17,10 +17,6 @@ To replace the boot media, you must remove the impaired controller module, insta
 [.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
-You can use the following animation, illustration, or the written steps to remove the controller module from the chassis.
-
-video::ca74d345-e213-4390-a599-aae10019ec82[panopto, title="Animation - Remove the controller module"]
-
 .Steps
 . If you are not already grounded, properly ground yourself.
 . Release the power cable retainers, and then unplug the cables from the power supplies.
