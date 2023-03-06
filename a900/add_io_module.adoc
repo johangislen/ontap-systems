@@ -5,7 +5,10 @@ keywords:
 summary: 'You can add an I/O module to your system, by either replacing an existing I/O module with a new I/O module in a fully populated system, or by adding a new I/O module into an empty slot in the chassis.'
 ---
 = Add an I/O module - AFF A900
+:icons: font
+:imagesdir: ../media/
 
+[.lead]
 You can add an I/O module to your system by either adding a new I/O nodule into a system with empty slots or by replacing an I/O module with a new one in a fully-populated system.
 
 .Before you begin
@@ -20,15 +23,10 @@ You can add an I/O module to your system by either adding a new I/O nodule into 
 
 == Option 1: Add the I/O module to a system with open slots
 
-:icons: font
-:imagesdir: ../media/
-
-[.lead]
 You can add an I/O module into an empty module slot in your system.
 
 == Step 1: Shut down the impaired node
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]
@@ -72,7 +70,6 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 
 == Option 2: Add an I/O module in a system with no open slots
 
-[.lead]
 If your system is fully populated, you can change an I/O module in an I/O slot by removing an existing I/O module and replacing it with a different I/O module.
 
 . If you are:
@@ -97,7 +94,6 @@ Use System Manager to permanently migrate the LIFs to different home ports, as d
 
 == Step 1: Shut down the impaired node
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]

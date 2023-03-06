@@ -5,7 +5,7 @@ keywords:
 summary: 'All other components in the system must be functioning properly; if not, you must contact technical support.'
 ---
 
-== Move and replace hardware - FAS9500
+= Move and replace hardware - FAS9500
 :icons: font
 :imagesdir: ../media/
 
