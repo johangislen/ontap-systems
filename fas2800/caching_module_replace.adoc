@@ -27,8 +27,8 @@ You might want to erase the contents of your caching module before replacing it.
 
 .Steps
 . Although data on the caching module is encrypted, you might want to erase any data from the impaired caching module and verify that the caching module has no data:
- .. Erase the data on the caching module: `system controller flash-cache secure-erase run`
- .. Verify that the data has been erased from the caching module: `system controller flash-cache secure-erase show -node node_name`
+ .. Erase the data on the caching module: `system controller flash-cache secure-erase run -node _node name_ -device-id 2`
+ .. Verify that the data has been erased from the caching module: `system controller flash-cache secure-erase show -node _node_name_`
 +
 The output should display the caching module status as erased.
 . If AutoSupport is enabled, suppress automatic case creation by invoking an AutoSupport message: `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
