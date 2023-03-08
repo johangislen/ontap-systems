@@ -27,8 +27,11 @@ You might want to erase the contents of your caching module before replacing it.
 
 .Steps
 . Although data on the caching module is encrypted, you might want to erase any data from the impaired caching module and verify that the caching module has no data:
- .. Erase the data on the caching module: `system controller flash-cache secure-erase run -node _node name_ -device-id 2`
- .. Verify that the data has been erased from the caching module: `system controller flash-cache secure-erase show -node _node_name_`
+ .. Erase the data on the caching module: `system controller flash-cache secure-erase run -node _node name_ localhost -device-id _device_number_`
++
+ NOTE: Run the `system controller flash-cache show` command if you don't know the flashcache device ID.
++
+ .. Verify that the data has been erased from the caching module: `system controller flash-cache secure-erase show`
 +
 The output should display the caching module status as erased.
 . If AutoSupport is enabled, suppress automatic case creation by invoking an AutoSupport message: `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
@@ -154,9 +157,9 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 . Complete the reinstallation of the controller module:
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
-+
+
 NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
-+
+
 The controller begins to boot as soon as it is completely seated in the chassis.
 
  .. If you have not already done so, reinstall the cable management device.
