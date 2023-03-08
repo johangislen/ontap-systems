@@ -252,7 +252,11 @@ You can complete the system setup and configuration using cluster discovery with
 [.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
-. Use the following animation to set one or more drive shelf IDs:
+. Use the following animation to power on and set shelf IDs for one or more drive shelves:
++
+For NS224 drive shelves, shelf IDs are pre-set to 00 and 01. If you want to change the shelf IDs, use the straightened end of a paperclip, or narrow tipped ball point pen to access the shelf ID button behind the faceplate.
++
+video::c500e747-30f8-4763-9065-afbf00008e7f[panopto, title="Animation - Set drive shelf IDs"]:
 +
 For NS224 drive shelves, shelf IDs are pre-set to 00 and 01. If you want to change the shelf IDs, use the straightened end of a paperclip, or narrow tipped ball point pen to access the shelf ID button behind the faceplate.
 +
@@ -313,7 +317,11 @@ NOTE: See your laptop or console's online help for how to configure the console 
 
  .. Connect the console cable to the laptop or console using the console cable that came with your system, and then connect the laptop to the management switch on the management subnet .
  .. Assign a TCP/IP address to the laptop or console, using one that is on the management subnet.
-. Use the following animation to set one or more drive shelf IDs:
+. Use the following animation to power on and set shelf IDs for one or more drive shelves:
++
+For NS224 drive shelves, shelf IDs are pre-set to 00 and 01. If you want to change the shelf IDs, use the straightened end of a paperclip, or narrow tipped ball point pen to access the shelf ID button behind the faceplate.
++
+video::c500e747-30f8-4763-9065-afbf00008e7f[panopto, title="Animation - Set drive shelf IDs"]
 +
 For NS224 drive shelves, shelf IDs are pre-set to 00 and 01. If you want to change the shelf IDs, use the straightened end of a paperclip, or narrow tipped ball point pen to access the shelf ID button behind the faceplate.
 +
