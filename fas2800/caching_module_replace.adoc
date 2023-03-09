@@ -15,7 +15,6 @@ You must replace the caching module in the controller module when your system re
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 To shut down the impaired controller, you must determine the status of the controller and, if necessary, take over the controller so that the healthy controller continues to serve data from the impaired controller storage.
 
 .About this task
@@ -38,7 +37,7 @@ The output should display the caching module status as erased.
 +
 The following AutoSupport message suppresses automatic case creation for two hours: `cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
 . If the impaired controller is part of an HA pair, disable automatic giveback from the console of the healthy controller: `storage failover modify -node local -auto-giveback false`
-. 
+
 . Take the impaired controller to the LOADER prompt:
 +
 [options="header" cols="1,2"]
@@ -65,11 +64,9 @@ When the impaired controller shows Waiting for giveback..., press Ctrl-C, and th
 
 |===
 
-
 == Step 2: Remove controller module
 
-[.lead]
-To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
+Remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -100,8 +97,7 @@ Controller module cover release button
 
 == Step 3: Replace a caching module
 
-[.lead]
-To replace a caching module, locate the slot inside the controller and follow the specific sequence of steps.
+Locate the caching module inside the controller, remove the failed caching module and replace it.
 
 video::12b339c5-640a-4be8-a5fc-af47017276fd[panopto, title="Animation - Replace the caching module"]
 
@@ -118,7 +114,7 @@ Your storage system must meet certain criteria depending on your situation:
  .. Gently pull the caching module straight out of the housing.
 +
 image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
-
++
 [cols="1,3"]
 |===
 
@@ -140,8 +136,7 @@ If necessary, remove the caching module and reseat it into the socket.
 
 == Step 4: Reinstall the controller module
 
-[.lead]
-After you replace components in the controller module, reinstall it into the chassis.
+Reinstall the controller module into the chassis.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -167,13 +162,11 @@ The controller begins to boot as soon as it is completely seated in the chassis.
  
 == Step 5: Restore automatic giveback and AutoSupport
 
-[.lead]
-After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
+Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
 . Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 6: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

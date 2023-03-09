@@ -8,7 +8,6 @@ summary: "Move the power supplies, hard drives, and controller module or modules
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the new chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the new chassis of the same model as the impaired chassis.
 
 == Step 1: Move a power supply

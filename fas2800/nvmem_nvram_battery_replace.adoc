@@ -1,27 +1,24 @@
 ---
 permalink: fas2800/nvmem-nvram-battery-replace.html
 sidebar: sidebar
-keywords: fas2800, replace, nvmem, battery, shut, down, impaired, controller, controller, system, diagnostics, aggregates, metrocluster, configuration, reinstall
+keywords: fas2800, replace, nvmem, battery, shut, down, impaired, controller, controller, system, aggregates, metrocluster, configuration, reinstall
 summary: "To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module."
 ---
 = Replace the NVMEM battery - FAS2800
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module.
 
 All other components in the system must be functioning properly; if not, you must contact technical support.
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove and open the controller module
 
-[.lead]
-Remove nd open the controller module.
+Remove and open the controller module.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -42,7 +39,6 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 == Step 3: Replace the NVMEM battery
 
-[.lead]
 Remove the failed NVMEM battery from the system and replace it with a new NVMEM battery.
 
 .Steps
@@ -92,7 +88,6 @@ Install the replacement battery:
 
 == Step 4: Reinstall the controller module
 
-[.lead]
 After you replace components in the controller module, reinstall it into the chassis.
 
 .Steps
@@ -127,12 +122,11 @@ You can safely respond `y` to these prompts.
 
 == Step 5: Restore automatic giveback and AutSupport
 
-[.lead]
-After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
+Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
 . Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
-== Step 7: Return the failed part to NetApp
 
-[.lead]
+== Step 6: Return the failed part to NetApp
+
 include::../_include/complete_rma.adoc[]

@@ -8,8 +8,8 @@ summary: To replace a PCIe or mezzanine card, you must disconnect the cables and
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
-To replace the mezzanine card, you must disconnect the cables and any SFP and QSFP modules from the card, replace the failed mezzanine card, and then recable the cards.
+
+Replace the mezzanine card by disconnecting the cables and any SFP and QSFP modules from the card, replace the failed mezzanine card, and then recable the cards.
 
 * You can use this procedure with all versions of ONTAP supported by your system
 * All other components in the system must be functioning properly; if not, you must contact technical support.
@@ -18,15 +18,11 @@ video::a8ec891d-f6f6-4479-9ca2-af47017254ff[panopto, title="Animation - Replace 
 
 == Step 1: Shut down the impaired controller
 
-
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 Remove the controller module from the system and then remove the cover on the controller module.
-
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -91,7 +87,6 @@ NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you 
 
 == Step 4: Install the controller module
 
-[.lead]
 Reinstall the controller module.
 
 .Steps
@@ -120,5 +115,4 @@ The controller begins to boot as soon as it is seated in the chassis.
 
 == Step 5: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

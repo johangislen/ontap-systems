@@ -167,17 +167,16 @@ NOTE: During the boot process, you might see the following prompts:
 * A prompt warning of a system ID mismatch and asking to override the system ID.
 * A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down.
 You can safely respond `y` to these prompts.
-+
 
 == Step 5: Restore automatic giveback and AutSupport
 
 [.lead]
-After completing diagnostics and rebooting the node, you need to restore automatic giveback and AutoSupport if they have been disabled.
+Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
 . Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
-== Step 7: Return the failed part to NetApp
+== Step 6: Return the failed part to NetApp
 
 [.lead]
 include::../_include/complete_rma.adoc[]
