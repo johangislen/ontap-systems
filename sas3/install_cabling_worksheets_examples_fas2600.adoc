@@ -30,7 +30,7 @@ image::../media/IEOPS-954, drw_fas2800_noshelf_mpha.svg[width=440px]
 
 == FAS2800 platform in a tri-path HA configuration with no external shelves
 
-The following cabling example shows cabling between the two controllers to achieve tri-path connectivity:
+The following cabling example shows required cabling between the two controllers to achieve tri-path connectivity:
 
 image::../media/IEOPS-955, drw_fas2800_noshelf_tpha.svg[width=440px]
 
@@ -46,7 +46,7 @@ image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=440px]
 
 The following worksheet and cabling example uses port pair 0a/0b:
 
-NOTE: This section doe snot apply to FAS2800.
+NOTE: This section does not apply to FAS2800 or FAS25XX.
 
 image::../media/drw_fas2600_mpha_worksheet.png[]
 
