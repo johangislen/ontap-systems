@@ -14,7 +14,6 @@ To replace the boot media, you must remove the impaired controller module, insta
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -49,8 +48,7 @@ Controller module cover release button
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
-You must locate the boot media in the controller module, located under the mezzanine card and follow the directions to replace it.
+Locate the boot media in the controller module, located under the mezzanine card and follow the directions to replace it.
 
 video::10a29a01-a86e-451c-b05a-af4701726f57[panopto, title="Animation - Replace the boot media"]
 

@@ -8,14 +8,13 @@ summary: "To replace the controller module hardware, you must remove the impaire
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
-To replace the controller module hardware, you must remove the impaired controller, move FRU components to the replacement controller module, install the replacement controller module in the chassis, and then boot the system to Maintenance mode.
+Replace the impaired controller module hardware by removing the impaired controller, moving FRU components to the replacement controller module, installing the replacement controller module in the chassis, and then booting the replacement controller module.
 
 video::c83a3301-3161-4d65-86e8-af540147576a[panopto, title="Animation - Replace a controller module"]
 
 == Step 1: Remove controller module
 
-Remove the old controller module from the chassis.
+Remove the impaired controller module from the chassis.
 
 . If you are not already grounded, properly ground yourself.
 . Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
@@ -48,7 +47,7 @@ Controller module cover release button
 
 == Step 2: Move the NVMEM battery
 
-Remove the NVMEM battery from the old controller module and install it into the replacement controller module.
+Remove the NVMEM battery from the impaired controller module and install it into the replacement controller module.
 
 NOTE: Do not plug the NVMEM battery in until directed to do so.
 
@@ -80,7 +79,7 @@ NOTE: Do not plug the battery in yet.  You will plug it in once the rest of the 
 
 == Step 3:  Remove the mezzanine card 
 
-Remove the mezzanine bezel and PCIe mezzanine card from the old controller module.
+Remove the mezzanine bezel and PCIe mezzanine card from the impaired controller module.
 
 image::../media/drw_2850_replace_HIC_IEOPS-700.svg[width=500px]
 
@@ -107,7 +106,7 @@ NOTE: You can loosen the thumbscrews with your fingers or a screwdriver.
 
 == Step 4: Move the boot media
 
-Remove the boot media from the old controller module and install it in the replacement controller module.
+Remove the boot media from the impaired controller module and install it in the replacement controller module.
 
 . After removing the mezzanine card, locate the boot media using the following illustration or the FRU map on the controller module:
 +
@@ -150,7 +149,7 @@ Install the mezzanine card in the replacement controller module.
 
 == Step 6: Move the DIMMs
 
-Remove the DIMMS from the old controller module and install them into the replacement controller module.
+Remove the DIMMS from the impaired controller module and install them into the replacement controller module.
 
 image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
 
@@ -170,8 +169,10 @@ DIMM
 |===
 
 . Locate the DIMMs on your controller module
++
 NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller module and in the proper orientation.
-. Remove the DIMMs from the old controller module:
+
+. Remove the DIMMs from the impaired controller module:
 .. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
 +
 The DIMM will rotate up a little.
@@ -190,7 +191,7 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 == Step 7: Move a caching module
 
-Remove the caching module from the old controller module install it into replacement controller module.
+Remove the caching module from the impaired controller module install it into replacement controller module.
 
 image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
 
@@ -234,11 +235,6 @@ NOTE: The system might update system firmware when it boots. Do not abort this p
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 
-. Cable the management and console ports only, so that you can access the system to perform the tasks in the following sections.
-+
-NOTE: You will connect the rest of the cables to the controller module later in this procedure.
-
-+
 . Complete the reinstallation of the controller module:
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
@@ -246,21 +242,10 @@ NOTE: Do not use excessive force when sliding the controller module into the cha
 +
 The controller begins to boot as soon as it is seated in the chassis.
 
- .. If you have not already done so, reinstall the cable management device.
- .. Bind the cables to the cable management device with the hook and loop strap.
- .. When you see the message `Press Ctrl-C for Boot Menu`, press `Ctrl-C` to interrupt the boot process.
+.. If you have not already done so, reinstall the cable management device.
+.. Bind the cables to the cable management device with the hook and loop strap.
 +
-NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-+
-You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete.
-+
-Only press `Ctrl-C` when you see the message `Press Ctrl-C for Boot Menu`.
-+
-NOTE: If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the update_flash command and then exit LOADER and boot to Maintenance mode by pressing `Ctrl-C` when you see Starting AUTOBOOT press Ctrl-C to abort.
-+
-If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. Select the option to boot to Maintenance mode from the displayed menu.
+NOTE: You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete. If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the `update_flash` command, and then allow the system to reboot.
 
 *Important:* During the boot process, you might see the following prompts:
 

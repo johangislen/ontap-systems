@@ -1,15 +1,15 @@
 ---
 permalink: fas2800/power-supply-swap-out.html
 sidebar: sidebar
-keywords: fas2800, swap, power, supply, turn off, disconnect, remove, old, install, connect, turn on, replacement
-summary: 'Swapping out a power supply involves turning off, disconnecting, and removing the old power supply and installing, connecting, and turning on the replacement power supply.'
+keywords: fas2800, swap, power, supply, turn off, disconnect, remove, install, connect, turn on, replacement
+summary: 'Swapping out a power supply involves turning off, disconnecting, and removing the impaired power supply and installing, connecting, and turning on the replacement power supply.'
 ---
 = Swap out a power supply - FAS2800
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Swapping out a power supply involves turning off, disconnecting, and removing the old power supply and installing, connecting, and turning on the replacement power supply.
+Swapping out a power supply involves turning off, disconnecting, and removing the impaired power supply and installing, connecting, and turning on the replacement power supply.
 
 All other components in the system must be functioning properly; if not, you must contact technical support.
 
