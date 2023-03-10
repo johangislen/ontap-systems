@@ -169,7 +169,9 @@ DIMM
 |===
 
 . Locate the DIMMs on your controller module
++
 NOTE: Note the location of the DIMM in the sockets so that you can insert the DIMM in the same location in the replacement controller module and in the proper orientation.
+
 . Remove the DIMMs from the impaired controller module:
 .. Eject the DIMM from its slot by slowly pushing apart the two DIMM ejector tabs on either side of the DIMM.
 +
@@ -233,11 +235,6 @@ NOTE: The system might update system firmware when it boots. Do not abort this p
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 
-. Cable the management and console ports only, so that you can access the system to perform the tasks in the following sections.
-+
-NOTE: You will connect the rest of the cables to the controller module later in this procedure.
-
-+
 . Complete the reinstallation of the controller module:
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
@@ -245,21 +242,10 @@ NOTE: Do not use excessive force when sliding the controller module into the cha
 +
 The controller begins to boot as soon as it is seated in the chassis.
 
- .. If you have not already done so, reinstall the cable management device.
- .. Bind the cables to the cable management device with the hook and loop strap.
- .. When you see the message `Press Ctrl-C for Boot Menu`, press `Ctrl-C` to interrupt the boot process.
+.. If you have not already done so, reinstall the cable management device.
+.. Bind the cables to the cable management device with the hook and loop strap.
 +
-NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-+
-You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete.
-+
-Only press `Ctrl-C` when you see the message `Press Ctrl-C for Boot Menu`.
-+
-NOTE: If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the update_flash command and then exit LOADER and boot to Maintenance mode by pressing `Ctrl-C` when you see Starting AUTOBOOT press Ctrl-C to abort.
-+
-If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. Select the option to boot to Maintenance mode from the displayed menu.
+NOTE: You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete. If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the `update_flash` command, and then allow the system to reboot.
 
 *Important:* During the boot process, you might see the following prompts:
 
