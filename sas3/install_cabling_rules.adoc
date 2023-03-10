@@ -27,15 +27,23 @@ You should avoid deviating from the rules; deviations might reduce reliability, 
 == Configuration rules
 
 [.lead]
-Disk shelves with IOM12 modules are supported on specific types of HA pair and single-controller configurations.
+Disk shelves with IOM12/IOM12B modules are supported on specific types of HA pair and single-controller configurations.
 
 NOTE: The FAS25XX platforms are not addressed in this content.
 
+[NOTE]
+====
+For current information about supported cabling configurations for your platform model, see the Hardware Universe.
+
+https://hwu.netapp.com[NetApp Hardware Universe^]
+====
+
 * HA pair configurations must be cabled as multipath HA or quad-path HA configurations with the following exceptions:
- ** Platforms with internal storage, including FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, can be cabled as single-path HA configurations to support connectivity to an external SAS tape backup device.
- ** Platforms with internal storage, including FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, do not support quad-path HA connectivity.
+ ** A FAS2800 HA pair can be cabled as tri-path HA or multipath HA.
+ ** Platforms with internal storage, including FAS2800, FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, can be cabled as single-path HA configurations to support connectivity to an external SAS tape backup device.
+ ** Platforms with internal storage, including FAS2800, FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, do not support quad-path HA connectivity.
 * Single-controller configurations must be cabled as multipath or quad-path configurations, with the following exceptions:
- ** FAS2600 series single-controller configurations (with external disk shelves) can be cabled as single-path configurations.
+ ** FAS2600 series single-controller configurations can be cabled as single-path configurations.
 +
 Because the internal storage uses single-path connectivity, ONTAP issues occasional warnings that mixed paths are detected. To avoid these warnings, you can use single-path connectivity to the external disk shelves. Additionally, you can use single-path connectivity when an external SAS tape backup device is used.
 
@@ -205,6 +213,23 @@ The following illustration highlights internal storage port (0b) domain connecti
 
 image::../media/drw_fas2600_mpha_domain_example.png[]
 
+=== Tri-path HA connectivity
+
+Tri-path HA connectivity is available on FAS2800 platforms. Tri-path HA connectivity occurs because of the internal shelf connections, which give an HA pair multipath HA connectivity plus the cabling of the external storage ports (0a and 0b1) across the two controllers, if there are no external shelves, or to external shelves.
+
+The benefits of tri-path HA are...
+
+The following shows the tri-path internal and external connectivity:
+
+image::../media/IEOPS-950, drw_fas2800_concept_tpha.svg[width=440px]
+
+The FAS2800 SAS ports are 0a and 0b1: 
+
+* The 0b1 port behaves the same as 0b ports on other platforms with internal storage, such as FAS2600. Only the label has changed.
+* The 0b2 port is not used. It is disabled. If a cable is connected to it, an error message is generated.
+
+image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[width=440px]
+
 == Mini-SAS HD SAS optical cable rules
 
 [.lead]
@@ -242,20 +267,3 @@ If you are using a mix of SAS copper cables and SAS optical cables, the followin
  ** Shelf-to-shelf connections in a stack must be all SAS copper cables or all SAS optical cables.
  ** If the shelf-to-shelf connections are SAS optical cables, the controller-to-stack connections to that stack must also be SAS optical cables.
  ** If the shelf-to-shelf connections are SAS copper cables, the controller-to-stack connections to that stack can be SAS optical cables or SAS copper cables.
-
-=== Tripath HA connectivity
-
-Tripath HA connectivity is available on FAS2800 platforms. Tripath HA connectivity occurs because of the internal shelf connections, which give an HA pair multipath HA connectivity plus the cabling of the external storage ports (0a and 0b1) across the two controllers, if there are no external shelves, or to external shelves.
-
-The benefits of tripath HA are...
-
-NOTE: The FAS2800 0b1 port behaves the same as 0b ports on other platforms with internal storage, such as FAS2600; only the label has changed.
-
-Also note  the 0b2 port is not used. It is disabled. If a cable is connection, an error message is generated.
-
-Back to FAS2800...
-
-The following shows the SAS ports on the FAS2800:
-
-image::../media/drw_sas3_ports_on_fas2800_IEOPS-946.svg[width=440px]
-
