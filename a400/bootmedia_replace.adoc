@@ -89,7 +89,7 @@ Rotate air duct up
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
 . Locate and remove the boot media from the controller module:
 +
-image::../media/drw_A400_Replace-boot_media.png[]
+image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[width=500px]
 +
 |===
 a|

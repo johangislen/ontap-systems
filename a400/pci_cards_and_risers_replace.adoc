@@ -78,7 +78,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::84339f87-321c-400e-985e-aae10182cd24[panopto, title="Animation - Replace a PCIe card"]
 
-image:../media/drw_A400_Replace-PCIe-cards.png[]
+image:../media/drw_A400_Replace-PCIe-cards_IEOPS-1008.svg[width=500px]
 
 . Remove the riser containing the card to be replaced:
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.
@@ -113,7 +113,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::4e00f5b1-8ca5-4cd6-9881-aadb01578e52[panopto, title="Animation - Replace the mezzanine card"]
 
-image::../media/drw_A400_Replace-mezz-card.png[]
+image::../media/drw_A400_Replace-mezz-card_IEOPS-1006.svg[width=500px]
 
 . Remove riser number 3 (slots 4 and 5):
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.
