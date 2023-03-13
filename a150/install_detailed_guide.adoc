@@ -396,7 +396,7 @@ image::../media/oie_cable_pull_tab_down.png[]
 +
 NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
 +
-image::../media/drw_2700_ha_storage_cabling_animated_gif.png[]
+image::../media/drw_a150_ha_storage_cabling_IEOPS-1032.svg[width=440px]
 +
 [options="header" cols="1,3"]
 |===
