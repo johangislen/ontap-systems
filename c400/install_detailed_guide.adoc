@@ -11,6 +11,10 @@ summary: This guide gives detailed step-by-step instructions for installing a ty
 [.lead]
 This guide gives detailed step-by-step instructions for installing a typical NetApp system. Use this guide if you want more detailed installation instructions.
 
+If you have a MetroCluster configuration, use the MetroCluster installation content.
+
+https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
+
 == Step 1: Prepare for installation
 
 [.lead]
