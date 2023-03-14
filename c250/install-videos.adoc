@@ -19,7 +19,7 @@ https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documen
 
 The following video shows how to install and cable your new system.
 
-video::fe6876d5-9332-4b2e-89be-ac6900027ba5[panopto, title="Animation - Installation and Setup of an AFF C250"]
+video::c6906786-b302-4c14-b39b-afc50062aac5[panopto, title="Animation - Installation and Setup of an AFF C250"]
 
 == Video two of two: Performing end-to-end software configuration
 
