@@ -24,6 +24,7 @@ The HA state should be the same for all components.
 
 . If the displayed system state for the chassis does not match your system configuration:
  .. Set the HA state for the chassis: `ha-config modify chassis _HA-state_`
+ .. Set the HA state for the replacement controller module: `ha-config modify controller _HA-state_`
 +
 The value for HA-state can be one of the following:
 
@@ -33,8 +34,8 @@ The value for HA-state can be one of the following:
 *** `mccip`
 *** `non-ha`
 
- .. Confirm that the setting has changed: `ha-config show`
- . Reboote the controller module.
+.. Confirm that the setting has changed: `ha-config show`
+. Reboote the controller module.
 
 +
 NOTE: During the boot process, you might see the following prompts:
