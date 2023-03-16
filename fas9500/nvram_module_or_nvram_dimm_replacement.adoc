@@ -18,15 +18,15 @@ Because the system ID is derived from the NVRAM module, if replacing the module,
 
 .Before you begin
 * All disk shelves must be working properly.
-* If your system is in an HA pair, the partner node must be able to take over the node associated with the NVRAM module that is being replaced.
+* If your system is in an HA pair, the partner controller must be able to take over the controller associated with the NVRAM module that is being replaced.
 * This procedure uses the following terminology:
-** The impaired node is the node on which you are performing maintenance.
-** The healthy node is the HA partner of the impaired node.
-* This procedure includes steps for automatically or manually reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
+** The impaired controller is the controller on which you are performing maintenance.
+** The healthy controller is the HA partner of the impaired controller.
+* This procedure includes steps for automatically reassigning disks to the controller module associated with the new NVRAM module. You must reassign the disks when directed to in the procedure. Completing the disk reassignment before giveback can cause issues.
 * You must replace the failed component with a replacement FRU component you received from your provider.
 * You cannot change any disks or disk shelves as part of this procedure.
 
-== Step 1: Shut down the impaired node
+== Step 1: Shut down the impaired controller
 
 include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
 
@@ -152,50 +152,24 @@ After you replace the FRU, you must reboot the controller module.
 
 . To boot ONTAP from the LOADER prompt, enter `bye`.
 
-== Step 5: Verify and set the HA state of the controller module
+== Step 5: Reassigning disks
 
-You must verify the `HA` state of the controller module and, if necessary, update the state to match your system configuration.
+[.lead]
+You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
 
-. In Maintenance mode from the replacement controller module, verify that all components display the same `HA` state: `ha-config show`
-+
+NOTE: This procedure applies only to systems running ONTAP in an HA pair.
 
-[options="header" cols="1,2"]
-
-|===
-| If your system is in...| The HA state for all components should be...
-a|
-An HA pair
-a|
-ha
-a|
-A MetroCluster FC configuration with four or more nodes
-a|
-mcc
-
-a|
-A MetroCluster IP configuration
-a|
-mccip
-|===
-
-. If the displayed system state of the controller module does not match your system configuration, set the `HA` state for the controller module: `ha-config modify controller _ha-state_`
-. If the displayed system state of the chassis does not match your system configuration, set the `HA` state for the chassis: `ha-config modify chassis _ha-state_`
-
-== Step 6: Reassigning disks
-
-You must confirm the system ID change when you boot the replacement node and then verify that the change was implemented.
-
-This procedure applies only to systems running ONTAP in an HA pair.
+CAUTION: Disk reassignment is only needed when replacing the NVRAM module. 
 
 .Steps
-. If the replacement node is in Maintenance mode (showing the `*>` prompt), exit Maintenance mode and go to the LOADER prompt: `halt`
-. From the LOADER prompt on the replacement node, boot the node, entering `y` if you are prompted to override the system ID due to a system ID mismatch.
-. Wait until the `Waiting for giveback...` message is displayed on the replacement node console and then, from the healthy node, verify that the new partner system ID has been automatically assigned: `storage failover show`
+. If the replacement controller is in Maintenance mode (showing the `*>` prompt), exit Maintenance mode and go to the LOADER prompt: `halt`
+. From the LOADER prompt on the replacement controller, boot the controller and entering y if you are prompted to override the system ID due to a system ID mismatch.
+. Wait until the Waiting for giveback... message is displayed on the console of the controller with the replacement module and then, from the healthy controller, verify that the new partner system ID has been automatically assigned: `storage failover show`
 +
-In the command output, you should see a message that the system ID has changed on the impaired node, showing the correct old and new IDs. In the following example, node2 has undergone replacement and has a new system ID of 151759706.
+In the command output, you should see a message that the system ID has changed on the impaired controller, showing the correct old and new IDs. In the following example, node2 has undergone replacement and has a new system ID of 151759706.
 +
 ----
-node1> `storage failover show`
+node1:> storage failover show
                                     Takeover
 Node              Partner           Possible     State Description
 ------------      ------------      --------     -------------------------------------
@@ -204,21 +178,10 @@ node1             node2             false        System ID changed on partner (O
 node2             node1             -            Waiting for giveback (HA mailboxes)
 ----
 
-. From the healthy node, verify that any coredumps are saved:
- .. Change to the advanced privilege level: `set -privilege advanced`
+. Give back the controller:
+ .. From the healthy controller, give back the replaced controller's storage: `storage failover giveback -ofnode replacement_node_name`
 +
-You can respond `Y` when prompted to continue into advanced mode. The advanced mode prompt appears (*>).
-
- .. Save any coredumps: `system node run -node local-node-name partner savecore`
- .. Wait for the `savecore` command to complete before issuing the giveback.
-+
-You can enter the following command to monitor the progress of the `savecore` command: `system node run -node local-node-name partner savecore -s`
-
- .. Return to the admin privilege level: `set -privilege admin`
-. Give back the node:
- .. From the healthy node, give back the replaced node's storage: `storage failover giveback -ofnode replacement_node_name`
-+
-The replacement node takes back its storage and completes booting.
+The replacement controller takes back its storage and completes booting.
 +
 If you are prompted to override the system ID due to a system ID mismatch, you should enter `y`.
 +
@@ -228,37 +191,37 @@ For more information, see the https://docs.netapp.com/us-en/ontap/high-availabil
 
  .. After the giveback has been completed, confirm that the HA pair is healthy and that takeover is possible: `storage failover show`
 +
-The output from the storage failover show command should not include the System ID changed on partner message.
+The output from the `storage failover show` command should not include the System ID changed on partner message.
 . Verify that the disks were assigned correctly: `storage disk show -ownership`
 +
-The disks belonging to the replacement node should show the new system ID. In the following example, the disks owned by node1 now show the new system ID, 1873775277:
+The disks belonging to the replacement controller should show the new system ID. In the following example, the disks owned by node1 now show the new system ID, 151759706:
 +
 ----
-node1> `storage disk show -ownership`
+node1:> storage disk show -ownership
 
 Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  Pool
 ----- ------    ----- ------ -------- -------    -------    -------  ---------  ---
-1.0.0  aggr0_1  node1 node1  -        1873775277 1873775277  -       1873775277 Pool0
-1.0.1  aggr0_1  node1 node1           1873775277 1873775277  -       1873775277 Pool0
+1.0.0  aggr0_1  node1 node1  -        151759706  151759706  -       151759706 Pool0
+1.0.1  aggr0_1  node1 node1           151759706  151759706  -       151759706 Pool0
 .
 .
 .
 ----
 
-. If the system is in a MetroCluster configuration, monitor the status of the node: `metrocluster node show`
+. If the system is in a MetroCluster configuration, monitor the status of the controller: `metrocluster node show`
 +
-The MetroCluster configuration takes a few minutes after the replacement to return to a normal state, at which time each node will show a configured state, with DR Mirroring enabled and a mode of normal. The `metrocluster node show -fields node-systemid` command output displays the old system ID until the MetroCluster configuration returns to a normal state.
+The MetroCluster configuration takes a few minutes after the replacement to return to a normal state, at which time each controller will show a configured state, with DR Mirroring enabled and a mode of normal. The `metrocluster node show -fields node-systemid` command output displays the old system ID until the MetroCluster configuration returns to a normal state.
 
-. If the node is in a MetroCluster configuration, depending on the MetroCluster state, verify that the DR home ID field shows the original owner of the disk if the original owner is a node on the disaster site.
+. If the controller is in a MetroCluster configuration, depending on the MetroCluster state, verify that the DR home ID field shows the original owner of the disk if the original owner is a controller on the disaster site.
 +
 This is required if both of the following are true:
 
-** The MetroCluster configuration is in a switchover state.
-** The replacement node is the current owner of the disks on the disaster site.
+ ** The MetroCluster configuration is in a switchover state.
+ ** The replacement controller is the current owner of the disks on the disaster site.
 +
-See https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html#disk-ownership-changes-during-ha-takeover-and-metrocluster-switchover-in-a-four-node-metrocluster-configuration[Disk ownership changes during HA takeover and MetroCluster switchover in a four-node MetroCluster configuration^] for more information.
+See https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html#disk-ownership-changes-during-ha-takeover-and-metrocluster-switchover-in-a-four-node-metrocluster-configuration[Disk ownership changes during HA takeover and MetroCluster switchover in a four-node MetroCluster configuration] for more information.
 
-. If your system is in a MetroCluster configuration, verify that each node is configured: `metrocluster node show - fields configuration-state`
+. If your system is in a MetroCluster configuration, verify that each controller is configured: `metrocluster node show - fields configuration-state`
 +
 ----
 node1_siteA::> metrocluster node show -fields configuration-state
@@ -273,13 +236,148 @@ dr-group-id            cluster node           configuration-state
 4 entries were displayed.
 ----
 
-. Verify that the expected volumes are present for each node: `vol show -node node-name`
-. If you disabled automatic takeover on reboot, enable it from the healthy node: `storage failover modify -node replacement-node-name -onreboot true`
+. Verify that the expected volumes are present for each controller: `vol show -node node-name`
+. If storage encryption is enabled, you must restore functionality.
+. If you disabled automatic takeover on reboot, enable it from the healthy controller: `storage failover modify -node replacement-node-name -onreboot true`
+ 
 
-== Step 7: Restore Storage and Volume Encryption functionality
+== Step 6: Restore Storage and Volume Encryption functionality
 
-include::../_include/restore_storage_encryption.adoc[]
+[.lead]
+If you have storage encryption enabled, use the appropriate procedure.
 
-== Step 8: Return the failed part to NetApp
+[role="tabbed-block"]
+====
 
+.Option 1: Using Onboard Key Manager
+--
+.Steps
+. Boot the controller to the boot menu.
+. Select option 10, `Set onboard key management recovery secrets`.
+. Enter the passphrase for the onboard key manager you obtained from the customer.
+. At the prompt, paste the backup key data from the output of `security key-manager backup show` OR `security key-manager onboard show-backup` command.
++
+Example of backup data:
++
+
+--------------------------BEGIN BACKUP--------------------------
++
+TmV0QXBwIEtleSBCbG9iAAEAAAAEAAAAcAEAAAAAAADuD+byAAAAACEAAAAAAAAA
+QAAAAAAAAABvOlH0AAAAAMh7qDLRyH1DBz12piVdy9ATSFMT0C0TlYFss4PDjTaV
+dzRYkLd1PhQLxAWJwOIyqSr8qY1SEBgm1IWgE5DLRqkiAAAAAAAAACgAAAAAAAAA
+3WTh7gAAAAAAAAAAAAAAAAIAAAAAAAgAZJEIWvdeHr5RCAvHGclo+wAAAAAAAAAA
+IgAAAAAAAAAoAAAAAAAAAEOTcR0AAAAAAAAAAAAAAAACAAAAAAAJAGr3tJA/
+LRzUQRHwv+1aWvAAAAAAAAAAACQAAAAAAAAAgAAAAAAAAACdhTcvAAAAAJ1PXeBf
+ml4NBsSyV1B4jc4A7cvWEFY6lLG6hc6tbKLAHZuvfQ4rIbYAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+.
+.
+.
+.
+H4nPQM0nrDRYRa9SCv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA
++
+---------------------------END BACKUP---------------------------
++
+
+NOTE: The controller returns to the boot menu.
+
+. Select option 1, `Normal Boot`
+. Give back only the CFO aggregates with the `storage failover giveback -fromnode local -only-cfo-aggregates true` command.
+ ** If the command fails because of a failed disk, physically disengage the failed disk, but leave the disk in the slot until a replacement is received.
+ ** If the command fails because of an open CIFS session, check with the customer how to close out CIFS sessions.
++
+NOTE: Terminating CIFS can cause loss of data.
+
+ ** If the command fails because the partner "not ready", wait 5 minutes for the NVRAMs to synchronize.
+ ** If the command fails because of an NDMP, SnapMirror, or SnapVault process, disable the process. See the appropriate content for more information.
+. Once the giveback completes, check the failover and giveback status with the `storage failover show` and `storage failover show-giveback` commands.
++
+Only the CFO aggregates (root aggregate and CFO style data aggregates) will be shown.
+
+. Run the security key-manager onboard sync:
+ .. Run the `security key-manager onboard sync` command and then enter the passphrase when prompted.
+ .. Enter the `security key-manager key-query` command to see a detailed view of all keys stored in the onboard key manager and verify that the `Restored` column = `yes/true` for all authentication keys.
++
+NOTE: If the `Restored` column = anything other than `yes/true`, contact Customer Support.
+
+ .. Wait 10 minutes for the key to synchronize across the cluster.
+. Move the console cable to the partner controller.
+. Give back the target controller using the `storage failover giveback -fromnode local` command.
+. Check the giveback status, three minutes after it reports complete, using the `storage failover show` command.
++
+If giveback is not complete after 20 minutes, contact Customer Support.
+
+. At the clustershell prompt, enter the net int show -is-home false command to list the logical interfaces that are not on their home controller and port.
++
+If any interfaces are listed as `false`, revert those interfaces back to their home port using the net int revert command.
+
+. Move the console cable to the target controller and run the `version -v` command to check the ONTAP versions.
+. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+. Reset the MSID if it was previously set and was captured at the beginning of this procedure:
+.. Assign a data authentication key to a FIPS drive or SED using the `storage encryption disk modify -disk _disk_ID_ -data-key-id _key_ID_` command. 
++
+
+NOTE: You can use the `security key-manager key query -key-type NSE-AK` command to view key IDs.
+
++
+.. Verify that the authentication keys have been assigned using the `storage encryption disk show` command.
+
+--
+.Option 2: Using External Manager
+--
+. Boot the controller to the boot menu.
+. Select option 11, `Configure node for external key management`.
+. Enter the management certificate information at the prompts.
++
+NOTE: The controller returns to the boot menu after the management certificate information is completed.
++
+. Select option 1, `Normal Boot`
+. Move the console cable to the partner controller and give back the target controller storage using the storage failover giveback -fromnode local -only-cfo-aggregates true local command.
+ ** If the command fails because of a failed disk, physically disengage the failed disk, but leave the disk in the slot until a replacement is received.
+ ** If the command fails because of an open CIFS sessions, check with customer how to close out CIFS sessions.
++
+NOTE: Terminating CIFS can cause loss of data.
+
+ ** If the command fails because the partner is "not ready", wait 5 minutes for the NVMEMs to synchronize.
+ ** If the command fails because of an NDMP, SnapMirror, or SnapVault process, disable the process. See the appropriate content for more information.
+
+. Wait 3 minutes and check the failover status with the storage failover show command.
+. At the clustershell prompt, enter the `net int show -is-home false` command to list the logical interfaces that are not on their home controller and port.
++
+If any interfaces are listed as `false`, revert those interfaces back to their home port using the `net int revert` command.
+
+. Move the console cable to the target controller and run the `version -v` command to check the ONTAP versions.
+. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+. Use the `storage encryption disk show` at the clustershell prompt, to review the output.
+. Use the `security key-manager key-query` command to display the encryption and  authentication keys that are stored on the key management servers.
+ ** If the `Restored` column = `yes/true`, you are done and can proceed to complete the replacement process.
+ ** If the `Key Manager type` = `external` and the `Restored` column = anything other than `yes/true`, use the security key-manager external restore command to restore the key IDs of the authentication keys.
++
+NOTE: If the command fails, contact Customer Support.
+
+ ** If the `Key Manager type` = `onboard` and the `Restored` column = anything other than `yes/true`, use the security key-manager onboard sync command to re-sync the Key Manager type.
++
+Use the `security key-manager key-query` command to verify that the `Restored` column = `yes/true` for all authentication keys.
+. Connect the console cable to the partner controller.
+. Give back the controller using the storage failover giveback -fromnode local command.
+. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
+. Reset the MSID if it was previously set and was captured at the beginning of this procedure:
+.. Assign a data authentication key to a FIPS drive or SED using the `storage encryption disk modify -disk _disk_ID_ -data-key-id _key_ID_` command. 
++
+
+NOTE: You can use the `security key-manager key query -key-type NSE-AK` command to view key IDs.
+
++
+.. Verify that the authentication keys have been assigned using the `storage encryption disk show` command.
+
+--
+
+====
+
+== Step 7: Return the failed part to NetApp
+
+[.lead]
 include::../_include/complete_rma.adoc[]
