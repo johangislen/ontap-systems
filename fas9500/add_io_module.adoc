@@ -17,7 +17,7 @@ You can add an I/O module to your system by either replacing a NIC or storage ad
 * To non-disruptively add an I/O module, you must take over the target controller, remove the slot blanking cover in the target slot or remove an existing I/O module, add the new or replacement I/O module, and then giveback the target controller.
 * Make sure that all other components are functioning properly.
 
-== Option 1: Add the I/O module to a system with open slots 
+== Option 1: Add the I/O module to a system with open slots
 
 :icons: font
 :imagesdir: ../media/
