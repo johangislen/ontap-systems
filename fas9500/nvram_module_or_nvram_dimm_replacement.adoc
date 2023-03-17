@@ -32,14 +32,14 @@ include::../_include/shutdown_most_frus_no_PCM_remove.adoc[]
 
 == Step 2: Replace the NVRAM module
 
-To replace the NVRAM module, locate it in slot 6 in the chassis and follow the specific sequence of steps.
+To replace the NVRAM module, located it in slot 6 in the chassis and follow the specific sequence of steps.
 
 . If you are not already grounded, properly ground yourself.
 
 . Remove the target NVRAM module from the chassis:
-.. Depress the lettered and numbered cam button.
+.. Depress the lettered and numbered cam latch.
 +
-The cam button moves away from the chassis.
+The cam latch moves away from the chassis.
 
 .. Rotate the cam latch down until it is in a horizontal position.
 +
@@ -96,9 +96,9 @@ To replace NVRAM DIMMs in the NVRAM module, you must remove the NVRAM module, op
 
 . If you are not already grounded, properly ground yourself.
 . Remove the target NVRAM module from the chassis:
-.. Depress the lettered and numbered cam button.
+.. Depress the lettered and numbered cam latch.
 +
-The cam button moves away from the chassis.
+The cam latch moves away from the chassis.
 .. Rotate the cam latch down until it is in a horizontal position.
 +
 The NVRAM module disengages from the chassis and moves out a few inches.
