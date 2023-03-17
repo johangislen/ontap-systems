@@ -24,9 +24,11 @@ You can verify support by using one of the following methods:
 
  ** Enter the ``run local sysconfig`` command, at the admin prompt of either controller.
 +
-If the SAS2/SAS3 Mixed Stack Support field does not appear in the output or has a value of none, then your system does not support mixed stacks.
+If the SAS2/SAS3 Mixed Stack Support field does not appear in the output or has a value of "none", then your system does not support mixed stacks.
 +
-If anything else appears in the SAS2/SAS3 Mixed Stack Support field, such as all or bridge-attached, then your system does support mixed stacks.
+If "all" appears in the SAS2/SAS3 Mixed Stack Support field, then your system supports mixed stacks.
++
+If "bridge-attached" appears in the SAS2/SAS3 Mixed Stack Support field, then your system supports mixed stacks only if the storage shelves are connected through an ATTO FibreBridge.
 
  ** Go to Hardware Universe and navigate to your platform information.
 +
