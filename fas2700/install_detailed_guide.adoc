@@ -215,7 +215,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. To cable your storage, see <<Step 4: Cabling controllers to drive shelves>>
+. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>
 
 === Option 2: Cable a switched cluster, unified network configuration
 
@@ -275,7 +275,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. To cable your storage, see <<Step 4: Cabling controllers to drive shelves>>
+. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>
 
 === Option 3: Cable a two-node switchless cluster, Ethernet network configuration
 
@@ -324,7 +324,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. To cable your storage, see <<Step 4: Cabling controllers to drive shelves>>
+. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>
 
 === Option 4: Cable a switched cluster, Ethernet network configuration
 
@@ -371,7 +371,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. To cable your storage, see <<Step 4: Cabling controllers to drive shelves>>
+. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>
 
 == Step 4: Cable controllers to drive shelves
 
