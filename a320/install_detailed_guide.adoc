@@ -218,7 +218,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. Cable your storage: link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+. Cable your storage: <<Cable controllers to drive shelves>>
 
 === Option 2: Cabling a switched cluster
 
@@ -275,7 +275,7 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. Cable your storage: link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+. Cable your storage: <<Cable controllers to drive shelves>>
 
 == Cable controllers to drive shelves
 
@@ -310,7 +310,7 @@ a|
 Cable controller B to the shelf:    image:../media/drw_a320_storage_cabling_controller_b_single_shelf.png[]
 |===
 
-. To complete setting up your system, see link:install_detailed_guide.md#[Completing system setup and configuration].
+. To complete setting up your system, see <<Complete system setup and configuration>>
 
 === Option 2: Cable the controllers to two drive shelves
 
@@ -340,7 +340,8 @@ a|
 Cable controller B to the shelves:    image:../media/drw_a320_2_shelves_cabling_controller_b.png[]
 |===
 
-. To complete setting up your system, see link:install_detailed_guide.md#[Completing system setup and configuration].
+. To complete setting up your system, see <<Complete system setup and configuration>>
+
 
 == Complete system setup and configuration
 
