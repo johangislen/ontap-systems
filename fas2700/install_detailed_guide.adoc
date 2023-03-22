@@ -429,7 +429,7 @@ Connect each node to IOM B in the stack
 |===
 If you have more than one drive shelf stack, see the _Installation and Cabling Guide_ for your drive shelf type.
 +
-link:../com.netapp.doc.hw-ds-sas3-icg/home.html[Installing and cabling]
+https://docs.netapp.com/us-en/ontap-systems/sas3/index.html[Installing and cabling]
 
 . To complete setting up your system, see <<Step 5: Complete system setup and configuration>>
 
