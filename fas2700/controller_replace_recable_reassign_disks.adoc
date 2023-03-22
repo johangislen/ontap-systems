@@ -27,11 +27,11 @@ You must use the correct procedure for your configuration:
 a|
 HA pair
 a|
-link:<<Verify the system ID change on an HA system>>
+<<Option 1: Verify the system ID change on an HA system>>
 a|
 Stand-alone
 a|
-link:<<Option 2: Manually reassign the system ID on a stand-alone system in ONTAP>>
+<<Option 2: Manually reassign the system ID on a stand-alone system in ONTAP>>
 a|
 Two-node MetroCluster configuration
 a|
