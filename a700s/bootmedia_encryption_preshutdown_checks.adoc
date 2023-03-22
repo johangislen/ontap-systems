@@ -18,10 +18,8 @@ include::../_include/encryption_steps_before_shutdown.adoc[]
 
 == Option 1: Check NVE or NSE on systems running ONTAP 9.5 and earlier
 
-[.lead]
 include::../_include/encryption_check_95_earlier.adoc[]
 
 == Option 2: Check NVE or NSE on systems running ONTAP 9.6 and later
 
-[.lead]
 include::../_include/encryption_check_96_later.adoc[]
