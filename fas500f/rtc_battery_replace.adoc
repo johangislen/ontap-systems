@@ -116,7 +116,6 @@ CAUTION: Pushing it in aggressively might cause the battery to eject out again.
 
 == Step 4: Reinstall the controller module and set time/date after RTC battery replacement
 
-[.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis, reset the time and date on the controller, and then boot it.
 
 .Steps

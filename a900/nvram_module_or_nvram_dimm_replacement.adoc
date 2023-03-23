@@ -29,7 +29,6 @@ Because the system ID is derived from the NVRAM module, if replacing the module,
 .Steps
 == Step 1: Shut down the impaired controller
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]
@@ -48,7 +47,6 @@ include::../_include/shutdown_any_mcc_supported.adoc[]
 
 == Step 2: Replace the NVRAM module
 
-[.lead]
 To replace the NVRAM module, locate it in slot 6 in the chassis and follow the specific sequence of steps.
 
 . If you are not already grounded, properly ground yourself.
@@ -107,7 +105,6 @@ DIMM and DIMM ejector tabs
 
 == Step 3: Replace a NVRAM DIMM
 
-[.lead]
 To replace NVRAM DIMMs in the NVRAM module, you must remove the NVRAM module, open the module, and then replace the target DIMM.
 
 . If you are not already grounded, properly ground yourself.
@@ -167,14 +164,12 @@ DIMM and DIMM ejector tabs
 
 == Step 4: Reboot the controller after FRU replacement
 
-[.lead]
 After you replace the FRU, you must reboot the controller module.
 
 . To boot ONTAP from the LOADER prompt, enter `bye`.
 
 == Step 5: Reassigning disks
 
-[.lead]
 You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
 
 NOTE: This procedure applies only to systems running ONTAP in an HA pair.
@@ -263,7 +258,6 @@ dr-group-id            cluster node           configuration-state
 
 == Step 6: Restore Storage and Volume Encryption functionality
 
-[.lead]
 If you have storage encryption enabled, use the appropriate procedure.
 
 [role="tabbed-block"]
@@ -399,5 +393,4 @@ NOTE: You can use the `security key-manager key query -key-type NSE-AK` command 
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
