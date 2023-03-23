@@ -13,7 +13,6 @@ This guide gives detailed step-by-step instructions for installing a typical Net
 
 == Step 1: Prepare for installation
 
-[.lead]
 To install your FAS2700 or AFF A220 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
@@ -135,7 +134,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configurat
 
 == Step 2: Install the hardware
 
-[.lead]
 You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 .Steps
@@ -154,12 +152,10 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to your network
 
-[.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
 === Option 1: Cable a two-node switchless cluster, unified network configuration
 
-[.lead]
 Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -219,7 +215,6 @@ DO NOT plug in the power cords at this point.
 
 === Option 2: Cable a switched cluster, unified network configuration
 
-[.lead]
 Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -279,7 +274,6 @@ DO NOT plug in the power cords at this point.
 
 === Option 3: Cable a two-node switchless cluster, Ethernet network configuration
 
-[.lead]
 Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -328,7 +322,6 @@ DO NOT plug in the power cords at this point.
 
 === Option 4: Cable a switched cluster, Ethernet network configuration
 
-[.lead]
 Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -375,12 +368,10 @@ DO NOT plug in the power cords at this point.
 
 == Step 4: Cable controllers to drive shelves
 
-[.lead]
 You must cable the controllers to your shelves using the onboard storage ports. NetApp recommends MP-HA cabling for systems with external storage. If you have a SAS tape drive, you can use single-path cabling. If you have no external shelves, MP-HA cabling to internal drives is optional (not shown) if the SAS cables are ordered with the system.
 
 === Option 1: Cable storage on an HA pair with external drive shelves
 
-[.lead]
 You must cable the shelf-to-shelf connections, and then cable both controllers to the drive shelves.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -435,12 +426,10 @@ link:../com.netapp.doc.hw-ds-sas3-icg/home.html[Installing and cabling]
 
 == Step 5: Complete system setup and configuration
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 === Option 1: Complete system setup if network discovery is enabled
 
-[.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 .Steps
@@ -485,7 +474,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuratio
 
 === Option 2: Completing system setup and configuration if network discovery is not enabled
 
-[.lead]
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
 .Steps

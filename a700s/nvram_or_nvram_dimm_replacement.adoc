@@ -26,7 +26,6 @@ To replace a failed NVRAM card, you must remove the NVRAM riser, Riser 1, from t
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 * If you are using NetApp Storage Encryption, you must have reset the MSID using the instructions in the "`Returning SEDs to unprotected mode`" section of the _ONTAP 9 NetApp Encryption Power Guide_.
@@ -35,7 +34,6 @@ https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nve/home.html[ONTAP 9 N
 
 == Step 2: Remove the controller module
 
-[.lead]
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -90,7 +88,6 @@ Air duct
 
 == Step 3: Remove the NVRAM card
 
-[.lead]
 Replacing the NVRAM consist of removing the NVRAM riser, Riser 1, from the controller module, disconnecting the NVRAM battery from the NVRAM card, removing the failed NVRAM card and installing the replacement NVRAM card, and then reinstalling the NVRAM riser back into the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -150,7 +147,6 @@ When locked, the locking latch is flush with the top of the riser and the riser 
 
 == Step 4: Reinstall the controller module and booting the system
 
-[.lead]
 After you replace a FRU in the controller module, you must reinstall the controller module and reboot it.
 
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
@@ -181,7 +177,6 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 == Step 5: Verify the system ID change on an HA system
 
-[.lead]
 You must confirm the system ID change when you boot the _replacement_ controller and then verify that the change was implemented.
 
 This procedure applies only to systems running ONTAP in an HA pair.
@@ -248,10 +243,8 @@ Disk  Aggregate Home  Owner  DR Home  Home ID    Owner ID  DR Home ID Reserver  
 
 == Step 6: Restore Storage and Volume Encryption functionality
 
-[.lead]
 include::../_include/restore_storage_encryption.adoc[]
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

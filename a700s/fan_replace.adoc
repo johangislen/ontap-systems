@@ -15,14 +15,12 @@ To replace a fan, remove the failed fan module and replace it with a new fan mod
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove the controller module - AFF A700s
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -79,7 +77,6 @@ Air duct
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 To replace a fan, remove the failed fan module and replace it with a new fan module.
 
 . If you are not already grounded, properly ground yourself.
@@ -104,7 +101,6 @@ Fan module
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis and boot it.
 
 . If you are not already grounded, properly ground yourself.
@@ -156,5 +152,4 @@ NOTE: Be sure to exit Maintenance mode after completing the conversion.
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 include::../_include/complete_rma.adoc[]

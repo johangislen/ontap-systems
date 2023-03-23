@@ -16,12 +16,10 @@ To replace a PCIe card, you must disconnect the cables from the cards in the ris
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -79,7 +77,6 @@ Air duct
 
 == Step 3: Replace a PCIe card
 
-[.lead]
 To replace a PCIe card, you must remove the cabling and any SFPs from the ports on the PCIe cards in the target riser, remove the riser from the controller module, remove and replace the PCIe card, reinstall the riser, and recable it.
 
 . If you are not already grounded, properly ground yourself.
@@ -133,7 +130,6 @@ When locked, the locking latch is flush with the top of the riser and the riser 
 
 == Step 4: Reinstall the controller module
 
-[.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis and boot it.
 
 . If you are not already grounded, properly ground yourself.
@@ -184,5 +180,4 @@ NOTE: Be sure to exit Maintenance mode after completing the conversion.
 
 == Step 5: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

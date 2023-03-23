@@ -22,7 +22,6 @@ https://hwu.netapp.com[NetApp Hardware Universe]
 
 == Option 1: Add an X91148A module as a NIC module in a system with no open slots
 
-[.lead]
 You must remove one or more existing NIC or storage modules in your system in order to install one or more X91148A NIC modules into your fully-populated system.
 
 .Steps
@@ -72,7 +71,6 @@ I/O cam latch completely unlocked
 
 == Option 2: Adding an X91148A module as a storage module in a system with no open slots
 
-[.lead]
 You must remove one or more existing NIC or storage modules in your system in order to install one or more X91148A storage modules into your fully-populated system.
 
 * This procedure presumes you re installing the X91148A module into slots 3 and/or 7.

@@ -16,7 +16,6 @@ You replace the real-time clock (RTC) battery in the controller module so that y
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration.
 
 [role="tabbed-block"]
@@ -24,13 +23,11 @@ You can shut down or take over the impaired controller using different procedure
 
 .Option 1: Most configurations
 --
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 --
 
 .Option 2: Controller is in a two-node MetroCluster
 --
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 --
 
@@ -38,7 +35,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
@@ -78,7 +74,6 @@ Controller module cover locking button
 
 == Step 3: Replace the RTC battery
 
-[.lead]
 To replace the RTC battery, you must locate the failed battery in the controller module, remove it from the holder, and then install the replacement battery in the holder.
 
 .Steps
@@ -111,7 +106,6 @@ NOTE: Note the polarity of the battery as you remove it from the holder. The bat
 
 == Step 4: Reinstall the controller module and set time/date
 
-[.lead]
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis, reset the time and date on the controller, and then boot it.
 
 .Steps

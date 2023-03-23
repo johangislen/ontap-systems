@@ -13,7 +13,6 @@ To replace the controller module hardware, you must remove the impaired node, mo
 
 == Step 1: Remove the controller module
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
@@ -51,7 +50,6 @@ Controller module cover locking button
 
 == Step 2: Move the boot media
 
-[.lead]
 You must locate the boot media and follow the directions to remove it from the old controller and insert it in the new controller.
 
 .Steps
@@ -83,7 +81,6 @@ If necessary, remove the boot media and reseat it into the socket.
 
 == Step 3: Move the system DIMMs
 
-[.lead]
 To move the DIMMs, locate and move them from the old controller into the replacement controller and follow the specific sequence of steps.
 
 .Steps
@@ -125,7 +122,6 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 == Step 4: Install the controller
 
-[.lead]
 After you install the components into the controller module, you must install the controller module back into the system chassis and boot the operating system.
 
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
