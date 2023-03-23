@@ -41,7 +41,7 @@ A stand-alone configuration
 a|
 
  .. Exit Maintenance mode: `halt`
- .. Go to https://docs.netapp.com/us-en/ontap-systems/fas8200/chassis-replace-move-hardware.html[Completing the replacement process].
+ .. Go to link:chassis-replace-move-hardware.html[Completing the replacement process].
 
 a|
 An HA pair with a second controller module
