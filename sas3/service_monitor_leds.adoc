@@ -13,7 +13,6 @@ You can monitor the health of your disk shelf by understanding the location and 
 
 == Operator display panel LEDs
 
-[.lead]
 The LEDs on the disk shelf front operator display panel indicate whether your disk shelf is functioning normally or there are problems with the hardware.
 
 The following table describes the three LEDs on the operator display panel used in DS460C, DS224C, and DS212C disk shelves:
@@ -64,7 +63,6 @@ image::../media/drw_opd.gif[]
 
 == IOM12 module LEDs
 
-[.lead]
 The LEDs on the IOM12 module indicate whether the module is functioning normally, whether it is ready for I/O traffic, and whether there are any problems with the hardware.
 
 The following table describes IOM12 module LEDs associated with the function of the module and the function of each SAS port on the module.
@@ -113,7 +111,6 @@ image::../media/drw_iom12.gif[]
 
 == Power supply LEDs
 
-[.lead]
 The LEDs on the power supply indicate whether the power supply is functioning normally or there are hardware problems.
 
 The following table describes the two LEDs on power supplies used in DS460C, DS224C, and DS212C disk shelves:
@@ -162,7 +159,6 @@ image::../media/drw_powersupply_913w_vsd.gif[]
 
 == Fan LEDs on DS460C disk shelves
 
-[.lead]
 The LEDs on the DS460C fans indicate whether the fan is functioning normally or there are hardware problems.
 
 The following table describes the LEDs on fans used in DS460C disk shelves:
@@ -186,7 +182,6 @@ image:../media/28_dwg_e2860_de460c_single_fan_canister_with_led_callout.gif[]
 
 == Disk drive LEDs
 
-[.lead]
 The LEDs on a disk drive indicates whether it is functioning normally or there are problems with the hardware.
 
 === Disk drive LEDs for DS224C and DS212C disk shelves

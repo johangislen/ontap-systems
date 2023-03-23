@@ -15,12 +15,10 @@ All other components in the system must be functioning properly; if not, you mus
 
 == Step 1: Shut down the controller
 
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
 . If you are not already grounded, properly ground yourself.
@@ -46,7 +44,6 @@ The latching mechanism hook should be nearly vertical and should be clear of the
 
 == Step 3: Replace the NVDIMM battery
 
-[.lead]
 To replace the NVDIMM battery, you must remove the failed battery from the controller module and install the replacement battery into the controller module.
 
 image::../media/drw_a320_nvbat_move_animated_gif.png[]
@@ -60,7 +57,6 @@ image::../media/drw_a320_nvbat_move_animated_gif.png[]
 
 == Step 4: Install the controller module
 
-[.lead]
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
 . If you have not already done so, close the air duct at the rear of the controller module and reinstall the cover over the PCIe cards.
@@ -91,7 +87,6 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 == Step 5: Run diagnostics
 
-[.lead]
 After you have replaced a component in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
@@ -111,7 +106,6 @@ After you issue the command, you should wait until the system stops at the LOADE
 
 == Step 6: Restore the controller module to operation after running diagnostics
 
-[.lead]
 After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
@@ -123,5 +117,4 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
