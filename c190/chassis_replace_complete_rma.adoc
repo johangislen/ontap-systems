@@ -47,7 +47,7 @@ a|
  .. Exit Maintenance mode:
 +
 `*halt*`
- .. Go to link:chassis_replace.html["Completing the replacement process].
+ .. Go to https://docs.netapp.com/us-en/ontap-systems/c190/chassis-replace-move-hardware.html[Completing the replacement process].
 a|
 An HA pair with a second controller module
 a|
