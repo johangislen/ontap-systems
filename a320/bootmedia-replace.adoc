@@ -42,7 +42,6 @@ The latching mechanism hook should be nearly vertical and should be clear of the
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must locate the boot media in the controller module, and then follow the directions to replace it.
 
 . Open the air duct and locate the boot media using the following illustration or the FRU map on the controller module:
@@ -67,7 +66,6 @@ If necessary, remove the boot media and reseat it into the socket.
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 The replacement boot media that you installed does not have a boot image, so you need to transfer a boot image using a USB flash drive.
 
 * You must have a USB flash drive, formatted to MBR/FAT32, with at least 4GB capacity

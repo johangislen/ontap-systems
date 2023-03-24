@@ -53,7 +53,6 @@ Make sure that you support the bottom of the controller module as you slide it o
 
 == Step 2: Replace the boot media
 
-[.lead]
 You must locate the boot media in the controller module (see the FRU map on the controller module), and then follow the directions to replace it.
 
 .Before you begin
@@ -117,7 +116,6 @@ If necessary, remove the boot media and reseat it into the socket.
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 The replacement boot media that you installed does not have a boot image, so you need to transfer a boot image using a USB flash drive.
 
 .Before you begin

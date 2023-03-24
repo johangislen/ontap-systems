@@ -13,7 +13,6 @@ You can hot-add an NS224 drive shelf after your HA pair meets certain requiremen
 
 == Requirements for a hot-add
 
-[.lead]
 Your HA pair must meet certain requirements before hot-adding an NS224 drive shelf.
 
 * Your platform model and version of ONTAP must support the NS224 shelf and drives you are hot-adding.
@@ -60,7 +59,6 @@ To change the shelf ID, you use the paper clip or ballpoint pen to access the sh
 
 == Considerations for a hot-add
 
-[.lead]
 You should familiarize yourself with best practices and aspects about this procedure before hot-adding an NS224 drive shelf.
 
 * If you have an ASA HA pair supporting NS224 shelves, you can use this procedure.
@@ -94,7 +92,6 @@ NOTE: Firmware updates can take up to 30 minutes.
 
 == Prepare for a hot-add
 
-[.lead]
 You must complete the preparation tasks applicable to your HA pair before hot-adding an NS224 drive shelf.
 
 === Prepare non-dedicated RoCE-capable ports for a hot-add
@@ -305,7 +302,6 @@ You must disable automatic drive assignment on both controller modules.
 
 == Install a drive shelf for a hot-add
 
-[.lead]
 Installing a new NS224 drive shelf involves installing the shelf into a rack or cabinet, connecting the power cords (which automatically powers on the shelf), and then setting the shelf ID.
 
 .Before you begin
@@ -361,7 +357,6 @@ When power is restored to the power supplies, their bicolored LEDs illuminate gr
 
 == Cable a drive shelf for a hot-add
 
-[.lead]
 You cable each NS224 drive shelf you are hot-adding so that each shelf has two connections to each controller module in the HA pair. Depending on the number of shelves you are hot-adding and your platform model, you use RoCE-capable ports on board the controllers, on RoCE-capable PCIe cards, a combination of both, or on RoCE-capable I/O modules.
 
 === Considerations when cabling for a hot-add
@@ -458,7 +453,6 @@ Otherwise, you are done with this procedure.
 
 === Cable a hot-add shelf for a FAS500f or AFF A250 HA pair
 
-[.lead]
 When additional storage is needed, you can hot-add an NS224 drive shelf to a FAS500f or AFF A250 HA pair.
 
 .Before you begin
@@ -787,7 +781,6 @@ Otherwise, you are done with this procedure.
 
 == Complete the hot-add
 
-[.lead]
 If you disabled automatic drive assignment as part of the preparation for the NS224 drive shelf hot-add, you need to manually assign drive ownership and then reenable automatic drive assignment if needed.
 
 .Before you begin
