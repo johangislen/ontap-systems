@@ -15,7 +15,6 @@ The procedure for booting the impaired node from the recovery image depends on w
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must boot the ONTAP image from the USB drive, restore the file system, and verify the environmental variables.
 
 This procedure applies to systems that are not in a two-node MetroCluster configuration.

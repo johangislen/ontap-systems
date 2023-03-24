@@ -17,7 +17,6 @@ You must replace the failed component with a replacement FRU component you recei
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration.
 
 [role="tabbed-block"]
@@ -27,7 +26,6 @@ You can shut down or take over the impaired controller using different procedure
 
 --
 
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 
 --
@@ -36,7 +34,6 @@ include::../_include/shutdown_most_frus.adoc[]
 
 --
 
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 
 --
@@ -44,7 +41,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
@@ -80,7 +76,6 @@ Controller module cover locking button
 
 == Step 3: Replace the DIMMs
 
-[.lead]
 To replace the DIMMs, locate them inside the controller and follow the specific sequence of steps.
 
 .Steps
@@ -122,7 +117,6 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 == Step 4: Install the controller
 
-[.lead]
 After you install the components into the controller module, you must install the controller module back into the system chassis and boot the operating system.
 
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
@@ -154,7 +148,6 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 == Step 5: Run system-level diagnostics
 
-[.lead]
 After installing a new DIMM, you should run diagnostics.
 
 Your system must be at the LOADER prompt to start System Level Diagnostics.
@@ -258,10 +251,8 @@ After you issue the command, wait until the system stops at the LOADER prompt.
 
 == Step 6: Switch back aggregates in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
