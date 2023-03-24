@@ -13,7 +13,6 @@ This guide gives detailed step-by-step instructions for installing a typical Net
 
 == Prepare for installation
 
-[.lead]
 To install your AFF A320 system, you need to create an account, register the system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
@@ -142,7 +141,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configurat
 
 == Install the hardware
 
-[.lead]
 You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 . Install the rail kits, as needed.
@@ -160,12 +158,10 @@ image::../media/drw_a320_cable_management_arms.png[]
 
 == Cable controllers to your network
 
-[.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
 === Option 1: Cable a two-node switchless cluster
 
-[.lead]
 The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches. The cluster interconnect/HA ports are cabled on both controller modules.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -218,11 +214,10 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. Cable your storage: link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+. Cable your storage: <<Cable controllers to drive shelves>>
 
 === Option 2: Cabling a switched cluster
 
-[.lead]
 The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches. The cluster interconnect/HA ports are cabled on to the cluster/HA switch.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -275,16 +270,14 @@ a|
 DO NOT plug in the power cords at this point.
 |===
 
-. Cable your storage: link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+. Cable your storage: <<Cable controllers to drive shelves>>
 
 == Cable controllers to drive shelves
 
-[.lead]
 You must cable the controllers to your shelves using the onboard storage ports.
 
 === Option 1: Cable the controllers to a single drive shelf
 
-[.lead]
 You must cable each controller to the NSM modules on the NS224 drive shelf.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -310,11 +303,10 @@ a|
 Cable controller B to the shelf:    image:../media/drw_a320_storage_cabling_controller_b_single_shelf.png[]
 |===
 
-. To complete setting up your system, see link:install_detailed_guide.md#[Completing system setup and configuration].
+. To complete setting up your system, see <<Complete system setup and configuration>>
 
 === Option 2: Cable the controllers to two drive shelves
 
-[.lead]
 You must cable each controller to the NSM modules on both NS224 drive shelves.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -340,16 +332,15 @@ a|
 Cable controller B to the shelves:    image:../media/drw_a320_2_shelves_cabling_controller_b.png[]
 |===
 
-. To complete setting up your system, see link:install_detailed_guide.md#[Completing system setup and configuration].
+. To complete setting up your system, see <<Complete system setup and configuration>>
+
 
 == Complete system setup and configuration
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 === Option 1: Completing system setup and configuration if network discovery is enabled
 
-[.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
@@ -386,7 +377,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuratio
 
 === Option 2: Completing system setup and configuration if network discovery is not enabled
 
-[.lead]
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
 . Cable and configure your laptop or console:

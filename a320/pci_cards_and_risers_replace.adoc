@@ -20,7 +20,6 @@ include::../_include/shutdown_most_frus.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
 . If you are not already grounded, properly ground yourself.
@@ -46,7 +45,6 @@ The latching mechanism hook should be nearly vertical and should be clear of the
 
 == Step 3: Replace a PCIe card
 
-[.lead]
 You must remove the PCIe riser containing the failed PCIe card from the controller module, remove the failed PCIe card from the riser, install the replacement PCIe card in the riser, and then reinstall the riser into the controller module.
 
 image::../media/drw_a320_pci_card_replace_animated_gif.png[]
@@ -70,7 +68,6 @@ image::../media/drw_a320_pci_card_replace_animated_gif.png[]
 
 == Sep 4: Install the controller module
 
-[.lead]
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
 . If you have not already done so, close the air duct at the rear of the controller module and reinstall the cover over the PCIe cards.
@@ -101,7 +98,6 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 == Step 5: Restore the controller module to operation
 
-[.lead]
 After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
@@ -113,5 +109,4 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 == Step 6: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

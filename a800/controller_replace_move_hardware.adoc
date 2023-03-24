@@ -198,7 +198,6 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 == Step 7: Move the NVDIMMs
 
-[.lead]
 To move the NVDIMMs, locate and move them from the impaired controller into the replacement controller and follow the specific sequence of steps.
 
 . Locate the NVDIMMs on your controller module.
