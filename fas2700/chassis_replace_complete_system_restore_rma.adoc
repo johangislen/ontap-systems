@@ -42,7 +42,7 @@ A stand-alone configuration
 a|
 
  .. Exit Maintenance mode: `halt`
- .. Go to link:chassis_replace.html["Completing the replacement process].
+ .. Go to link:chassis-replace-move-hardware.html[Completing the replacement process].
 a|
 An HA pair with a second controller module
 a|
