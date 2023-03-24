@@ -12,14 +12,10 @@ summary: To replace a fan, remove the failed fan module and replace it with a ne
 To replace a fan, remove the failed fan module and replace it with a new fan module.
 
 == Step 1: Shut down the impaired controller - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove the controller module - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
@@ -74,8 +70,6 @@ Air duct
 
 
 == Step 3: Replace the fan - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 To replace a fan, remove the failed fan module and replace it with a new fan module.
 
@@ -98,8 +92,6 @@ Fan module
 . Align the edges of the replacement fan module with the opening in the controller module, and then slide the replacement fan module into the controller module until the locking latches click into place.
 
 == Step 4: Reinstall the controller module - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 After you replace a component within the controller module, you must reinstall the controller module in the system chassis and boot it.
 
@@ -149,7 +141,5 @@ NOTE: Be sure to exit Maintenance mode after completing the conversion.
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
 == Step 4: Return the failed part to NetApp - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 include::../_include/complete_rma.adoc[]

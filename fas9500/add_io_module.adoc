@@ -17,7 +17,7 @@ You can add an I/O module to your system by either replacing a NIC or storage ad
 * To non-disruptively add an I/O module, you must take over the target controller, remove the slot blanking cover in the target slot or remove an existing I/O module, add the new or replacement I/O module, and then giveback the target controller.
 * Make sure that all other components are functioning properly.
 
-== Option 1: Add the I/O module to a system with open slots 
+== Option 1: Add the I/O module to a system with open slots
 
 You can add an I/O module into an empty module slot in your system.
 
@@ -140,13 +140,8 @@ I/O cam latch completely unlocked
 .. Slide the I/O module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin.
 .. Push the I/O cam latch all the way up to lock the module in place.
 . Repeat the remove and install steps to replace additional modules for controller A.
-. If the replacement I/O module is a NIC, cable the
-module or modules to the data switches.
-
-. Reboot the BMC and then reboot the node:
-.. From the LOADER prompt, change to advanced privilege mode: `priv set advanced`
-.. Reboot the BMC: `sp reboot`
-. From the LOADER prompt, reboot the node: `bye`
+. If the replacement I/O module is a NIC, cable the module or modules to the data switches.
+. Reboot the node:
 +
 NOTE: This reinitializes the PCIe cards and other components and reboots the node.
 

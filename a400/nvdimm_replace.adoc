@@ -75,7 +75,7 @@ NOTE: The animation shows empty slots for sockets without DIMMs. These empty soc
 
 video::e0afec49-0953-4dcc-b9d0-aadb01578e1b[panopto, title="Animation - Replace the NVDIMM"]
 
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[]
+image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[width=500px]
 
 . Open the air duct and then locate the NVDIMM in slot 11 on your controller module.
 +

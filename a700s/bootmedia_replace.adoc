@@ -12,8 +12,6 @@ summary: You must locate the failed boot media in the controller module by remov
 You must remove the controller module from the chassis, open it, and then replace the failed boot media.
 
 == Step 1: Remove the controller module
-:icons: font
-:imagesdir: ../media/
 
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
@@ -66,8 +64,6 @@ Air duct
 |===
 
 == Step 2: Replace the boot media - AFF A700s
-:icons: font
-:imagesdir: ../media/
 
 You must locate the failed boot media in the controller module by removing the middle PCIe module on the controller module, locate the failed boot media, and then replace the boot media.
 
