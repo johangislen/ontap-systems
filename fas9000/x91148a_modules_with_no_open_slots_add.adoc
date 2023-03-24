@@ -22,7 +22,6 @@ https://hwu.netapp.com[NetApp Hardware Universe]
 
 == Option 1: Add an X91148A module as a NIC module in a system with no open slots
 
-[.lead]
 You must remove one or more existing NIC or storage modules in your system in order to install one or more X91148A NIC modules into your fully-populated system.
 
 .Steps
@@ -72,7 +71,6 @@ I/O cam latch completely unlocked
 
 == Option 2: Adding an X91148A module as a storage module in a system with no open slots
 
-[.lead]
 You must remove one or more existing NIC or storage modules in your system in order to install one or more X91148A storage modules into your fully-populated system.
 
 * This procedure presumes you re installing the X91148A module into slots 3 and/or 7.
@@ -119,4 +117,4 @@ I/O cam latch completely unlocked
 . Giveback the node from the partner node: `storage failover giveback -ofnode _target_node_name_`
 . Enable automatic giveback if it was disabled: `storage failover modify -node local -auto-giveback true`
 . Repeat these steps for controller B.
-. Install and cable your NS224 shelves, as described in https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-ds-nvme-hotadd/GUID-B215753F-F3E6-4FA0-A1E1-B9390B19AD94.html[Hot-adding an NS224 drive shelf].
+. Install and cable your NS224 shelves, as described in https://docs.netapp.com/us-en/ontap-systems/ns224/hot-add-shelf.html[Hot-adding an NS224 drive shelf].

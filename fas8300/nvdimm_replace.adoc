@@ -17,7 +17,6 @@ You must replace the failed component with a replacement FRU component you recei
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration.
 
 [role="tabbed-block"]
@@ -25,13 +24,11 @@ You can shut down or take over the impaired controller using different procedure
 
 .Option 1: Most configurations
 --
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 --
 
 .Option 2: Controller is in a two-node MetroCluster
 --
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 --
 
@@ -39,7 +36,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
 You can use the following , illustration, or the written steps to remove the controller module from the chassis.
@@ -68,7 +64,6 @@ Make sure that you support the bottom of the controller module as you slide it o
 
 == Step 3: Replace the NVDIMM
 
-[.lead]
 To replace the NVDIMM, you must locate it in the controller module using the FRU map on top of the air duct the FRU Map on the top of the slot 1 riser.
 
 * The NVDIMM LED blinks while destaging contents when you halt the system. After the destage is complete, the LED turns off.
@@ -109,7 +104,6 @@ NOTE: Visually inspect the NVDIMM to verify that it is evenly aligned and fully 
 
 == Step 4: Install the controller module
 
-[.lead]
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
 You can use the following animation, illustration, or the written steps to install the controller module in the chassis.
@@ -150,7 +144,6 @@ If your system stops at the boot menu, select the option to boot to LOADER.
 
 == Step 5: Run diagnostics
 
-[.lead]
 After you have replaced the NVDIMM in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
@@ -172,7 +165,6 @@ After you issue the command, you should wait until the system stops at the LOADE
 
 == Step 6: Restore the controller module to operation after running diagnostics
 
-[.lead]
 After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
 
 .Steps
@@ -185,10 +177,8 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 == Step 7: Switch back aggregates in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
 == Step 8: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
