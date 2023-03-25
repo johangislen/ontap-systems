@@ -8,7 +8,7 @@ summary: 'Prior to shutting down the impaired node and checking the status of th
 :icons: font
 :imagesdir: ../media/
 
-
+[.lead]
 include::../_include/encryption_steps_before_shutdown.adoc[]
 
 == ONTAP 9.6 and later
