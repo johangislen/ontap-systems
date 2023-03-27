@@ -62,7 +62,7 @@ indexpage:
         - title: Cisco 9336-FX2 in shared configurations
           url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
         - title: NVIDIA SN2100 
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/sn2100-overview.html
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-overview-sn2100-storage.html
         - title: End-of-availability switches
           url: https://docs.netapp.com/us-en/ontap-systems-switches/overview-eod.html
     - title: Related ONTAP docs
