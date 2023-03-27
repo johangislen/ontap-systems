@@ -17,7 +17,6 @@ You must replace the failed component with a replacement FRU component you recei
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 To shut down the impaired controller, you must determine the status of the controller and, if necessary, take over the controller so that the healthy controller continues to serve data from the impaired controller storage.
 
 If you have a cluster with more than two nodes, it must be in quorum. If the cluster is not in quorum or a healthy controller shows false for eligibility and health, you must correct the issue before shutting down the impaired controller.
@@ -50,7 +49,6 @@ When the impaired controller shows `Waiting for giveback...`, press Ctrl-C, and 
 
 == Step 2: Remove the controller module
 
-[.lead]
 You must remove the controller module from the chassis when you replace the controller module or replace a component inside the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -104,7 +102,6 @@ Air duct
 
 == Step 3: Replace a DIMM
 
-[.lead]
 To replace a DIMM, you must locate it in the controller module using the DIMM map on the inside of the controller module, and then replace it following the specific sequence of steps.
 
 . If you are not already grounded, properly ground yourself.
@@ -160,7 +157,6 @@ If you removed the NVRAM riser, Riser 1, make sure that you plug the NVRAM batte
 
 == Step 4: Reinstall the controller module and booting the system
 
-[.lead]
 After you replace a FRU in the controller module, you must reinstall the controller module and reboot it.
 
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
@@ -191,7 +187,6 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 
 == Step 5: Run diagnostics
 
-[.lead]
 After you have replaced a component in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
@@ -212,5 +207,4 @@ After you issue the command, you should wait until the system stops at the LOADE
 
 == Step 6:Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

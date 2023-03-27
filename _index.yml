@@ -11,6 +11,12 @@ indexpage:
       links:
         - title: AFF C190
           url: /c190/index.html
+        - title: AFF C250
+          url: /c250/index.html
+        - title: AFF C400
+          url: /c400/index.html
+        - title: AFF C800
+          url: /c800/index.html
         - title: AFF A200
           url: /a200/index.html
         - title: AFF A220
@@ -62,9 +68,9 @@ indexpage:
         - title: Broadcom-supported BES-53248
           url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
         - title: Cisco 3132Q-V
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3132q-v/index.html
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3132q-v/install-overview-cisco-3132qv.html
         - title: Cisco 3232C 
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3232c/index.html
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-3232c/install-overview-cisco-3232c.html
         - title: Cisco 9336C-FX2
           url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
         - title: Cisco 9336-FX2 in shared configurations
@@ -72,7 +78,7 @@ indexpage:
         - title: Cisco 92300YC
           url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-92300/92300-overview.html
         - title: NetApp CN1610 
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-netapp-cn1610/index.html
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-netapp-cn1610/install-overview-cn1610.html
         - title: NVIDIA SN2100 
           url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/sn2100-overview.html
         - title: Other switch models

@@ -27,7 +27,6 @@ https://hwu.netapp.com[NetApp Hardware Universe]
 
 == Option 1: Add an X91148A module as a NIC module in a system with open slots
 
-[.lead]
 To add an X91148A module as a NIC module in a system with open slots, you must follow the specific sequence of steps.
 
 .Steps
@@ -53,7 +52,6 @@ The console connection shows that the node drops to the LOADER prompt when the t
 
 == Option 2: Add an X91148A module as a storage module in a system with open slots
 
-[.lead]
 To add an X91148A module as a storage module in a system with open slots, you must follow the specific sequence of steps.
 
 * This procedure presumes slots 3 and/or 7 are open.

@@ -9,6 +9,7 @@ summary: "Link to the System-Level Diagnostics Guide for AFF A700s"
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 System-Level Diagnostics for AFF A700s is available outside this library. You will be prompted to log in using your NetApp Support Site credentials.
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2595434[AFF A700s System-Level Diagnostics]

@@ -26,7 +26,6 @@ include::../_include/shutdown_most_frus.adoc[]
 
 --
 
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 
 --

@@ -13,10 +13,8 @@ After completing the NVE or NSE tasks, you need to complete the shutdown of the 
 
 == Option 1: Most systems
 
-[.lead]
 include::../_include/shutdown_bootmedia.adoc[]
 
 == Option 2: System is in a MetroCluster
 
-[.lead]
 include::../_include/shutdown_any_mcc_supported.adoc[]

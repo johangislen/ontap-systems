@@ -24,7 +24,6 @@ The NVRAM module consists of the NVRAM10 and DIMMs and up to two NVMe SSD Flash 
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]
@@ -32,13 +31,11 @@ Shut down or take over the impaired controller using one of the following option
 
 .Option 1: Most systems
 --
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 --
 
 .Option 2: Controller is in a Two-node MetroCluster
 --
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 --
 
@@ -46,7 +43,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Replace the NVRAM module
 
-[.lead]
 To replace the NVRAM module, locate it in slot 6 in the chassis and follow the specific sequence of steps.
 
 .Steps
@@ -117,7 +113,6 @@ DIMM and DIMM ejector tabs
 
 == Step 3: Replace a NVRAM DIMM
 
-[.lead]
 To replace NVRAM DIMMs in the NVRAM module, you must remove the NVRAM module, open the module, and then replace the target DIMM.
 
 .Steps
@@ -168,7 +163,6 @@ DIMM and DIMM ejector tabs
 
 == Step 4: Reboot the controller after FRU replacement
 
-[.lead]
 After you replace the FRU, you must reboot the controller module.
 
 .Step
@@ -176,7 +170,6 @@ After you replace the FRU, you must reboot the controller module.
 
 == Step 5: Reassign disks
 
-[.lead]
 Depending on whether you have an HA pair or two-node MetroCluster configuration, you must either verify the reassignment of disks to the new controller module or manually reassign the disks.
 
 Select one of the following options for instructions on how to reassign disks to the new controller.
@@ -190,7 +183,6 @@ Select one of the following options for instructions on how to reassign disks to
 --
 .Verify the system ID change on an HA system
 
-[.lead]
 You must confirm the system ID change when you boot the _replacement_ node and then verify that the change was implemented.
 
 This procedure applies only to systems running ONTAP in an HA pair.
@@ -295,17 +287,14 @@ dr-group-id            cluster node           configuration-state
 --
 .Reassign the system ID in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_reassign_sysid.adoc[]
 --
 ====
 
 == Step 6: Restore Storage and Volume Encryption functionality
 
-[.lead]
 include::../_include/restore_storage_encryption.adoc[]
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
