@@ -1,14 +1,6 @@
 indexpage:
 #  lead: AFF A400
   tiles:
-    - title: Get started 
-      links:
-        - title: ONTAP Release notes
-          url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-        - title: What's new
-          url: ../whats-new.html
-        - title: TR-4539-NetApp All Flash FAS solution for VMware Horizon View
-          url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
     - title: Install and setup
       links:
         - title: Most configurations
@@ -39,35 +31,21 @@ indexpage:
           url: /power-supply-replace.html
         - title: RTC battery
           url: /rtc-battery-replace.html
-    - title: Add or remove shelves
-      links:
-        - title: SAS with IOM12
+        - title: Add or remove SAS shelves
           url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
-    - title: Install and maintain switches
+    - title: Supported switches
       links:
-        - title: Broadcom-supported switches
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/
-        - title: Cisco switches
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/
-    - title: Upgrade
+        - title: BES-53248
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+        - title: Cisco Nexus 9336C-FX2
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+        - title: Cisco Nexus 9336C-FX2 in shared config
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+    - title: More doc resources
       links:
         - title: System hardware upgrade
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
         - title: ONTAP software upgrade
           url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
-    - title: More resources
-      links:
-        - title: ONTAP documentation
-          url: https://docs.netapp.com/us-en/ontap/
-        - title: NetApp Hardware Universe
-          url: https://hwu.netapp.com/home/index
-        - title: NetApp Active IQ Digital Advisor
-          url: https://docs.netapp.com/us-en/active-iq/index.html          
-        - title: NetApp Active IQ Config Advisor
-          url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
-        - title: NetApp Interoperability Matrix Tool
-          url: https://mysupport.netapp.com/matrix/#welcome
-        - title: NetApp Support Knowledge Base
-          url: https://kb.netapp.com/
-        - title: NetApp Community
-          url: https://community.netapp.com/
+        - title: Replace internal disk drive (video)
+          url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ  
