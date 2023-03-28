@@ -35,9 +35,9 @@ indexpage:
           url: /power_supply_swap_out.html
         - title: RTC battery
           url: /rtc_battery_replace.html
-        - title: Add or remove NS224 shelves
+        - title: NS224 shelves
           url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
-        - title: Add or remove SAS shelves
+        - title: SAS shelves
           url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
     - title: Supported switches
       links:
