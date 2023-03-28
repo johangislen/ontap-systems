@@ -44,7 +44,7 @@ indexpage:
         - title: X91148A module
           url: ../fas9000/x91148a-module-install-overview.html
         - title: NS224 shelves
-          url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
+          url: ../ns224/index.html
         - title: SAS shelves
           url: ../sas3/index.html
     - title: Supported switches
