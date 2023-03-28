@@ -31,7 +31,7 @@ indexpage:
           url: /dimm-replace.html
         - title: RTC battery
           url: /rtc-battery-replace.html
-        - title: Add or remove SAS shelves
+        - title: SAS shelves
           url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
     - title: Supported switches
       links:

@@ -24,7 +24,7 @@ indexpage:
           url: /power-supply-swap-out.html
         - title: RTC battery
           url: /rtc-battery-replace.html
-        - title: SAS shelves with IOM12/IOM12B modules
+        - title: SAS shelves
           url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
     - title: Supported switches
       links:

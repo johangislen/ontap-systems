@@ -27,7 +27,7 @@ indexpage:
           url: ../fas2700/power-supply-swap-out.html
         - title: RTC battery
           url: ../fas2700/rtc-battery-replace.html
-        - title: Add or remove SAS shelves
+        - title: SAS shelves
           url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
     - title: Supported switches
       links:
