@@ -34,7 +34,7 @@ indexpage:
         - title: RTC battery
           url: /rtc-battery-replace.html
         - title: SAS shelves
-          url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
+          url: ../sas3/index.html
     - title: Supported switches
       links:
         - title: BES-53248
