@@ -4,7 +4,7 @@ indexpage:
     - title: Install and setup
       links:
         - title: Quick steps
-          url: /install-setup.html
+          url: /install-quick-guide.html
         - title: Video steps
           url: /install-videos.html
         - title: Detailed steps

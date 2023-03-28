@@ -3,8 +3,12 @@ indexpage:
   tiles:
     - title: Install and setup
       links:
-        - title: Most configurations
-          url: https://docs.netapp.com/us-en/ontap-systems/fas9000/install-setup.html
+        - title: Quick steps
+          url: /fas9000//install-quick-guide.html
+        - title: Video steps
+          url: /fas9000//install-videos.html
+        - title: Detailed steps
+          url: /fas9000//install-detailed-guide.html
         - title: Fabric-attached MetroCluster configurations
           url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
         - title: Stretch MetroCluster configurations

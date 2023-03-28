@@ -3,8 +3,12 @@ indexpage:
   tiles:
     - title: Install and setup
       links:
-        - title: Most configurations
-          url: /install-setup.html
+        - title: Quick steps
+          url: /install-quick-guide.html
+        - title: Video steps
+          url: /install-videos.html
+        - title: Detailed steps
+          url: /install-detailed-guide.html
         - title: Fabric-attached MetroCluster configurations
           url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
         - title: Stretch MetroCluster configurations

@@ -3,8 +3,12 @@ indexpage:
   tiles:
     - title: Install and setup
       links:
-        - title: Most configurations
-          url: ../fas2700/install-setup.html
+        - title: Quick steps
+          url: ../fas2700/install-quick-guide.html
+        - title: Video steps
+          url: ../fas2700/install-videos.html
+        - title: Detailed steps
+          url: ../fas2700/install-detailed-guide.html
         - title: Fabric-attached MetroCluster configurations
           url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
         - title: Stretch MetroCluster configurations
