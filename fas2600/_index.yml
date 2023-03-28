@@ -30,7 +30,7 @@ indexpage:
         - title: SAS shelves
           url: ../sas3/index.html
     - title: Supported switches
-        links:
+      links:
           - title: BES-53248
             url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
           - title: Cisco Nexus 9336C-FX2
