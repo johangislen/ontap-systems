@@ -229,7 +229,6 @@ Fan module
 
 == Step 6: Move system DIMMs
 
-[.lead]
 To move the DIMMs, locate and move them from the impaired controller into the replacement controller and follow the specific sequence of steps.
 
 . Locate the DIMMs on your controller module.

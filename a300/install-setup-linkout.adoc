@@ -8,6 +8,7 @@ summary: You can use the PDF poster to install and set up your new system. The P
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use the PDF poster to install and set up your new system. The PDF poster provides step-by-step instructions with live links to additional content.
 
 link:../media/PDF/AFF-A300_ISI_210-06657+B0_web.pdf[AFF A300 Installation and Setup Instructions^]

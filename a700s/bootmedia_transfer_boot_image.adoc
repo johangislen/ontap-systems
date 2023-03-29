@@ -12,10 +12,7 @@ summary: This procedure should only be used if the secondary boot media restore 
 You can install the system image to the replacement boot media using by using either the image on second boot media installed in the controller module, the primary method to restore the system image, or by transferring the boot image to the boot media using a USB flash drive when the secondary boot media restore failed or if the image.tgz file is not found on the secondary boot media.
 
 == Option 1: Transfer files to the boot media using backup recovery from the second boot media
-:icons: font
-:imagesdir: ../media/
 
-[.lead]
 You can install the system image to the replacement boot media using the image on second boot media installed in the controller module. This is the primary method for transferring the boot media files to the replacement boot media in systems with two boot media in the controller module.
 
 The image on the secondary boot media must contain an `image.tgz` file and must not be reporting failures. If image.tgz file is missing or the boot media reports failures, you cannot use this procedure. You must transfer the boot image to the replacement boot media using the USB flash drive replacement procedure.
@@ -71,10 +68,7 @@ The image is downloaded from the secondary boot media.
 . Exit advanced privilege level on the healthy controller.
 
 == Option 2: Transfer the boot image to the boot media using a USB flash drive
-:icons: font
-:imagesdir: ../media/
 
-[.lead]
 This procedure should only be used if the secondary boot media restore failed or if the image.tgz file is not found on the secondary boot media.
 
 * You must have a USB flash drive, formatted to FAT32, with at least 4GB capacity.
