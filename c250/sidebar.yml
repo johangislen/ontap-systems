@@ -5,14 +5,8 @@ entries:
   - title: Install and setup
     pdf-filename: AFF C250 Install and Setup
     entries:
-    - title: Choose install and setup experience
-      url: /c250/install-setup.html
     - title: Quick steps
       url: /c250/install-quick-guide.html
-    - title: Video steps
-      url: /c250/install-videos.html
-    - title: Detailed steps
-      url: /c250/install-detailed-guide.html
   - title: Maintain
     pdf-filename: AFF C250 Maintain
     entries:
