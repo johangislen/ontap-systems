@@ -6,9 +6,9 @@ indexpage:
         - title: Quick steps
           url: ../fas9500/install_quick_guide.html
         - title: Video steps
-          url: ../fas9500/install-videos.html
+          url: ../fas9500/install_videos.html
         - title: Detailed steps
-          url: ../fas9500/install-detailed-guide.html
+          url: ../fas9500/install_detailed_guide.html
         - title: MetroCluster IP configurations
           url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/concept_considerations_differences.html
         - title: MetroCluster Fiber Channel configurations
