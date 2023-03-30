@@ -4,11 +4,11 @@ indexpage:
     - title: Install and setup
       links:
         - title: Quick steps
-          url: /install_quick_guide.html
+          url: ../a900/install_quick_guide.html
         - title: Video steps
-          url: /install_videos.html
+          url: ../a900/install_videos.html
         - title: Detailed steps
-          url: /install_detailed_guide.html
+          url: ../a900/install_detailed_guide.html
         - title: MetroCluster IP configurations
           url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/concept_considerations_differences.html
         - title: MetroCluster Fiber Channel configurations
