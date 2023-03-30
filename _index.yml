@@ -7,6 +7,8 @@ indexpage:
           url: /whats-new.html
         - title: Quick start
           url: /get-up-and-run.html
+        - title: AFF and FAS storage data sheet
+          url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
         - title: ONTAP Release Notes
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
     - title: AFF systems
