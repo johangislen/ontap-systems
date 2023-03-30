@@ -4,7 +4,7 @@ indexpage:
     - title: Install and setup
       links:
         - title: Quick steps
-          url: https://docs.netapp.com/us-en/ontap-systems/media/PDF/215-13082_2022-08_us-en_AFFA800_ISI.pdf
+          url: /install-quick-guide.html
         - title: Video steps
           url: /install-videos.html
         - title: Detailed steps
