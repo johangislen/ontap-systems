@@ -13,7 +13,6 @@ When additional storage is needed, you can hot-add IOM12/IOM12B shelves (SAS she
 
 == Requirements for a hot-add
 
-[.lead]
 Your HA pair, single-controller or stretch MetroCluster configuration (system) must meet certain requirements before hot-adding IOM12/IOM12B shelves to a stack of IOM6 shelves.
 
 NOTE: For bridge-attached MetroCluster configurations, see <<Requirements for a hot-add in bridge-attached MetroCluster configurations>>.
@@ -24,9 +23,11 @@ You can verify support by using one of the following methods:
 
  ** Enter the ``run local sysconfig`` command, at the admin prompt of either controller.
 +
-If the SAS2/SAS3 Mixed Stack Support field does not appear in the output or has a value of none, then your system does not support mixed stacks.
+If the SAS2/SAS3 Mixed Stack Support field does not appear in the output or has a value of "none", then your system does not support mixed stacks.
 +
-If anything else appears in the SAS2/SAS3 Mixed Stack Support field, such as all or bridge-attached, then your system does support mixed stacks.
+If "all" appears in the SAS2/SAS3 Mixed Stack Support field, then your system supports mixed stacks.
++
+If "bridge-attached" appears in the SAS2/SAS3 Mixed Stack Support field, then your system supports mixed stacks only if the storage shelves are connected through an ATTO FibreBridge.
 
  ** Go to Hardware Universe and navigate to your platform information.
 +
@@ -64,7 +65,6 @@ IOM12 shelves use mini-SAS HD connectors. IOM6 shelves use QSFP connectors.
 
 == Requirements for a hot-add in bridge-attached MetroCluster configurations
 
-[.lead]
 If you are hot-adding IOM12/IOM12B shelves to a stack of IOM6 shelves that is attached using a pair of ATTO FibreBridge bridges in a MetroCluster configuration, the system must meet certain requirements.
 
 * If bridge SAS ports are available in the current configuration, you should add the IOM12 shelves as a separate stack.
@@ -106,7 +106,6 @@ IOM12/IOM12B shelves use mini-SAS HD connectors. IOM6 shelves use QSFP connector
 
 == Considerations for a hot-add
 
-[.lead]
 You should familiarize yourself with aspects and best practices about this procedure before hot-adding IOM12/IOM12B shelves to a stack of IOM6 shelves.
 
 === General considerations
@@ -168,7 +167,6 @@ NOTE: The migration instructions provide the system requirements for IBACP.
 
 == Prepare to manually assign drive ownership for a hot-add
 
-[.lead]
 If you are manually assigning drive ownership for the IOM12 shelves you are hot-adding, then you need to disable automatic drive assignment if it is enabled.
 
 .Before you begin
@@ -197,7 +195,6 @@ If you have an HA pair or two-node MetroCluster configuration, you must disable 
 
 == Install shelves for a hot-add
 
-[.lead]
 For each shelf you are hot-adding, you install the shelf into a rack, connect the power cords, power on the shelf, and set the shelf ID.
 
 . Install the rack mount kit (for two-post or four-post rack installations) that came with your disk shelf using the installation flyer that came with the kit.
@@ -306,7 +303,6 @@ You must turn off both power switches, wait 10 seconds, and then turn them back 
 
 == Cable shelves for a hot-add
 
-[.lead]
 How you cable an IOM12/IOM12B shelf to a stack of IOM6 shelves depends on whether the IOM12 shelf is the initial IOM12/IOM12B shelf, meaning no other IOM12 shelf exists in the stack, or whether it is an additional IOM12/IOM12B shelf to an existing mixed stack, meaning one or more IOM12/IOM12B shelves already exists in the stack. It also depends on whether the stack has multipath HA, multipath, single-path HA, or single-path connectivity.
 
 .Before you begin
@@ -526,7 +522,6 @@ NOTE: All MetroCluster configurations require manual drive assignment.
 
 == Complete the hot-add
 
-[.lead]
 If you disabled automatic drive assignment as part of the preparation for hot-adding the IOM12/IOM12B shelves to the stack of IOM6 shelves, you need to manually assign drive ownership and then reenable automatic drive assignment if needed.
 
 .Before you begin

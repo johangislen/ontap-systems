@@ -8,13 +8,13 @@ summary: 'You must locate the boot media in the controller and follow the direct
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 To replace the boot media, you must remove the impaired controller module, install the replacement boot media, and transfer the boot image to a USB flash drive.
 
 == Step 1: Remove the controller module
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 . If you are not already grounded, properly ground yourself.
@@ -39,7 +39,6 @@ image::../media/drw_2600_opening_pcm_cover.png[]
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must locate the boot media in the controller and follow the directions to replace it.
 
 .Steps
@@ -65,8 +64,6 @@ If necessary, remove the boot media and reseat it into the socket.
 :icons: font
 :imagesdir: ../media/
 
-
-[.lead]
 You can install the system image to the replacement boot media using a USB flash drive with the image installed on it. However, you must restore the var file system during this procedure.
 
 * You must have a USB flash drive, formatted to FAT32, with at least 4GB capacity.
