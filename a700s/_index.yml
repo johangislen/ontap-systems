@@ -1,5 +1,5 @@
 indexpage:
-  lead: AFF A700s
+  #lead: AFF A700s
   tiles:
     - title: Install and setup
       links:
