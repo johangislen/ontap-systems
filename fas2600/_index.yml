@@ -7,8 +7,6 @@ indexpage:
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2316768
         - title: Video steps
           url: https://youtu.be/WAE0afWhj1c
-        - title: Detailed steps
-          url: /install-detailed-guide.html
     - title: Maintain
       links:
         - title: Boot media
