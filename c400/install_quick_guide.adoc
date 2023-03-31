@@ -13,4 +13,4 @@ This guide gives graphic instructions for a typical installation of your system 
 
 Access the _Installation and Setup Instructions_ PDF poster:
 
-link:../media/PDF/215-14510_2020_09_en-us_AFFC400_ISI.pdf[AFF C400 Installation and Setup Instructions^]
+link:../media/PDF/March_2023_Rev1_AFFC400_ISI.pdf[AFF C400 Installation and Setup Instructions^]
