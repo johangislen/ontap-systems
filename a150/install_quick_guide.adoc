@@ -13,4 +13,4 @@ This guide gives graphic instructions for a typical installation of your system 
 
 Access the _Installation and Setup Instructions_ PDF poster:
 
-link:../media/PDF/March_2023_Rev1_AFFA150_ISI.pdf[AFF A150 System Installation and Setup Instructions^]
+link:../media/PDF/March_2023_Rev1_AFFA150_ISI(4).pdf[AFF A150 System Installation and Setup Instructions^]
