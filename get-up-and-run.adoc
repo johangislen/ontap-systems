@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: To get up and running with AFF and FAS systems, you install hardware components, configure your switches, and configure your storage in ONTAP.
 ---
-= Get up and running with Aff and FAS storage systems
+= Get up and running with AFF and FAS storage systems
 :icons: font
 :imagesdir: ../media/
 
