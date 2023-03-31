@@ -11,6 +11,10 @@ summary: "This guide gives detailed step-by-step instructions for installing a t
 [.lead]
 This guide gives detailed step-by-step instructions for installing a typical NetApp system. Use this guide if you want more detailed installation instructions.
 
+If you have a MetroCluster configuration, use the MetroCluster installation content.
+
+https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
+
 == Step 1: Prepare for installation
 
 [.lead]
@@ -18,9 +22,9 @@ To install your AFF A150 system, you need to create an account on the NetApp Sup
 
 You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
 
-https://hwu.netapp.com[NetApp Hardware Universe]
+https://hwu.netapp.com[NetApp Hardware Universe^]
 
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9^]
 
 You need to provide the following at your site:
 
@@ -392,7 +396,7 @@ image::../media/oie_cable_pull_tab_down.png[]
 +
 NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
 +
-image::../media/drw_2700_ha_storage_cabling_animated_gif.png[]
+image::../media/drw_a150_ha_storage_cabling_IEOPS-1032.svg[width=440px]
 +
 [options="header" cols="1,3"]
 |===
@@ -480,6 +484,18 @@ System Manager opens.
 +
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide]
 
+. Set up your account and download Active IQ Config Advisor:
+ .. Log in to your existing account or create an account.
++
+https://mysupport.netapp.com/site/user/registration[NetApp Support Registration]
+
+ .. Register your system.
++
+https://mysupport.netapp.com/site/systems/register[NetApp Product Registration]
+
+ .. Download Active IQ Config Advisor.
++
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] page for information about configuring additional features in ONTAP.
 
@@ -544,5 +560,17 @@ NOTE: The format for the address is https://x.x.x.x.
  .. Configure the system using the data you collected in the _NetApp ONTAP Configuration guide_.
 +
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide]
+. Set up your account and download Active IQ Config Advisor:
+ .. Log in to your existing account or create an account.
++
+https://mysupport.netapp.com/site/user/registration[NetApp Support Registration]
+
+ .. Register your system.
++
+https://mysupport.netapp.com/site/systems/register[NetApp Product Registration]
+
+ .. Download Active IQ Config Advisor.
++
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] page for information about configuring additional features in ONTAP.
