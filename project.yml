@@ -4,7 +4,7 @@ settings:
   internal:
     pdf_enabled: false
   prod:
-    pdf_enabled: true
+    pdf_enabled: false
     harmony_enabled: true
   rss_page: "whats-new.html"
 sidebar:
@@ -23,6 +23,7 @@ sidebar:
       - section: c250
       - section: c400
       - section: c800      
+      - section: a150
       - section: a200
       - section: a220
       - section: a250

@@ -17,6 +17,8 @@ indexpage:
           url: /c400/index.html
         - title: AFF C800
           url: /c800/index.html
+        - title: AFF A150
+          url: /a150/index.html   
         - title: AFF A200
           url: /a200/index.html
         - title: AFF A220
