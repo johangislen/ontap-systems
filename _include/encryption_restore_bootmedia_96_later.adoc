@@ -10,9 +10,8 @@ If NSE or NVE are enabled along with Onboard Key Manager you must restore settin
 [role="tabbed-block"]
 ====
 
---
-
 .Option 1: Restore NVE or NSE when Onboard Key Manager is enabled
+--
 
 .Steps
 . Connect the console cable to the target controller.
@@ -45,7 +44,7 @@ NOTE: The data is output from either `security key-manager backup show` or `secu
 +
 Example of backup data:
 +
-====
+
 --------------------------BEGIN BACKUP--------------------------
 TmV0QXBwIEtleSBCbG9iAAEAAAAEAAAAcAEAAAAAAADuD+byAAAAACEAAAAAAAAA
 QAAAAAAAAABvOlH0AAAAAMh7qDLRyH1DBz12piVdy9ATSFMT0C0TlYFss4PDjTaV
@@ -65,7 +64,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAA
 
 ---------------------------END BACKUP---------------------------
-====
+
 
 . At the Boot Menu select the option for Normal Boot.
 +
@@ -86,14 +85,7 @@ NOTE: Terminating CIFS can cause loss of data.
 Only the CFO aggregates (root aggregate and CFO style data aggregates) will be shown.
 
 . Move the console cable to the target controller.
-. If you are running ONTAP 9.5 and earlier, run the key-manager setup wizard:
- .. Start the wizard using the `security key-manager setup -nodenodename` command, and then enter the passphrase for onboard key management when prompted.
- .. Enter the `key-manager key show -detail` command to see a detailed view of all keys stored in the onboard key manager and verify that the `Restored` column = `yes` for all authentication keys.
-+
-NOTE: If the `Restored` column = anything other than `yes`, contact Customer Support.
-
- .. Wait 10 minutes for the key to synchronize across the cluster.
-. If you are running ONTAP 9.6 or later:
+. Sync _key-manager_ and check the output::
  .. Run the `security key-manager onboard sync` command and then enter the passphrase when prompted.
  .. Enter the `security key-manager key query` command to see a detailed view of all keys stored in the onboard key manager and verify that the `Restored` column = `yes/true` for all authentication keys.
 +
@@ -114,7 +106,6 @@ If any interfaces are listed as `false`, revert those interfaces back to their h
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
 
 --
-S
 .Option 2: Restore NSE/NVE on systems running ONTAP 9.6 and later
 --
 
@@ -168,6 +159,7 @@ Use the security key-manager key query to verify that the `Restored` column = `y
 . Give back the controller using the `storage failover giveback -fromnode local` command.
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
 . Restore Autosupport if it was disabled by using the `system node autosupport invoke -node * -type all -message MAINT=END`
+
 --
 
 ====
