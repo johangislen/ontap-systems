@@ -26,11 +26,8 @@ You should avoid deviating from the rules; deviations might reduce reliability, 
 
 == Configuration rules
 
+[.lead]
 Disk shelves with IOM12/IOM12B modules are supported on specific types of HA pair and single-controller configurations.
-<<<<<<< HEAD
-=======
-
->>>>>>> 37ad767a3d64eb4e46d4b87ecfd9340b8261078d
 
 NOTE: The FAS25XX platforms are not addressed in this content.
 

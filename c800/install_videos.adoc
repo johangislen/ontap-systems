@@ -11,11 +11,15 @@ summary: 'There are two videos; one showing how to rack and cable your system an
 [.lead]
 There are two videos - one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
 
+If you have a MetroCluster configuration, use the MetroCluster installation content.
+
+https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
+
 == Video one of two: Hardware installation and cabling
 
 The following video shows how to install and cable your new system.
 
-video::2a61ed74-a0ce-46c3-86d2-ab4b013c0030[panopto, title="Animation - Installation and Setup of an AFF C800"]
+video::db9f506c-b08e-4b66-b781-afc40187b639[panopto, title="Animation - Installation and Setup of an AFF C800"]
 
 == Video two of two: Perform end-to-end software configuration
 

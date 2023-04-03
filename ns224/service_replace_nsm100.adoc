@@ -55,7 +55,7 @@ A shelf has three location LEDs: one on the operator display panel and one on ea
 +
 If you need the RMA number or additional help with the replacement procedure, contact technical support at https://mysupport.netapp.com/site/global/dashboard[NetApp Support^], 888-463-8277 (North America), 00-800-44-638277 (Europe), or +800-800-80-800 (Asia/Pacific).
 
-* You can use the following video or the written steps to replace an NSM module.
+* You can use the following animation or the written steps to replace an NSM module.
 +
 video::f57693b3-b164-4014-a827-aa86002f4b34[panopto, title="Animation - Replace an NSM module in an NS224 drive shelf"]
 
@@ -67,7 +67,7 @@ video::f57693b3-b164-4014-a827-aa86002f4b34[panopto, title="Animation - Replace 
 The system logs a warning message to the system console indicating which module is impaired. Additionally, the attention (amber) LED on the drive shelf operator display panel and the impaired module illuminate.
 
 . Disconnect the cabling from the impaired NSM module:
- .. Disconnect the power cord from the power supply by opening the power cord retainer, and then unplug the power cord from the power supply.
+ .. Disconnect the power cord from the power supply by opening the power cord retainer if it is an AC power supply, or unscrewing the two thumbs screws if it is a DC power supply, and then unplug the power cord from the power supply.
 +
 Power supplies do not have a power switch.
 
@@ -91,7 +91,7 @@ When you begin pulling, the latching mechanism arms extend from the NSM module a
 +
 NOTE: The FRU label on the NSM module cover shows the location of the DIMMs and fans.
 
-. Move the DIMMs from the impaired NSM module to the replacement NSM module.
+. Move the DIMMs from the impaired NSM module to the replacement NSM module:
  .. Note the orientation of the DIMMs in the slots so that you can insert the DIMMs into the replacement NSM module using the same orientation.
  .. Eject a DIMM from its slot by slowly pushing apart the ejector tabs at both ends of the DIMM slot, and then lift the DIMM out of the slot.
 +
@@ -106,7 +106,7 @@ When inserted correctly, the DIMM should go in easily but fit tightly in the slo
 
  .. Push down carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at both ends of the DIMM.
  .. Repeat substeps 7a through 7d for the remaining DIMMs.
-. Move the fans from the impaired NSM module to the replacement NSM module.
+. Move the fans from the impaired NSM module to the replacement NSM module:
  .. Firmly grasp a fan from the sides, where the blue touch points are located, and then lift it vertically to disconnect it from the socket.
 +
 You might need to gently rock the fan back and forth to disconnect it before lifting it out.
@@ -114,8 +114,8 @@ You might need to gently rock the fan back and forth to disconnect it before lif
  .. Align the fan with the guides in the replacement NSM module, and then push down until the fan module connector is fully seated in the socket.
  .. Repeat substeps 8a and 8b for the remaining fans.
 . Close the cover of each NSM module, and then tighten each thumbscrew.
-. Move the power supply from the impaired NSM module to the replacement NSM module.
- .. Rotate the cam handle to its open (horizontal) position, and then grasp it.
+. Move the power supply from the impaired NSM module to the replacement NSM module:
+ .. Rotate the handle up, to its horizontal position, and then grasp it.
  .. With your thumb, press the blue tab to release the locking mechanism.
  .. Pull the power supply out of the NSM module while using your other hand to support its weight.
  .. Using both hands, support and align the edges of the power supply with the opening in the replacement NSM module.
@@ -123,7 +123,7 @@ You might need to gently rock the fan back and forth to disconnect it before lif
 +
 NOTE: Do not use excessive force or you might damage the internal connector.
 
- .. Rotate the cam handle to the closed position.
+ .. Rotate the handle down, so it is out of the way of normal operations.
 . Insert the replacement NSM module into the shelf:
  .. Make sure that the latching mechanism arms are locked in the fully extended position.
  .. Using both hands, gently slide the NSM module into the shelf until the weight of the NSM module is fully supported by the shelf.
@@ -145,7 +145,7 @@ The NSM module should be fully inserted into the shelf and flush with the edges 
 +
 Cables are inserted with the connector pull-tab facing up. When a cable is inserted correctly, it clicks into place.
 
- .. Reconnect the power cord to the power supply, and then secure the power cord with the power cord retainer.
+ .. Reconnect the power cord to the power supply, and then secure the power cord with the power cord retainer if it is an AC power supply, or tighten the two thumb screws if it is a DC power supply.
 +
 When functioning correctly, a power supply's bicolored LED illuminates green.
 +

@@ -47,7 +47,7 @@ Make sure that you support the bottom of the controller module as you slide it o
 +
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
 
-image::../media/drw_a400_empty_riser_remove.png[]
+image::../media/drw_a400_empty_riser_remove_IEOPS-1002.svg[width=500px]
 
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
@@ -86,7 +86,7 @@ You can use the following animation, illustration, or the written steps to move 
 
 video::94d115b2-b02a-4234-805c-aad9012f204c[panopto, title="Animation - Move the NVDIMM battery"]
 
-image::../media/drw_A400_nvdimm-batt.png[]
+image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[width=500px]
 
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
@@ -107,7 +107,7 @@ You can use the following animation, illustration, or the written steps to move 
 
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto, title="Animation - Move the boot media"]
 
-image::../media/drw_A400_Replace-boot_media.png[]
+image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[width=500px]
 
 . Locate and remove the boot media from the controller module:
  .. Press the blue button at the end of the boot media until the lip on the boot media clears the blue button.
@@ -136,7 +136,7 @@ Moving the mezzanine card and riser 3 (right riser):
 
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto, title="Animation - Move the mezzanine card and riser 3"]
 
-image::../media/drw_A400_Replace-PCIe-cards.png[]
+image::../media/drw_A400_Replace-PCIe-cards_IEOPS-1008.svg[width=500px]
 
 . Move PCIe risers one and two from the impaired controller module to the replacement controller module:
  .. Remove any SFP or QSFP modules that might be in the PCIe cards.
@@ -168,7 +168,7 @@ You can use the following animation, illustration, or the written steps to move 
 
 video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto, title="Animation - Move the DIMMs"]
 
-image::../media/drw_A400_Replace-NVDIMM-DIMM.png[]
+image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[width=500px]
 
 . Locate the DIMMs on your controller module.
 . Note the orientation of the DIMM in the socket so that you can insert the DIMM in the replacement controller module in the proper orientation.
