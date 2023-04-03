@@ -15,7 +15,6 @@ You must replace the caching module in the controller module when your system re
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration.
 
 [role="tabbed-block"]
@@ -24,7 +23,6 @@ You can shut down or take over the impaired controller using different procedure
 .Option 1: Most configurations
 --
 
-[.lead]
 To shut down the impaired controller, you must determine the status of the controller and, if necessary, take over the controller so that the healthy controller continues to serve data from the impaired controller storage.
 
 .About this tasks
@@ -71,7 +69,6 @@ Take over or halt the impaired controller: `storage failover takeover -ofnode _i
 --
 .Option 2: Controller is in a two-node MetroCluster
 --
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 --
 
@@ -79,7 +76,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
 You can use the following animation, illustration, or the written steps to remove the controller module from the chassis.
@@ -108,7 +104,6 @@ Make sure that you support the bottom of the controller module as you slide it o
 
 == Step 3: Replace a caching module
 
-[.lead]
 To replace a caching module, referred to as the Flash Cache on the label on your controller, locate the slot inside the controller and follow the specific sequence of steps. See the FRU map on the controller module for the location of the Flash Cache.
 
 Your storage system must meet certain criteria depending on your situation:
@@ -152,7 +147,6 @@ The caching module end rises clear of the release tab.
 
 == Step 4: Install the controller module
 
-[.lead]
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
 You can use the following animation, illustration, or the written steps to install the controller module in the chassis.
@@ -193,7 +187,6 @@ If your system stops at the boot menu, select the option to boot to LOADER.
 
 == Step 5: Run diagnostics
 
-[.lead]
 After you have replaced a component in your system, you should run diagnostic tests on that component.
 
 Your system must be at the LOADER prompt to start diagnostics.
@@ -215,7 +208,6 @@ After you issue the command, you should wait until the system stops at the LOADE
 
 == Step 6: Restore the controller module to operation after running diagnostics
 
-[.lead]
 After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
 
 .Steps
@@ -228,10 +220,8 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 == Step 7: Switch back aggregates in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
 == Step 8: Complete the replacement process
 
-[.lead]
 include::../_include/complete_rma.adoc[]

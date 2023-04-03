@@ -25,17 +25,17 @@ To access components inside the controller, you must first remove the controller
 +
 video::5e029a19-8acc-4fa1-be5d-ae78004b365a[panopto, title="Animation - Remove controller module"]
 +
-image::../media/drw_9500_remove_PCM.svg[width=340]
+image::../media/drw_9500_remove_PCM.svg[width=340px]
 +
 
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
 a|
 Cam handle release button
 a|
-image::../media/legend_icon_02.svg[width=20]
+image::../media/legend_icon_02.svg[width=20px]
 a|
 Cam handle
 
@@ -49,12 +49,12 @@ Make sure that you support the bottom of the controller module as you slide it o
 . Place the controller module lid-side up on a stable, flat surface, press the blue button on the cover, slide the cover to the back of the controller module, and then swing the cover up and lift it off of the controller module.
 +
 
-image::../media/drw_9500_PCM_open.svg[width=340]
+image::../media/drw_9500_PCM_open.svg[width=340px]
 
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
  a|
 Controller module cover locking button
 
@@ -68,17 +68,17 @@ You must locate the boot media and follow the directions to remove it from the o
 
 +
 
-image::../media/drw_9500_remove_boot_dev.svg[width=340]
+image::../media/drw_9500_remove_boot_dev.svg[width=340px]
 +
 
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
 a|
 Press release tab
 a|
-image::../media/legend_icon_02.svg[width=20]
+image::../media/legend_icon_02.svg[width=20px]
 a|
 Boot media
 
@@ -110,17 +110,17 @@ IMPORTANT: Carefully hold the DIMM by the edges to avoid pressure on the compone
 
 +
 
-image::../media/drw_9500_replace_PCM_dimms.svg[width=340]
+image::../media/drw_9500_replace_PCM_dimms.svg[width=340px]
 
 +
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
  a|
 DIMM ejector tabs
 a|
-image::../media/legend_icon_02.svg[width=20]
+image::../media/legend_icon_02.svg[width=20px]
 a|
 DIMM
 
@@ -156,17 +156,17 @@ NOTE: The system might update system firmware when it boots. Do not abort this p
 +
 video::f2aa14b4-0d95-4109-b410-ae78004b35c9[panopto, title="Animation - Install controller module"]
 +
-image::../media/drw_9500_remove_PCM_source.svg[width=340]
+image::../media/drw_9500_remove_PCM_source.svg[width=340px]
 +
 
 [cols="20%,80%"]
 |===
 a|
-image::../media/legend_icon_01.svg[width=20]
+image::../media/legend_icon_01.svg[width=20px]
  a|
 Cam handle release button
 a|
-image::../media/legend_icon_02.svg[width=20]
+image::../media/legend_icon_02.svg[width=20px]
 a|
 Cam handle
 |===

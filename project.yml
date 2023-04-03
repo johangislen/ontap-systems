@@ -4,30 +4,32 @@ settings:
   internal:
     pdf_enabled: false
   prod:
-    pdf_enabled: true
+    pdf_enabled: false
     harmony_enabled: true
   rss_page: "whats-new.html"
 sidebar:
   entries:
     - title: AFF and FAS system docs
       url: "/index.html"
+    - title: Release notes
+      url: /rel-notes.html
     - title: Get started
       entries:
         - title: What's new
           url: /whats-new.html
-        - title: Release notes
-          url: /rel-notes.html
+        - title: Get up and running
+          url: /get-up-and-run.html
     - title: AFF systems
       entries:
       - section: c190
-      - section: a200
+      - section: c250
+      - section: c400
+      - section: c800      
+      - section: a150
       - section: a220
       - section: a250
-      - section: a300
-      - section: a320
       - section: a400
       - section: a700
-      - section: a700s
       - section: a800
       - section: a900
     - title: FAS systems
@@ -35,11 +37,19 @@ sidebar:
       - section: fas500f
       - section: fas2600
       - section: fas2700
-      - section: fas2800
       - section: fas8200
       - section: fas8300
       - section: fas9000
       - section: fas9500
+    - title: End-of-availability systems
+      entries:
+        - section: a200
+        - section: a300
+        - section: a320
+        - section: a700s
+        - section: fas2600
+        - section: fas2700
+        - section: fas8200
     - section: allsan
     - section: upgrade
     - title: System-level diagnostics

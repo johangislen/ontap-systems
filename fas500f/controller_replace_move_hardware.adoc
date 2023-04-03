@@ -13,7 +13,6 @@ To replace the controller module hardware, you must remove the impaired controll
 
 == Step 1: Remove the controller module
 
-[.lead]
 You must remove the controller module from the chassis when you replace a component inside the controller module.
 
 Make sure that you label the cables so that you know where they came from.
@@ -62,7 +61,6 @@ image::../media/drw_a250_remove_airduct_cover.png[]
 
 == Step 2: Move the power supply
 
-[.lead]
 You must move the power supply from the impaired controller module to the replacement controller module when you replace a controller module.
 
 . Disconnect the power supply.
@@ -94,7 +92,6 @@ IMPORTANT: To avoid damaging the internal connector, do not use excessive force 
 
 == Step 3: Move the fans
 
-[.lead]
 You must move the fans from the impaired controller module to the replacement module when replacing a failed controller module.
 
 . Remove the fan module by pinching the side of the fan module, and then lifting the fan module straight out of the controller module.
@@ -112,7 +109,6 @@ Fan module
 
 == Step 4: Move the boot media
 
-[.lead]
 There is one boot media device in the AFF A250 under the air duct in the controller module. You must move it from the impaired controller module to the replacement controller module.
 
 You need a #1 magnetic Phillips head screwdriver to remove the screw that holds the boot media in place. Due to the space constraints within the controller module, you should also have a magnet to transfer the screw on to so that you do not lose it.
@@ -139,7 +135,6 @@ NOTE: Do not apply force when tightening the screw on the boot media; you might 
 
 == Step 5: Move the DIMMs
 
-[.lead]
 To move the DIMMs, locate and move them from the impaired controller into the replacement controller and follow the specific sequence of steps.
 
 image::../media/drw_a250_dimm_replace.png[]
@@ -160,7 +155,6 @@ The DIMMs fit tightly in the socket. If not, reinsert the DIMM to realign it wit
 
 == Step 6: Move a mezzanine card
 
-[.lead]
 To move a mezzanine card, you must remove the cabling and any QSFPs and SFPs from the ports, move the mezzanine card to the replacement controller, reinstall any QSFPs and SFPs onto the ports, and cable the ports.
 
 . Locate and move the mezzanine cards from your impaired controller module.
@@ -198,7 +192,6 @@ NOTE: Do not apply force when tightening the screw on the mezzanine card; you mi
 
 == Step 7: Move the NV battery
 
-[.lead]
 When replacing the controller module, you must move the NV battery from the impaired controller module to the replacement controller module.
 
 . Locate and move the NVMEM battery from your impaired controller module to the replacement controller module.
@@ -232,7 +225,6 @@ Lift the battery out of the holder and controller module.
 
 == Step 8: Install the controller module
 
-[.lead]
 After all of the components have been moved from the impaired controller module to the replacement controller module, you must install the replacement controller module into the chassis, and then boot it to Maintenance mode.
 
 You can use the following illustration or the written steps to install the replacement controller module in the chassis.

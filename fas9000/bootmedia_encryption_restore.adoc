@@ -8,4 +8,5 @@ summary: "Once environment variables are checked, you must complete steps specif
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 include::../_include/encryption_restore_bootmedia.adoc[]

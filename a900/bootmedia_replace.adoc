@@ -13,7 +13,6 @@ You must remove and open the controller module, locate and replace the boot medi
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module.
 
 .Steps
@@ -58,7 +57,6 @@ Controller module cover locking button
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You must locate the boot media in the controller and follow the directions to replace it.
 
 .Steps
@@ -96,7 +94,6 @@ If necessary, remove the boot media and reseat it into the socket.
 :icons: font
 :imagesdir: ../media/
 
-[.lead]
 You can install the system image to the replacement boot media using a USB flash drive with the image installed on it. However, you must restore the var file system during this procedure.
 
 .Before you begin
