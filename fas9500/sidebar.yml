@@ -100,4 +100,4 @@ entries:
     - title: RTC battery
       url: /fas9500/rtc_battery_replace.html
     - title:  Test Pre-shutdown
-      url: /fas9500/test_shutdown-nested_tabs.htm
+      url: /fas9500/test_shutdown-nested_tabs.html
