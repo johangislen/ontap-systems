@@ -33,11 +33,10 @@ indexpage:
           url: /power-supply-replace.html
         - title: RTC battery
           url: /rtc-battery-replace.html
-      links:
-        - title: NS224
-          url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
+        - title: NS224 shelves
+          url: ../ns224/index.html
         - title: SAS with IOM12
-          url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
+          url: ../sas3/index.html
     - title: Supported switches
       links:
         - title: BES-53248
