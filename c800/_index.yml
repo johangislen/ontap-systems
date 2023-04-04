@@ -39,8 +39,6 @@ indexpage:
           url: /rtc-battery-replace.html
     - title: Learn
       links:
-        - title: Replacing an internal disk drive video
-          url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
         - title: NetApp All-Flash FAS Solution for Nonpersistent Desktops with VMware Horizon View | TR-4539
           url: https://www.netapp.com/pdf.html?item=/media/10695-tr-4539.pdf
     - title: Add or remove shelves
