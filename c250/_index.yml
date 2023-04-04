@@ -45,8 +45,6 @@ indexpage:
       links:
         - title: NS224
           url: https://docs.netapp.com/us-en/ontap-systems/ns224/index.html
-        - title: SAS with IOM12
-          url: https://docs.netapp.com/us-en/ontap-systems/sas3/index.html
     - title: Install and maintain switches
       links:
         - title: Broadcom-supported switches
