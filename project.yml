@@ -19,12 +19,8 @@ sidebar:
           url: /whats-new.html
         - title: Get up and running
           url: /get-up-and-run.html
-    - title: AFF systems
-      entries:
-      - section: c190
-      - section: c250
-      - section: c400
-      - section: c800      
+    - title: AFF A-Series systems
+      entries:   
       - section: a150
       - section: a220
       - section: a250
@@ -32,6 +28,12 @@ sidebar:
       - section: a700
       - section: a800
       - section: a900
+    - title: AFF C-Series systems
+      entries:
+      - section: c190
+      - section: c250
+      - section: c400
+      - section: c800    
     - title: FAS systems
       entries:
       - section: fas500f
