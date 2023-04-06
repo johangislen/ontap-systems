@@ -35,8 +35,6 @@ indexpage:
           url: /rtc-battery-replace.html
         - title: NS224 shelves
           url: ../ns224/index.html
-        - title: SAS shelves
-          url: ../sas3/index.html
     - title: Supported switches
       links:
         - title: BES-53248

@@ -9,8 +9,10 @@ indexpage:
           url: /install-videos.html
         - title: Detailed steps
           url: /install-detailed-guide.html
-        - title: MetroCluster IP configurations
-          url: https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html
+        - title: Fabric-attached MetroCluster configurations
+          url: https://docs.netapp.com/us-en/ontap-metrocluster/install-fc/index.html
+        - title: Stretch MetroCluster configurations
+          url: https://docs.netapp.com/us-en/ontap-metrocluster/install-stretch/index.html
     - title: Maintain
       links:
         - title: Boot media
@@ -34,7 +36,7 @@ indexpage:
         - title: RTC battery
           url: /rtc-battery-replace.html
         - title: SAS shelves
-          url: ../ns224/index.html
+          url: ../sas3/index.html
     - title: Supported switches
       links:
         - title: BES-53248
