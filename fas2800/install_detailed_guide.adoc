@@ -13,14 +13,9 @@ This guide gives detailed step-by-step instructions for installing a typical Net
 
 == Step 1: Prepare for installation
 
-[.lead]
-To install your FAS2800 or AFF A220 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your FAS2800 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
-You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
-
-https://hwu.netapp.com[NetApp Hardware Universe]
-
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9]
+You need to have access to the https://hwu.netapp.com[NetApp Hardware Universe] for information about site requirements as well as additional information on your configured system. You might also want to have access to the http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes for your version of ONTAP 9] for your version of ONTAP for more information about this system.
 
 You need to provide the following at your site:
 
@@ -36,77 +31,73 @@ You need to provide the following at your site:
 image::../media/drw_ssn_label.png[]
 
 . Set up your account:
- .. Log in to your existing account or create an account.
- .. Register your system.
-+
-https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration]
-. Download and install Config Advisor on your laptop.
-+
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+.. Log in to your existing account or create an account.
+.. Register your system through  https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration]
+. Download and install https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[Config Advisor] on your laptop.
 
 . Inventory and make a note of the number and types of cables you received.
 +
-The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see the Hardware Universe to locate the cable and identify its use.
+The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see the https://hwu.netapp.com[NetApp Hardware Universe] to locate the cable and identify its use.
 +
-https://hwu.netapp.com[NetApp Hardware Universe]
-+
+
 [options="header" cols="1,2,1,2"]
 |===
 | Type of cable...| Part number and length| Connector type| For...
 a|
-10 GbE cable (order dependent)
+10 GbE, SFP28 cable (order dependent)
 a|
-X6566B-05-R6 (112-00297), 0.5m
+X66240A-05, 0.5m,
 
-X6566B-2-R6 (112-00299), 2m
+X66240A-2, 2m,
+
+X66240A-5, 5m, 0.5m
 a|
 image:../media/oie_cable_sfp_gbe_copper.png[]
 a|
-Cluster interconnect network
+Network cable
 a|
-10 GbE cable (order dependent)
+25Gb Ethernet, SFP28
 a|
-Part number X6566B-2-R6 (112-00299), 2m
+X6566B-2-R6, 2m
 
-or X6566B-3-R6 (112-00300), 3m
-
-X6566B-5-R6 (112-00301), 5m
+X6566B-5-R6, 5m
 a|
 image:../media/oie_cable_sfp_gbe_copper.png[]
 a|
-Data
+Network cable
 a|
-Optical network cables (order dependent)
+32Gb Fiber Channel,
+SFP+ (target/initiator)
 a|
-X6553-R6 (112-00188), 2m
+X66250-2, 2m
 
-X6536-R6 (112-00090), 5m
+X66250-5, 5m
 
-X6554-R6(112-00189), 15m
+X66250-15, 15m
 a|
 image:../media/oie_cable_fiber_lc_connector.png[]
 a|
-FC host network
+FC network
 a|
 Cat 6, RJ-45 (order dependent)
 a|
-Part numbers X6585-R6 (112-00291), 3m
+X6561-R6
 
-X6562-R6 (112-00196), 5m
+X6562-R6
 a|
 image:../media/oie_cable_rj45.png[]
 a|
 Management network and Ethernet data
 a|
-Storage (order dependent)
+Storage 
 a|
-Part number X66030A (112-00435), 0.5m
+X66211A-05 (112-00595), 0.5m
 
-X66031A (112-00436), 1m
+X66211B-1 (112-00573), 1m
 
-X66032A (112-00437), 2m
+X66211B-2 (112-00574), 2m
 
-X66033A (112-00438), 3m
+X66211B-5 (112-00576), 5m
 a|
 image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]
 a|
@@ -130,12 +121,12 @@ Powering up the system
 |===
 
 . Download and complete the _Cluster configuration worksheet_.
+NEED NEW LINKS HERE TO ONTAP WORKSHEETS
 +
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configuration Worksheet]
 
 == Step 2: Install the hardware
 
-[.lead]
 You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 .Steps
@@ -154,12 +145,10 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to your network
 
-[.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
 === Option 1: Cable a two-node switchless cluster, unified network configuration
 
-[.lead]
 Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
