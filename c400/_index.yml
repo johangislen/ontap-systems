@@ -35,12 +35,6 @@ indexpage:
           url: /rtc-battery-replace.html
         - title: NS224 shelves
           url: ../ns224/index.html
-    - title: Install and maintain switches
-      links:
-        - title: Broadcom-supported switches
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/
-        - title: Cisco switches
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/
     - title: Supported switches
       links:
         - title: BES-53248

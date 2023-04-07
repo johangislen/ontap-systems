@@ -5,7 +5,7 @@ permalink: a220/index.html
 summary: The storage system documentation lets you install, setup, and maintain your system.
 ---
 
-= A220 System Documentation
+= AFF A220 System Documentation
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/
