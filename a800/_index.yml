@@ -50,6 +50,6 @@ indexpage:
         - title: System hardware upgrade
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
         - title: ONTAP software upgrade
-          url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
+          url: https://docs.netapp.com/us-en/ontap/upgrade/index.htmlS 
         - title: Replace internal disk drive (video)
           url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ  
