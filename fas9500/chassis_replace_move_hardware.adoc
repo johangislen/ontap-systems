@@ -21,7 +21,7 @@ Removing the power supplies when replacing a chassis involves turning off, disco
 .. Turn off the power switch on the power supply.
 .. Open the power cable retainer, and then unplug the power cable from the power supply.
 .. Unplug the power cable from the power source.
-. Press and hold the terra cotta button on the power supply handle, and then pull the power supply out of the chassis.
+. Press and hold the terra cotta locking button on the power supply handle, and then pull the power supply out of the chassis.
 +
 NOTE: When removing a power supply, always use two hands to support its weight.
 
@@ -35,7 +35,7 @@ image::../media/drw_9500_remove_install_PSU_module.svg[width=340]
 a|
 image::../media/legend_icon_01.svg[width=20]
 a|
-Locking button
+Terra cotta locking button
 |===
 
 . Repeat the preceding steps for any remaining power supplies.
@@ -46,7 +46,7 @@ You must remove the six fan modules, located on in the front of the chassis, whe
 
 . If you are not already grounded, properly ground yourself.
 . Remove the bezel (if necessary) with two hands, by grasping the openings on each side of the bezel, and then pulling it toward you until the bezel releases from the ball studs on the chassis frame.
-. Press the terra cotta button on the fan module and pull the fan module straight out of the chassis, making sure that you support it with your free hand.
+. Press the terra cotta locking button on the fan module and pull the fan module straight out of the chassis, making sure that you support it with your free hand.
 +
 NOTE: The fan modules are short. Always support the bottom of the fan module with your free hand so that it does not suddenly drop free from the chassis and injure you.
 +
@@ -59,7 +59,7 @@ image::../media/drw_9500_remove_install_fan.svg[width=340]
 a|
 image:../media/legend_icon_01.svg[width=20]
 a|
-Terra cotta release button
+Terra cotta locking button
 a|
 image:../media/legend_icon_02.svg[width=20]
 a|
@@ -75,7 +75,7 @@ To replace the chassis, you must remove the controller module or modules from th
 
 . If you are not already grounded, properly ground yourself.
 . Unplug the cables from the impaired controller module, and keep track of where the cables were connected.
-. Slide the terra cotta button on the cam handle downward until it unlocks.
+. Slide the terra cotta locking button on the cam handle downward until it unlocks.
 +
 video::5e029a19-8acc-4fa1-be5d-ae78004b365a[panopto, title="Animation - Remove controller module"]
 +
@@ -86,7 +86,7 @@ image::../media/drw_9500_remove_PCM.svg[width=340]
 a|
 image:../media/legend_icon_01.svg[width=20]
 a|
-Cam handle release button
+Cam handle locking button
 a|
 image:../media/legend_icon_02.svg[width=20]
 a|
@@ -96,7 +96,8 @@ Cam handle
 . Rotate the cam handle so that it completely disengages the controller module from the chassis, and then slide the controller module out of the chassis.
 +
 Make sure that you support the bottom of the controller module as you slide it out of the chassis.
-. Set the controller module aside in a safe place, and repeat these steps if you have another controller module in the chassis.
+. Set the controller module aside in a safe place and keep track of which chassis slot it came from, so that it can be installed into the same slot in the replacement chassis..
+. Repeat these steps if you have another controller module in the chassis.
 
 == Step 4: Remove the I/O modules
 
@@ -107,9 +108,9 @@ To remove I/O modules from the impaired chassis, including the NVRAM modules, fo
 +
 Make sure that you label the cables so that you know where they came from.
 . Remove the target I/O module from the chassis:
-.. Depress the lettered and numbered cam button.
+.. Depress the lettered and numbered cam locking button.
 +
-The cam button moves away from the chassis.
+The cam locking button moves away from the chassis.
 .. Rotate the cam latch down until it is in a horizontal position.
 +
 The I/O module disengages from the chassis and moves about 1/2 inch out of the I/O slot.
@@ -141,7 +142,7 @@ I/O cam latch completely unlocked
 Remove the two de-stage controller power modules from the front of the impaired chassis.
 
 . If you are not already grounded, properly ground yourself.
-. Press the terra cotta locking button on the module handle, and then slide the DCPM module out of the chassis.
+. Press the terra cotta locking button on the module handle, and then slide the DCPM out of the chassis.
 +
 video::c067cf9d-35b8-4fbe-9573-ae78004c2328[panopto, title="Animation - Remove/install DCPM"]
 +
@@ -152,10 +153,10 @@ image::../media/drw_9500_remove_NV_battery.svg[width=340]
 a|
 image::../media/legend_icon_01.svg[width=20]
 a|
-DCPM module terra cotta locking button
+DCPM terra cotta locking button
 |===
 
-. Set the DCPM module aside in a safe place and repeat this step for the remaining DCPM module.
+. Set the DCPM aside in a safe place and repeat this step for the remaining DCPM.
 
 == Step 6: Remove the USB LED module 
 
@@ -179,7 +180,7 @@ Slide out of chassis.
 
 . Locate the USB LED module on the front of the impaired chassis, directly under the power supply bays.
 . Press the black locking button on the right side of the module to release the module from the chassis, and then slide it out of the impaired chassis.
-. Align the edges of the module with the USB LED bay at the bottom-front of the replacement chassis, and gently push the module all the way into the chassis until it clicks into place.
+. Set the module aside in a safe place.
 
 == Step 7: Replace a chassis from within the equipment rack or system cabinet
 
@@ -196,18 +197,17 @@ NOTE: If the system is in a system cabinet, you might need to remove the rear ti
 . Secure the front of the chassis to the equipment rack or system cabinet, using the screws you removed from the impaired chassis.
 . Secure the rear of the chassis to the equipment rack or system cabinet.
 . If you are using the cable management brackets, remove them from the impaired chassis, and then install them on the replacement chassis.
-. If you have not already done so, install the bezel.
 
 == Step 8: Install the de-stage controller power module when replacing the chassis
 
 Once the replacement chassis is installed into the rack or system cabinet, you must reinstall the de-stage controller power modules into it.
 
 . If you are not already grounded, properly ground yourself.
-. Align the end of the DCPM module with the chassis opening, and then gently slide it into the chassis until it clicks into place.
+. Align the end of the DCPM with the chassis opening, and then gently slide it into the chassis until it clicks into place.
 +
 NOTE: The module and slot are keyed. Do not force the module into the opening. If the module does not go in easily, realign the module and slide it into the chassis.
 
-. Repeat this step for the remaining DCPM module.
+. Repeat this step for the remaining DCPM.
 
 == Step 9: Install fans into the chassis
 
@@ -255,9 +255,8 @@ IMPORTANT: Only connect the power cable to the power supply. Do not connect the 
 
 Install the USB LED modules in the replacement chassis.
 
-. Locate the USB LED module on the front of the impaired chassis, directly under the power supply bays.
-. Press the black locking button on the right side of the module to release the module from the chassis, and then slide it out of the impaired chassis.
-. Align the edges of the module with the USB LED bay at the bottom-front of the replacement chassis, and gently push the module all the way into the chassis until it clicks into place.
+. Locate the USB LED module slot on the front of the replacement chassis, directly under the DCPM bays.
+. Align the edges of the module with the USB LED bay, and gently push the module all the way into the chassis until it clicks into place.
 
 == Step 13: Install the controller
 
