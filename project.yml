@@ -4,7 +4,7 @@ settings:
   internal:
     pdf_enabled: false
   prod:
-    pdf_enabled: false
+    pdf_enabled: true
     harmony_enabled: true
   rss_page: "whats-new.html"
 sidebar:
