@@ -123,15 +123,13 @@ Optional FC cable
 a|
 Optional FC cable
 a|
-image:/media/oie_cable_fiber_lc_connector.png[]
+image:../media/oie_cable_fiber_lc_connector.svg[width = 100px]
 a|
-
+Additional FC network cable
 |===
 
-. Download and complete the _Cluster configuration worksheet_.
-NEED NEW LINKS HERE TO ONTAP WORKSHEETS
-+
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configuration Worksheet]
+. Download and complete the worksheets found in  https://docs.netapp.com/us-en/ontap/software_setup/concept_set_up_the_cluster.html#cluster-setup-worksheets[Set up the cluster with the ONTAP CLI^].
+
 
 == Step 2: Install the hardware
 
@@ -143,7 +141,7 @@ You need to install your system in a 4-post rack or NetApp system cabinet, as ap
 +
 NOTE: You need to be aware of the safety concerns associated with the weight of the system.
 +
-image::../media/drw_oie_fas2700_weight_caution.png[]
+image::../media/oie_fas2800_weight_caution.svg[]
 
 . Attach cable management devices (as shown).
 +

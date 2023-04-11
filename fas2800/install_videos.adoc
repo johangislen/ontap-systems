@@ -15,7 +15,7 @@ There are two videos; one showing how to rack and cable your system and one show
 
 The following video shows how to install and cable your new system.
 
-video::5g-34qxG9HA?[youtube]
+video::3caea3f4-14fe-4c13-a324-afa3013a1e48[panopto, title="Animation - FAS2800 Installation and setup instructions"]
 
 == Video two of two: Performing end-to-end software configuration
 
