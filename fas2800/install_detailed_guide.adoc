@@ -172,7 +172,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 .Steps
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches:
 +
-image::../media/drw_2700_tnsc_unified_network_cabling_animated_gif.png[]
+image::../media/ANIMATION LINK HERE drw_2700_tnsc_unified_network_cabling_animated_gif.png ANIMATION LINK HERE[Animation - Cabling a two-node switchless cluster]
 +
 [options="header" cols="1,3"]
 |===
@@ -184,30 +184,28 @@ Cable the cluster interconnect ports to each other with the cluster interconnect
 
  ** e0a to e0a
  ** e0b to e0b
-image:../media/drw_c190_u_tnsc_clust_cbling.png[]
+
+image:../media/OIE_FAS2800_tnsc_cluster_interconnect_IEOPS-1075[]
 a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use one of the following cable types to cable the UTA2 data ports to your host network:
-
-
-An FC host
-
- ** 0c and 0d
- ** *or* 0e and 0f
- A 10GbE
- ** e0c and e0d
- ** *or* e0e and e0f
-
-NOTE: You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
-
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
+image:../media/oie_legend_icon_2_lp.png[]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/drw_c190_u_mgmt_cbling.png[]
+image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
+a|image:../media/oie_legend_icon_3_o.png[]
+a|
+Select one of the following cable connections to cable the mezzanine card ports to your host network:
+
+* 4-ports, 10/25Gb Ethernet, SFP28 - cable pic here
+* 4-ports, 32Gb Fiber Channel, SFP+ (target only)
+* 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target)
+* 4-ports, 10GBASE-T, RJ45
+* 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+)
+Cable ports 1a and 1b to your FC data network and
+ports e1c and e1d to your Ethernet data network.
+
+image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
+
 a|
 image:../media/oie_legend_icon_attn_symbol.png[]
 a|
