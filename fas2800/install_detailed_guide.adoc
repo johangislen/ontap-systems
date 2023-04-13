@@ -196,9 +196,9 @@ a|image:../media/oie_legend_icon_3_o.png[]
 a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
-* 4-ports, 10/25Gb Ethernet, SFP28 - cable pic here
-* 4-ports, 32Gb Fiber Channel, SFP+ (target only)
-* 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target)
+* 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.png[]
+* 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.png[]
+* 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.png[]
 * 4-ports, 10GBASE-T, RJ45
 * 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+)
 Cable ports 1a and 1b to your FC data network and
