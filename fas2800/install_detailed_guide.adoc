@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
 summary: "This guide gives detailed step-by-step instructions for installing a typical NetApp system."
 ---
-= Detailed guide - FAS2800
+= Detailed steps - FAS2800
 :icons: font
 :imagesdir: ../media/
 
@@ -62,7 +62,7 @@ X6566B-2-R6, 2m
 
 X6566B-5-R6, 5m
 a|
-image:../media/[]
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[]
 a|
 Network cable
 a|
@@ -196,13 +196,17 @@ a|image:../media/oie_legend_icon_3_o.png[]
 a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
-* 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.png[]
-* 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.png[]
-* 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.png[]
-* 4-ports, 10GBASE-T, RJ45
-* 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+)
-Cable ports 1a and 1b to your FC data network and
-ports e1c and e1d to your Ethernet data network.
+Four ports::
+** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
++ 
+Cable ports e1a through e1d to your Ethernet data network or ports 1-a-1d for your FC network.
+2+2 ports::
+** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+Cable ports 1a and 1b to your FC data network and ports e1c and e1d to your Ethernet data network.
 
 image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
 
