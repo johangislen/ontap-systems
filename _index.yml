@@ -45,6 +45,14 @@ indexpage:
       links:
         - title: FAS500f
           url: /fas500f/index.html
+        - title: FAS2600
+          url: /fas2600/index.html
+        - title: FAS2700
+          url: /fas2700/index.html
+        - title: FAS2800
+          url: /fas2800/index.html
+        - title: FAS8200
+          url: /fas8200/index.html
         - title: FAS8300
           url: /fas8300/index.html
         - title: FAS8700
@@ -89,10 +97,12 @@ indexpage:
           url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html
         - title: ONTAP software docs
           url: https://docs.netapp.com/us-en/ontap/index.html
-        - title: Digital Advisor docs
-          url: https://docs.netapp.com/us-en/active-iq/index.html 
-    - title: Tools & support
-      links:
+        - title: NetApp Hardware Universe
+          url: https://hwu.netapp.com/
+        - title: NetApp Active IQ Digital Advisor
+          url: https://docs.netapp.com/us-en/active-iq/index.html
+        - title: NetApp Active IQ Config Advisor
+          url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
         - title: NetApp Interoperability Matrix
           url: https://mysupport.netapp.com/matrix/#welcome
         - title: NetApp Hardware Universe
