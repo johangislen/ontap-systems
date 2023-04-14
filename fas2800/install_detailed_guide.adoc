@@ -52,7 +52,7 @@ X66240A-2, 2m,
 
 X66240A-5, 5m, 0.5m
 a|
-image:../media/oie_cable_sfp_gbe_copper.png[]
+image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 a|
 Network cable
 a|
@@ -62,7 +62,7 @@ X6566B-2-R6, 2m
 
 X6566B-5-R6, 5m
 a|
-image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[]
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
 a|
 Network cable
 a|
@@ -75,7 +75,7 @@ X66250-5, 5m
 
 X66250-15, 15m
 a|
-image:../media/oie_cable_sfp_gbe_copper.png[]
+image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 a|
 FC network
 a|
@@ -85,7 +85,7 @@ X6561-R6
 
 X6562-R6
 a|
-image:../media/oie_cable_rj45.png[]
+image:../media/oie_cable_rj45.svg[width=100px]
 a|
 Management network and Ethernet data
 a|
@@ -99,7 +99,7 @@ X66211B-2 (112-00574), 2m
 
 X66211B-5 (112-00576), 5m
 a|
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]
+image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]
 a|
 Storage
 a|
@@ -107,7 +107,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.svg[width=100px]
 a|
 Console connection during software setup on non-Windows or Mac laptop/console
 a|
@@ -115,7 +115,7 @@ Power cables
 a|
 Not applicable
 a|
-image:../media/oie_cable_power.png[]
+image:../media/oie_cable_power.svg[width=100px]
 a|
 Powering up the system
 a|
@@ -123,7 +123,7 @@ Optional FC cable
 a|
 Optional FC cable
 a|
-image:../media/oie_cable_fiber_lc_connector.svg[width = 100px]
+image:../media/oie_cable_fiber_lc_connector.svg[width=100px]
 a|
 Additional FC network cable
 |===
@@ -141,11 +141,11 @@ You need to install your system in a 4-post rack or NetApp system cabinet, as ap
 +
 NOTE: You need to be aware of the safety concerns associated with the weight of the system.
 +
-image::../media/oie_fas2800_weight_caution.svg[]
+image::../media/oie_fas2800_weight_caution.svg[width=320px]
 
 . Attach cable management devices (as shown).
 +
-image::../media/drw_cable_management_arm_install.png[]
+image::../media/drw_cable_management_arm_install.svg[width=320px]
 
 . Place the bezel on the front of the system.
 
@@ -165,7 +165,7 @@ NOTE: You must have contacted your network administrator for information about c
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
-image::../media/oie_cable_pull_tab_down.png[]
+image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
@@ -178,21 +178,21 @@ image::../media/ANIMATION LINK HERE drw_2700_tnsc_unified_network_cabling_animat
 |===
 | Step| Perform on each controller
 a|
-image:../media/oie_legend_icon_1_lg.png[]
+image:../media/oie_legend_icon_1_lg.svg[width=50px]
 a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable:
+Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
 
  ** e0a to e0a
  ** e0b to e0b
 
 image:../media/OIE_FAS2800_tnsc_cluster_interconnect_IEOPS-1075[]
 a|
-image:../media/oie_legend_icon_2_lp.png[]
+image:../media/oie_legend_icon_2_lp.svg[width=50px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
 image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
-a|image:../media/oie_legend_icon_3_o.png[]
+a|image:../media/oie_legend_icon_3_o.svg[width=50px]
 a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
@@ -212,7 +212,7 @@ Cable ports 1a and 1b to your FC data network and ports e1c and e1d to your Ethe
 image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
 
 a|
-image:../media/oie_legend_icon_attn_symbol.png[]
+image:../media/oie_legend_icon_attn_symbol.svg[width=50px]
 a|
 DO NOT plug in the power cords at this point.
 |===
@@ -228,7 +228,7 @@ You must have contacted your network administrator for information about connect
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
-image::../media/oie_cable_pull_tab_down.png[]
+image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
@@ -241,25 +241,38 @@ image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.png[]
 |===
 | Step| Perform on each controller module
 a|
-image:../media/oie_legend_icon_1_lg.png[]
+image:../media/oie_legend_icon_1_lg.svg[width=50px]
 a|
 Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
 
-image:../media/drw_c190_e_switched_clust_cbling.png[]
+image:../media/drw_fas2800_switched_clust_cbling.png[]
 a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network:
-
-image:../media/drw_c190_e_rj45_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
+image:../media/oie_legend_icon_2_lp.svg[width=50px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/drw_c190_e_mgmt_cbling.png[]
+image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
+a|image:../media/oie_legend_icon_3_o.svg[width=50px]
 a|
-image:../media/oie_legend_icon_attn_symbol.png[]
+Select one of the following cable connections to cable the mezzanine card ports to your host network:
+
+Four ports::
+** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
++ 
+Cable ports e1a through e1d to your Ethernet data network or ports 1-a-1d for your FC network.
+2+2 ports::
+** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+Cable ports 1a and 1b to your FC data network and ports e1c and e1d to your Ethernet data network.
+
+image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
+
+a|
+image:../media/oie_legend_icon_attn_symbol.svg[width=50px]
 a|
 DO NOT plug in the power cords at this point.
 |===
@@ -269,7 +282,7 @@ DO NOT plug in the power cords at this point.
 
 ====
 
-== Step 4: Cable controllers to drive shelves
+== Step 4: Cable controllers to drive shelves****
 
 [.lead]
 You must cable the controllers to your shelves using the onboard storage ports. NetApp recommends MP-HA cabling for systems with external storage. If you have a SAS tape drive, you can use single-path cabling. If you have no external shelves, MP-HA cabling to internal drives is optional (not shown) if the SAS cables are ordered with the system.
