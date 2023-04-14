@@ -19,5 +19,5 @@ https://www.netapp.com/data-storage/all-flash-documentation/[All Flash FAS Docum
 https://www.netapp.com/data-storage/fas/documentation/[FAS Storage Systems documentation resources]
 
 * #1 and #2 Phillips screwdrivers
-* Torx driver for system cabinet screws
+* Torq driver for system cabinet screws
 * Leveling tool for leveling the system cabinet
