@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fas2800, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
 summary: "This guide gives detailed step-by-step instructions for installing a typical NetApp system."
 ---
-= Detailed guide - FAS2800
+= Detailed steps - FAS2800
 :icons: font
 :imagesdir: ../media/
 
@@ -28,7 +28,7 @@ You need to provide the following at your site:
 . Unpack the contents of all boxes.
 . Record the system serial number from the controllers.
 +
-image::../media/drw_ssn_label.png[]
+image::../media/drw_ssn_label.svg[width=320px]
 
 . Set up your account:
 .. Log in to your existing account or create an account.
@@ -52,7 +52,7 @@ X66240A-2, 2m,
 
 X66240A-5, 5m, 0.5m
 a|
-image:../media/oie_cable_sfp_gbe_copper.png[]
+image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 a|
 Network cable
 a|
@@ -62,7 +62,7 @@ X6566B-2-R6, 2m
 
 X6566B-5-R6, 5m
 a|
-image:../media/oie_cable_sfp_gbe_copper.png[]
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
 a|
 Network cable
 a|
@@ -75,7 +75,7 @@ X66250-5, 5m
 
 X66250-15, 15m
 a|
-image:../media/oie_cable_fiber_lc_connector.png[]
+image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 a|
 FC network
 a|
@@ -85,7 +85,7 @@ X6561-R6
 
 X6562-R6
 a|
-image:../media/oie_cable_rj45.png[]
+image:../media/oie_cable_rj45.svg[width=100px]
 a|
 Management network and Ethernet data
 a|
@@ -99,7 +99,7 @@ X66211B-2 (112-00574), 2m
 
 X66211B-5 (112-00576), 5m
 a|
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]
+image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]
 a|
 Storage
 a|
@@ -107,7 +107,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.svg[width=100px]
 a|
 Console connection during software setup on non-Windows or Mac laptop/console
 a|
@@ -115,15 +115,21 @@ Power cables
 a|
 Not applicable
 a|
-image:../media/oie_cable_power.png[]
+image:../media/oie_cable_power.svg[width=100px]
 a|
 Powering up the system
+a|
+Optional FC cable
+a|
+Optional FC cable
+a|
+image:../media/oie_cable_fiber_lc_connector.svg[width=100px]
+a|
+Additional FC network cable
 |===
 
-. Download and complete the _Cluster configuration worksheet_.
-NEED NEW LINKS HERE TO ONTAP WORKSHEETS
-+
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configuration Worksheet]
+. Download and complete the worksheets found in  https://docs.netapp.com/us-en/ontap/software_setup/concept_set_up_the_cluster.html#cluster-setup-worksheets[Set up the cluster with the ONTAP CLI^].
+
 
 == Step 2: Install the hardware
 
@@ -135,11 +141,11 @@ You need to install your system in a 4-post rack or NetApp system cabinet, as ap
 +
 NOTE: You need to be aware of the safety concerns associated with the weight of the system.
 +
-image::../media/drw_oie_fas2700_weight_caution.png[]
+image::../media/oie_fas2800_weight_caution.svg[width=320px]
 
 . Attach cable management devices (as shown).
 +
-image::../media/drw_cable_management_arm_install.png[]
+image::../media/drw_cable_management_arm_install.svg[width=320px]
 
 . Place the bezel on the front of the system.
 
@@ -147,222 +153,136 @@ image::../media/drw_cable_management_arm_install.png[]
 
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
-=== Option 1: Cable a two-node switchless cluster, unified network configuration
+[role="tabbed-block"]
+====
 
-Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
+.Option 1: Cable a two-node switchless cluster
+--
 
-You must have contacted your network administrator for information about connecting the system to the switches.
+Cable your network connections and your cluster interconnect ports.
+
+NOTE: You must have contacted your network administrator for information about connecting the system to the switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
-image::../media/oie_cable_pull_tab_down.png[]
+image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
 .Steps
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches:
 +
-image::../media/drw_2700_tnsc_unified_network_cabling_animated_gif.png[]
+***image::../media/ANIMATION LINK HERE drw_2700_tnsc_unified_network_cabling_animated_gif.png ANIMATION LINK HERE[Animation - Cabling a two-node switchless cluster]
 +
 [options="header" cols="1,3"]
 |===
 | Step| Perform on each controller
 a|
-image:../media/oie_legend_icon_1_lg.png[]
+image:../media/oie_legend_icon_1_lg.svg[width=50px]
 a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable:
+Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
 
  ** e0a to e0a
  ** e0b to e0b
-image:../media/drw_c190_u_tnsc_clust_cbling.png[]
+
+image:../media/OIE_FAS2800_tnsc_cluster_interconnect_IEOPS-1075[]
 a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use one of the following cable types to cable the UTA2 data ports to your host network:
-
-
-An FC host
-
- ** 0c and 0d
- ** *or* 0e and 0f
- A 10GbE
- ** e0c and e0d
- ** *or* e0e and e0f
-
-NOTE: You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
-
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
+image:../media/oie_legend_icon_2_lp.svg[width=50px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/drw_c190_u_mgmt_cbling.png[]
+image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
+a|image:../media/oie_legend_icon_3_o.svg[width=50px]
 a|
-image:../media/oie_legend_icon_attn_symbol.png[]
+Select one of the following cable connections to cable the mezzanine card ports to your host network:
+
+Four ports::
+** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
++ 
+Cable ports e1a through e1d to your Ethernet data network or ports 1-a-1d for your FC network.
+2+2 ports::
+** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+Cable ports 1a and 1b to your FC data network and ports e1c and e1d to your Ethernet data network.
+
+image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
+
+a|
+image:../media/oie_legend_icon_attn_symbol.svg[width=50px]
 a|
 DO NOT plug in the power cords at this point.
 |===
 
 . To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+--
+.Option 2: Cable a switched cluster
+--
 
-=== Option 2: Cable a switched cluster, unified network configuration
-
-[.lead]
-Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
-
-You must have contacted your network administrator for information about connecting the system to the switches.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-.Steps
-. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and the switches:
-+
-image::../media/drw_2700_switched_unified_network_cabling_animated_gif.png[]
-+
-[options="header" cols="1,3"]
-|===
-| Step| Perform on each controller module
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
-
-image:../media/drw_c190_u_switched_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use one of the following cable types to cable the UTA2 data ports to your host network:
-
-An FC host
-
--   0c and 0d
--   **or** 0e and 0f
-
-A 10GbE
-
-
--   e0c and e0d
--   **or** e0e and e0f
-
-NOTE: You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
-
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
-image:../media/drw_c190_u_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
-
-. To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
-
-=== Option 3: Cable a two-node switchless cluster, Ethernet network configuration
-
-[.lead]
-Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
-
-You must have contacted your network administrator for information about connecting the system to the switches.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-.Steps
-. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches:
-+
-image::../media/drw_2700_tnsc_ethernet_network_cabling_animated_gif.png[]
-+
-[options="header" cols="1,3"]
-|===
-| Step| Perform on each controller
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable:
-
- ** e0a to e0a
- ** e0b to e0b
-image:../media/drw_c190_e_tnsc_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network:
-
-image:../media/drw_c190_e_rj45_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
-image:../media/drw_c190_e_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
-
-. To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
-
-=== Option 4: Cable a switched cluster, Ethernet network configuration
-
-[.lead]
 Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
-image::../media/oie_cable_pull_tab_down.png[]
+image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
 .Steps
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and the switches:
 +
-image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.png[]
+***image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.svg[width=100px]
 +
 [options="header" cols="1,2"]
 |===
 | Step| Perform on each controller module
 a|
-image:../media/oie_legend_icon_1_lg.png[]
+image:../media/oie_legend_icon_1_lg.svg[width=50px]
 a|
 Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
 
-image:../media/drw_c190_e_switched_clust_cbling.png[]
+image:../media/drw_fas2800_switched_clust_cbling.svg[width=100px]
 a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network:
-
-image:../media/drw_c190_e_rj45_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
+image:../media/oie_legend_icon_2_lp.svg[width=50px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/drw_c190_e_mgmt_cbling.png[]
+image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
+a|image:../media/oie_legend_icon_3_o.svg[width=50px]
 a|
-image:../media/oie_legend_icon_attn_symbol.png[]
+Select one of the following cable connections to cable the mezzanine card ports to your host network:
+
+Four ports::
+** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
++ 
+Cable ports e1a through e1d to your Ethernet data network or ports 1-a-1d for your FC network.
+2+2 ports::
+** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+Cable ports 1a and 1b to your FC data network and ports e1c and e1d to your Ethernet data network.
+
+image:../media/OIE_FAS2800_network_connection_IEOPS-1078.svg[]
+
+a|
+image:../media/oie_legend_icon_attn_symbol.svg[width=50px]
 a|
 DO NOT plug in the power cords at this point.
 |===
 
 . To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+--
 
-== Step 4: Cable controllers to drive shelves
+====
+
+== Step 4: Cable controllers to drive shelves****
 
 [.lead]
 You must cable the controllers to your shelves using the onboard storage ports. NetApp recommends MP-HA cabling for systems with external storage. If you have a SAS tape drive, you can use single-path cabling. If you have no external shelves, MP-HA cabling to internal drives is optional (not shown) if the SAS cables are ordered with the system.
@@ -374,46 +294,47 @@ You must cable the shelf-to-shelf connections, and then cable both controllers t
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
-image::../media/oie_cable_pull_tab_down.png[]
+image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 .Steps
 . Cable the HA pair with external drive shelves:
 +
 NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
 +
-image::../media/drw_2700_ha_storage_cabling_animated_gif.png[]
+image::../media/drw_2700_ha_storage_cabling_animated_gif.svg[width=100px]
 +
 [options="header" cols="1,3"]
 |===
 | Step| Perform on each controller
 a|
-image:../media/oie_legend_icon_1_lo.png[]
+image:../media/oie_legend_icon_1_lo.svg[width=100px]
 a|
 Cable the shelf-to-shelf ports.
 
  ** Port 3 on IOM A to port 1 on the IOM A on the shelf directly below.
  ** Port 3 on IOM B to port 1 on the IOM B on the shelf directly below.
 +
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]     mini-SAS HD to mini-SAS HD cables
+image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]     
+mini-SAS HD to mini-SAS HD cables
 
 a|
-image:../media/oie_legend_icon_2_mb.png[]
+image:../media/oie_legend_icon_2_mb.svg[width=100px]
 a|
 Connect each node to IOM A in the stack.
 
  ** Controller 1 port 0b to IOM A port 3 on last drive shelf in the stack.
  ** Controller 2 port 0a to IOM A port 1 on the first drive shelf in the stack.
 +
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]     mini-SAS HD to mini-SAS HD cables
+image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]     mini-SAS HD to mini-SAS HD cables
 
 a|
-image:../media/oie_legend_icon_3_t.png[]
+image:../media/oie_legend_icon_3_t.svg[width=100px]
 a|
 Connect each node to IOM B in the stack
 
  ** Controller 1 port 0a to IOM B port 1 on first drive shelf in the stack.
  ** Controller 2 port 0b to IOM B port 3 on the last drive shelf in the stack.
- image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.png[]     mini-SAS HD to mini-SAS HD cables
+ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]     mini-SAS HD to mini-SAS HD cables
 
 |===
 If you have more than one drive shelf stack, see the _Installation and Cabling Guide_ for your drive shelf type.
@@ -440,7 +361,7 @@ video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto, title="Animation - Set driv
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
 . Turn on the power switches to both nodes.
 +
-image::../media/drw_turn_on_power_switches_to_psus.png[]
+image::../media/drw_turn_on_power_switches_to_psus.svg[width=100px]
 +
 NOTE: Initial booting may take up to eight minutes.
 
@@ -454,7 +375,7 @@ video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto, title="Animation - Connect 
 
 . Select an ONTAP icon listed to discover:
 +
-image::../media/drw_autodiscovery_controler_select.png[]
+image::../media/drw_autodiscovery_controler_select.svg[width=100px]
 
  .. Open File Explorer.
  .. Click network in the left pane.
@@ -485,11 +406,11 @@ NOTE: See your laptop or console's online help for how to configure the console 
 
  .. Connect the console cable to the laptop or console, and connect the console port on the controller using the console cable that came with your system.
 +
-image::../media/drw_console_connect_fas2700_affa200.png[]
+image::../media/drw_console_connect_fas2700_affa200.svg[width=100px]
 
  .. Connect the laptop or console to the switch on the management subnet.
 +
-image::../media/drw_client_to_mgmt_subnet_fas2700_affa220.png[]
+image::../media/drw_client_to_mgmt_subnet_fas2700_affa220.svg[width=100px]
 
  .. Assign a TCP/IP address to the laptop or console, using one that is on the management subnet.
 . Use the following animation to set one or more drive shelf IDs:
@@ -499,7 +420,7 @@ video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto, title="Animation - Set driv
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
 . Turn on the power switches to both nodes.
 +
-image::../media/drw_turn_on_power_switches_to_psus.png[]
+image::../media/drw_turn_on_power_switches_to_psus.svg[width=100px]
 +
 NOTE: Initial booting may take up to eight minutes.
 

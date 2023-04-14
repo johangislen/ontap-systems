@@ -9,7 +9,7 @@ If any volumes are listed in the output, NVE is configured and you need to verif
  ** If no disks are shown, NSE is not configured.
  ** If NVE and NSE are not configured, no drives are protected with NSE keys, it's safe to shut down the impaired controller.
 
-=== Verify NVE configuration
+== Verify NVE configuration
 
 . Display the key IDs of the authentication keys that are stored on the key management servers: `security key-manager key-query`
 
@@ -53,7 +53,7 @@ NOTE: Enter the customer's onboard key management passphrase at the prompt. If t
  .. Return to admin mode: `set -priv admin`
  .. You can safely shut down the controller.
 
-=== Verify NSE configuration
+== Verify NSE configuration
 
 . Display the key IDs of the authentication keys that are stored on the key management servers: `security key-manager key-query -key-type NSE-AK`
 
