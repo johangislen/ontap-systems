@@ -159,9 +159,9 @@ You can cable the controllers to your network by using the two-node switchless c
 .Option 1: Cable a two-node switchless cluster
 --
 
-Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
+Cable your network connections and your cluster interconnect ports.
 
-You must have contacted your network administrator for information about connecting the system to the switches.
+NOTE: You must have contacted your network administrator for information about connecting the system to the switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
@@ -197,7 +197,8 @@ a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
 Four ports::
-** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
+image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
