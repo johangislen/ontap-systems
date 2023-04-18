@@ -308,7 +308,8 @@ image::../media/oie_cable_pull_tab_down.svg[width=320px]
 +
 NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
 +
-*****image::../media/drw_2700_ha_storage_cabling_animated_gif.svg[width=100px]
+
+video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto, title="Animation - Drive shelf cabling"]
 +
 
 [options="header" cols="20%,80%"]
@@ -331,22 +332,28 @@ image:../media/drw_2800_shelf-to-shelf_cabling_IEOPS-895.svg[width=500px]
 a|
 image:../media/oie_legend_icon_2_mb.svg[width=30px]
 a|
-Connect each node to IOM A in the stack.
+Controller A to the drive shelves.
 
- ** Controller 1 port 0b to IOM A port 3 on last drive shelf in the stack.
- ** Controller 2 port 0a to IOM A port 1 on the first drive shelf in the stack.
+ ** Controller A port 0a to IOM B port 1 on first drive shelf in the stack.
+ ** Controller A port 0b1 to IOM A port 3 on the first drive shelf in the stack.
 +
-image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     mini-SAS HD to mini-SAS HD cables
+image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
+mini-SAS HD to mini-SAS HD cables
 
+image:../media/dwr-2800_controller1-to shelves_IEOPS-896.svg[width=500px]     
 
 a|
 image:../media/oie_legend_icon_3_t.svg[width=30px]
 a|
-Connect each node to IOM B in the stack
+Connect controller B to the drive shelves.
 
- ** Controller 1 port 0a to IOM B port 1 on first drive shelf in the stack.
- ** Controller 2 port 0b to IOM B port 3 on the last drive shelf in the stack.
- image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     mini-SAS HD to mini-SAS HD cables
+ ** Controller B port 0a to IOM A port 1 on first drive shelf in the stack.
+ ** Controller B port 0b1 to IOM B port 3 on the last drive shelf in the stack.
+ +
+ image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
+mini-SAS HD to mini-SAS HD cables
+
+image:../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[width=500px]
 
 |===
 
@@ -372,7 +379,7 @@ video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto, title="Animation - Set driv
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
 . Turn on the power switches to both nodes.
 +
-image::../media/drw_OIE_FAS2800_turn_on_power.svg[width=45px]
+image::../media/dwr_2800_turn_on_power_IEOPS-898.svg[width=500px]
 +
 NOTE: Initial booting may take up to eight minutes.
 
