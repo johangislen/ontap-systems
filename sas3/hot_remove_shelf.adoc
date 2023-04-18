@@ -13,9 +13,9 @@ You can hot-remove a disk shelf with IOM12/IOM12B modules (nondisruptively remov
 
 .Before you begin
 
-* Your system must be a multipath HA, multipath, quad-path HA, or quad-path configuration.
+* Your system must be a multipath HA, multipath, tri-path HA, quad-path HA, or quad-path configuration.
 +
-For platforms with onboard storage, such as AFF A200, AFF A220, FAS2600 series and FAS2700 systems, the external storage must be cabled as multipath HA or multipath.
+For platforms with internal storage, such as AFF A200, AFF A220, FAS2600 series and FAS2700 systems, the external storage must be cabled as multipath HA or multipath.
 +
 NOTE: For a FAS2600 series single-controller system that has the external storage cabled with multipath connectivity, the system is a mixed-path configuration because the internal storage uses single-path connectivity.
 
