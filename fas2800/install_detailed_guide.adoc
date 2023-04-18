@@ -62,7 +62,7 @@ X6566B-2-R6, 2m
 
 X6566B-5-R6, 5m
 a|
-image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 a|
 Network cable
 a|
@@ -141,7 +141,7 @@ You need to install your system in a 4-post rack or NetApp system cabinet, as ap
 +
 NOTE: You need to be aware of the safety concerns associated with the weight of the system.
 +
-image::../media/oie_fas2800_weight_caution.svg[width=320px]
+image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=320px]
 
 . Attach cable management devices (as shown).
 +
@@ -180,7 +180,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 a|
 image:../media/oie_legend_icon_1_lg.svg[width=50px]
 a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 
  ** e0a to e0a
  ** e0b to e0b
@@ -198,7 +198,7 @@ Select one of the following cable connections to cable the mezzanine card ports 
 
 Four ports::
 ** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
-image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
@@ -258,7 +258,7 @@ Select one of the following cable connections to cable the mezzanine card ports 
 
 Four ports::
 ** 4-ports, 10/25Gb Ethernet, SFP28 - image:../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
-image:../media/oie_cable_25Gb_Ethernet_SFP28.svg[width=100px]
+image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (target only) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 ** 4-ports, 10GBASE-T, RJ45 image:../media/oie_cable_rj45.svg[width=100px]
@@ -284,12 +284,10 @@ DO NOT plug in the power cords at this point.
 
 == Step 4: Cable controllers to drive shelves****
 
-[.lead]
 You must cable the controllers to your shelves using the onboard storage ports. NetApp recommends MP-HA cabling for systems with external storage. If you have a SAS tape drive, you can use single-path cabling. If you have no external shelves, MP-HA cabling to internal drives is optional (not shown) if the SAS cables are ordered with the system.
 
 === Option 1: Cable storage on an HA pair with external drive shelves
 
-[.lead]
 You must cable the shelf-to-shelf connections, and then cable both controllers to the drive shelves.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -345,12 +343,10 @@ link:../com.netapp.doc.hw-ds-sas3-icg/home.html[Installing and cabling]
 
 == Step 5: Complete system setup and configuration
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 === Option 1: Complete system setup if network discovery is enabled
 
-[.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 .Steps
@@ -395,7 +391,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuratio
 
 === Option 2: Completing system setup and configuration if network discovery is not enabled
 
-[.lead]
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
 .Steps
