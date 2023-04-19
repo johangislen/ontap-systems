@@ -184,7 +184,7 @@ video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling 
 a|
 image:../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
+Cable the cluster interconnect ports to each other with the cluster interconnect cable: image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=50px]
 
  ** e0a to e0a
  ** e0b to e0b
