@@ -195,8 +195,9 @@ image:../media/oie_legend_icon_2_lp.svg[width=30px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/OIE_FAS2800_management_connection_IEOPS-1077[]
-a|image:../media/oie_legend_icon_3_o.svg[width=30px]
+image:../media/image:../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
+a|
+image:../media/oie_legend_icon_3_o.svg[width=30px]
 a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
@@ -259,8 +260,9 @@ image:../media/oie_legend_icon_2_lp.svg[width=30px]
 a|
 Cable the e0M ports to the management network switches with the RJ45 cables:
 
-image:../media/OIE_FAS2800_management_connection_IEOPS-1077[width=85px]
-a|image:../media/oie_legend_icon_3_o.svg[width=30px]
+image:../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
+a|
+image:../media/oie_legend_icon_3_o.svg[width=30px]
 a|
 Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
