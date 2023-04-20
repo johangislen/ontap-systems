@@ -168,7 +168,7 @@ Be sure to check the illustration arrow for the proper cable connector pull-tab 
 
 image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
+NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn the cable head over and try again.
 
 .Steps
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches:
@@ -227,15 +227,15 @@ DO NOT plug in the power cords at this point.
 .Option 2: Cable a switched cluster
 --
 
-Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
+Cable your network connections and your cluster interconnect ports.
 
-You must have contacted your network administrator for information about connecting the system to the switches.
+NOTE: You must have contacted your network administrator for information about connecting the system to the switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
 image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
+NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn turn the cable head over and try again.
 
 .Steps
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and the switches:
