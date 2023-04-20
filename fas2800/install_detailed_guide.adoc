@@ -366,7 +366,7 @@ You can complete the system setup and configuration using cluster discovery with
 ====
 
 .Option 1: Complete system setup if network discovery is enabled
----
+--
 
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
@@ -466,5 +466,7 @@ NOTE: The format for the address is https://x.x.x.x.
  .. Configure the system using the data you collected in the https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide].
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to  https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] for information about configuring additional features in ONTAP.
+
+--
 
 ====
