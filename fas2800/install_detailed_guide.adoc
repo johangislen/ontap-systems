@@ -365,10 +365,10 @@ You can complete the system setup and configuration using cluster discovery with
 [role="tabbed-block"]
 ====
 
-.Option 1: Complete system setup if network discovery is enabled
+.Option 1: If network discovery is enabled
 --
 
-If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
+If network discovery enabled on your laptop, complete system setup and configuration using automatic cluster discovery.
 
 .Steps
 . Use the following animation to set one or more drive shelf IDs
@@ -409,10 +409,10 @@ System Manager opens.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] page for information about configuring additional features in ONTAP.
 
 --
-.Option 2: Completing system setup and configuration if network discovery is not enabled
+.Option 2: If network discovery is not enabled
 --
 
-If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
+If network discovery is not enabled on your laptop, manually complete the configuration and setup.
 
 .Steps
 . Cable and configure your laptop or console:
