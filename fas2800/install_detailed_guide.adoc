@@ -152,7 +152,7 @@ image::../media/drw_cable_management_arm_install.svg[width=320px]
 
 == Step 3: Cable controllers to your network
 
-You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+Ccable the controllers to your network using the two-node switchless cluster method or using the cluster interconnect network method.
 
 [role="tabbed-block"]
 ====
@@ -223,7 +223,6 @@ DO NOT plug in the power cords at this point.
 
 |===
 
-. To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
 --
 .Option 2: Cable a switched cluster
 --
@@ -286,7 +285,6 @@ DO NOT plug in the power cords at this point.
 
 |===
 
-. To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
 --
 
 ====
@@ -355,8 +353,6 @@ image:../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[width=500px]
 
 +
 If you have more than one drive shelf stack, see the link:../com.netapp.doc.hw-ds-sas3-icg/home.html[Installing and cabling] for your drive shelf type.
-
-. See link:install_detailed_guide.md#[Completing system setup and configuration] to complete setting up your system.
 
 == Step 5: Complete system setup and configuration
 
