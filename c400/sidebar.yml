@@ -5,8 +5,14 @@ entries:
   - title: Install and setup
     pdf-filename: AFF C400 Install and Setup
     entries:
+    - title: Choose install and setup experience
+      url: /c400/install-setup.html
     - title: Quick steps
       url: /c400/install-quick-guide.html
+    - title: Video steps
+      url: /c400/install-videos.html
+    - title: Detailed steps
+      url: /c400/install-detailed-guide.html
   - title: Maintain
     pdf-filename: AFF C400 Maintain
     entries:

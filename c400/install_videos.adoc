@@ -19,7 +19,7 @@ https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documen
 
 The following video shows how to install and cable your new system.
 
-video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto, title="Animation - AFF C400 Installation and setup instructions"]
+video::8e392453-beac-4db7-8088-aff1005e1f90[panopto, title="Animation - AFF C400 Installation and setup instructions"]
 
 == Video two of two: Perform end-to-end software configuration
 
