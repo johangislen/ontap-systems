@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: all-san/index.html
 summary: The storage system documentation lets you install, setup, and maintain your ASA system.
 ---
-= All SAN Array (ASA) Documentation
+= All SAN Array (ASA) Systems
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

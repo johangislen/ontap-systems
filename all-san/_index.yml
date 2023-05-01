@@ -5,7 +5,7 @@ indexpage:
     - title: ASA AFF systems
       links:
         - title: ASA AFF A250
-          url: ./a250/index.html
+          url: ../a250/index.html
         - title: ASA AFF A400
           url: ../a400/index.html
         - title: ASA AFF A700
