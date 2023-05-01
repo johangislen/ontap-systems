@@ -1,7 +1,5 @@
 indexpage:
-  lead: NetApp’s All SAN Array (ASA) delivers a simplified and dedicated SAN experience that provides continuous data availability for your organization’s mission-critical databases and other SAN workloads.
-        All SAN array systems use the same documentation as the AFF systems. To install and maintain your ASA system, use the the instructions for the corresponding AFF model.
-tiles:
+  tiles:
     - title: ASA AFF systems
       links:
         - title: ASA AFF A250
