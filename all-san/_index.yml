@@ -5,17 +5,17 @@ indexpage:
     - title: ASA AFF systems
       links:
         - title: ASA AFF A250
-          url: /a250/index.html
+          url: ./a250/index.html
         - title: ASA AFF A400
-          url: /a400/index.html
+          url: ../a400/index.html
         - title: ASA AFF A700
-          url: /a700/index.html
+          url: ../a700/index.html
         - title: ASA AFF A800
-          url: /a800/index.html
+          url: ../a800/index.html
     - title: End-of-availability systems
       links:
         - title: AFF A220
-          url: /a220/index.html
+          url: ../a220/index.html
     - title: More doc resources
       links:
         - title: System hardware upgrade
