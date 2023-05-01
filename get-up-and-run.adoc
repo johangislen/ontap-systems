@@ -2,7 +2,7 @@
 permalink: get-up-and-run.html
 sidebar: sidebar
 keywords:
-summary: To get up and running with AFF and FAS systems, you install hardware components, configure your switches, and configure your storage in ONTAP.
+summary: To get up and running with AFF, FAS, and ASA systems, you install hardware components, configure your switches, and configure your storage in ONTAP.
 ---
 = Get up and running with AFF and FAS storage systems
 :icons: font
@@ -19,6 +19,7 @@ Use the following workflow to deploy your storage system when it is not set up i
 
 [role="quick-margin-para"] 
 Install your AFF/FAS controllers in the rack or cabinet. Access the install and setup instructions for your AFF/FAS platform model.
+
 For All-SAN Array (AFF) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
 [%rotate, grid="none", frame="none", cols="4,9,9,9",]
@@ -182,7 +183,8 @@ a|
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Complete system setup
 
 [role="quick-margin-para"]
-After you have configured your switches and installed the required software, access the install and setup instructions for your AFF/FAS platform model to complete your system setup. For All-SAN Array (AFF) systems, follow the installation instructions for the corresponding AFF A-Series model.
+After you have configured your switches and installed the required software, access the install and setup instructions for your AFF/FAS platform model to complete your system setup. 
+For All-SAN Array (AFF) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
 [%rotate, grid="none", frame="none", cols="4,9,9,9"]
 |===
