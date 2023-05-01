@@ -19,14 +19,13 @@ Use the following workflow to deploy your storage system when it is not set up i
 
 [role="quick-margin-para"] 
 Install your AFF/FAS controllers in the rack or cabinet. Access the install and setup instructions for your AFF/FAS platform model.
+For All-SAN Array (AFF) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
 [%rotate, grid="none", frame="none", cols="4,9,9,9",]
 |===
 a|
 a|
-.AFF systems
-
-* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html[AFF C190]
+.AFF A-Series systems
 
 * https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html[AFF A220]
 
@@ -39,7 +38,16 @@ a|
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF A800]
 
 * https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html[AFF A900]
+a|
+.AFF C-Series systems
 
+* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html[AFF C190]
+
+* https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html[AFF C250]
+
+* https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html[AFF C400]
+
+* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF C800]
 a|
 .FAS systems
 
@@ -174,7 +182,7 @@ a|
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-6.png[Six] Complete system setup
 
 [role="quick-margin-para"]
-After you have configured your switches and installed the required software, access the install and setup instructions for your AFF/FAS platform model to complete your system setup.
+After you have configured your switches and installed the required software, access the install and setup instructions for your AFF/FAS platform model to complete your system setup. For All-SAN Array (AFF) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
 [%rotate, grid="none", frame="none", cols="4,9,9,9"]
 |===
@@ -196,6 +204,16 @@ a|
 
 * https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html[AFF A900]
 
+a|
+.AFF C-Series systems
+
+* https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html[AFF C190]
+
+* https://docs.netapp.com/us-en/ontap-systems/c250/install-setup.html[AFF C250]
+
+* https://docs.netapp.com/us-en/ontap-systems/c400/install-setup.html[AFF C400]
+
+* https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF C800]
 a|
 .FAS systems
 
