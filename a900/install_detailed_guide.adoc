@@ -355,16 +355,13 @@ Cable either a single NS224 drive shelf or two NS224 drive shelves to your contr
 .Option 1: Cable the controllers to a single NS224 drive shelf
 --
 
-
 You must cable each controller to the NSM modules on the NS224 drive shelf on an AFF A900 system.
 
 .Before you begin
 
 * Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the storage modules are up, while the pull tabs on the shelves are down.
 
-
 image::../media/oie_cable_pull_tab_up.svg[width=200px]
-
 
 image::../media/oie_cable_pull_tab_down.svg[width=200px]
 
@@ -374,7 +371,6 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::8d8b45cd-bd8f-4fab-a4fa-afa5017e7b72[panopto, title="Animation - Cable a single NS224 shelf"]
 +
-
 image:../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[width=500px]
 +
 
@@ -385,21 +381,16 @@ image:../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[width=500px]
 a|
 image::../media/oie_legend_icon_1_mb.svg[width=30px]
 a|
-
 ** Connect controller A port e2a to port e0a on NSM A on the shelf.
-
 ** Connect controller A port e10b to port e0b on NSM B on the shelf.
 
 image:../media/oie_cable100_gbe_qsfp28.svg[width=85px]
 
 100 GbE cable
 a|
-
 image:../media/oie_legend_icon_2_lo.svg[width=30px]
 a|
-
 ** Connect controller B port e2a to port e0a on NSM B on the shelf.
-
 ** Connect controller B port e10b to port e0b on NSM A on the shelf.
 
 image:../media/oie_cable100_gbe_qsfp28.svg[width=85px]
@@ -422,19 +413,15 @@ image::../media/oie_cable_pull_tab_up.svg[width=200px]
 
 image::../media/oie_cable_pull_tab_down.svg[width=200px]
 
-
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
 . Use the following animation or diagram to cable your controllers to two NS224 drive shelves.
 
 +
 video::ec143c32-9e4b-47e5-893e-afa5017da6b4[panopto, title="Animation - Cable two NS224 shelves"]
-
 +
-
 image:../media/drw_a900_NS224_line_art_two shelf_cabling.png[]
 +
-
 image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[width=500px]
 +
 
@@ -445,23 +432,18 @@ image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[width=500px]
 a|
 
 image:../media/oie_legend_icon_1_mb.svg[width=30px]
-
 a|
-
 ** Connect controller A port e2a to NSM A e0a on shelf 1.
 ** Connect controller A port e10b to NSM B e0b on shelf 1.
 ** Connect controller A port e2b to NSM B e0b on shelf 2.
 ** Connect controller A port e10a to NSM A e0a on shelf 2.
 
-+
 image:../media/oie_cable100_gbe_qsfp28.svg[width=85px]
 
 100 GbE cable
 a|
-
 image:../media/oie_legend_icon_2_lo.svg[width=30px]
 a|
-
 ** Connect controller B port e2a to NSM B e0a on shelf 1.
 ** Connect controller B port e10b to NSM A e0b on shelf 1.
 ** Connect controller B port e2b to NSM A e0b on shelf 2.
