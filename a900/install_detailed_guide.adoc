@@ -420,7 +420,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 +
 video::ec143c32-9e4b-47e5-893e-afa5017da6b4[panopto, title="Animation - Cable two NS224 shelves"]
 +
-image:../media/drw_a900_NS224_line_art_two shelf_cabling.png[]
+image:../media/drw_a900_NS224_line_art_two shelf_cabling_IEOPS-1147.svg[width=500px]
 +
 image::../media/drw_a900_NS224_two_shelf_cabling_IEOPS-938.svg[width=500px]
 +
