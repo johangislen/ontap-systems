@@ -254,8 +254,6 @@ and connect them to different power sources (not shown).
 . Strap the cables to the cable
 management arms (not shown).
 
-. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>.
-
 --
 
 .Option 2: Switched cluster
@@ -340,8 +338,6 @@ and connect them to different power sources
 
 . Strap the cables to the cable
 management arms (not shown).
-
-. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>.
 
 --
 ====
@@ -450,7 +446,7 @@ shelf to set shelf ID.
 |===
 
 
-. Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
+. Plug the controller power cords into the power sources on different circuits.
 . Turn on the power switches to both nodes.
 +
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto, title="Animation - Turn on the power to the controllers"]
@@ -501,6 +497,7 @@ https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMy
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+
 --
 
 .Option 2: If network discovery is not enabled
@@ -557,7 +554,7 @@ shelf to set shelf ID.
 
 |===
 
-. Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
+. Plug the controller power cords into the power sources on different circuits. them to power sources on different circuits.
 . Turn on the power switches to both nodes.
 +
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto, title="Animation - Turn on the power to the controllers"]
@@ -580,17 +577,17 @@ a|
 Not configured
 a|
 
- .. Open a console session using PuTTY, a terminal server, or the equivalent for your environment.
+.. Open a console session using PuTTY, a terminal server, or the equivalent for your environment.
 +
 NOTE: Check your laptop or console's online help if you do not know how to configure PuTTY.
 
- .. Enter the management IP address when prompted by the script.
+.. Enter the management IP address when prompted by the script.
 
 +
 |===
 
 . Using System Manager on your laptop or console, configure your cluster:
- .. Point your browser to the node management IP address.
+.. Point your browser to the node management IP address.
 +
 NOTE: The format for the address is
 +https://x.x.x.x+.
@@ -602,15 +599,16 @@ NOTE: The format for the address is
 +
 https://mysupport.netapp.com/eservice/public/now.do[NetApp Support Registration^]
 
- .. Register your system.
+.. Register your system.
 +
 https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration^]
 
- .. Download Active IQ Config Advisor.
+.. Download Active IQ Config Advisor.
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+
 --
 
 ====
