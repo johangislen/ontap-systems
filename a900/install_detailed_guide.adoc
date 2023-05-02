@@ -245,7 +245,7 @@ PSU 1 and 3 provide power to all side A FRUS. while PSU2 and PSU4 provide power 
 a|
 image:../media/oie_cable_power.svg[width=85px]
 
-image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=500px]
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=200px]
 
 |===
 +
@@ -336,7 +336,7 @@ PSU 1 and 3 provide power to all side A FRUS. while PSU2 and PSU4 provide power 
 a|
 image:../media/oie_cable_power.svg[width=85px]
 
-image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=500px]
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=200px]
 
 |===
 +
@@ -352,7 +352,7 @@ Cable either a single NS224 drive shelf or two NS224 drive shelves to your contr
 [role="tabbed-block"]
 ====
 
-.Option 1: Cable the controllers to a single NS224 drive shelf in AFF A900
+.Option 1: Cable the controllers to a single NS224 drive shelf
 --
 
 
@@ -375,7 +375,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 video::8d8b45cd-bd8f-4fab-a4fa-afa5017e7b72[panopto, title="Animation - Cable a single NS224 shelf"]
 +
 
-image::../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[width=500px]
+image:../media/drw_a900_NS224_one shelf_cabling_IEOPS-937.svg[width=500px]
 +
 
 [options="header" col="20%,80%"]
@@ -409,7 +409,7 @@ image:../media/oie_cable100_gbe_qsfp28.svg[width=85px]
 |===
 
 --
-.Option 2: Cable the controllers to two NS224 drive shelves in AFF A900
+.Option 2: Cable the controllers to two NS224 drive shelves
 --
 
 You must cable each controller to the NSM modules on the NS224 drive shelves.
