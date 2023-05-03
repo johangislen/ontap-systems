@@ -50,7 +50,7 @@ X66240A-05 (112-00639), 0.5m
 X66240A-2 (112-00598), 2m
 
 X66240A-5 (112-00600), 5m
-|
+a|
 image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
 a|
 Network cable
