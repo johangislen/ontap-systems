@@ -476,8 +476,9 @@ video::95a29da1-faa3-4ceb-8a0b-ac7600675aa6[panopto, title="Animation - Set NVMe
 
 +
 
-image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[width=500]
+image::../media/drw_a900_oie_change_ns224_shelf ID_IEOPS-836.svg[width=500px]
 +
+
 [cols="20%,80%"]
 |===
 a|
@@ -541,11 +542,11 @@ System Manager opens.
 +
 https://mysupport.netapp.com/eservice/public/now.do[NetApp Support Registration^]
 
- .. Register your system.
+.. Register your system.
 +
 https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration^]
 
- .. Download Active IQ Config Advisor.
+.. Download Active IQ Config Advisor.
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
 . Verify the health of your system by running Config Advisor.
