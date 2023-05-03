@@ -499,7 +499,7 @@ Shelf ID setting button
 
 |===
 
-. Turn on the power switches to both nodes.
+. Turn on the power switches on the power supplies to both nodes.
 +
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto, title="Animation - Turn on the power to the controllers"]
 +
@@ -600,8 +600,7 @@ Shelf ID setting button
 
 |===
 
-. Plug the controller power cords into the power sources on different circuits. them to power sources on different circuits.
-. Turn on the power switches to both nodes.
+. Turn on the power switches on the power supplies to both nodes.
 +
 video::bb04eb23-aa0c-4821-a87d-ab2300477f8b[panopto, title="Animation - Turn on the power to the controllers"]
 +
