@@ -243,7 +243,7 @@ a|
 * Strap the cables to the cable
 management arms (not shown).
 * Connect the power cables to the PSUs and connect them to different power sources (not shown).
-PSU 1 and 3 provide power to all side A FRUS. while PSU2 and PSU4 provide power to all side B FRUs.
+PSU 1 and 3 provide power to all side A components, while PSU2 and PSU4 provide power to all side B components.
 a|
 image::../media/oie_cable_power.svg[width=85px]
 
@@ -320,7 +320,7 @@ image::../media/oie_cable100_gbe_qsfp28.svg[width=85px]
 a|
 image::../media/oie_legend_icon_4_dr.svg[width=30px]
 a|
-Cable 32 Gb FC connecions:
+Cable 32 Gb FC connections:
 
 Cable ports in slot A5 and B5 (5a,
 5b, 5c, and 5d) and slot A7 and B7
@@ -332,7 +332,7 @@ a|
 * Strap the cables to the cable
 management arms (not shown).
 * Connect the power cables to the PSUs and connect them to different power sources (not shown).
-PSU 1 and 3 provide power to all side A FRUS. while PSU2 and PSU4 provide power to all side B FRUs.
+PSU 1 and 3 provide power to all side A components, while PSU2 and PSU4 provide power to all side B components.
 a|
 image::../media/oie_cable_power.svg[width=85px]
 
