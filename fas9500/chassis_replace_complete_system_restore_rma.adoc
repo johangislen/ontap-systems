@@ -146,6 +146,6 @@ Determine the cause of the problem.
 
 
 |===
-== Step 3: Return the failed part to NetApp
+== Step 4: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
