@@ -56,4 +56,4 @@ NOTE: For clusters using SnapMirror synchronous operating in StrictSync mode: `s
 
 . Turn off each PSU or unplug them if there is no PSU on/off switch.
 . Unplug the power cord from each PSU.
-. Verify that all controllers, drive shelves and switches associated with the cluster are powered down.
+. Verify that all controllers in the impaired chassis are powered down.
