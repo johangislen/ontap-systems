@@ -33,7 +33,7 @@ video::86487f5e-20ff-43e6-99ae-ac5b015c1aa5[panopto, title="Animation - Replace 
 
 . If you are not already grounded, properly ground yourself.
 . Identify the PSU you want to replace, based on console error messages or through the red Fault LED on the PSU.
-. Disconnect the power supply:
+. Disconnect the PSU:
  .. Open the power cable retainer, and then unplug the power cable from the PSU.
  .. Unplug the power cable from the power source.
 . Rotate the cam handle such that it can be used to pull the PSU out of the controller module while pressing the locking tab.
@@ -123,7 +123,6 @@ Once power is restored to the PSU, the status LED should be green.
 +
 .. Plug the D-SUB DC power cable connector into the PSU.
 .. Tighten the two thumb screws to secure the D-SUB DC power cable connector to the PSU.
---
 
 include::../_include/complete_rma_step.adoc[]
 --

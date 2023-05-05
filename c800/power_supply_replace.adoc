@@ -121,7 +121,6 @@ Once power is restored to the PSU, the status LED should be green.
 +
 .. Plug the D-SUB DC power cable connector into the PSU.
 .. Tighten the two thumb screws to secure the D-SUB DC power cable connector to the PSU.
---
 
 include::../_include/complete_rma_step.adoc[]
 --
