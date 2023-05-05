@@ -50,8 +50,8 @@ X66240A-05 (112-00639), 0.5m
 X66240A-2 (112-00598), 2m
 
 X66240A-5 (112-00600), 5m
-|
-image:../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+a|
+image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
 a|
 Network cable
 a|
@@ -197,11 +197,11 @@ video::da08295f-ba8c-4de7-88c3-ae7c0170408d[panopto, title="Animation - Two-node
 image::../media/drw_9500_tnsc_network_cabling.svg[align="center",width=500px]
 +
 
-[options="header" cols="20%,80%"]
+[options="header" col="20%,80%"]
+
 |===
 | Step| Perform on each controller
 a|
-
 image::../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
 Cable cluster interconnect ports:
@@ -216,6 +216,7 @@ a|
 Cable controller management (wrench) ports.
 
 image::../media/oie_cable_rj45.svg[width=85px]
+
 a|
 image::../media/oie_legend_icon_3_o.svg[width=30px]
 a|
@@ -246,15 +247,17 @@ Cable ports in slot A5 and B5 (5a,
 25 GbE network switches.
 
 image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+a|
+* Strap the cables to the cable
+management arms (not shown).
+* Connect the power cables to the PSUs and connect them to different power sources (not shown).
+PSU 1 and 3 provide power to all side A components, while PSU2 and PSU4 provide power to all side B components.
+a|
+image::../media/oie_cable_power.svg[width=85px]
+
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=200px]
 
 |===
-
-. Connect the power cables to the PSUs
-and connect them to different power sources (not shown).
-. Strap the cables to the cable
-management arms (not shown).
-
-. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>.
 
 --
 
@@ -278,12 +281,14 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 video::3ad3f118-8339-4683-865f-ae7c0170400c[panopto, title="Animation - Switched cluster cabling"]
 +
 image::../media/drw_9500_switched_network_cabling.svg[align="center",width=500px]
+
 +
 
-[options="header" cols="20%,80%"]
+[options="header" col="20%,80%"]
+
 |===
 
-| Step| Perform on each controller
+| Step|Perform on each controller
 a|
 image::../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
@@ -323,7 +328,7 @@ image::../media/oie_cable100_gbe_qsfp28.svg[width=85px]
 a|
 image::../media/oie_legend_icon_4_dr.svg[width=30px]
 a|
-Cable 25 GbE connecions:
+Cable 25 GbE connections:
 
 Cable ports in slot A5 and B5 (5a,
 5b, 5c, and 5d) and slot A7 and B7
@@ -331,24 +336,24 @@ Cable ports in slot A5 and B5 (5a,
 25 GbE network switches.
 
 image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+a|
+* Strap the cables to the cable
+management arms (not shown).
+* Connect the power cables to the PSUs and connect them to different power sources (not shown).
+PSU 1 and 3 provide power to all side A components, while PSU2 and PSU4 provide power to all side B components.
+a|
+image::../media/oie_cable_power.svg[width=85px]
+
+image::../media/drw_a900fas9500_power_source_icon_IEOPS-1142.svg[width=200px]
 
 |===
-
-. Connect the power cables to the PSUs
-and connect them to different power sources
-(not shown).
-
-. Strap the cables to the cable
-management arms (not shown).
-
-. To cable your storage, see <<Step 4: Cable controllers to drive shelves>>.
 
 --
 ====
 
 == Step 4: Cable controllers to drive shelves
 
-You must cable the shelf-to-shelf connections, and then cable both controllers to the DS212C or DS224C drive shelves.
+Cable either DS212C or DS224C drive shelves to your controllers.
 
 NOTE: For more SAS cabling information and worksheets, see https://docs.netapp.com/us-en/ontap-systems/sas3/overview-cabling-rules-examples.html[SAS cabling rules, worksheets, and examples overview - shelves with IOM12 modules^]
 
@@ -372,8 +377,8 @@ image::../media/drw_9500_sas_shelf_cabling.svg[align="center",width=670px]
 +
 
 [options="header" cols="20%,80%"]
-|===
 
+|===
 |Step|Perform on each controller
 a|
 image::../media/oie_legend_icon_1_mb.svg[width=30px]
@@ -393,9 +398,6 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]
 mini-SAS cable
 
 |===
-
-. To complete setting up your system, see  <<Step 5: Complete system setup and configuration>>.
-
 
 == Step 5: Complete system setup and configuration
 
@@ -450,8 +452,7 @@ shelf to set shelf ID.
 |===
 
 
-. Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
-. Turn on the power switches to both nodes.
+. Turn on the power switches on the power supplies to both nodes.
 +
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto, title="Animation - Turn on the power to the controllers"]
 +
@@ -469,8 +470,8 @@ See your laptop's online help for more information.
 video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto, title="Animation - Connect your laptop to the Management switch"]
 +
 image::../media/dwr_laptop_to_switch_only.svg[width=500px]
-+
 
++
 . Select an ONTAP icon listed to discover:
 +
 image::../media/drw_autodiscovery_controler_select.svg[width=500px]
@@ -488,19 +489,20 @@ System Manager opens.
 
 
 . Set up your account and download Active IQ Config Advisor:
- .. Log in to your existing account or create an account.
+.. Log in to your existing account or create an account.
 +
 https://mysupport.netapp.com/eservice/public/now.do[NetApp Support Registration^]
 
- .. Register your system.
+.. Register your system.
 +
 https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration^]
 
- .. Download Active IQ Config Advisor.
+.. Download Active IQ Config Advisor.
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+
 --
 
 .Option 2: If network discovery is not enabled
@@ -557,13 +559,12 @@ shelf to set shelf ID.
 
 |===
 
-. Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
-. Turn on the power switches to both nodes.
+. Turn on the power switches on the power supplies to both nodes.
 +
 video::a905e56e-c995-4704-9673-adfa0005a891[panopto, title="Animation - Turn on the power to the controllers"]
 +
 image::../media/drw_9500_power-on.svg[width=500]
-+
+
 NOTE: Initial booting may take up to eight minutes.
 
 . Assign an initial node management IP address to one of the nodes.
@@ -580,17 +581,17 @@ a|
 Not configured
 a|
 
- .. Open a console session using PuTTY, a terminal server, or the equivalent for your environment.
+.. Open a console session using PuTTY, a terminal server, or the equivalent for your environment.
 +
 NOTE: Check your laptop or console's online help if you do not know how to configure PuTTY.
 
- .. Enter the management IP address when prompted by the script.
+.. Enter the management IP address when prompted by the script.
 
 +
 |===
 
 . Using System Manager on your laptop or console, configure your cluster:
- .. Point your browser to the node management IP address.
+.. Point your browser to the node management IP address.
 +
 NOTE: The format for the address is
 +https://x.x.x.x+.
@@ -602,15 +603,16 @@ NOTE: The format for the address is
 +
 https://mysupport.netapp.com/eservice/public/now.do[NetApp Support Registration^]
 
- .. Register your system.
+.. Register your system.
 +
 https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration^]
 
- .. Download Active IQ Config Advisor.
+.. Download Active IQ Config Advisor.
 +
 https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor^]
 . Verify the health of your system by running Config Advisor.
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+
 --
 
 ====
