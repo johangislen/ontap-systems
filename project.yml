@@ -34,6 +34,7 @@ sidebar:
       - section: c250
       - section: c400
       - section: c800    
+    - section: allsan
     - title: FAS systems
       entries:
       - section: fas500f
@@ -49,8 +50,6 @@ sidebar:
         - section: fas2600
         - section: fas2700
         - section: fas8200
-    - section: allsan
-    - section: upgrade
     - title: System-level diagnostics
       entries:
         - title: Introduction
@@ -73,7 +72,6 @@ sidebar:
       entries:
         - section: ns224
         - section: sas3
-    - section: switch
     - title: Cabinet and rail kits
       entries:
         - title: SuperRail kit
