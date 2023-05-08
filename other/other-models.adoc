@@ -10,12 +10,3 @@ summary: You can use these links to find documentation for other AFF and FAS sys
 
 [.lead]
 You can use these links to find documentation for other AFF and FAS platforms. Documentation for AFF and FAS systems that have reached the end of hardware support are available for customer use in the link:https://mysupport.netapp.com/documentation/productsatoz/index.html?archive=true[Archive].
-
-== Shelf models
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30410[DS2246 disk shelf documentation]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61387[DS4486 disk shelf documentation]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=61469[DS4246 disk shelf documentation]
-
-link:http://mysupport.netapp.com/documentation/docweb/index.html?productID=30411&language=en-US&archive=true[DS4243 disk shelf documentation]
