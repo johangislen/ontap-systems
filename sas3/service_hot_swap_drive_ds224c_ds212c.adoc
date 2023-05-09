@@ -15,7 +15,7 @@ You can hot-swap a failed disk drive in a DS224C or DS212C disk shelf.
 
 * The disk drive that you are installing must be supported by the DS224C or DS212C disk shelf.
 +
-https://hwu.netapp.com[NetApp Hardware Universe]
+https://hwu.netapp.com[NetApp Hardware Universe^]
 
 * All other components in the system must be functioning properly; if not, contact technical support.
 * The disk drive you are removing must be failed.
@@ -28,7 +28,7 @@ NOTE: Depending on the disk drive type and capacity, it can take up to several h
 +
 Instructions in the ONTAP documentation describe additional steps you must perform before and after replacing an SED.
 +
-https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html[NetApp encryption overview with the CLI]
+https://docs.netapp.com/us-en/ontap/encryption-at-rest/index.html[NetApp encryption overview with the CLI^]
 
 .About this task
 
@@ -63,9 +63,9 @@ https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware/downloa
 +
 Current versions of firmware can be found on the NetApp Support Site.
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware]
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware^]
 
 * Disk drive firmware is automatically updated (nondisruptively) on new disk drives with non current firmware versions.
 +
