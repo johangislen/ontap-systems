@@ -58,7 +58,7 @@ You need to move the drives from each bay opening in the old chassis to the same
 
 . Gently remove the bezel from the front of the system.
 . Remove the drives:
- .. Press the release button at the top of the carrier face below the LEDs.
+ .. Press the release button on the opposite side of the LEDs.
  .. Pull the cam handle to its fully open position to unseat the drive from the midplane, and then gently slide the drive out of the chassis.
 +
 The drive should disengage from the chassis, allowing it to slide free of the chassis.
@@ -70,9 +70,9 @@ NOTE: Drives are fragile. Handle them as little as possible to prevent damage to
 . Align the drive from the old chassis with the same bay opening in the new chassis.
 . Gently push the drive into the chassis as far as it will go.
 +
-The cam handle engages and begins to rotate upward.
+The cam handle engages and begins to rotate to the closed position.
 
-. Firmly push the drive the rest of the way into the chassis, and then lock the cam handle by pushing it up and against the drive holder.
+. Firmly push the drive the rest of the way into the chassis, and then lock the cam handle by pushing it against the drive holder.
 +
 Be sure to close the cam handle slowly so that it aligns correctly with the front of the drive carrier. It click when it is secure.
 

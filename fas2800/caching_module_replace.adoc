@@ -125,7 +125,6 @@ Caching module release button
 
 |===
 
-.. Gently pull the caching module straight out of the housing.
 . Align the edges of the replacement caching module with the socket in the housing, and then gently push it into the socket.
 . Verify that the caching module is seated squarely and completely in the socket.
 +
