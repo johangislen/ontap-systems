@@ -7,12 +7,12 @@ indexpage:
           url: /whats-new.html
         - title: Quick start
           url: /get-up-and-run.html
-        - title: AFF and FAS storage data sheet
-          url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
         - title: AFF A-Series system data sheet
           url: https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf
         - title:  AFF C-Series system data sheet
           url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
+        - title: FAS system data sheet
+          url: hhttps://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf  
         - title: ONTAP Release Notes
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
     - title: AFF A-Series systems
