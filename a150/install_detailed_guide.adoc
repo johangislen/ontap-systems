@@ -11,20 +11,16 @@ summary: "This guide gives detailed step-by-step instructions for installing a t
 [.lead]
 This guide gives detailed step-by-step instructions for installing a typical NetApp system. Use this guide if you want more detailed installation instructions.
 
-If you have a MetroCluster configuration, use the MetroCluster installation content.
-
-https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
+If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
 
 == Step 1: Prepare for installation
 
 [.lead]
 To install your AFF A150 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
-You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
+You need access to https://hwu.netapp.com[NetApp Hardware Universe^] for information about site requirements and additional information on your configured system. You might also want to http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[find the Release Notes for your version of ONTAP 9^] for more information about this system.
 
-https://hwu.netapp.com[NetApp Hardware Universe^]
 
-http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9^]
 
 You need to provide the following at your site:
 
@@ -38,21 +34,18 @@ You need to provide the following at your site:
 . Record the system serial number from the controllers.
 +
 image::../media/drw_ssn_label.png[]
-
++
 . Set up your account:
  .. Log in to your existing account or create an account.
- .. Register your system.
+ .. https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[Register your system].
 +
-https://mysupport.netapp.com/eservice/registerSNoAction.do?moduleName=RegisterMyProduct[NetApp Product Registration]
-. Download and install Config Advisor on your laptop.
+. https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[Download and install Config Advisor on your laptop].
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
-
 . Inventory and make a note of the number and types of cables you received.
 +
-The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see the Hardware Universe to locate the cable and identify its use.
+The following table identifies the types of cables you might receive. If you receive a cable not listed in the table, see https://hwu.netapp.com[NetApp Hardware Universe] to locate the cable and identify its use.
 +
-https://hwu.netapp.com[NetApp Hardware Universe]
+
 +
 [options="header" cols="1,2,1,2"]
 |===
@@ -133,9 +126,7 @@ a|
 Powering up the system
 |===
 
-. Download and complete the _Cluster configuration worksheet_.
-+
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Cluster Configuration Worksheet]
+. https://library.netapp.com/ecm/ecm_download_file/ECMLP2839002[Download and complete the Cluster Configuration Worksheet].
 
 == Step 2: Install the hardware
 
@@ -161,9 +152,13 @@ image::../media/drw_cable_management_arm_install.png[]
 [.lead]
 You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
 
-=== Option 1: Cable a two-node switchless cluster, unified network configuration
+// start tabbed area
 
-[.lead]
+[role="tabbed-block"]
+====
+
+.Option 1: Cable two-node switchless cluster
+--
 Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
 You must have contacted your network administrator for information about connecting the system to the switches.
@@ -220,6 +215,21 @@ DO NOT plug in the power cords at this point.
 |===
 
 . To cable your storage, see link:install_detailed_guide.md#[Cabling controllers to drive shelves]
+--
+
+.Option 2
+--
+// content placeholder
+--
+
+.Option 3
+--
+// content placeholder
+--
+
+====
+
+// end tabbed area
 
 === Option 2: Cable a switched cluster, unified network configuration
 
