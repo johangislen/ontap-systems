@@ -5,7 +5,10 @@ keywords:
 summary: 'You can add an I/O module to your system, by either replacing an existing I/O module with a new I/O module in a fully populated system, or by adding a new I/O module into an empty slot in the chassis.'
 ---
 = Add an I/O module - AFF A900
+:icons: font
+:imagesdir: ../media/
 
+[.lead]
 You can add an I/O module to your system by either adding a new I/O nodule into a system with empty slots or by replacing an I/O module with a new one in a fully-populated system.
 
 .Before you begin
@@ -20,15 +23,10 @@ You can add an I/O module to your system by either adding a new I/O nodule into 
 
 == Option 1: Add the I/O module to a system with open slots
 
-:icons: font
-:imagesdir: ../media/
-
-[.lead]
 You can add an I/O module into an empty module slot in your system.
 
 == Step 1: Shut down the impaired node
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]
@@ -49,7 +47,7 @@ include::../_include/shutdown_any_mcc_supported_no_PCM_remove.adoc[]
 
 . If you are not already grounded, properly ground yourself.
 . Remove the target slot blanking cover:
- .. Depress the lettered and numbered cam button.
+ .. Depress the lettered and numbered cam latch.
  .. Rotate the cam latch down until it is the open position.
  .. Remove the blanking cover.
 . Install the I/O module:
@@ -72,7 +70,6 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 
 == Option 2: Add an I/O module in a system with no open slots
 
-[.lead]
 If your system is fully populated, you can change an I/O module in an I/O slot by removing an existing I/O module and replacing it with a different I/O module.
 
 . If you are:
@@ -97,7 +94,6 @@ Use System Manager to permanently migrate the LIFs to different home ports, as d
 
 == Step 1: Shut down the impaired node
 
-[.lead]
 Shut down or take over the impaired controller using one of the following options.
 
 [role="tabbed-block"]
@@ -118,9 +114,9 @@ include::../_include/shutdown_any_mcc_supported_no_PCM_remove.adoc[]
 . If you are not already grounded, properly ground yourself.
 . Unplug any cabling on the target I/O module.
 . Remove the target I/O module from the chassis:
-.. Depress the lettered and numbered cam button.
+.. Depress the lettered and numbered cam latch.
 +
-The cam button moves away from the chassis.
+The cam latch moves away from the chassis.
 .. Rotate the cam latch down until it is in a horizontal position.
 +
 The I/O module disengages from the chassis and moves about 1/2 inch out of the I/O slot.
@@ -150,12 +146,15 @@ I/O cam latch completely unlocked
 .. Push the I/O cam latch all the way up to lock the module in place.
 . Repeat the remove and install steps to replace additional modules for controller A.
 . If the replacement I/O module is a NIC, cable the module or modules to the data switches.
-. Reboot the BMC and then reboot the node:
-.. From the LOADER prompt, change to advanced privilege mode: `priv set advanced`
-.. Reboot the BMC: `sp reboot`
-. From the LOADER prompt, reboot the node: `bye`
+. Reboot the controller from the LOADER prompt:
+.. Check the version of BMC on the controller: `system service-processor show`
+.. Update the BMC firmware if needed: `system service-processor image update`
+.. Reboot the node: `bye`
 +
 NOTE: This reinitializes the PCIe cards and other components and reboots the node.
++
+
+NOTE: If you encounter an issue during reboot, see https://mysupport.netapp.com/site/bugs-online/product/ONTAP/BURT/1494308[BURT 1494308 - Environment shutdown might be triggered during I/O module replacement ]
 
 . Give back the controller from the partner controller. `storage failover giveback -ofnode target_node_name`
 . Enable automatic giveback if it was disabled: `storage failover modify -node local -auto-giveback true`

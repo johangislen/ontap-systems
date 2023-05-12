@@ -1,43 +1,59 @@
-You must shut down the controller or controllers in the chassis prior to moving them to the new chassis.
+This procedure is for 2-node, non-MetroCluster configurations only. If you have a system with more than two nodes, see https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_perform_a_graceful_shutdown_and_power_up_of_one_HA_pair_in_a_4__node_cluster[How to perform a graceful shutdown and power up of one HA pair in a 4-node cluster^]. 
 
-.About this task
-* If you have a cluster with more than two controllers, it must be in quorum. If the cluster is not in quorum or a healthy controller shows `false` for eligibility and health, you must correct the issue before shutting down the impaired controller; see link:https://docs.netapp.com/us-en/ontap/system-admin/synchronize-node-cluster-task.html?q=Quorum[Synchronize a node with the cluster^].
+.Before you begin
+You need:
 
-* If AutoSupport is enabled, suppress automatic case creation by invoking an AutoSupport message: `system node autosupport invoke -node * -type all -message MAINT=number_of_hours_downh`
-+
-The following AutoSupport message suppresses automatic case creation for two hours: `cluster1:*> system node autosupport invoke -node * -type all -message MAINT=2h`
+* Local administrator credentials for ONTAP.
+* NetApp onboard key management (OKM) cluster-wide passphrase if using storage encryption.
+* SP/BMC accessability for each controller.
+* Stop all clients/host from accessing data on the NetApp system.
+* Suspend external backup jobs.
+* Necessary tools and equipment for the replacement.
+
+NOTE: If the system is a NetApp StorageGRID or ONTAP S3 used as FabricPool cloud tier, refer to the https://kb.netapp.com/onprem/ontap/hardware/What_is_the_procedure_for_graceful_shutdown_and_power_up_of_a_storage_system_during_scheduled_power_outage#[Gracefully shutdown and power up your storage system Resolution Guide] after performing this procedure.
+
+NOTE: If using FlexArray array LUNs, follow the specific vendor storage array documentation for the shutdown procedure to perform for those systems after performing this procedure.
+
+NOTE: If using SSDs, refer to https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU490[SU490: (Impact: Critical) SSD Best Practices: Avoid risk of drive failure and data loss if powered off for more than two months]
+
+As a best practice before shutdown, you should:
+
+* Perform additional https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP[system health checks].
+* Upgrade ONTAP to a recommended release for the system.
+* Resolve any https://activeiq.netapp.com/[Active IQ Wellness Alerts and Risks].
+Make note of any faults presently on the system, such as LEDs on the system components.
 
 .Steps
 
-. If your system has two controller modules, disable the HA pair.
+. Log into the cluster through SSH or log in from any node in the cluster using a local console cable and a laptop/console.
+. Turn off AutoSupport and indicate how long you expect the system to be off line:
 +
-[options="header" cols="1,2"]
-|===
-| If your system is running clustered ONTAP with...| Then...
-a|
-Two controllers in the cluster
-a|
-`cluster ha modify -configured false`
+`system node autosupport invoke -node * -type all -messages "MAINT=8h Power Maintenance"`
+. Identify the SP/BMC address of all nodes:
++
+`system service-processor show -node * -fields address`
 
-`storage failover modify -node node0 -enabled false`
-a|
-More than two controllers in the cluster
-a|
-`storage failover modify -node node0 -enabled false`
-|===
+. Exit the cluster shell: `exit`
+. Log into SP/BMC over SSH using the IP address of any of the nodes listed in the output from the previous step. 
++
+If your're using a console/laptop, log into the controller using the same cluster administrator credentials.
++
 
-. Halt the controller, pressing `y` when you are prompted to confirm the halt: `system node halt -node _node_name_`
-+
-The confirmation message looks like the following:
-+
-----
-Warning: This operation will cause controller "node-name" to be marked as unhealthy. Unhealthy nodes do not participate in quorum voting. If the controller goes out of service and one more controller goes out of service there will be a data serving failure for the entire cluster. This will cause a client disruption. Use "cluster show" to verify cluster state. If possible bring other nodes online to improve the resiliency of this cluster.
+NOTE: Open an SSH session to every SP/BMC connection so that you can monitor progress.
 
-Do you want to continue? {y|n}:
-----
 +
-NOTE: You must perform a clean system shutdown before replacing the chassis to avoid losing unwritten data in the nonvolatile memory (NVMEM/NVRAM). Depending on your system, if the NVMEM/NVRAM LED is flashing, there is content in the NVMEM/NVRAM that has not been saved to disk. You need to reboot the controller and start from the beginning of this procedure. If repeated attempts to cleanly shut down the controller fail, be aware that you might lose any data that was not saved to disk.
+. Halt all nodes in the cluster: 
++
+`system node halt -node * -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true`.
++
 
-. Where applicable, halt the second controller to avoid a possible quorum error message in an HA pair configuration: `system node halt -node _second_node_name_ -ignore-quorum-warnings true -skip-lif-migration-before-shutdown true`
-+
-Answer `y` when prompted.
+NOTE: For clusters using SnapMirror synchronous operating in StrictSync mode: `system node halt -node * -skip-lif-migration-before-shutdown true -ignore-quorum-warnings true -inhibit-takeover true -ignore-strict-sync-warnings true`
+
+. Enter *y* for each controller in the cluster when you see `_Warning: Are you sure you want to halt node "cluster name-controller number"?
+{y|n}:_`
+
+. Wait for each controller to halt and display the LOADER prompt.
+
+. Turn off each PSU or unplug them if there is no PSU on/off switch.
+. Unplug the power cord from each PSU.
+. Verify that all controllers in the impaired chassis are powered down.

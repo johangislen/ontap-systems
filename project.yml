@@ -11,25 +11,30 @@ sidebar:
   entries:
     - title: AFF and FAS system docs
       url: "/index.html"
+    - title: Release notes
+      url: /rel-notes.html
     - title: Get started
       entries:
         - title: What's new
           url: /whats-new.html
-        - title: Release notes
-          url: /rel-notes.html
-    - title: AFF systems
-      entries:
-      - section: c190
-      - section: a200
+        - title: Get up and running
+          url: /get-up-and-run.html
+    - title: AFF A-Series systems
+      entries:   
+      - section: a150
       - section: a220
       - section: a250
-      - section: a300
-      - section: a320
       - section: a400
       - section: a700
-      - section: a700s
       - section: a800
       - section: a900
+    - title: AFF C-Series systems 
+      entries:
+      - section: c190
+      - section: c250
+      - section: c400
+      - section: c800    
+    - section: allsan
     - title: FAS systems
       entries:
       - section: fas500f
@@ -40,8 +45,15 @@ sidebar:
       - section: fas8300
       - section: fas9000
       - section: fas9500
-    - section: allsan
-    - section: upgrade
+    - title: End-of-availability systems
+      entries:
+        - section: a200
+        - section: a300
+        - section: a320
+        - section: a700s
+        - section: fas2600
+        - section: fas2700
+        - section: fas8200
     - title: System-level diagnostics
       entries:
         - title: Introduction
@@ -64,7 +76,6 @@ sidebar:
       entries:
         - section: ns224
         - section: sas3
-    - section: switch
     - title: Cabinet and rail kits
       entries:
         - title: SuperRail kit

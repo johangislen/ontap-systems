@@ -51,7 +51,6 @@ Because the internal storage uses single-path connectivity, ONTAP issues occasio
 
 == Controller slot numbering rules
 
-[.lead]
 For the purpose of applying cabling rules across all supported HA pairs and single-controller configurations, a controller slot numbering convention is used.
 
 * For all HA pairs and single-controller configurations, the following applies:
@@ -69,7 +68,6 @@ image::../media/slot0_rules.png[]
 
 == Shelf-to-shelf connection rules
 
-[.lead]
 When you have more than one disk shelf in a stack of disk shelves, they connect to each other through each SAS domain (IOM A and IOM B) using the applicable "`standard`" or "`double-wide`" shelf-to-shelf cabling. Your use of "`standard`" or "`double-wide`" shelf-to-shelf cabling depends on the configuration you have.
 
 === Standard shelf-to-shelf connectivity
@@ -95,7 +93,6 @@ image::../media/drw_shelf_to_shelf_double_wide.gif[]
 
 == Controller-to-stack connection rules
 
-[.lead]
 You can correctly cable the SAS connections from each controller to each stack in an HA pair or in a single-controller configuration by understanding that SAS disk shelves use software-based disk ownership, how controller ports A/C and B/D are connected to stacks, how controller ports A/C and B/D are organized into port pairs, and how platforms with internal storage have their controller ports connected to stacks.
 
 === SAS disk shelf software-based disk ownership rule
@@ -239,7 +236,6 @@ image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[width=440px]
 
 == Mini-SAS HD SAS optical cable rules
 
-[.lead]
 You can use mini-SAS HD SAS optical cables--multimode active optical cable (AOC) cables with mini-SAS HD-to-mini-SAS HD connectors and multimode (OM4) breakout cables with mini-SAS HD-to-LC connectors--to achieve long distance SAS connectivity for certain configurations that have disk shelves with IOM12 modules.
 
 * Your platform and version of ONTAP must support the use of mini-SAS HD SAS optical cables: multimode active optical cable (AOC) cables with mini-SAS HD-to-mini-SAS HD connectors and multimode (OM4) breakout cables with mini-SAS HD-to-LC connectors.

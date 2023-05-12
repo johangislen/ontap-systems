@@ -27,7 +27,6 @@ image::../media/drw_controller_to_stack_cable_color_key_non2600_4stackcolors.gif
 
 == Controller-to-stack cabling worksheets and cabling examples for multipath HA configurations with quad-port SAS HBAs
 
-[.lead]
 You can use the completed controller-to-stack cabling worksheets and cabling examples to cable common multipath HA configurations that have quad-port SAS HBAs. These controllers do not have onboard SAS ports.
 
 === Multipath HA with one quad-port SAS HBA and one single-shelf stack
@@ -68,7 +67,6 @@ image::../media/drw_mpha_slots_1_and_2_two_4porthbas_two_stacks_skipped.gif[]
 
 == Controller-to-stack cabling worksheets and cabling examples for multipath HA configurations with four onboard SAS ports
 
-[.lead]
 You can use the completed controller-to-stack cabling worksheets and cabling examples to cable common multipath HA configurations that have four onboard SAS ports.
 
 === Multipath HA with four onboard SAS ports and one single-shelf stack
