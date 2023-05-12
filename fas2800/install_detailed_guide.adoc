@@ -46,11 +46,10 @@ The following table identifies the types of cables you might receive. If you rec
 a|
 10 GbE, SFP28 cable (order dependent)
 a|
-X66240A-05, 0.5m,
+X6566B-05-R6, .5,
 
-X66240A-2, 2m,
+X6566B-2-R6, 2m
 
-X66240A-5, 5m, 0.5m
 a|
 image:../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 a|
@@ -58,9 +57,12 @@ Network cable
 a|
 25Gb Ethernet, SFP28
 a|
-X6566B-2-R6, 2m
+X66240A-05, .5m
 
-X6566B-5-R6, 5m
+X66240-2, 2m
+
+X66240A-5, 5m
+
 a|
 image:../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 a|
@@ -91,19 +93,17 @@ Management network and Ethernet data
 a|
 Storage 
 a|
-X66211A-05 (112-00595), 0.5m
+X66030A, 0.5m
 
-X66211B-1 (112-00573), 1m
+X66031A, 1m
 
-X66211B-2 (112-00574), 2m
-
-X66211B-5 (112-00576), 5m
+X66032A, 2m
 a|
 image:../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=100px]
 a|
 Storage
 a|
-Micro-USB console cable
+USB-C console cable
 a|
 Not applicable
 a|
@@ -180,7 +180,7 @@ video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling 
 [options="header" cols="20%,80%"]
 
 |===
-| Step| Perform on each controller
+| Cabling|Perform on each controller
 a|
 image:../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
@@ -189,7 +189,7 @@ Cable the cluster interconnect ports to each other with the cluster interconnect
 ** e0a to e0a
 ** e0b to e0b
 
-image:../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=5005px]
+image:../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
 a|
 image:../media/oie_legend_icon_2_lp.svg[width=30px]
 a|
@@ -247,7 +247,7 @@ video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto, title="Animation - Switched
 
 [options="header" cols="20%,80%"]
 |===
-| Step| Perform on each controller module
+| Cabling|Perform on each controller module
 a|
 image:../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
