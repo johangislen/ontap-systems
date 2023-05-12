@@ -41,7 +41,7 @@ You must set shelf IDs so they are unique within the HA pair or single-controlle
 
 * Disk shelves containing the root aggregates can be identified by the labels on the disk shelf box and disk shelf chassis.
 +
-The labels show the stack number; for example, *Loop or Stack #: 1* and *Loop or Stack #: 2*. Disk shelves that do not contain the root aggregates only show the disk shelf serial number is on the labels.
+The labels show the stack number; for example, *Loop or Stack #: 1* and *Loop or Stack #: 2*. Disk shelves that do not contain the root aggregates only show the disk shelf serial number on the labels.
 
 * If at system setup and configuration, you do not configure the system to use automatic disk ownership assignment, you need to manually assign disk ownership.
 * In-band Alternate Control Path (ACP) is automatically enabled.
@@ -65,7 +65,7 @@ If any SAS cabling or duplicate shelf ID errors are generated, follow the correc
 +
 You need network access to download Config Advisor.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+https://https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 === SAS cable handling considerations
 
@@ -184,7 +184,7 @@ You cable disk shelf SAS connections--shelf-to-shelf (as applicable) and control
 
 .Before you begin
 
-You must have met the requirements in <<Requirements for installing and cabling disk shelves with IOM12 modules for a new system installation>> and installed the disk shelves in the rack.
+You must have met the requirements in <<Requirements for installing and cabling disk shelves with IOM12/IOM12B modules for a new system installation>> and installed the disk shelves in the rack.
 
 .About this task
 
@@ -200,7 +200,7 @@ For a detailed explanation and examples of shelf-to-shelf "`standard`" cabling a
 |===
 | If...| Then...
 a|
-You are cabling a multipath HA, multipath, single-path HA, or single-path configuration
+You are cabling a multipath HA, tri-path HA, multipath, single-path HA, or single-path configuration
 a|
 Cable the shelf-to-shelf connections as "`standard`" connectivity (using IOM ports 3 and 1):
 
@@ -225,9 +225,9 @@ Cable the shelf-to-shelf connections as "`double-wide`" connectivity:    You cab
 
 .. Check the controller-to-stack cabling worksheets and cabling examples to see whether a completed worksheet exists for your configuration.
 +
-link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for AFF and FAS platforms with onboard storage]
+link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for platforms with internal storage]
 +
-link:install-cabling-worksheets-examples-multipath.html[Controller-to-stack cabling worksheets and cabling examples for common multipath HA configurations]
+link:install-cabling-worksheets-examples-multipath.html[Controller-to-stack cabling worksheets and cabling examples for multipath HA configurations]
 +
 link:install-worksheets-examples-quadpath.html[Controller-to-stack cabling worksheet and cabling example for a quad-path HA configuration with two quad-port SAS HBAs]
 
@@ -322,7 +322,7 @@ You can use the wildcard character to assign more than one disk at once.
 +
 If any SAS cabling or duplicate shelf ID errors are generated, follow the corrective actions provided.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+https://https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 +
 You can also run the `storage shelf show -fields shelf-id` command to see a list of shelf IDs already in use (and duplicates if present) in your system.
 

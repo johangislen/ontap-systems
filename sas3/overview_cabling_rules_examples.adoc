@@ -18,17 +18,17 @@ To help you cable your SAS drive shelves with IOM12/IOM12B modules to your stora
 ** link:install-cabling-rules.html#shelf-to-shelf-connection-rules[Shelf-to-shelf connections]
 ** link:install-cabling-rules.html#controller-to-stack-connection-rules[Controller-to-stack connections]
 ** link:install-cabling-rules.html#mini-sas-hd-sas-optical-cable-rules[Mini-SAS HD SAS optical cables]
-** link:install-cabling-rules.html#tripath-ha-connectivity[Tripath HA connectivity]
+** link:install-cabling-rules.html#tri-path-ha-connectivity[Tri-path HA connectivity]
 
 *Cabling worksheets and examples*
 
-** link:install-cabling-worksheets-examples-multipath.html[Common multipath HA configurations]
-** link:install-cabling-worksheets-examples-fas2600.html[AFF and FAS platforms with internal storage]
+** link:install-cabling-worksheets-examples-multipath.html[Multipath HA configurations]
+** link:install-cabling-worksheets-examples-fas2600.html[Platforms with internal storage]
 ** link:install-worksheets-examples-quadpath.html[Quad-path HA configurations]
 
 *Cabling worksheet templates*
 
-** link:install-cabling-worksheet-template-multipath.html[Multipathed and tripathed connectivity]
+** link:install-cabling-worksheet-template-multipath.html[Multipathed connectivity]
 ** link:install-cabling-worksheet-template-quadpath.html[Quad-pathed connectivity]
-** link:install-cabling-worksheets-how-to-read-multipath.html[How to read a worksheet for multipathed and tripathed connectivity]
+** link:install-cabling-worksheets-how-to-read-multipath.html[How to read a worksheet for multipathed connectivity]
 ** link:install-cabling-worksheets-how-to-read-quadpath.html[How to read a worksheet for quad-pathed connectivity]
