@@ -95,6 +95,8 @@ If necessary, remove the boot media and reseat it into the socket.
 
 To move the DIMMs, locate and move them from the old controller into the replacement controller and follow the specific sequence of steps.
 
+NOTE: The VER2 controller has fewer DIMM sockets. There is no reduction in the number of DIMMs supported or change in the DIMM socket numbering. When moving the DIMMs to the new controller module, install the DIMMs into the same socket number/location as the impaired controller module.  See the FRU map diagram on the VER2 controller module for DIMM socket locations.
+
 . If you are not already grounded, properly ground yourself.
 . Locate the DIMMs on your controller module.
 . Note the orientation of the DIMM in the socket so that you can insert the DIMM in the replacement controller module in the proper orientation.
