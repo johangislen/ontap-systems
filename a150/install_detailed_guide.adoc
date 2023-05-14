@@ -153,6 +153,8 @@ image::../media/drw_cable_management_arm_install.png[]
 [.lead]
 Cable the controllers to your network by using either the two-node switchless cluster method or the cluster interconnect network method.
 
+Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
+
 // start tabbed area
 
 [role="tabbed-block"]
@@ -160,7 +162,7 @@ Cable the controllers to your network by using either the two-node switchless cl
 
 .Option 1: Two-node switchless cluster
 --
-Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
+Learn how to cable a two-node switchless cluster.
 
 .Before you begin 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -221,7 +223,7 @@ IMPORTANT:  DO NOT plug in the power cords at this point.
 
 .Option 2: Switched cluster
 --
-Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
+Learn how to cable a switched cluster.
 
 .Before you begin
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.

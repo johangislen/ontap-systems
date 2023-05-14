@@ -124,7 +124,9 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to your network
 
-You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+You can cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
+
+UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
 
 // start tabbed area
 
@@ -133,8 +135,7 @@ You can cable the controllers to your network by using the two-node switchless c
 
 .Option 1: Two-node switchless cluster
 --
-UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
-
+Learn how to cable a two-node switchless cluster.
 
 .Before you begin
 Contact your network administrator for information about connecting the system to the switches.
@@ -191,7 +192,7 @@ IMPORTANT:  DO NOT plug in the power cords at this point.
 
 .Option 2: Switched cluster
 --
-Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
+Learn how to cable a switched cluster.
 
 .Before you begin
 Contact your network administrator for information about connecting the system to the switches.
