@@ -280,8 +280,6 @@ IMPORTANT: DO NOT plug in the power cords at this point.
 // end tabbed area
 
 == Step 4: Cable controllers to drive shelves
-
-[.lead]
 Cable the controllers to your shelves using the onboard storage ports. NetApp recommends MP-HA cabling for systems with external storage. 
 
 .About this task
