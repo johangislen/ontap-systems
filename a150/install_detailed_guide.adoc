@@ -367,7 +367,7 @@ NOTE: XXXXX is the system serial number for the target node.
 +
 System Manager opens.
 
-.. Configure the system using the data you collected in the https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide].
+. Configure the system using the data you collected in the https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide].
 +
 
 . Set up your account and download Active IQ Config Advisor:
