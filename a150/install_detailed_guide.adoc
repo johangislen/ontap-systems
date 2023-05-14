@@ -160,7 +160,7 @@ Cable the controllers to your network by using the two-node switchless cluster m
 
 .Option 1: Cable two-node switchless cluster
 --
-Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
+Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
@@ -180,16 +180,26 @@ Perform the following steps each controller module.
  +
 image:../media/drw_c190_u_tnsc_clust_cbling.png[]
 +
-. Use one of the following cable types to cable the UTA2 data ports to your host network. 
+
+. Do one of the following:
+[horizontal]
+UTA2 data network configurations:: 
+Use one of the following cable types to cable the UTA2 data ports to your host network. 
 +
 * For an FC host, use 0c and 0d *or* 0e and 0f.
-* For an 10GbE system, use e0c and e0d *or* e0e and e0f.
+* For an 10GbE system, use e0c and e0d *or* e0e and e0f. 
 +
 The cable is shown as image:../media/oie_legend_icon_2_o.png[] in the following illustration.
 +
 image:../media/drw_c190_u_fc_10gbe_cbling.png[]
 +
 You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
+
+Ethernet network configurations::
+Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network. The cable is shown as image:../media/oie_legend_icon_2_o.png[]
+ in the following illustration.
++
+image:../media/drw_c190_e_rj45_cbling.png[]
 +
 . Cable the e0M ports to the management network switches with the RJ45 cables. The cable is shown as image:../media/oie_legend_icon_3_lp.png[] in the following illustration.
 +
@@ -199,9 +209,9 @@ IMPORTANT:  DO NOT plug in the power cords at this point.
 
 --
 
-.Option 2: Cable a switched cluster
+.Option 2: Cable switched cluster
 --
-Management network, UTA2 data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
+Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
@@ -209,19 +219,32 @@ image::../media/oie_cable_pull_tab_down.png[]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
-Refer to the following cabling graphic when cabling between the controllers and the switches.
+Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
+Refer to the following cabling illustrations when cabling between the controllers and the switches. 
+
+[horizontal]
+Unified network cabling::
++
 image::../media/drw_2700_switched_unified_network_cabling_animated_gif.png[]
 
-Perform the following steps each controller module.
+Ethernet network cabling::
++
+image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.png[]
+
+
+Perform the following steps on each controller module.
 
 .Steps
 
-. For each controller module, cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable.  The cable is shown as image:../media/oie_legend_icon_1_lg.png[] in the following illustration.
+. For each controller module, cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable. 
 +
 image:../media/drw_c190_u_switched_clust_cbling.png[]
 +
-. Use one of the following cable types to cable the UTA2 data ports to your host network.
+. Do one of the following:
+[horizontal]
+UTA2 data network configurations::
+Use one of the following cable types to cable the UTA2 data ports to your host network.
 +
 * For an FC host, use 0c and 0d **or** 0e and 0f.
 * For an 10GbE system, use e0c and e0d **or** e0e and e0f.
@@ -229,85 +252,24 @@ image:../media/drw_c190_u_switched_clust_cbling.png[]
 image:../media/drw_c190_u_fc_10gbe_cbling.png[]
 +
 You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
-
+Ethernet network configurations::
+Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network.
 +
-. Cable the e0M ports to the management network switches with the RJ45 cables.  The cable is shown as image:../media/oie_legend_icon_3_lp.png[] in the following illustration. 
+image:../media/drw_c190_e_rj45_cbling.png[]
 +
+. Cable the e0M ports to the management network switches with the RJ45 cables.  
++
+[horizontal]
+UTA2 data network configurations::
 image:../media/drw_c190_u_mgmt_cbling.png[]
 
-IMPORTANT: DO NOT plug in the power cords at this point.
-
---
-
-.Option 3: Cable a two-node switchless cluster
---
-Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-Refer to the following cabling graphic when cabling between the controllers and the switches.
-
-image::../media/drw_2700_tnsc_ethernet_network_cabling_animated_gif.png[]
-
-Perform the following steps each controller module.
-
-.Steps
-. Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable. The cable is shown as image:../media/oie_legend_icon_1_lg.png[] in the following illustration.
-+
-image:../media/drw_c190_e_tnsc_clust_cbling.png[]
-+
-. Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network.The cable is shown as image:../media/oie_legend_icon_2_o.png[]
- in the following illustration.
-+
-image:../media/drw_c190_e_rj45_cbling.png[]
-+
-
-. Cable the e0M ports to the management network switches with the RJ45 cables:.  The cable is shown as image:../media/oie_legend_icon_3_lp.png[] in the following illustration. 
-+
+Ethernet network configurations::
 image:../media/drw_c190_e_mgmt_cbling.png[]
 
 IMPORTANT: DO NOT plug in the power cords at this point.
---
 
-.Option 4: Cable a switched cluster
---
-Management network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-Refer to the following cabling graphic when cabling between the controllers and the switches.
-
-image::../media/drw_2700_switched_ethernet_network_cabling_animated_gif.png[]
-
-Perform the following steps each controller module.
-
-.Steps
-. Cable the cluster interconnect ports e0a and e0b with the cluster interconnect cable. The cable is shown as image:../media/oie_legend_icon_1_lg.png[] in the following illustration.
-+
-image:../media/drw_c190_e_switched_clust_cbling.png[]
-+
-. Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network.The cable is shown as image:../media/oie_legend_icon_2_o.png[]
- in the following illustration.
-+
-image:../media/drw_c190_e_rj45_cbling.png[]
-+
-
-. Cable the e0M ports to the management network switches with the RJ45 cables.  The cable is shown as image:../media/oie_legend_icon_3_lp.png[] in the following illustration. 
-+
-image:../media/drw_c190_e_mgmt_cbling.png[]
-
-IMPORTANT: DO NOT plug in the power cords at this point.
 --
 ====
-
 // end tabbed area
 
 == Step 4: Cable controllers to drive shelves
@@ -419,7 +381,7 @@ https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor]
 . After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] page for information about configuring additional features in ONTAP.
 --
 
-.If network discovery is not enabled
+.Option 2: If network discovery is not enabled
 --
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
