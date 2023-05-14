@@ -251,8 +251,13 @@ IMPORTANT: DO NOT plug in the power cords at this point.
 
 Complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
-=== Option 1: If network discovery is enabled
+// start tabbed area
 
+[role="tabbed-block"]
+====
+
+.Option 1: If network discovery is enabled
+--
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 .Steps
@@ -290,10 +295,13 @@ System Manager opens.
 +
 NOTE: The default port configuration for Unified configuration systems is CNA mode; if connecting to an FC host network, you have to modify the ports for FC mode.
 
-=== Option 2: If network discovery is not enabled
+--
 
-If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
+.Option 2: If network discovery is not enabled
+--
+Learn how to complete the system setup if network discovery is not enabled on your laptop.
 
+.Steps
 . Cable and configure your laptop or console:
  .. Set the console port on the laptop or console to 115,200 baud with N-8-1.
 +
@@ -347,3 +355,9 @@ NOTE: The format for the address is +https://x.x.x.x+.
 . After you have completed the initial configuration, go to the link:https://docs.netapp.com/us-en/ontap-family/[ONTAP &ocumentation] site for information about configuring additional features in ONTAP.
 +
 NOTE: The default port configuration for Unified configuration systems is CNA mode; if connecting to an FC host network, you have to modify the ports for FC mode.
+
+--
+
+====
+
+// end tabbed area
