@@ -258,7 +258,7 @@ Complete the system setup and configuration using cluster discovery with only a 
 
 .Option 1: If network discovery is enabled
 --
-If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
+Learn how to complete system setupiIf you have network discovery enabled on your laptop.
 
 .Steps
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
