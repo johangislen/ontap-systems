@@ -148,17 +148,17 @@ image::../media/drw_cable_management_arm_install.png[]
 
 . Place the bezel on the front of the system.
 
-== Step 3: Cable controllers to your network
+== Step 3: Cable controllers to network
 
 [.lead]
-Cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network method.
+Cable the controllers to your network by using either the two-node switchless cluster method or the cluster interconnect network method.
 
 // start tabbed area
 
 [role="tabbed-block"]
 ====
 
-.Option 1: Cable two-node switchless cluster
+.Option 1: Two-node switchless cluster
 --
 Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
 
@@ -219,7 +219,7 @@ IMPORTANT:  DO NOT plug in the power cords at this point.
 
 --
 
-.Option 2: Cable switched cluster
+.Option 2: Switched cluster
 --
 Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
 
@@ -443,23 +443,18 @@ NOTE: Check your laptop or console's online help if you do not know how to confi
 +
 NOTE: The format for the address is https://x.x.x.x.
 
- .. Configure the system using the data you collected in the _NetApp ONTAP Configuration guide_.
+ .. Configure the system using the data you collected in the https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide].
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide]
+
 . Set up your account and download Active IQ Config Advisor:
- .. Log in to your existing account or create an account.
+ .. Log in to your https://mysupport.netapp.com/site/user/registration[existing account or create and account].
 +
-https://mysupport.netapp.com/site/user/registration[NetApp Support Registration]
-
- .. Register your system.
+ .. https://mysupport.netapp.com/site/systems/register[Register] your system.
 +
-https://mysupport.netapp.com/site/systems/register[NetApp Product Registration]
-
- .. Download Active IQ Config Advisor.
+ .. Download https://mysupport.netapp.com/site/tools[Active IQ Config Advisor].
 +
-https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor]
 . Verify the health of your system by running Config Advisor.
-. After you have completed the initial configuration, go to the https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources] page for information about configuring additional features in ONTAP.
+. After you have completed the initial configuration, go to the https://docs.netapp.com/us-en/ontap-family/[ONTAP documentation] site for information about configuring additional features in ONTAP.
 
 --
 
