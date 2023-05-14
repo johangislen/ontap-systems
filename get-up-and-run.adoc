@@ -20,7 +20,7 @@ Use the following workflow to deploy your storage system when it is not set up i
 [role="quick-margin-para"]
 Install your AFF/FAS controllers in the rack or cabinet. Access the install and setup instructions for your AFF/FAS platform model. For All SAN Array (ASA) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
-[horizontal,role="quick-margin-list"]
+[horizontal,labelwidth=75,itemwidth=75]
 AFF A-Series systems::
 +
 * https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html[AFF A220]
