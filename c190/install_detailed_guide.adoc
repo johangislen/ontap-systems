@@ -13,17 +13,16 @@ This section gives detailed step-by-step instructions for installing a AFF C190 
 
 == Step 1: Prepare for installation
 
-To install your AFF C190 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your AFF C190 system, create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
-You need to have access to the link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. You might also want to have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes for your version of ONTAP^] for more information about this system.
-
-.What you need
-You need to provide the following at your site:
-
-* Rack space for the storage system
-* Phillips #2 screwdriver
-* Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
-* A laptop or console with an RJ-45 connection and access to a Web browser
+.Before you begin
+* Make sure you have access to link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. 
+* Make sure you have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes^]  for your version of ONTAP for more information about this system.
+* Make sure you have the following items at your site:
+** Rack space for the storage system
+** Phillips #2 screwdriver
+** Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
+** A laptop or console with an RJ-45 connection and access to a Web browser
 
 .Steps
 . Unpack the contents of all boxes.
@@ -106,7 +105,7 @@ Powering up the system
 
 == Step 2: Install the hardware
 
-You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
+Install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 .Steps
 . Install the rail kits, as needed.
@@ -124,7 +123,7 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to your network
 
-You can cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
+Cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
 
 UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
 

@@ -16,15 +16,13 @@ If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/
 == Step 1: Prepare for installation
 
 [.lead]
-To install your AFF A150 system, you need to create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
-
-You need access to https://hwu.netapp.com[NetApp Hardware Universe^] for information about site requirements and additional information on your configured system. You might also want to http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[find the Release Notes for your version of ONTAP 9^] for more information about your system.
-
+To install your AFF A150 system, create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
-
+* Make sure you have access to link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. 
+* Make sure you have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes^]  for your version of ONTAP for more information about this system.
 * Contact your network administrator for information about connecting your system to the switches.
-* Make sure you have the following at your site:
+* Make sure you have the following items at your site:
 ** Rack space for the storage system
 ** Phillips #2 screwdriver
 ** Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
