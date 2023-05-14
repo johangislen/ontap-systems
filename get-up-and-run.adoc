@@ -19,6 +19,8 @@ Use the following workflow to deploy your storage system when it is not set up i
 
 [role="quick-margin-para"] 
 Install your AFF/FAS controllers in the rack or cabinet. Access the install and setup instructions for your AFF/FAS platform model. For All SAN Array (ASA) systems, follow the installation instructions for the corresponding AFF A-Series model.
+
+[role="quick-margin-list"]
 [horizontal]
 AFF A-Series systems:: 
 +
@@ -62,6 +64,8 @@ FAS systems::
 
 [role="quick-margin-para"]
 Install your switches in the rack or cabinet. Access the following instructions for your switch model.
+
+[role="quick-margin-list"]
 [horizontal]
 Cluster switches::
 +
@@ -84,6 +88,8 @@ Shared switches::
 
 [role="quick-margin-para"]
 The AFF/FAS install and setup instructions include instructions for cabling the controller ports to the switch. However, if you need lists of supported cables and transceivers, and detailed information about the host ports for your switch, access the following instructions for your switch model.
+
+[role="quick-margin-list"]
 [horizontal]
 Cluster switches::
 +
@@ -105,6 +111,7 @@ Shared switches::
 [role="quick-margin-para"]
 Perform an initial setup of your switches. Access the following instructions for your switch model.
 
+[role="quick-margin-list"]
 [horizontal]
 Cluster switches::
 +
@@ -127,6 +134,7 @@ Shared switches::
 [role="quick-margin-para"]
 To install and configure the software on your switch, follow the software install workflow for your switch model.
 
+[role="quick-margin-list"]
 [horizontal]
 Cluster switches::
 +
@@ -149,6 +157,7 @@ Shared switches::
 [role="quick-margin-para"]
 After you have configured your switches and installed the required software, access the install and setup instructions for your AFF/FAS platform model to complete your system setup. For All SAN Array (ASA) systems, follow the installation instructions for the corresponding AFF A-Series model.
 
+[role="quick-margin-list"]
 [horizontal]
 AFF systems::
 
