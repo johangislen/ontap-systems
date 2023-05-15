@@ -107,14 +107,14 @@ The AFF/FAS install and setup instructions include instructions for cabling the 
 [role="quick-margin-para"]
 **Storage switches**
 
-[role="quick-margin-para"]
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/setup-worksheet-9336c-storage.html[Cable Cisco Nexus 9336C-FX2 switch]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/cabling-considerations-sn2100-storage.html[Cable NVIDIA SN2100 switch]
 
 [role="quick-margin-para"]
 **Shared switches**
 
-[role="quick-margin-para"]
+[role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/cable-9336c-shared.html[Cable Cisco Nexus 9336C-FX2 switch]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four]Configure switch
@@ -166,7 +166,7 @@ To install and configure the software on your switch, follow the software instal
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-software-sn2100-storage.html[Install software for NVIDIA SN2100 switch]
 
 [role="quick-margin-para"]
-Shared switches
+**Shared switches**
 
 [role="quick-margin-list"]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-software-overview-9336c-shared.html[Install software for Cisco Nexus 9336C-FX2 switch]
