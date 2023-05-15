@@ -20,8 +20,7 @@ Use the following workflow to deploy your storage system when it is not set up i
 [role="quick-margin-para"]
 Install your AFF/FAS controllers in the rack or cabinet. Access the install and setup instructions for your AFF/FAS platform model. For All SAN Array (ASA) systems, follow the installation instructions for the corresponding AFF A-Series model.
 [horizontal]
-x::
-AFF A-Series systems:::
+AFF A-Series systems::::
 +
 * https://docs.netapp.com/us-en/ontap-systems/fas2700/install-setup.html[AFF A220]
 
@@ -35,8 +34,7 @@ AFF A-Series systems:::
 
 * https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html[AFF A900]
 
-x::
-AFF C-Series systems:::
+AFF C-Series systems:::::
 +
 * https://docs.netapp.com/us-en/ontap-systems/c190/install-setup.html[AFF C190]
 
@@ -46,8 +44,7 @@ AFF C-Series systems:::
 
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF C800]
 
-x::
-FAS systems:::
+FAS systems:::::
 +
 * https://docs.netapp.com/us-en/ontap-systems/fas500f/install-setup.html[FAS500f]
 
@@ -66,22 +63,20 @@ FAS systems:::
 [role="quick-margin-para"]
 Install your switches in the rack or cabinet. Access the following instructions for your switch model.
 
-[horizontal]
-:
-Cluster switches::
-+
+**Cluster switches**
+
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/install-hardware-bes53248.html[Install BES-53248 switch]
 
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/install-switch-9336c-cluster.html[Install Cisco Nexus 9336C-FX2 switch]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-cluster.html[Install NVIDIA SN2100 switch]
 
-Storage switches::
-+
+**Storage switches**
+
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-storage/install-9336c-storage.html[Install Cisco Nexus 9336C-FX2 switch]
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/install-hardware-sn2100-storage.html[Install NVIDIA SN2100 switch]
 
-Shared switches::
-+
+**Shared switches**
+
 * link:https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/install-9336c-shared.html[Install Cisco Nexus 9336C-FX2 switch]
 
 
