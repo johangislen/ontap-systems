@@ -214,25 +214,24 @@ image::../media/drw_fas2600_mpha_domain_example.png[]
 
 Tri-path HA connectivity is available on FAS2800 HA pairs. Tri-path HA connectivity has three paths from each controller to internal and external shelves:
 
-*  The controller's internal connections of port 0c to the internal shelf gives an HA pair multipath HA connectivity.
+*  Each controller's internal connection of port 0c to the other controller gives an HA pair multipath HA connectivity.
 
-* The cabling of the controller's external storage ports 0a and 0b1 give an HA pair tri-path HA connectivity.
+* The cabling of each controller's external storage ports, 0a and 0b1, gives an HA pair tri-path HA connectivity.
 +
-Ports 0a and 0b1 are cabled across the two controllers when there are no external shelves, or they are cabled to external shelves. 
+Ports 0a and 0b1 are cabled across the two controllers when there are no external shelves, or they are cabled to external shelves to achieve tri-path HA connectivity. 
 
-The following shows the controller's internal connections and external cabling that achieves tri-path HA connectivity:
-
+The following shows the controller's internal connections and external cabling that achieves tri-path HA connectivity: 
 image::../media/IEOPS-950, drw_fas2800_concept_tpha.svg[width=440px]
 
-FAS2800 HA pair cabling examples can be found in the link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for platforms with internal storage] section.
+The FAS2800 external SAS ports: 
 
-The FAS2800 SAS ports are 0a and 0b1: 
-
-* The 0a port is the internal HBA port (like other platforms with internal storage).
-* The 0b1 port is the internal storage port (like the 0b ports on other platforms with internal storage).
-* The 0b2 port is from the internal storage, but is not used. It is disabled. If a cable is connected to it, an error message is generated.
+* The 0a port is the HBA port (like other platforms with internal storage).
+* The 0b1 port is from the internal storage (like the 0b ports on other platforms with internal storage).
+* The 0b2 port is not used. It is disabled. If a cable is connected to it, an error message is generated.
 
 image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[width=440px]
+
+FAS2800 HA pair cabling examples can be found in the link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for platforms with internal storage] section.
 
 == Mini-SAS HD SAS optical cable rules
 
