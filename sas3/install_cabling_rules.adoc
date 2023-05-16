@@ -208,7 +208,7 @@ NOTE: If you do not connect the 0b/0b1 port to the correct domain (cross-connect
 
 The following illustration highlights internal storage port (0b/0b1) domain connectivity:
 
-image::../media/drw_fas2600_mpha_domain_example.png[]
+image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[width=440px]
 
 === Tri-path HA connectivity
 
