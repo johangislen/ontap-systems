@@ -9,14 +9,14 @@ summary: "This guide gives detailed step-by-step instructions for installing a t
 :imagesdir: ../media/
 
 [.lead]
-Learn how to insall your AFF A150 system.
+Learn how to install your AFF A150 system.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
 
 == Step 1: Prepare for installation
 
 [.lead]
-To install your AFF A150 system, create an account on the NetApp Support Site, register your system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your AFF A150 system, create an account on the NetApp Support Site, register your system, and obtain your license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
 * Make sure you have access to link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. 
@@ -160,7 +160,7 @@ Management network, UTA2 data network, Ethernet data network, and management por
 
 .Option 1: Two-node switchless cluster
 --
-Learn how to cable a two-node switchless cluster.
+Learn how to cable a two-node switchless cluster. You can cable your controllers using UTA2 data network or an ethernet network configuration.
 
 .Before you begin 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
@@ -170,7 +170,7 @@ image::../media/oie_cable_pull_tab_down.png[]
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
 .About this task
-Refer to the following cabling illustrations when cabling between the controllers and the switches.
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 UTA2 data network configurations:: 
@@ -198,8 +198,6 @@ Use one of the following cable types to cable the UTA2 data ports to your host n
 +
 * For an FC host, use 0c and 0d *or* 0e and 0f.
 * For an 10GbE system, use e0c and e0d *or* e0e and e0f. 
-+
-The cable is shown as image:../media/oie_legend_icon_2_o.png[] in the following illustration.
 +
 image:../media/drw_c190_u_fc_10gbe_cbling.png[]
 +
@@ -231,7 +229,7 @@ image::../media/oie_cable_pull_tab_down.png[]
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
 
 .About this task
-Refer to the following cabling illustrations when cabling between the controllers and the switches. 
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 Unified network cabling::
