@@ -185,20 +185,20 @@ link:install-cabling-worksheet-template-multipath.html[Controller-to-stack cabli
 
 link:install-cabling-worksheet-template-quadpath.html[Controller-to-stack cabling worksheet template for quad-pathed connectivity]
 
-=== Controller 0b and 0a port connection rules for platforms with internal storage
+=== Controller 0b/0b1 and 0a port connection rules for platforms with internal storage
 
-Platforms with internal storage, including FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, have a unique set of connection rules because each controller must maintain same domain connectivity between the internal storage (port 0b) and the stack. This means that when a controller is located in slot A of the chassis (controller 1) it is in domain A (IOM A) and therefore port 0b must connect to IOM A in the stack. When a controller is located in slot B of the chassis (controller 2) it is in domain B (IOM B) and therefore port 0b must connect to IOM B in the stack.
+Platforms with internal storage have a unique set of connection rules because each controller must maintain same domain connectivity between the internal storage (port 0b/0b1) and the stack. This means that when a controller is located in slot A of the chassis (controller 1) it is in domain A (IOM A) and therefore port 0b/0b1 must connect to IOM A in the stack. When a controller is located in slot B of the chassis (controller 2) it is in domain B (IOM B) and therefore port 0b/0b1 must connect to IOM B in the stack.
 
 NOTE: FAS25XX platforms are not addressed in this content.
 
-NOTE: If you do not connect the 0b port to the correct domain (cross-connect domains), you expose your system to resiliency issues that prevent you from performing nondisruptive procedures safely.
+NOTE: If you do not connect the 0b/0b1 port to the correct domain (cross-connect domains), you expose your system to resiliency issues that prevent you from performing nondisruptive procedures safely.
 
-* Controller 0b port (internal storage port):
- ** Controller 1 0b port always connects to IOM A (domain A).
- ** Controller 2 0b port always connects to IOM B (domain B).
- ** Port 0b is always the primary path.
- ** Port 0b always connects to the logical last disk shelf in a stack.
- ** Port 0b always connect to disk shelf IOM port 3.
+* Controller 0b/0b1 port (internal storage port):
+ ** Controller 1 0b/0b1 port always connects to IOM A (domain A).
+ ** Controller 2 0b/0b1 port always connects to IOM B (domain B).
+ ** Port 0b/0b1 is always the primary path.
+ ** Port 0b/0b1 always connects to the logical last disk shelf in a stack.
+ ** Port 0b/0b1 always connect to disk shelf IOM port 3.
 * Controller 0a port (internal HBA port):
  ** Controller 1 0a port always connects to IOM B (domain B).
  ** Controller 2 0a port always connects to IOM A (domain A).
@@ -206,7 +206,7 @@ NOTE: If you do not connect the 0b port to the correct domain (cross-connect dom
  ** Port 0a always connects to the logical first disk shelf in a stack.
  ** Port 0a always connect to disk shelf IOM port 1.
 
-The following illustration highlights internal storage port (0b) domain connectivity for a FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later multipath HA configuration:
+The following illustration highlights internal storage port (0b/0b1) domain connectivity:
 
 image::../media/drw_fas2600_mpha_domain_example.png[]
 
@@ -214,7 +214,7 @@ image::../media/drw_fas2600_mpha_domain_example.png[]
 
 Tri-path HA connectivity is available on FAS2800 HA pairs. Tri-path HA connectivity has three paths from each controller to internal and external shelves:
 
-*  The controller's internal connections of ports 0b and 0c give an HA pair multipath HA connectivity.
+*  The controller's internal connections of port 0c to the internal shelf gives an HA pair multipath HA connectivity.
 
 * The cabling of the controller's external storage ports 0a and 0b1 give an HA pair tri-path HA connectivity.
 +
