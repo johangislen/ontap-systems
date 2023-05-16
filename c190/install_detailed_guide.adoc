@@ -148,7 +148,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
 .About this task
-Refer to the following cabling illustrations when cabling between the controllers and the switches.
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 UTA2 data network configurations:: 
@@ -205,14 +205,14 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
 .About this task
-Refer to the following cabling illustrations when cabling between the controllers and the switches. 
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
-Unified network cabling::
+Unified network configurations::
 +
 image::../media/drw_c190_switched_unified_network_cabling_animated_gif.png[]
 
-Ethernet network cabling::
+Ethernet network configurations::
 +
 image::../media/drw_c190_switched_ethernet_network_cabling_animated.png[]
 
