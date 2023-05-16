@@ -160,7 +160,7 @@ Management network, UTA2 data network, Ethernet data network, and management por
 
 .Option 1: Two-node switchless cluster
 --
-Learn how to cable a two-node switchless cluster. You can cable your controllers using UTA2 data network or an ethernet network configuration.
+Learn how to cable a two-node switchless cluster.
 
 .Before you begin 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
