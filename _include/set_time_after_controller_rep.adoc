@@ -12,7 +12,7 @@ It is important that you apply the commands in the steps on the correct systems:
 +
 The date and time are given in GMT.
 
-. At the LOADER prompt, check the date and time on the _replacement_ node: `date`
+. At the LOADER prompt, check the date and time on the _replacement_ node: `show date`
 +
 The date and time are given in GMT.
 
