@@ -112,9 +112,9 @@ Your storage system must meet certain criteria depending on your situation:
 . Locate the failed caching module near the rear of the controller module and remove it.
  .. Press the blue release button and rotate the caching module upward.
  .. Gently pull the caching module straight out of the housing.
-+
+
 image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
-+
+
 [cols="1,3"]
 |===
 
