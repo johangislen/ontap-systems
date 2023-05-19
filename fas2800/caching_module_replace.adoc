@@ -112,9 +112,9 @@ Your storage system must meet certain criteria depending on your situation:
 . Locate the failed caching module near the rear of the controller module and remove it.
  .. Press the blue release button and rotate the caching module upward.
  .. Gently pull the caching module straight out of the housing.
-+
+
 image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
-+
+
 [cols="1,3"]
 |===
 
@@ -125,7 +125,6 @@ Caching module release button
 
 |===
 
-.. Gently pull the caching module straight out of the housing.
 . Align the edges of the replacement caching module with the socket in the housing, and then gently push it into the socket.
 . Verify that the caching module is seated squarely and completely in the socket.
 +
@@ -165,7 +164,7 @@ The controller begins to boot as soon as it is completely seated in the chassis.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an Autosupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 6: Return the failed part to NetApp
 

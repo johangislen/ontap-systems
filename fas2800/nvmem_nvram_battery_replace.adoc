@@ -82,6 +82,9 @@ Battery power connector
 . Remove the replacement battery from its package.
 Install the replacement battery:
 .. Plug the battery plug back into the socket on the controller module.
++
+Make sure that the plug locks down into the battery socket on the motherboard.  
++
 .. Aligning the battery with the holding brackets on the sheet metal side wall.
 .. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
 . Reinstall the controller module cover and lock it into place.

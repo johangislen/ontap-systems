@@ -145,11 +145,11 @@ Install the mezzanine card in the replacement controller module.
 .. Align mezzanine card with the socket on the motherboard. 
 .. Gently push down on the card to seat the card in the socket.
 .. Tighten the three thumbscrews on the mezzanine card.
-. Reinstall th mezzanine card bezel.
+. Reinstall the mezzanine card bezel.
 
 == Step 6: Move the DIMMs
 
-Remove the DIMMS from the impaired controller module and install them into the replacement controller module.
+Remove the DIMMs from the impaired controller module and install them into the replacement controller module.
 
 image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
 
@@ -208,7 +208,7 @@ Caching module locking button
 . Locate the caching module near the rear of the controller module and remove it:
 .. Press the blue locking button and rotate the caching module upward.
 .. Gently pull the caching module straight out of the housing.
-. Instal the caching module in the replacement controller module:
+. Install the caching module in the replacement controller module:
 .. Align the edges of the caching module with the socket in the housing, and then gently push it into the socket.
 .. Verify that the caching module is seated squarely and completely in the socket.
 +
@@ -222,7 +222,19 @@ NOTE: If plugging in the battery is difficult, remove the battery from the contr
 +
 . Reinstall the controller module cover. 
 
-== Step 8: Install the controller
+== Step 8: Install the NV battery
+
+Install the NV battery into the replacement controller module. 
+
+. Plug the battery plug back into the socket on the controller module.
++
+Make sure that the plug locks down into the battery socket on the motherboard.  
++
+. Aligning the battery with the holding brackets on the sheet metal side wall.
+. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
+. Reinstall the controller module cover and lock it into place. 
+
+== Step 9: Install the controller
 
 Install the replacement controller module into the system chassis and boot ONTAP.
 
@@ -245,10 +257,9 @@ The controller begins to boot as soon as it is seated in the chassis.
 .. If you have not already done so, reinstall the cable management device.
 .. Bind the cables to the cable management device with the hook and loop strap.
 +
-NOTE: You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete. If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the `update_flash` command, and then allow the system to reboot.
+NOTE: You must look for an Automatic firmware update console message. If the update message appears, do not press `Ctrl-C` to interrupt the boot process until after you see a message confirming that the update is complete. If the firmware update is aborted, the boot process exits to the LOADER prompt. You must run the `update_flash` command, and then enter `bye -g` to reboot the system.
 
 *Important:* During the boot process, you might see the following prompts:
 
- ** A prompt warning of a system ID mismatch and asking to override the system ID.
- ** A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down.
-You can safely respond `y` to these prompts.
+ ** A prompt warning of a system ID mismatch and asking to override the system ID. Respond `y` to this prompt.
+ ** A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down. Respond `y` to this prompt.

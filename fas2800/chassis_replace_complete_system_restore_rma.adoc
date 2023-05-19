@@ -19,7 +19,7 @@ You must verify the HA state of the chassis, and, if necessary, update the state
 The HA state should be the same for all components.
 
 . If the displayed system state for the chassis does not match your system configuration:
- .. Set the HA state for the chassis: `ha-config modify chassis _HA-state_`
+ .. Set the HA state for the chassis based on the system's existing configuration: `ha-config modify chassis _HA-state_`
 +
 The value for HA-state can be one of the following:
 
@@ -27,19 +27,18 @@ The value for HA-state can be one of the following:
 *** `mcc`
 *** `mcc-2n`
 *** `mccip`
-*** `non-ha`
 
  .. Confirm that the setting has changed: `ha-config show`
 . If you have not already done so, recable the rest of your system.
-. Exit Maintenance mode: `halt`    The LOADER prompt appears.
-. Boot the controller module.
+. Exit Maintenance mode: `halt`.    The LOADER prompt appears.
+. Boot the controller modules.
 
 == Step 2: Restore automatic giveback and AutSupport
 
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an  Autosupport maintenance window wa triggered, end it by using the  `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 4: Return the failed part to NetApp
 
