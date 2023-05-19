@@ -80,11 +80,11 @@ To replace a DC power supply, complete the following steps.
 The system logs a warning message to the system console indicating which power supply failed. Additionally, the attention (amber) LED on the shelf operator display panel illuminates and the bicolored LED on the failed power supply illuminates red.
 
 . Disconnect the power supply: 
+
+.. Unscrew the two thumb screws on the D-SUB DC power cable connector.
 +
-The illustration and table in the next step shows the two thumb screws (item #1) and the D-SUB DC power cable connector (item #2).
-+
-.. Unscrew the two thumb screws on the power cable connector.
-.. Unplug the power cable connector from the power supply and set it aside.
+The illustration and table in step 4 shows the two thumb screws (item #1) and the D-SUB DC power cable connector (item #2).
+.. Unplug the D-SUB DC power cable connector from the power supply and set it aside.
 
 . Remove the power supply:
 .. Rotate the handle up, to its horizontal position, and then grasp it.
@@ -120,8 +120,8 @@ NOTE: Do not use excessive force or you might damage the internal connector.
 +
 Once power is restored to the power supply, the status LED should be green.
 +
-.. Plug the power cable connector into the power supply.
-.. Tighten the two thumb screws to secure the power cable connector to the power supply.
+.. Plug the D-SUB DC power cable connector into the power supply.
+.. Tighten the two thumb screws to secure the D-SUB DC power cable connector to the power supply.
 --
 
 ====
