@@ -13,17 +13,16 @@ This section gives detailed step-by-step instructions for installing a AFF C190 
 
 == Step 1: Prepare for installation
 
-To install your AFF C190 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your AFF C190 system, create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
-You need to have access to the link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. You might also want to have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes for your version of ONTAP^] for more information about this system.
-
-.What you need
-You need to provide the following at your site:
-
-* Rack space for the storage system
-* Phillips #2 screwdriver
-* Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
-* A laptop or console with an RJ-45 connection and access to a Web browser
+.Before you begin
+* Make sure you have access to link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. 
+* Make sure you have access to the link:http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Release Notes^]  for your version of ONTAP for more information about this system.
+* Make sure you have the following items at your site:
+** Rack space for the storage system
+** Phillips #2 screwdriver
+** Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
+** A laptop or console with an RJ-45 connection and access to a Web browser
 
 .Steps
 . Unpack the contents of all boxes.
@@ -106,7 +105,7 @@ Powering up the system
 
 == Step 2: Install the hardware
 
-You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
+Install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 .Steps
 . Install the rail kits, as needed.
@@ -124,11 +123,18 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to your network
 
-You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+Cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
 
-=== Option 1: Cable a two-node switchless cluster, unified configuration
+UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
 
-UTA2 ports and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
+// start tabbed area
+
+[role="tabbed-block"]
+====
+
+.Option 1: Two-node switchless cluster
+--
+Learn how to cable a two-node switchless cluster.
 
 .Before you begin
 Contact your network administrator for information about connecting the system to the switches.
@@ -141,45 +147,51 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
-.Steps
-. Use the illustration or the step-by-step instructions to complete the cabling between the controllers and to the switches:
+.About this task
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
+
+[horizontal]
+UTA2 data network configurations:: 
 +
 image::../media/drw_c190_tnsc_unified_network_cabling_animated_gif.png[]
+
+Ethernet network configurations:: 
 +
-[options="header" cols="10,90"]
-|===
-| Step| Perform on each controller
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable:
+image::../media/drw_c190_tnsc_ethernet_network_cabling_animated_gif.png[]
 
- ** e0a to e0a
- ** e0b to e0b
- image:../media/drw_c190_u_tnsc_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use one of the following cable types to cable the e0c/0c and e0d/0d *or* e0e/0e and e0f/0f data ports to your host network:
+Perform the following steps on each controller module.
 
+.Steps
+
+. Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable. 
+ +
+image:../media/drw_c190_u_tnsc_clust_cbling.png[]
++
+
+. Do one of the following:
+[horizontal]
+UTA2 data network configurations:: 
+Use one of the following cable types to cable the e0c/0c and e0d/0d or e0e/0e and e0f/0f data ports to your host network. 
++
 image:../media/drw_c190_u_fc_10gbe_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
++
+Ethernet network configurations::
+Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network. 
+ in the following illustration.
++
+image:../media/drw_c190_e_rj45_cbling.png[]
++
+. Cable the e0M ports to the management network switches with the RJ45 cables.
++
 image:../media/drw_c190_u_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
 
-. To complete setting up your system, see link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration[Step 4: Complete system setup and configuration].
+IMPORTANT:  DO NOT plug in the power cords at this point.
 
-=== Option 2: Cable switched cluster, unified configuration
+--
 
-UTA2 ports and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
+.Option 2: Switched cluster
+--
+Learn how to cable a switched cluster.
 
 .Before you begin
 Contact your network administrator for information about connecting the system to the switches.
@@ -192,143 +204,61 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
-.Steps
-. Use the illustration or the step-by-step instructions to complete the cabling between the controllers and the switches:
+.About this task
+You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
+
+[horizontal]
+Unified network configurations::
 +
 image::../media/drw_c190_switched_unified_network_cabling_animated_gif.png[]
-+
-[options="header" cols="10,90"]
-|===
-| Step| Perform on each controller module
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
 
-image:../media/drw_c190_u_switched_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use one of the following cable types to cable the e0c/0c and e0d/0d *or* e0e/0e and e0f/0f data ports to your host network:
-
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
-image:../media/drw_c190_u_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
-
-. To complete setting up your system, see link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration[Step 4: Complete system setup and configuration].
-
-=== Option 3: Cable a two node switchless cluster, Ethernet configuration
-
-RJ45 ports and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
-
-.Before you begin
-Contact your network administrator for information about connecting the system to the switches.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-.Steps
-. Use the illustration or the step-by-step instructions to complete the cabling between the controllers and to the switches:
-+
-image::../media/drw_c190_tnsc_ethernet_network_cabling_animated_gif.png[]
-+
-[options="header" cols="10,90"]
-|===
-| Step| Perform on each controller
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable image:../media/oie_cable_sfp_gbe_copper.png[]:
-
-** e0a to e0a
-** e0b to e0b
-image:../media/drw_c190_e_tnsc_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network:
-
-image:../media/drw_c190_e_rj45_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables image:../media/oie_cable_rj45.png[].
-
-image:../media/drw_c190_e_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
-
-. To complete setting up your system, see link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration[Step 4: Complete system setup and configuration].
-
-=== Option 4: Cable a switched cluster, Ethernet configuration
-
-RJ45 ports and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled to the cluster interconnect switches.
-
-.Before you begin
-Contact your network administrator for information about connecting the system to the switches.
-
-Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
-
-image::../media/oie_cable_pull_tab_down.png[]
-
-NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn it around and try again.
-
-.Steps
-. Use the illustration or the step-by-step instructions to complete the cabling between the controllers and the switches:
+Ethernet network configurations::
 +
 image::../media/drw_c190_switched_ethernet_network_cabling_animated.png[]
+
+
+Perform the following steps on each controller module.
+
+.Steps
+
+. Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable.
 +
-[options="header" cols="10,90"]
-|===
-| Step| Perform on each controller module
-a|
-image:../media/oie_legend_icon_1_lg.png[]
-a|
-Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
-
-image:../media/drw_c190_e_switched_clust_cbling.png[]
-a|
-image:../media/oie_legend_icon_2_o.png[]
-a|
-Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network:
-
+image:../media/drw_c190_u_switched_clust_cbling.png[]
++
+. Do one of the following:
+[horizontal]
+UTA2 data network configurations::
+Use one of the following cable types to cable the e0c/0c and e0d/0d or e0e/0e and e0f/0f data ports to your host network.
++
+image:../media/drw_c190_u_fc_10gbe_cbling.png[]
++
+Ethernet network configurations::
+Use the Cat 6 RJ45 cable to cable the e0c through e0f ports to your host network.
++
 image:../media/drw_c190_e_rj45_cbling.png[]
-a|
-image:../media/oie_legend_icon_3_lp.png[]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
++
+. Cable the e0M ports to the management network switches with the RJ45 cables.  
++
+image:../media/drw_c190_u_mgmt_cbling.png[]
 
-image:../media/drw_c190_e_mgmt_cbling.png[]
-a|
-image:../media/oie_legend_icon_attn_symbol.png[]
-a|
-DO NOT plug in the power cords at this point.
-|===
+IMPORTANT: DO NOT plug in the power cords at this point.
 
-. To complete setting up your system, see link:install-detailed-guide.html#step-4-complete-system-setup-and-configuration[Step 4: Complete system setup and configuration].
+--
+====
+// end tabbed area
 
-== Step 4: Complete system setup and configuration
+== Step 4: Complete system setup
 
 Complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
-=== Option 1: Complete system setup and configuration if network discovery is enabled
+// start tabbed area
 
-If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
+[role="tabbed-block"]
+====
+
+.Option 1: If network discovery is enabled
+--
+Learn how to complete system setupiIf you have network discovery enabled on your laptop.
 
 .Steps
 . Plug the power cords into the controller power supplies, and then connect them to power sources on different circuits.
@@ -361,14 +291,17 @@ System Manager opens.
 
 . Use System Manager guided setup to configure your system using the data you collected in the link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide^].
 . Verify the health of your system by running Config Advisor.
-. After you have completed the initial configuration, go to the link:https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+. After you have completed the initial configuration, go to the link:https://docs.netapp.com/us-en/ontap-family/[ONTAP documentation] site for information about configuring additional features in ONTAP.
 +
 NOTE: The default port configuration for Unified configuration systems is CNA mode; if connecting to an FC host network, you have to modify the ports for FC mode.
 
-=== Option 2: Complete system setup and configuration if network discovery is not enabled
+--
 
-If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
+.Option 2: If network discovery is not enabled
+--
+Learn how to complete the system setup if network discovery is not enabled on your laptop.
 
+.Steps
 . Cable and configure your laptop or console:
  .. Set the console port on the laptop or console to 115,200 baud with N-8-1.
 +
@@ -419,6 +352,12 @@ NOTE: The format for the address is +https://x.x.x.x+.
 
  .. Configure the system using the data you collected in the link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuration Guide^].
 . Verify the health of your system by running Config Advisor.
-. After you have completed the initial configuration, go to the link:https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
+. After you have completed the initial configuration, go to the link:https://docs.netapp.com/us-en/ontap-family/[ONTAP &ocumentation] site for information about configuring additional features in ONTAP.
 +
 NOTE: The default port configuration for Unified configuration systems is CNA mode; if connecting to an FC host network, you have to modify the ports for FC mode.
+
+--
+
+====
+
+// end tabbed area
