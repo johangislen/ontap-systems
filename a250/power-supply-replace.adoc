@@ -35,7 +35,7 @@ video::86487f5e-20ff-43e6-99ae-ac5b015c1aa5[panopto, title="Animation - Replace 
 . Identify the PSU you want to replace, based on console error messages or through the red Fault LED on the PSU.
 . Disconnect the PSU:
 .. Open the power cable retainer, and then unplug the power cable from the PSU.
-. Remove the PSU by rotating the handle up, press the locking tab, and then pull PSU out of the controller module.
+. Remove the PSU by rotating the handle up, press the locking tab, and then pull the PSU out of the controller module.
 +
 CAUTION: The PSU is short. Always use two hands to support it when removing it from the controller module so that it does not suddenly swing free from the controller module and injure you.
 +
@@ -60,8 +60,8 @@ The power supplies will only properly engage with the internal connector and loc
 NOTE: To avoid damaging the internal connector, do not use excessive force when sliding the PSU into the system.
 
 . Reconnect the PSU cabling:
- .. Reconnect the power cable to the PSU.
- .. Secure the power cable to the PSU using the power cable retainer.
+.. Reconnect the power cable to the PSU.
+.. Secure the power cable to the PSU using the power cable retainer.
 
 +
 Once power is restored to the PSU, the status LED should be green.
