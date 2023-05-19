@@ -23,13 +23,13 @@ Your system must meet certain requirements before hot-adding disk shelves with I
 
 * Your system and version of ONTAP must support the disk shelves you are hot-adding, including the IOMs, disk drives, and SAS cables.
 +
-https://hwu.netapp.com[NetApp Hardware Universe]
+https://hwu.netapp.com[NetApp Hardware Universe^]
 
 * Your system must have less than the maximum number of disk drives supported, by at least the number of disk shelves you plan to hot-add.
 +
 You cannot have exceeded the maximum number of disk drives supported for your system after hot-adding disk shelves.
 +
-https://hwu.netapp.com[NetApp Hardware Universe]
+https://hwu.netapp.com[NetApp Hardware Universe^]
 
 * If you are hot-adding a stack of one or more disk shelves (directly to the platform controllers), your system must have enough available PCI SAS HBA or onboard SAS ports or a combination of both.
 +
@@ -45,7 +45,7 @@ Download and run Config Advisor to verify that your SAS connections are cabled c
 +
 You must correct any cabling errors using the corrective actions provided by the error messages.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 === Using mini-SAS HD SAS optical cables
 
@@ -65,12 +65,6 @@ You should familiarize yourself with aspects and best practices about this proce
 For single-path HA and single-path configurations, as applicable to AFF A200, AFF A220, FAS2600 series, and FAS2700 systems, you hot-add disk shelves to the end of the stack that does not have controller connections.
 
 * Disk shelves with IOM12/IOM12B modules must be in their own unique stack; they cannot be added to a stack that has shelves with IOM6 modules or IOM3 modules.
-+
-This procedure does not address mixing a stack: hot-adding a shelf with IOM12/IOM12B modules to a stack of shelves with IOM6 modules.
-
-* A system can have multipathed and quad-pathed stacks of disk shelves with IOM12/IOM12B modules.
-+
-If you have an HA pair, ONTAP shows the system configuration as `multipath HA`. If you have a single-controller configuration, ONTAP shows the system configuration as `multipath`.
 
 * This procedure assumes your configuration is using in-band ACP.
 +
@@ -97,15 +91,15 @@ If any SAS cabling or duplicate shelf ID errors are generated, follow the correc
 +
 You need network access to download Config Advisor.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 * The best practice is to have the current versions of disk shelf (IOM) firmware and disk drive firmware on your system before adding new disk shelves, shelf FRU components, or SAS cables.
 +
 Current versions of firmware can be found on the NetApp Support Site.
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware]
+https://mysupport.netapp.com/site/downloads/firmware/disk-shelf-firmware[NetApp Downloads: Disk Shelf Firmware^]
 +
-https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware]
+https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[NetApp Downloads: Disk Drive Firmware^]
 
 === SAS cable handling considerations
 
@@ -224,7 +218,7 @@ CAUTION: *Possible loss of data access:* Never slam the drawer shut. Push the dr
 +
 If you have a platform model with an internal disk shelf, shelf IDs must be unique across the internal disk shelf and externally attached disk shelves.
 +
-You can use the following substeps to change shelf IDs, or for more detailed instructions, use link:install-change-shelf-id.html[Change a shelf ID].
+You can use the following substeps to change shelf IDs, or for more detailed instructions, use link:install-change-shelf-id.html[Change a shelf ID^].
 
  .. If needed, verify shelf IDs already in use by running Config Advisor.
 +
@@ -242,7 +236,7 @@ The shelf ID blinks and the operator display panel amber LED blinks until you po
 
 == Cable disk shelves with IOM12/IOM12B modules for a hot-add
 
-You cable the SAS connections--shelf-to-shelf and controller-to-stack--as applicable for hot-added disk shelves so they have connectivity to the system.
+You cable the SAS connections (shelf-to-shelf and controller-to-stack) as applicable for hot-added disk shelves so they have connectivity to the system.
 
 .Before you begin
 
@@ -281,7 +275,7 @@ You need to disable disk ownership automatic assignment on both controllers in a
 |===
 | If...| Then...
 a|
-You are cabling a stack with multipath HA, multipath, single-path HA, or single-path connectivity to the controllers
+You are cabling a stack with multipath HA, tri-path HA, multipath, single-path HA, or single-path connectivity to the controllers
 a|
 Cable the shelf-to-shelf connections as "`standard`" connectivity (using IOM ports 3 and 1):
 
@@ -302,9 +296,9 @@ Cable the shelf-to-shelf connections as "`double-wide`" connectivity:        You
 
 .. Check the controller-to-stack cabling worksheets and cabling examples to see whether a completed worksheet exists for your configuration.
 +
-link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for AFF and FAS platforms with onboard storage]
+link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for platforms with internal storage]
 +
-link:install-cabling-worksheets-examples-multipath.html[Controller-to-stack cabling worksheets and cabling examples for common multipath HA configurations]
+link:install-cabling-worksheets-examples-multipath.html[Controller-to-stack cabling worksheets and cabling examples for multipath HA configurations]
 +
 link:install-worksheets-examples-quadpath.html[Controller-to-stack cabling worksheet and cabling example for a quad-path HA configuration with two quad-port SAS HBAs]
 
@@ -316,7 +310,7 @@ link:install-cabling-worksheet-template-multipath.html[Controller-to-stack cabli
 link:install-cabling-worksheet-template-quadpath.html[Controller-to-stack cabling worksheet template for quad-pathed connectivity]
 
  .. Verify that all cables are securely fastened.
-. If you are hot-adding one or more disk shelves to an end--the logical first or last disk shelf--of an existing stack, complete the applicable substeps for your configuration; otherwise, go to the next step.
+. If you are hot-adding one or more disk shelves to an end (the logical first or last disk shelf) of an existing stack, complete the applicable substeps for your configuration; otherwise, go to the next step.
 +
 NOTE: Make sure that you wait at least 70 seconds between disconnecting a cable and reconnecting it, and if you are replacing a cable for a longer one.
 +
@@ -325,7 +319,7 @@ NOTE: Make sure that you wait at least 70 seconds between disconnecting a cable 
 |===
 | If you are...| Then...
 a|
-Hot-adding a disk shelf to an end of a stack that has multipath HA, multipath, quad-path HA, or quad-path connectivity to the controllers
+Hot-adding a disk shelf to an end of a stack that has multipath HA, tri-path HA, multipath, quad-path HA, or quad-path connectivity to the controllers
 a|
 
  .. Disconnect any cables from IOM A of the disk shelf at the end of the stack that are connected to any controllers; otherwise, go to substep e.
@@ -353,13 +347,13 @@ a|
 
 . If you hot-added a disk shelf with mini-SAS HD SAS optical cables to a stack of disk shelves connected with SAS copper cables, replace the SAS copper cables; otherwise, go to the next step.
 +
-The stack must meet the requirements stated in the <<Requirements for hot-adding disk shelves with IOM12 modules>> section of this procedure.
+The stack must meet the requirements stated in the <<Requirements for hot-adding disk shelves with IOM12/IOM12B modules>> section of this procedure.
 +
 Replace cables one at a time and make sure that you wait at least 70 seconds between disconnecting a cable and connecting a new one.
 
 . Download and run Config Advisor to verify that your SAS connections are cabled correctly.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[NetApp Downloads: Config Advisor]
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 +
 If any SAS cabling errors are generated, follow the corrective actions provided.
 
