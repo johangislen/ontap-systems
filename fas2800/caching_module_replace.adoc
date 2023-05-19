@@ -164,7 +164,7 @@ The controller begins to boot as soon as it is completely seated in the chassis.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an Autosupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 6: Return the failed part to NetApp
 

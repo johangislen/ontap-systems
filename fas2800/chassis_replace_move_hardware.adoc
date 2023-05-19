@@ -50,7 +50,8 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 +
-. Set the controller module aside in a safe place, and repeat these steps if you have another controller module in the chassis.
+. Set the controller module aside in a safe place.
+. Repeat these steps for the second controller module in the chassis.
 
 == Step 3: Move drives to the new chassis
 
