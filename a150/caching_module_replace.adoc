@@ -146,11 +146,6 @@ The controller begins to boot as soon as it is seated in the chassis.
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
- .. When you see the message `Press Ctrl-C for Boot Menu`, press `Ctrl-C` to interrupt the boot process.
-+
-NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. Select the option to boot to Maintenance mode from the displayed menu.
 
 a|
 A stand-alone configuration
@@ -159,53 +154,22 @@ a|
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
 NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
++
+The controller begins to boot as soon as it is seated in the chassis.
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
- .. Reconnect the power cables to the power supplies and to the power sources, turn on the power to start the boot process, and then press `Ctrl-C` after you see the `Press Ctrl-C for Boot Menu` message.
-+
-NOTE: If you miss the prompt and the controller module boots to ONTAP, enter `halt`, and then at the LOADER prompt enter `boot_ontap`, press `Ctrl-C` when prompted, and then boot to Maintenance mode.
-
- .. From the boot menu, select the option for Maintenance mode.
-
+ .. Reconnect the power cables to the power supplies and to the power sources, then turn on the power to start the boot process.
 
 |===
 
-== Step 5: Run system-level diagnostics
 
-[.lead]
-After installing a new caching module, you should run diagnostics.
-
-Your system must be at the LOADER prompt to start System Level Diagnostics.
-
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-.Steps
-. If the controller to be serviced is not at the LOADER prompt, perform the following steps:
- .. Select the Maintenance mode option from the displayed menu.
- .. After the controller boots to Maintenance mode, halt the controller: `halt`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-+
-NOTE: During the boot process, you can safely respond `y` to prompts:
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-+
-During the boot process, you can safely respond `y` to the prompts until the Maintenance mode prompt (*>) appears.
-
-. Run diagnostics on the caching module: `sldiag device run -dev fcache`
-. Verify that no hardware problems resulted from the replacement of the caching module: `sldiag device status -dev fcache -long -state failed`
-+
-System-level diagnostics returns you to the prompt if there are no test failures, or lists the full status of failures resulting from testing the component.
-
-[.lead]
-include::../_include/sldiags-proceed-step.adoc[]
-
-== Step 6: Switch back aggregates in a two-node MetroCluster configuration
+== Step 5: Switch back aggregates in a two-node MetroCluster configuration
 
 [.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
-== Step 7: Return the failed part to NetApp
+== Step 6: Return the failed part to NetApp
 
 [.lead]
 include::../_include/complete_rma.adoc[]
