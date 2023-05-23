@@ -198,7 +198,7 @@ image::../media/drw_affa250_mgmt_cabling.png[]
 // end tabbed area
 
 
-=== Step 5: Cable to host network or storage (Optional)
+== Step 4: Cable to host network or storage (Optional)
 You have configuration-dependent optional cabling to the Fibre Channel or iSCSI host networks or direct-attached storage. This cabling is not exclusive; you can have cabling to a host network and storage.
 
 // start tabbed area
@@ -280,7 +280,7 @@ image:../media/drw_affa250_1shelf_cabling_b.png[]
 
 // end tabbed area
 
-== Step 6: Complete system setup
+== Step 5: Complete system setup
 
 Complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
