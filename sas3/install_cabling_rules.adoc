@@ -39,9 +39,12 @@ https://hwu.netapp.com[NetApp Hardware Universe^]
 ====
 
 * HA pair configurations must be cabled as multipath HA or quad-path HA configurations with the following exceptions:
- ** A FAS2800 HA pair can be cabled as tri-path HA or multipath HA.
- ** Platforms with internal storage, including FAS2800, FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, can be cabled as single-path HA configurations to support connectivity to an external SAS tape backup device.
- ** Platforms with internal storage, including FAS2800, FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, do not support quad-path HA connectivity.
+ ** A FAS2800 HA pair can be cabled as tri-path HA.
+ ** Platforms with internal storage can be cabled as single-path HA configurations (from port 0a) to support connectivity to an external SAS tape backup device.
+ 
+ For FAS2800 HA pairs, although the cabling to the external shelves is single-path HA, because of the internal storage connectivity, the HA pair configuration is multipath HA. Information about the FAS2800 internal storage connectivity can be found in the <<Tri-path HA connectivity>> section.
+
+ ** Platforms with internal storage do not support quad-path HA connectivity.
 * Single-controller configurations must be cabled as multipath or quad-path configurations, with the following exceptions:
  ** FAS2600 series single-controller configurations can be cabled as single-path configurations.
 +
@@ -206,7 +209,7 @@ NOTE: If you do not connect the 0b/0b1 port to the correct domain (cross-connect
  ** Port 0a always connects to the logical first disk shelf in a stack.
  ** Port 0a always connect to disk shelf IOM port 1.
 
-The following illustration highlights internal storage port (0b/0b1) domain connectivity:
+The following illustration highlights internal storage port (0b/0b1) domain connectivity to an external stack of shelves:
 
 image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[width=440px]
 
