@@ -219,7 +219,7 @@ The following illustration highlights internal storage port (0b/0b1) domain conn
 
 image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[width=440px]
 
-=== TEST: Tri-path HA connectivity
+=== Tri-path HA connectivity
 
 Tri-path HA connectivity is available on FAS2800 HA pairs. Tri-path HA connectivity has three paths from each controller to internal and external shelves:
 
