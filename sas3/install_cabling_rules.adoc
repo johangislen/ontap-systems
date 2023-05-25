@@ -39,31 +39,36 @@ https://hwu.netapp.com[NetApp Hardware Universe^]
 ====
 
 * HA pair configurations must be cabled as multipath HA or quad-path HA configurations with the following exceptions:
- ** A FAS2800 HA pair can be cabled as tri-path HA.
- ** Platforms with internal storage can be cabled as single-path HA configurations (from port 0a) to support connectivity to an external SAS tape backup device.
- +
- NOTE: For FAS2800 HA pairs, although the cabling to the external shelves is single-path HA, because of the internal storage connectivity, the HA pair configuration is multipath HA. Information about the FAS2800 internal storage connectivity can be found in the <<Tri-path HA connectivity>> section.
- +
+** A FAS2800 HA pair can be cabled as tri-path HA.
++
+Information about the FAS2800 connectivity can be found in the <<Tri-path HA connectivity>> section.
++
+** Platforms with internal storage can be cabled as single-path HA configurations (from port 0b/0b1 to any external shelves) to support connectivity to an external SAS tape backup device (from port 0a).
 
- ** Platforms with internal storage do not support quad-path HA connectivity.
+[NOTE]
+====
+For FAS2800 HA pairs, although the cabling to any external shelves is single-path HA, because of each controller's internal connection of port 0c to its partner controller, the HA pair configuration is multipath HA. 
+====
+
+** Platforms with internal storage do not support quad-path HA connectivity.
 * Single-controller configurations must be cabled as multipath or quad-path configurations, with the following exceptions:
- ** FAS2600 series single-controller configurations can be cabled as single-path configurations.
+** FAS2600 series single-controller configurations can be cabled as single-path configurations.
 +
 Because the internal storage uses single-path connectivity, ONTAP issues occasional warnings that mixed paths are detected. To avoid these warnings, you can use single-path connectivity to the external disk shelves. Additionally, you can use single-path connectivity when an external SAS tape backup device is used.
 
- ** FAS2600 series single-controller configurations do not support quad-path connectivity.
+** FAS2600 series single-controller configurations do not support quad-path connectivity.
 
 == Controller slot numbering rules
 
 For the purpose of applying cabling rules across all supported HA pairs and single-controller configurations, a controller slot numbering convention is used.
 
 * For all HA pairs and single-controller configurations, the following applies:
- ** A SAS HBA in a physical PCI slot is defined as occupying PCI slot 1, 2, 3, and so on regardless of the slot's physical label on a controller.
+** A SAS HBA in a physical PCI slot is defined as occupying PCI slot 1, 2, 3, and so on regardless of the slot's physical label on a controller.
 +
 For example, if SAS HBAs occupied physical PCI slots 3, 5, and 7, they would be designated as slots 1, 2, and 3 for the purpose of applying the SAS cabling rules.
 
- ** An onboard SAS HBA is defined as occupying PCI slot 0 just as it is labeled on a controller.
- ** Each port in each slot is defined just as it is labeled on a controller.
+** An onboard SAS HBA is defined as occupying PCI slot 0 just as it is labeled on a controller.
+** Each port in each slot is defined just as it is labeled on a controller.
 For example, slot 0 with two ports is referred to as 0a and 0b. Slot 1 with four ports is referred to as 1a, 1b, 1c, and 1d.
 +
 In this document, slots and the slot ports are depicted as follows:
