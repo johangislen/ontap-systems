@@ -43,11 +43,11 @@ https://hwu.netapp.com[NetApp Hardware Universe^]
 +
 Information about the FAS2800 connectivity can be found in the <<Tri-path HA connectivity>> section.
 +
-** Platforms with internal storage can be cabled as single-path HA configurations (from port 0b/0b1 to any external shelves) to support connectivity to an external SAS tape backup device (from port 0a).
+** Platforms with internal storage can be cabled as single-path HA configurations (from port 0b/0b1 to external shelves) to support connectivity to an external SAS tape backup device (from port 0a).
 
 [NOTE]
 ====
-For FAS2800 HA pairs, although the cabling to any external shelves is single-path HA, because of each controller's internal connection of port 0c to its partner controller, the HA pair configuration is multipath HA. 
+For FAS2800 HA pairs, although the cabling to external shelves is single-path HA, because of each controller's internal connection of port 0c to its partner controller, the HA pair configuration is multipath HA. 
 ====
 
 ** Platforms with internal storage do not support quad-path HA connectivity.
