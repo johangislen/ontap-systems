@@ -109,7 +109,7 @@ The following illustration is for an IOM12 module:
 
 image::../media/drw_iom12.gif[]
 
-The IOM12B modules are distinguished by a blue stripe and an "IOM12B" label:
+TEST. The IOM12B modules are distinguished by a blue stripe and an "IOM12B" label:
 
 image::../media/iom12b.png[]
 
