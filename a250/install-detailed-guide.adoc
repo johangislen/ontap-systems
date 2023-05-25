@@ -324,7 +324,7 @@ System Manager opens.
 . After you have completed the initial configuration, go to the link:https://www.netapp.com/data-management/oncommand-system-documentation/[ONTAP & ONTAP System Manager Documentation Resources^] page for information about configuring additional features in ONTAP.
 --
 
-.If network discovery is not enabled
+.Option 2: If network discovery is not enabled
 --
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
