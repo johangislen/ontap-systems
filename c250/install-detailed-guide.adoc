@@ -137,7 +137,7 @@ Cable the controllers to a cluster by using the two-node switchless cluster meth
 [role="tabbed-block"]
 ====
 
-.Two-node switchless cluster
+.Option 1: Two-node switchless cluster
 --
 The management, Fibre Channel, and data or host network ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
 
@@ -167,7 +167,7 @@ image::../media/drw_affa250_mgmt_cabling.png[]
 IMPORTANT: DO NOT plug in the power cords at this point.
 --
 
-.Switched cluster
+.Option 2: Switched cluster
 --
 All ports on the controllers are connected to switches; cluster interconnect, management, Fibre Channel, and data or host network switches.
 
@@ -295,7 +295,7 @@ Complete the system setup and configuration using cluster discovery with only a 
 [role="tabbed-block"]
 ====
 
-.If network discovery is enabled
+.Option 1: If network discovery is enabled
 --
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
