@@ -162,6 +162,7 @@ Cable the controllers to your network using the two-node switchless cluster meth
 
 Cable your network connections and your cluster interconnect ports.
 
+
 .Before 
 Contact your network administrator for information about connecting the system to the switches.
 
@@ -173,37 +174,11 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
-[options="header" cols="20%,80%"]
-|===
-| Cabling|Connection type
-a|
-image::../media/oie_legend_icon_1_lg.svg[width=30px]
-a|
-Cluster interconnect
-a|
-image::../media/oie_legend_icon_2_lp.svg[width=30px]
-a|
-Management network switch
-a|
-image::../media/oie_legend_icon_3_o.svg[width=30px]
-a|
-Host network switches
-a|
-image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
-a|
-DO NOT plug power cord in at this point
-
-|===
-
 
 .About this task
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
-+
-video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
 
-.Steps
-
-Not sure about intro,  for this table. No composite drawing like C190. 
+The following table identifies the cable type with the numberr and cable color in the illustrations. 
 
 [options="header" cols="20%,80%"]
 |===
@@ -226,6 +201,11 @@ a|
 DO NOT plug power cord in at this point
 
 |===
+
+
+video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
+
+.Steps
 
 . Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable: 
 +
