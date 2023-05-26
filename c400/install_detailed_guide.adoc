@@ -138,9 +138,9 @@ NOTE: You need to be aware of the safety concerns associated with the weight of 
 +
 image::../media/drw_katana_lifting_restriction_icon.png[]
 
-. Attach cable management devices (as shown).
+. Attach cable management devices to the back of the controllers (as shown).
 +
-image::../media/drw_a320_cable_management_arms.png[]
+image::../media/drw_c400_cable_tray_IEOPS-1208.svg[width=440px]
 
 . Place the bezel on the front of the system.
 
