@@ -127,6 +127,30 @@ Cable the controllers to your network by using the two-node switchless cluster m
 
 UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
 
+The following table identifies the cable type with the call out number and cable color in the illustrations for both two-node switchless cluster network cabling and switched cluster network cabling. 
+
+[options="header" cols="20%,80%"]
+|===
+| Cabling|Connection type
+a|
+image::../media/oie_legend_icon_1_lg.svg[width=50px]
+a|
+Cluster interconnect
+a|
+image::../media/oie_legend_icon_2_o.svg[width=50px]
+a|
+Controllers to host data network switches
+a|
+image::../media/oie_legend_icon_3_lp.svg[width=50px]
+a|
+Controllers to management network switch
+a|
+image::../media/oie_legend_icon_attn_symbol.svg[width=50px]
+a|
+DO NOT plug power cord in at this point
+
+|===
+
 // start tabbed area
 
 [role="tabbed-block"]
