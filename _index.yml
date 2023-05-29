@@ -47,6 +47,8 @@ indexpage:
       links:
         - title: FAS500f
           url: /fas500f/index.html
+        - title: FAS2700
+          url: /fas2700/index.html
         - title: FAS8300
           url: /fas8300/index.html
         - title: FAS8700
@@ -67,8 +69,6 @@ indexpage:
           url: /a700s/index.html
         - title: FAS2600
           url: /fas2600/index.html
-        - title: FAS2700
-          url: /fas2700/index.html
         - title: FAS8200
           url: /fas8200/index.html
     - title: Supported switches
