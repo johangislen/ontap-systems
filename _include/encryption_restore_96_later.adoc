@@ -93,7 +93,7 @@ If giveback is not complete after 20 minutes, contact Customer Support.
 
 . At the clustershell prompt, enter the `net int show -is-home false` command to list the logical interfaces that are not on their home controller and port.
 +
-If any interfaces are listed as `false`, revert those interfaces back to their home port using the `net int revert` command.
+If any interfaces are listed as `false`, revert those interfaces back to their home port using the `net int revert -vserver Cluster -lif _nodename_` command.
 
 . Move the console cable to the target controller and run the `version -v` command to check the ONTAP versions.
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
@@ -132,7 +132,7 @@ NOTE: Terminating CIFS can cause loss of data.
 . Wait 3 minutes and check the failover status with the `storage failover show` command.
 . At the clustershell prompt, enter the `net int show -is-home false` command to list the logical interfaces that are not on their home controller and port.
 +
-If any interfaces are listed as `false`, revert those interfaces back to their home port using the `net int revert` command.
+If any interfaces are listed as `false`, revert those interfaces back to their home port using the `net int revert -vserver Cluster -lif _nodename_` command.
 
 . Move the console cable to the target controller and run the `version -v` command to check the ONTAP versions.
 . Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
