@@ -397,7 +397,7 @@ Use a SAS copper Mini-SAS HD-to-Mini-SAS HD cable.
 +
 Otherwise, go to the next substep.
 
- .. Reestablish the controller-to-stack connection by cabling the same port on the controller or bridge (in substep a) to the new last IOM12 shelf IOM A port 3.
+ .. Reestablish the controller-to-stack connection by cabling the same port on the controller or bridge (in substep a) to the new last IOM12/IOM12B shelf IOM A port 3.
 +
 Use a SAS copper QSFP-to-Mini-SAS HD cable or Mini-SAS HD-to-Mini-SAS HD cable, as appropriate for the port type on the controller.
 
@@ -417,7 +417,7 @@ Put the cable aside. It is no longer needed.
 +
 Otherwise; go to substep e.
 
- .. Cable the shelf-to-shelf connection between the last IOM6 shelf IOM A circle port (from substep a) to the new IOM12 shelf IOM A port 1.
+ .. Cable the shelf-to-shelf connection between the last IOM6 shelf IOM A circle port (from substep a) to the new IOM12/IOM12B shelf IOM A port 1.
 +
 Use a SAS copper QSFP-to-Mini-SAS HD cable.
 
@@ -428,7 +428,7 @@ Use a SAS copper Mini-SAS HD-to-Mini-SAS HD cable.
 Otherwise, go to the next substep.
 
  .. Repeat substeps b and c to cable the shelf-to-shelf connections for IOM B.
- .. Reestablish the bottom bridge-to-stack connection by cabling the same port on the bridge (in substep a) to the new last IOM12 shelf IOM A port 3.
+ .. Reestablish the bottom bridge-to-stack connection by cabling the same port on the bridge (in substep a) to the new last IOM12/IOM12B shelf IOM A port 3.
 +
 Use a SAS copper QSFP-to-Mini-SAS HD cable or Mini-SAS HD-to-Mini-SAS HD cable, as appropriate for the port type on the controller.
 
