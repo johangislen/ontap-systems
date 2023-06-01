@@ -39,6 +39,7 @@ https://hwu.netapp.com[NetApp Hardware Universe^]
 ====
 
 * HA pair configurations must be cabled as multipath HA or quad-path HA configurations with the following exceptions:
+** Platforms with internal storage do not support quad-path HA connectivity.
 ** A FAS2800 HA pair can be cabled as tri-path HA.
 +
 Information about the FAS2800 connectivity can be found in the <<Tri-path HA connectivity>> section.
@@ -50,7 +51,6 @@ Information about the FAS2800 connectivity can be found in the <<Tri-path HA con
 For FAS2800 HA pairs, although the cabling to external shelves is single-path HA, because of each controller's internal connection of port 0c to its partner controller, the HA pair configuration is multipath HA. 
 ====
 
-** Platforms with internal storage do not support quad-path HA connectivity.
 * Single-controller configurations must be cabled as multipath or quad-path configurations, with the following exceptions:
 ** FAS2600 series single-controller configurations can be cabled as single-path configurations.
 +
