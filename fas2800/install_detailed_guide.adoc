@@ -152,7 +152,7 @@ image::../media/drw_cable_management_arm_install.svg[width=320px]
 
 == Step 3: Cable controllers to your network
 
-Ccable the controllers to your network using the two-node switchless cluster method or using the cluster interconnect network method.
+Cable the controllers to your network using the two-node switchless cluster method or using the cluster interconnect network method.
 
 [role="tabbed-block"]
 ====
@@ -162,7 +162,9 @@ Ccable the controllers to your network using the two-node switchless cluster met
 
 Cable your network connections and your cluster interconnect ports.
 
-NOTE: You must have contacted your network administrator for information about connecting the system to the switches.
+
+.Before 
+Contact your network administrator for information about connecting the system to the switches.
 
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
@@ -170,38 +172,55 @@ image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn the cable head over and try again.
 
-.Steps
-. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches:
-+
-video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
+NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
-+
+
+.About this task
+. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
+
+The following table identifies the cable type with the number and cable color in the illustrations. 
 
 [options="header" cols="20%,80%"]
-
 |===
-| Cabling|Perform on each controller
+| Cabling|Connection type
 a|
 image::../media/oie_legend_icon_1_lg.svg[width=30px]
 a|
-Cable the cluster interconnect ports to each other with the cluster interconnect cable: 
-
-image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=50px]
-
-** e0a to e0a
-** e0b to e0b
-
-image::../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
+Cluster interconnect
 a|
 image::../media/oie_legend_icon_2_lp.svg[width=30px]
 a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
-image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
+Management network switch
 a|
 image::../media/oie_legend_icon_3_o.svg[width=30px]
 a|
-Select one of the following cable connections to cable the mezzanine card ports to your host network:
+Host network switches
+a|
+image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
+a|
+DO NOT plug power cord in at this point
+
+|===
+
+
+video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
+
+.Steps
+
+. Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable: 
++
+image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100pxx]
+*Cluster interconnect cables*
++
+image::../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
+. Cable the e0M ports to the management network switches with the RJ45 cables:
++
+image::../media/oie_cable_rj45.svg[width=100px]
+*RJ45 cables*
++
+image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
++
+. Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
 Four ports::
 ** 4-ports, 10/25Gb Ethernet, SFP28 - 
@@ -234,12 +253,9 @@ Cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Et
 
 image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-a|
+. DO NOT plug in the power cords at this point. 
++
 image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
-a|
-DO NOT plug in the power cords at this point.
-
-|===
 
 --
 .Option 2: Cable a switched cluster
