@@ -133,19 +133,19 @@ The following table identifies the cable type with the call out number and cable
 |===
 | Cabling|Connection type
 a|
-image::../media/oie_legend_icon_1_lg.svg[width=50px]
+image::../media/oie_legend_icon_1_lg.svg[width=40px]
 a|
 Cluster interconnect
 a|
-image::../media/oie_legend_icon_2_o.svg[width=50px]
+image::../media/oie_legend_icon_2_o.svg[width=40px]
 a|
 Controllers to host data network switches
 a|
-image::../media/oie_legend_icon_3_lp.svg[width=50px]
+image::../media/oie_legend_icon_3_lp.svg[width=40px]
 a|
 Controllers to management network switch
 a|
-image::../media/oie_legend_icon_attn_symbol.svg[width=50px]
+image::../media/oie_legend_icon_attn_symbol.svg[width=40px]
 a|
 DO NOT plug power cord in at this point
 
