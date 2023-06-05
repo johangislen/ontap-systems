@@ -279,60 +279,57 @@ video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto, title="Animation - Switched
 
 +
 
-[options="header" cols="20%,80%"]
-|===
-| Cabling|Perform on each controller module
-a|
-image::../media/oie_legend_icon_1_lg.svg[width=30px]
-a|
-Cable e0a and e0b to the cluster interconnect switches with the cluster interconnect cable:
+.Steps
 
-image::../media/drw_2800_switched_cluster_cabling_IEOPS-893.svg[width=500px]
-a|
-image::../media/oie_legend_icon_2_lp.svg[width=30px]
-a|
-Cable the e0M ports to the management network switches with the RJ45 cables:
-
+. Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable: 
++
+image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100pxx]
+*Cluster interconnect cables*
++
+image::../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
+. Cable the e0M ports to the management network switches with the RJ45 cables:
++
+image::../media/oie_cable_rj45.svg[width=100px]
+*RJ45 cables*
++
 image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
-a|
-image::../media/oie_legend_icon_3_o.svg[width=30px]
-a|
-Select one of the following cable connections to cable the mezzanine card ports to your host network:
++
+. Select one of the following cable connections to cable the mezzanine card ports to your host network:
 
 Four ports::
 ** 4-ports, 10/25Gb Ethernet, SFP28 - 
 
-image::../media/oie_cable_sfp_gbe_copper.svg[width=85px] 
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
 
-image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=85px]
+image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 
 ** 4-ports, 32Gb Fiber Channel, SFP+ (target only) 
 
-image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 
 ** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) 
 
-image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 
 ** 4-ports, 10GBASE-T, RJ45 
 
-image::../media/oie_cable_rj45.svg[width=85px]
- 
-Cable ports e1a through e1d to your Ethernet data network or ports 1-a-1d for your FC network.
+image::../media/oie_cable_rj45.svg[width=100px]
+
+Cable ports e1a through e1d to your Ethernet data network or ports 1a through 1d for your FC network.
 
 2+2 ports::
+
 ** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) 
 
-image::../media/oie_cable_sfp_gbe_copper.svg[width=85px]
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 
 Cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Ethernet data network.
 
 image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-a|
+. DO NOT plug in the power cords at this point. 
++
 image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
-a|
-DO NOT plug in the power cords at this point.
 
 |===
 
