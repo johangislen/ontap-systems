@@ -154,6 +154,26 @@ image::../media/drw_cable_management_arm_install.svg[width=320px]
 
 Cable the controllers to your network using the two-node switchless cluster method or using the cluster interconnect network method.
 
+The following table identifies the cable type with the call out number and cable color in the illustrations for both two-node switchless cluster network cabling and switched cluster network cabling.
+
+[options="header" cols="20%,80%"]
+|===
+| Cabling|Connection type
+a|
+image::../media/oie_legend_icon_1_lg.svg[width=30px]
+a|
+Cluster interconnect
+a|
+image::../media/oie_legend_icon_2_lp.svg[width=30px]
+a|
+Management network switch
+a|
+image::../media/oie_legend_icon_3_o.svg[width=30px]
+a|
+Host network switches
+
+|===
+
 [role="tabbed-block"]
 ====
 
@@ -177,31 +197,6 @@ NOTE: If connecting to an optical switch, insert the SFP into the controller por
 
 .About this task
 . You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
-
-The following table identifies the cable type with the number and cable color in the illustrations. 
-
-[options="header" cols="20%,80%"]
-|===
-| Cabling|Connection type
-a|
-image::../media/oie_legend_icon_1_lg.svg[width=30px]
-a|
-Cluster interconnect
-a|
-image::../media/oie_legend_icon_2_lp.svg[width=30px]
-a|
-Management network switch
-a|
-image::../media/oie_legend_icon_3_o.svg[width=30px]
-a|
-Host network switches
-a|
-image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
-a|
-DO NOT plug power cord in at this point
-
-|===
-
 
 video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
 
@@ -253,9 +248,7 @@ Cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Et
 
 image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-. DO NOT plug in the power cords at this point. 
-+
-image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
+. DO NOT plug in the power cords. 
 
 --
 .Option 2: Cable a switched cluster
@@ -271,13 +264,11 @@ image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
 NOTE: As you insert the connector, you should feel it click into place; if you do not feel it click, remove it, turn turn the cable head over and try again.
 
-.Steps
-. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and the switches:
-+
+.About this task
+
+You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
 
 video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto, title="Animation - Switched cluster cabling"]
-
-+
 
 .Steps
 
@@ -327,11 +318,8 @@ Cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Et
 
 image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-. DO NOT plug in the power cords at this point. 
-+
-image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
+. DO NOT plug in the power cords. 
 
-|===
 
 --
 
@@ -341,70 +329,47 @@ image::../media/oie_legend_icon_attn_symbol.svg[width=30px]
 
 Cable your controllers to external storage.
 
+NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
+
+
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation.
 
 image::../media/oie_cable_pull_tab_down.svg[width=320px]
 
-.Steps
-. Cable the HA pair with external drive shelves:
-+
-NOTE: The example uses DS224C. Cabling is similar with other supported drive shelves.
-+
+.About this task
+
+You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the drive shelves.
 
 video::b2a7549d-8141-47dc-9e20-afe8016f4386[panopto, title="Animation - Drive shelf cabling"]
-+
-CABLE TABLE HERE
 
+NOTE: Do not use port 0b2 on a FAS2800. This SAS port is not used by ONTAP and is always disabled. See https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html[Install a shelf in a new storage system^] for more information.
 .Steps
 
 . Cable the shelf-to-shelf ports.
-+
-[options="header" cols="20%,80%"]
-
-|===
-| Step| Perform on each controller
-a|
-image::../media/oie_legend_icon_1_lo.svg[width=30px]
-a|
-Cable the shelf-to-shelf ports.
-
- ** Port 1 on IOM A to port 3 on the IOM A on the shelf directly below.
- ** Port 1 on IOM B to port 3 on the IOM B on the shelf directly below.
+.. Port 1 on IOM A to port 3 on the IOM A on the shelf directly below.
+.. Port 1 on IOM B to port 3 on the IOM B on the shelf directly below.
 +
 image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
-mini-SAS HD to mini-SAS HD cables
-
+*mini-SAS HD to mini-SAS HD cables*
++
 image::../media/drw_2800_shelf-to-shelf_cabling_IEOPS-895.svg[width=500px]
-
-a|
-image::../media/oie_legend_icon_2_mb.svg[width=30px]
-a|
-Controller A to the drive shelves.
-
- ** Controller A port 0a to IOM B port 1 on first drive shelf in the stack.
- ** Controller A port 0b1 to IOM A port 3 on the last drive shelf in the stack.
++
+. Cable controller A to the drive shelves.
+.. Controller A port 0a to IOM B port 1 on first drive shelf in the stack.
+ .. Controller A port 0b1 to IOM A port 3 on the last drive shelf in the stack.
 +
 image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
-mini-SAS HD to mini-SAS HD cables
-
+*mini-SAS HD to mini-SAS HD cables*
++
 image::../media/dwr-2800_controller1-to shelves_IEOPS-896.svg[width=500px]     
++
+. Connect controller B to the drive shelves.
+.. Controller B port 0a to IOM A port 1 on first drive shelf in the stack.
+.. Controller B port 0b1 to IOM B port 3 on the last drive shelf in the stack.
++ 
+image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
+*mini-SAS HD to mini-SAS HD cables*
 
-a|
-image::../media/oie_legend_icon_3_t.svg[width=30px]
-a|
-Connect controller B to the drive shelves.
-
- ** Controller B port 0a to IOM A port 1 on first drive shelf in the stack.
- ** Controller B port 0b1 to IOM B port 3 on the last drive shelf in the stack.
- +
- image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]     
-mini-SAS HD to mini-SAS HD cables
-
-image::../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[width=500px]
-
-|===
-
-NOTE: Do not use port 0b2 on a FAS2800. This SAS port is not used by ONTAP and is always disabled. See https://docs.netapp.com/us-en/ontap-systems/sas3/install-new-system.html[Install a shelf in a new storage system^] for more information.
 
 == Step 5: Complete system setup and configuration
 
