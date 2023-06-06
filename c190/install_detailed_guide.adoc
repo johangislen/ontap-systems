@@ -146,8 +146,6 @@ a|
 Controllers to management network switch
 a|
 image::../media/oie_legend_icon_attn_symbol.svg[width=40px]
-a|
-DO NOT plug power cord in at this point
 
 |===
 
