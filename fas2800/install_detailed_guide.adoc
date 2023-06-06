@@ -180,7 +180,7 @@ Host network switches
 .Option 1: Cable a two-node switchless cluster
 --
 
-Cable your network connections and your cluster interconnect ports.
+Cable your network connections and your cluster interconnect ports for a two-node switchless cluster.
 
 
 .Before you begin
@@ -196,7 +196,8 @@ NOTE: If connecting to an optical switch, insert the SFP into the controller por
 
 
 .About this task
-. You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
+
+You can use the graphic or the step-by step instructions to complete the cabling between the controllers and to the switches.
 
 video::90577508-fa79-46cf-b18a-afe8016325af[panopto, title= Animation - Cabling a two-node switchless cluster cabling]
 
@@ -254,7 +255,7 @@ image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 .Option 2: Cable a switched cluster
 --
 
-Cable your network connections and your cluster interconnect ports.
+Cable your network connections and your cluster interconnect ports for a switched cluster.
 
 NOTE: You must have contacted your network administrator for information about connecting the system to the switches.
 
