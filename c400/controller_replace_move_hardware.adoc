@@ -202,7 +202,7 @@ After all of the components have been moved from the impaired controller module 
 +
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 +
-image::../media/drw_A400_Install_controller_source.png[]
+image::../media/drw_c400_install_controller_IEOPS-1226.svg[width=500px]
 +
 |===
 a|
