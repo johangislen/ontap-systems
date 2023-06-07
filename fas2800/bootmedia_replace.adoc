@@ -18,11 +18,6 @@ To access components inside the controller, you must first remove the controller
 
 . If you are not already grounded, properly ground yourself.
 . Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
-+
-Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
-
-. Remove and set aside the cable management devices from the left and right sides of the controller module.
-
 
 . Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
 +
@@ -93,23 +88,22 @@ Check the boot media to make sure that it is seated squarely and completely in t
 . Reinstall the controller module cover and lock it into place.
 
 == Step 3: Transfer the boot image to the boot media
-:icons: font
-:imagesdir: ../media/
 
-
-[.lead]
 Install the system image on the replacement boot media using a USB flash drive with the image installed on it. You must restore the var file system during this procedure.
 
+.Before you begin
 * You must have a USB flash drive, formatted to FAT32, with at least 4GB capacity.
-* A copy of the same image version of ONTAP as what the impaired controller was running. You can download the appropriate image from the Downloads section on the NetApp Support Site
- ** If NVE is enabled, download the image with NetApp Volume Encryption, as indicated in the download button.
- ** If NVE is not enabled, download the image without NetApp Volume Encryption, as indicated in the download button.
-* If your system is an HA pair, you must have a network connection.
-* If your system is a stand-alone system you do not need a network connection, but you must perform an additional reboot when restoring the var file system.
+* You must have a network connection.
 
 .Steps
-. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
-. Reinstall the cable management device and recable the system, as needed.
+. Download the appropriate image version of ONTAP to the formatted USB flash drive:
+.. Use https://kb.netapp.com/onprem/ontap/dm/Encryption/How_to_determine_if_the_running_ONTAP_version_supports_NetApp_Volume_Encryption_(NVE)[How to determine if the running ONTAP version supports NetApp Volume Encryption (NVE)^] to determine if volume encryption is currently supported.
+** If NVE is supported on the cluster, downlad the image with NetApp Volume Encryption.
+** If NVE is not supported on the cluster, download the image without NetApp Volume Encryption.
+See https://kb.netapp.com/onprem/ontap/os/Which_ONTAP_image_should_I_download%3F_With_or_without_Volume_Encryption%3F[Which ONTAP image should I download? With or without Volume Encryption?^] for more details.
+. Install the controller module:
+.. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
+.. Recable the controller module.
 +
 When recabling, remember to reinstall the media converters (SFPs) if they were removed.
 
