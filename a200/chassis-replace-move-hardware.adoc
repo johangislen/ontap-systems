@@ -99,7 +99,7 @@ You must remove the existing chassis from the equipment rack or system cabinet b
 
 == Step 5: Install the controller
 
-After you install the controller module and any other components into the new chassis, boot it to a state where you can run the interconnect diagnostic test.
+After you install the controller module and any other components into the new chassis, you must boot your system.
 
 .About this task
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
