@@ -8,7 +8,8 @@ summary: 'Prior to shutting down the impaired controller and checking the status
 :icons: font
 :imagesdir: ../media/
 
-include::../include/encryption_steps_before_shutdown9_6-later.adoc[]
+include::../_include/encryption_steps_before_shutdown9_6-later.adoc[]
+
 == Check NVE or NSE on systems running ONTAP 9.6 and later
 
 include::../_include/encryption_check_96_later.adoc[]
