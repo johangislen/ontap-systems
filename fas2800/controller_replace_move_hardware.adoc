@@ -38,7 +38,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Controller module cover release button
 
@@ -57,11 +57,11 @@ image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 NVMEM battery release button
 a|
-image::../media/legend_icon_02.svg[width=20px]
+image::../media/legend_icon_02.svg[width=30px]
 a|
 NVMEM battery plug
 
@@ -87,11 +87,11 @@ image::../media/drw_2850_replace_HIC_IEOPS-700.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Riser bezel
 a|
-image::../media/legend_icon_02.svg[width=20px]
+image::../media/legend_icon_02.svg[width=30px]
 a|
 PCIe mezzanine card
 
@@ -117,7 +117,7 @@ image::../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Boot media release button
 
@@ -158,11 +158,11 @@ image::../media/drw_2850_replace_dimms_IEOPS-699.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 DIMM locking latches
 a|
-image::../media/legend_icon_02.svg[width=20px]
+image::../media/legend_icon_02.svg[width=30px]
 a|
 DIMM
 
@@ -199,7 +199,7 @@ image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Caching module locking button
 

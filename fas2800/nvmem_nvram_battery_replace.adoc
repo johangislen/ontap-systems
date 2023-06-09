@@ -65,11 +65,11 @@ image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Battery release tab
 a|
-image::../media/legend_icon_02.svg[width=20px]
+image::../media/legend_icon_02.svg[width=30px]
 a|
 Battery power connector
 
