@@ -119,7 +119,7 @@ image::../media/drw_2850_replace_caching module_IEOPS-697.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Caching module release button
 

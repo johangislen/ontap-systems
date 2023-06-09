@@ -33,7 +33,7 @@ image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Controller module cover release button
 
@@ -53,7 +53,7 @@ image:../media/drw_2850_replace_boot_media_IEOPS-696.svg[width=500]
 |===
 
 a|
-image::../media/legend_icon_01.svg[width=20px]
+image::../media/legend_icon_01.svg[width=30px]
 a|
 Boot media locking tab
 
