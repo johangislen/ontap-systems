@@ -58,7 +58,7 @@ video::92060115-1967-475b-b517-aad9012f130c[panopto, title="Animation - Move the
 
 . Remove the power supply:
 +
-image::../media/drw_A400_psu.png[]
+image::../media/drw_c400_psu_IEOPS-1237.svg[width=500px]
 
  .. Rotate the cam handle so that it can be used to pull the power supply out of the chassis.
  .. Press the blue locking tab to release the power supply from the chassis.
@@ -130,7 +130,7 @@ Moving the mezzanine card and riser 3 (right riser):
 
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto, title="Animation - Move the mezzanine card and riser 3"]
 
-image::../media/drw_A400_Replace-PCIe-cards_IEOPS-1008.svg[width=500px]
+image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235 (1).svg[width=500px]
 
 . Move PCIe risers one and two from the impaired controller module to the replacement controller module:
  .. Remove any SFP or QSFP modules that might be in the PCIe cards.
