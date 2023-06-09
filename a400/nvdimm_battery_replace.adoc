@@ -1,7 +1,7 @@
 ---
 permalink: a400/nvdimm-battery-replace.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, replace, nvdimm, battery, remove, controller, module, reinstall, impair, aggregate, switch, back, two-node, metrocluster, configuration, replacement, complete, process, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics, switch back aggregates in a two-node metrocluster configuration, complete the replacement process
+keywords: aff a400, aff, a400, replace, nvdimm, battery, remove, controller, module, reinstall, impair, aggregate, switch, back, two-node, metrocluster, configuration, replacement, complete, process, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, restore the controller module, switch back aggregates in a two-node metrocluster configuration, complete the replacement process
 summary: To replace the NVDIMM battery, you must remove the controller module, remove the battery, replace the battery, and then reinstall the controller module.
 ---
 = Replace the NVDIMM battery - AFF A400
@@ -88,7 +88,7 @@ image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[width=500px]
 
 == Step 4: Install the controller module
 
-After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it.
 
 You can use the following animation, illustration, or the written steps to install the controller module in the chassis.
 
@@ -122,32 +122,11 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 NOTE: If your system stops at the boot menu, select the option to boot to LOADER.
 
  .. At the LOADER prompt, enter `bye` to reinitialize the PCIe cards and other components.
- .. Interrupt the boot process and boot to the LOADER prompt by pressing `Ctrl-C`.
-+
-If your system stops at the boot menu, select the option to boot to LOADER.
 
-== Step 5: Run diagnostics
 
-After you have replaced a component in your system, you should run diagnostic tests on that component.
+== Step 5: Restore the controller module to operation
 
-Your system must be at the LOADER prompt to start diagnostics.
-
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
-. Select *Test Memory* from the displayed menu to run diagnostics tests.
-. Proceed based on the result of the preceding step:
- ** If the scan show problems, correct the issue, and then rerun the scan.
- ** If the scan reported no failures, select Reboot from the menu to reboot the system.
-
-== Step 6: Restore the controller module to operation after running diagnostics
-
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
@@ -156,10 +135,10 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
-== Step 7: Switch back aggregates in a two-node MetroCluster configuration
+== Step 6: Switch back aggregates in a two-node MetroCluster configuration
 
 include::../_include/2n_mcc_switchback.adoc[]
 
-== Step 8: Return the failed part to NetApp
+== Step 7: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
