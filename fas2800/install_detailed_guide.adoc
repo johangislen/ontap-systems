@@ -321,7 +321,6 @@ image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
 . DO NOT plug in the power cords. 
 
-
 --
 
 ====
@@ -364,7 +363,6 @@ a|
 Host network switches
 
 |===
-
 
 .Steps
 
