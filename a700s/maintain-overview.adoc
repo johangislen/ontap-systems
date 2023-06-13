@@ -37,11 +37,11 @@ The fan cools the controller.
 
 == NVRAM battery
 
-A battery is included with the controller and preserves cached data if the AC power fails.
+A battery is included with the controller and provides the backup power if the AC power fails.
 
-== NVRAM
+== NVRAM module
 
-The NVDIMM (non-volatile dual in-line memory module) manages the data transfer from the volatile memory to the non-volatile storage, and maintains data integrity in the event of a power loss or system shutdown. 
+The NVRAM module (non-volatile random-access memory) preserves cached data if the power fails.
 
 == PCIe card
 
