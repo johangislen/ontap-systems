@@ -393,6 +393,7 @@ image::../media/oie_cable_mini_sas_hd_to_mini_sas_hd.svg[width=85px]
 +
 image::../media/dwr-2800_controller2-to shelves_IEOPS-897.svg[width=500px]     
 
+
 == Step 5: Complete system setup and configuration
 
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
