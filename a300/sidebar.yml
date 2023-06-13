@@ -16,7 +16,8 @@ entries:
  - title: Maintain
    pdf-filename: AFF A300 Maintain
    entries:
-   # START boot media replacement
+   - title: Overview
+     url: /a300/maintain-overview.html
    - title: Boot media
      pdf-filename: AFF A300 Boot Media
      entries:

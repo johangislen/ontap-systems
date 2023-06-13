@@ -1,10 +1,10 @@
 ---
-permalink: asa800/index.html
+permalink: a700s/maintain-overview.html
 sidebar: sidebar
-keywords: asa A800 maintenance, maintenance, repairing A800, repairing asa A800, replace asa A800 components, replace asa A800 components
-summary: Maintain the ASA A800 hardware
+keywords: a700s maintenance, maintenance, repairing a700s, repairing a700s, replace a700s components, replace a700s components
+summary: Maintain the AFF A700s hardware
 ---
-= Maintain ASA A800 hardware
+= Maintain AFF A700s hardware
 :icons: font
 :imagesdir: ../media/
 
@@ -35,11 +35,11 @@ A drive is a device that provides the physical storage media for data.
 
 The fan cools the controller.
 
-== NVDIMM battery
+== NVRAM battery
 
-A NVDIMM battery is responsible for maintaining power to the NVDIMM module.
+A battery is included with the controller and preserves cached data if the AC power fails.
 
-== NVDIMM
+== NVRAM
 
 The NVDIMM (non-volatile dual in-line memory module) manages the data transfer from the volatile memory to the non-volatile storage, and maintains data integrity in the event of a power loss or system shutdown. 
 

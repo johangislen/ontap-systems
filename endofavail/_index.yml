@@ -4,7 +4,7 @@ indexpage:
     - title: Install and setup
       links:
         - title: AFF A220
-          url: ../a220/install-setup.html
+          url: ../a220/install_setup.html
         - title: AFF A300
           url: ../a300/install-setup.html
         - title: AFF A320
@@ -16,15 +16,17 @@ indexpage:
     - title: Maintain your system
       links:
         - title: AFF A220
-          url: ../a220/install-setup.html
+          url: ../a220/maintain-overview.html
         - title: AFF A300
-          url: ../a300/install-setup.html
+          url: ../a300/maintain-overview.html
         - title: AFF A320
-          url: ../a320/install-setup.html
+          url: ../a320/maintain-overview.html
         - title: AFF A700s
-          url: ../a700s/install-setup.html
+          url: ../a700s/maintain-overview.html
+        - title: FAS2600
+          url: ../fas2600/maintain-overview.html
         - title: FAS8200
-          url: ../fas8200/install-setup.html
+          url: ../fas8200/maintain-overview.html
     - title: Supported switches
       links:
         - title: Broadcom-supported BES-53248

@@ -16,7 +16,8 @@ entries:
   - title: Maintain
     pdf-filename: AFF A320 Maintain
     entries:
-      # START boot media replacement
+    - title: Overview
+      url: /a320/maintain-overview.html
     - title: Boot media
       pdf-filename: AFF A320 Boot Media
       entries:
