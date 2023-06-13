@@ -1,15 +1,15 @@
 ---
-permalink: a220/maintain-overview.html
+permalink: fas2600/maintain-overview.html
 sidebar: sidebar
-keywords: aff 220 maintenance, maintenance, repairing 220, repairing asa 220, replace aff 220 components, replace aff 220 components
-summary: Maintain the AFF A220 hardware
+keywords: fas2600 maintenance, maintenance, repairing fas2600, repairing fas2600, replace aff fas2600 components, replace aff fas2600 components
+summary: Maintain the fas2600 hardware
 ---
-= Maintain AFF A220 hardware
+= Maintain FAS2600 hardware
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For the AFF A220 storage system, you can perform maintenance procedures on the following components.
+For the FAS2600 storage system, you can perform maintenance procedures on the following components.
 
 == Boot media
 
