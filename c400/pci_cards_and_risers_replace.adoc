@@ -57,7 +57,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 The controller module moves slightly out of the chassis.
 +
-image::../media/drw_A400_Remove_controller.png[]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
 |===
 a|
@@ -84,7 +84,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::84339f87-321c-400e-985e-aae10182cd24[panopto, title="Animation - Replace a PCIe card"]
 
-image:../media/drw_c400_replace_PCIe_cards_IEOPS-1235 (1).svg[width=500px]
+image:../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=500px]
 
 . Remove the riser containing the card to be replaced:
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.
