@@ -99,7 +99,7 @@ Lift the battery out of the holder and controller module.
 
 == Step 4: Install the controller module
 
-After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it.
 
 You can use the following illustration or the written steps to install the replacement controller module in the chassis.
 
@@ -124,7 +124,7 @@ Thumbscrew
  .. Press your thumbs down on the orange tabs on top of the latching mechanism and gently push the controller module over the stop.
  .. Release your thumbs from the top of the latching mechanisms and continue pushing until the latching mechanisms snap into place.
 +
-The controller module begins to boot as soon as it is fully seated in the chassis. Be prepared to interrupt the boot process.
+The controller module begins to boot as soon as it is fully seated in the chassis. 
 
 +
 The controller module should be fully inserted and flush with the edges of the chassis.
@@ -132,25 +132,7 @@ The controller module should be fully inserted and flush with the edges of the c
 +
 NOTE: You will connect the rest of the cables to the controller module later in this procedure.
 
-== Step 5: Run diagnostics
 
-After you have replaced a component in your system, you should run diagnostic tests on that component.
-
-Your system must be at the LOADER prompt to start diagnostics.
-
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
-. Select *Test Memory* from the displayed menu to run diagnostics tests.
-. Proceed based on the result of the preceding step:
- ** If the scan show problems, correct the issue, and then rerun the scan.
- ** If the scan reported no failures, select Reboot from the menu to reboot the system.
-
-== Step 6: Return the failed part to NetApp
+== Step 5: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
