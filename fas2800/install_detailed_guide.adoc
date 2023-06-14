@@ -160,15 +160,15 @@ The following table identifies the cable type with the call out number and cable
 |===
 | Cabling|Connection type
 a|
-image::../media/oie_legend_icon_1_lg.svg[width=30px]
+image::../media/oie_legend_icon_1_lg.svg[width=40px]
 a|
 Cluster interconnect
 a|
-image::../media/oie_legend_icon_2_lp.svg[width=30px]
+image::../media/oie_legend_icon_2_lp.svg[width=40px]
 a|
 Management network switch
 a|
-image::../media/oie_legend_icon_3_o.svg[width=30px]
+image::../media/oie_legend_icon_3_o.svg[width=40px]
 a|
 Host network switches
 
@@ -358,15 +358,15 @@ The following table identifies the cable type with the call out number and cable
 |===
 | Cabling|Connection type
 a|
-image::../media/oie_legend_icon_1_lo.svg[width=30px]
+image::../media/oie_legend_icon_1_lo.svg[width=40px]
 a|
 Cluster interconnect
 a|
-image::../media/oie_legend_icon_2_mb.svg[width=30px]
+image::../media/oie_legend_icon_2_mb.svg[width=40px]
 a|
 Management network switch
 a|
-image::../media/oie_legend_icon_3_t.svg[width=30px]
+image::../media/oie_legend_icon_3_t.svg[width=40px]
 a|
 Host network switches
 
