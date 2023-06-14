@@ -125,8 +125,6 @@ image::../media/drw_cable_management_arm_install.png[]
 
 Cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
 
-UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
-
 The following table identifies the cable type with the call out number and cable color in the illustrations for both two-node switchless cluster network cabling and switched cluster network cabling. 
 
 [options="header" cols="20%,80%"]
@@ -170,7 +168,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
 .About this task
-You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
+Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 UTA2 data network configurations:: 
@@ -190,7 +188,7 @@ Perform the following steps on each controller module.
 image:../media/drw_c190_u_tnsc_clust_cbling.png[]
 +
 
-. Do one of the following:
+. Cable the controllers to either a UTA2 data network or an Ethernet network.
 [horizontal]
 UTA2 data network configurations:: 
 Use one of the following cable types to cable the e0c/0c and e0d/0d or e0e/0e and e0f/0f data ports to your host network. 
