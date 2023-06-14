@@ -38,15 +38,15 @@ image::../media/IEOPS-955, drw_fas2800_noshelf_tpha.svg[width=500px]
 
 The following worksheet and cabling example uses port pair 0a/0b1:
 
-image::../media/IEOPS-948, drw_fas2800_worksheet.svg[width=500px]
+image::../media/IEOPS-948, drw_fas2800_worksheet.svg[width=530px]
 
-image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=500px]
+image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=520px]
 
 == Platforms with internal storage in a multipath HA configuration with one multi-shelf stack
 
 The following worksheet and cabling example uses port pair 0a/0b:
 
-NOTE: This section does not apply to FAS2820 or FAS25XX.
+NOTE: This section does not apply to FAS2800 or FAS25XX.
 
 image::../media/drw_fas2600_mpha_worksheet.png[]
 

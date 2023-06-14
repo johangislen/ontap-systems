@@ -333,7 +333,7 @@ For example:
 +
 ** In an HA pair with internal storage (IOM12E/IOM12G), a single speed transition within a stack having two IOM12 shelves and two IOM6 shelves is depicted as:
 +
- IOM12E/IOM12G 0b/0b1 <-> IOM12/IOM12B <-> IOM12/IOM12B <---> IOM6 <-> IOM6 <-> IOM12E/IOM12G 0a
+ IOM12E 0b/IOM12G 0b1 <-> IOM12/IOM12B <-> IOM12/IOM12B <---> IOM6 <-> IOM6 <-> IOM12E 0a/IOM12G 0a
 +
 The internal storage port 0b/0b1 is the port from the internal storage (expander) and because it connects to the hot-added IOM12/IOM12B shelf (the last shelf in the stack), the group of IOM12/IOM12B shelves is kept together and a single transition is maintained through the stack and internal IOM12E/IOM12G storage.
 +
