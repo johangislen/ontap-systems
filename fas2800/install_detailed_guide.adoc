@@ -216,55 +216,41 @@ image::../media/oie_cable_rj45.svg[width=100px]
 +
 image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
 +
-. Select one of the following cable connections to cable the mezzanine card ports to your host network:
+. Cable the mezzanine card ports to your host network. 
++
+image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-
-[horizontal]
-
-Four ports::
-4-ports Ethernet 
+.. If you have a 4-port Ethernet data network, cable ports e1a through e1d to your Ethernet data network. 
+** 4-ports, 10/25Gb Ethernet, SFP28 
 +
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
 +
 image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 +
-*10/25Gb Ethernet, SFP28 cables*
 
-4-ports Fiber Channel, (target only) 
-
-image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
+** 4-ports, 10GBASE-T, RJ45 
 +
-*32Gb Fiber Channel, SFP+ (target only)*
-
-** 4-ports Fiber Channel (initiator/target) 
-
-image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
-+
-*32Gb Fiber Channel, SFP+ (initiator/target)* 
-
-** 4-ports, 10GBASE-T
-
 image::../media/oie_cable_rj45.svg[width=100px]
 +
-*10GBASE-T, RJ45* 
 
-
-Cable ports e1a through e1d to your Ethernet data network or ports 1a through 1d for your FC network.
-
-
-[horizontal]
-2+2 ports::
-
+.. If you have a 4-port Fiber Channel data network, cable ports 1a through 1d for your FC network.
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) 
++
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) 
++
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+.. If you have a 2+2 card (2 ports with Ethernet connections and 2 ports with Fiber Channel connections), cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Ethernet data network.
++
 ** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) 
-
++
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 
-Cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Ethernet data network.
-
-image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
-
-. DO NOT plug in the power cords. 
-
+IMPORTANT: DO NOT plug in the power cords. 
 --
 .Option 2: Cable a switched cluster
 --
@@ -298,8 +284,6 @@ image::../media/oie_cable_rj45.svg[width=100px]
 +
 image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
 +
-. Select one of the following cable connections to cable the mezzanine card ports to your host network. Cable ports e1a through e1d to your Ethernet data network or ports 1a through 1d for your FC network.
-
 . Cable the mezzanine card ports to your host network. 
 +
 image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
