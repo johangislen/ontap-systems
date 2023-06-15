@@ -290,65 +290,49 @@ video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto, title="Animation - Switched
 . Cable the cluster interconnect ports e0a to e0a and e0b to e0b with the cluster interconnect cable: 
 +
 image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100pxx]
-*Cluster interconnect cables*
 +
 image::../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
 . Cable the e0M ports to the management network switches with the RJ45 cables:
 +
 image::../media/oie_cable_rj45.svg[width=100px]
-*RJ45 cables*
 +
 image::../media/drw_2800_management_connection_IEOPS-1077.svg[width=500px]
 +
 . Select one of the following cable connections to cable the mezzanine card ports to your host network. Cable ports e1a through e1d to your Ethernet data network or ports 1a through 1d for your FC network.
 
 . Cable the mezzanine card ports to your host network. 
-.. If you have an Ethernet data network, cable ports e1a through e1d to your Ethernet data network. 
-.. If you have a Fiber Channel data network, cable ports 1a through 1d for your FC network. 
-.. If you have a 2+2 card (2 ports with Ethernet connections and 2 ports with Fiber Channel connections), cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Ethernet data network.
++
+image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
-[horizontal]
-Four ports::
-** 4-ports, Ethernet 
+.. If you have a 4-port Ethernet data network, cable ports e1a through e1d to your Ethernet data network. 
+** 4-ports, 10/25Gb Ethernet, SFP28 
 +
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px] 
 +
 image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100px]
 +
-*10/25Gb Ethernet, SFP28*
-
-** 4-ports, 32Gb Fiber Channel (target only) 
-+
-image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
-+
-*32Gb Fiber Channel, SFP+* 
-
-** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) 
-+
-image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
-+
-*32Gb Fiber Channel, SFP+*
 
 ** 4-ports, 10GBASE-T, RJ45 
 +
 image::../media/oie_cable_rj45.svg[width=100px]
 +
-*10GBASE-T, RJ45*
 
-
-2+2 ports::
-
+.. If you have a 4-port Fiber Channel data network, cable ports 1a through 1d for your FC network.
+** 4-ports, 32Gb Fiber Channel, SFP+ (target only) 
++
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+** 4-ports, 32Gb Fiber Channel, SFP+ (initiator/target) 
++
+image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
++
+.. If you have a 2+2 card (2 ports with Ethernet connections and 2 ports with Fiber Channel connections), cable ports e1a and e1b to your FC data network and ports e1c and e1d to your Ethernet data network.
++
 ** 2-ports, 10/25Gb Ethernet (SFP28) + 2-ports 32Gb FC (SFP+) 
 +
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 +
-*10/25Gb Ethernet (SFP28)*
-+
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
-+
-*32Gb Fiber Channel, SFP+* 
-
-image::../media/drw_2800_network_cabling_IEOPS-894.svg[width=500px]
 
 IMPORTANT: DO NOT plug in the power cords. 
 
