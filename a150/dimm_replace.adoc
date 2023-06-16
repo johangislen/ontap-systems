@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a150, a150, aff, replace, dimm, shut, down, impaired, controller, controller, metrocluster, replace, system, reinstall, diagnostics, module, filed, part, aggregates,
 summary: "You must replace a DIMM in the controller module when your system registers an increasing number of correctable error correction codes (ECC); failure to do so causes a system panic."
 ---
-= Replace a DIMM - AFF A220 and FAS2700
+= Replace a DIMM - AFF A150
 :icons: font
 :imagesdir: ../media/
 
