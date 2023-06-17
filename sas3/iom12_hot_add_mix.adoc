@@ -41,13 +41,13 @@ http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-mcc-inst-cnfg-stretch/ho
 +
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-mcc-inst-cnfg-fabric/home.html[ONTAP 9 Fabric-attached MetroCluster Installation and Configuration Guide^]
 
-* The stack of IOM6 shelves, to which you are hot-adding an IOM12 shelf, must be cabled with SAS copper cables (for all shelf-to-shelf and controller-to-stack connections).
+* The stack of IOM6 shelves, to which you are hot-adding an IOM12/IOM12B shelf, must be cabled with SAS copper cables (for all shelf-to-shelf and controller-to-stack connections).
 +
 SAS optical cables are not supported in a mixed stack.
 +
-NOTE: If the IOM6 shelf stack is cabled with any SAS optical cables, you cannot hot-add an IOM12 shelf. Contact your NetApp sales representative.
+NOTE: If the IOM6 shelf stack is cabled with any SAS optical cables, you cannot hot-add an IOM12/IOM12B shelf. Contact your NetApp sales representative.
 
-* Your system must have less than the maximum number of drives supported, by at least the number of drives capable of being installed in the IOM12 shelves you are hot-adding.
+* Your system must have less than the maximum number of drives supported, by at least the number of drives capable of being installed in the IOM12/IOM12B shelves you are hot-adding.
 +
 You cannot have exceeded the maximum number of drives supported for your system after hot-adding IOM12/IOM12B shelves.
 +
@@ -61,13 +61,13 @@ https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 * You must have ordered and received the IOM12/IOM12B shelves and appropriate number and types of SAS copper cables.
 +
-IOM12 shelves use mini-SAS HD connectors. IOM6 shelves use QSFP connectors.
+IOM12/IOM12B shelves use mini-SAS HD connectors. IOM6 shelves use QSFP connectors.
 
 == Requirements for a hot-add in bridge-attached MetroCluster configurations
 
 If you are hot-adding IOM12/IOM12B shelves to a stack of IOM6 shelves that is attached using a pair of ATTO FibreBridge bridges in a MetroCluster configuration, the system must meet certain requirements.
 
-* If bridge SAS ports are available in the current configuration, you should add the IOM12 shelves as a separate stack.
+* If bridge SAS ports are available in the current configuration, you should add the IOM12/IOM12B shelves as a separate stack.
 +
 Use all bridge ports before mixing IOM12/IOM12B and IOM6 modules in a stack.
 
@@ -121,9 +121,9 @@ After you download the IOM12/IOM12B shelf firmware to your shelves, verify the f
 You cannot use this procedure to hot-add disk shelves that were hot-removed from another stack in the same system when the system is powered on and serving data (I/O is in progress).
 
 * You can use this procedure to hot-add disk shelves that were hot-removed within the same MetroCluster system if the affected shelf has mirrored aggregates.
-* When you hot-add shelves with IOM12 modules to a stack of shelves with IOM6 modules, the performance of the entire stack operates at 6 Gbps (runs at the lowest common speed).
+* When you hot-add shelves with IOM12/IOM12B modules to a stack of shelves with IOM6 modules, the performance of the entire stack operates at 6 Gbps (runs at the lowest common speed).
 +
-If the shelves you are hot-adding are shelves that have been upgraded from IOM3 or IOM6 modules to IOM12 modules, the stack operates at 12 Gbps; however, the shelf backplane and disk capabilities can limit disk performance to 3 Gbps or 6 Gbps.
+If the shelves you are hot-adding are shelves that have been upgraded from IOM3 or IOM6 modules to IOM12/IOM12B modules, the stack operates at 12 Gbps; however, the shelf backplane and disk capabilities can limit disk performance to 3 Gbps or 6 Gbps.
 * After you have cabled a hot-added shelf, ONTAP recognizes the shelf:
  ** Drive ownership is assigned if automatic drive assignment is enabled.
  ** Shelf (IOM) firmware and drive firmware should be updated automatically, if needed.
@@ -154,8 +154,8 @@ Running Active IQ Config Advisor before hot-adding a shelf provides a snapshot o
 https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 * *Best practice:* The best practice is to have in-band ACP (IBACP) running on your system.
- ** For systems in which IBAP is running, IBACP is automatically enabled on hot-added IOM12 shelves.
- ** For systems in which out-of-band ACP is enabled, ACP capabilities are not available on IOM12 shelves.
+ ** For systems in which IBACP is running, IBACP is automatically enabled on hot-added IOM12/IOM12B shelves.
+ ** For systems in which out-of-band ACP is enabled, ACP capabilities are not available on IOM12/IOM12B shelves.
 +
 You should migrate to IBACP and remove the out-of-band ACP cabling.
 
@@ -280,7 +280,7 @@ CAUTION: *Possible loss of data access:* Never slam the drawer shut. Push the dr
 .. Turn on the power supplies for each disk shelf and wait for the disk drives to spin up.
 . Set the shelf ID for each shelf you are hot-adding to an ID that is unique within the HA pair or single-controller configuration.
 +
-A valid shelf ID is 00 through 99. It is recommended that you set the shelf IDs so that IOM6 shelves use lower numbers (1 - 9) and IOM12 shelves use higher numbers (10 and greater).
+A valid shelf ID is 00 through 99. It is recommended that you set the shelf IDs so that IOM6 shelves use lower numbers (1 - 9) and IOM12/IOM12B shelves use higher numbers (10 and greater).
 +
 If you have a platform model with onboard storage, shelf IDs must be unique across the internal shelf and externally attached shelves. It is recommended that you set the internal shelf to 0. In MetroCluster IP configurations, only the external shelf names apply, and therefore the shelf names do not need to be unique.
 
@@ -303,7 +303,7 @@ You must turn off both power switches, wait 10 seconds, and then turn them back 
 
 == Cable shelves for a hot-add
 
-How you cable an IOM12/IOM12B shelf to a stack of IOM6 shelves depends on whether the IOM12 shelf is the initial IOM12/IOM12B shelf, meaning no other IOM12 shelf exists in the stack, or whether it is an additional IOM12/IOM12B shelf to an existing mixed stack, meaning one or more IOM12/IOM12B shelves already exists in the stack. It also depends on whether the stack has multipath HA, multipath, single-path HA, or single-path connectivity.
+How you cable an IOM12/IOM12B shelf to a stack of IOM6 shelves depends on whether the IOM12 shelf is the initial IOM12/IOM12B shelf, meaning no other IOM12 shelf exists in the stack, or whether it is an additional IOM12/IOM12B shelf to an existing mixed stack, meaning one or more IOM12/IOM12B shelves already exists in the stack. It also depends on whether the stack has multipath HA, tri-path HA, multipath, single-path HA, or single-path connectivity.
 
 .Before you begin
 

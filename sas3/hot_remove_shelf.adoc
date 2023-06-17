@@ -13,7 +13,7 @@ You can hot-remove a disk shelf with IOM12/IOM12B modules (nondisruptively remov
 
 .Before you begin
 
-* Your system must be a multipath HA, tri-path HA, multipath, tri-path HA, quad-path HA, or quad-path configuration.
+* Your system must be a multipath HA, tri-path HA, multipath, quad-path HA, or quad-path configuration.
 +
 For platforms with internal storage, the external storage must be cabled as multipath HA, tri-path HA,  or multipath.
 +
