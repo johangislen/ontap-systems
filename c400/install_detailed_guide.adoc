@@ -157,7 +157,7 @@ You can cable the controllers to your network by using the two-node switchless c
 
 .Option 1: Cable a two-node switchless cluster
 --
- A controller module's cluster interconnect and HA ports are cabled to its partner controller module. The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches.
+A controller module's cluster interconnect and HA ports are cabled to its partner controller module. The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches.
 
 .Before you begin
 You must have contacted your network administrator for information about connecting the system to the switches.
