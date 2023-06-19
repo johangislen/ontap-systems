@@ -1,7 +1,7 @@
 ---
 permalink: asa400/controller-replace-recable-reassign-disks.html
 sidebar: sidebar
-keywords: aff a400, how to recable the system, how to reassign disks
+keywords: asa a400, how to recable the system, how to reassign disks
 summary: You must recable the storage and confirm disk reassignment.
 ---
 = Recable the system and reassign disks - ASA A400
@@ -9,5 +9,6 @@ summary: You must recable the storage and confirm disk reassignment.
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/400_controller_replace_recable_reassign_disks.adoc[]
 

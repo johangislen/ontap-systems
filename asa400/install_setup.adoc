@@ -1,7 +1,7 @@
 ---
 permalink: asa400/install-setup.html
 sidebar: sidebar
-keywords: aff a400, install, setup, initial configuration
+keywords: asa a400, install, setup, initial configuration
 summary: 'Install and set up your system.'
 ---
 = Start here: Choose your installation and setup experience
@@ -9,6 +9,7 @@ summary: 'Install and set up your system.'
 :imagesdir: ../media/
 
 [.lead]
+
 For most configurations, you can choose from different content formats.
 
 * link:../asa400/install-quick-guide.html[Quick steps]

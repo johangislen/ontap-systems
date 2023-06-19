@@ -1,7 +1,7 @@
 ---
 permalink: asa400/install-videos.html
 sidebar: sidebar
-keywords: aff a400, aff, a400, video, rack, cable, system, manager, guide, setup, initial, configuration, hardware, installation, cabling, perform, end-to-end, software, configuration, hardware installation and cabling, perform end-to-end software configuration
+keywords: asa a400, asa, a400, video, rack, cable, system, manager, guide, setup, initial, configuration, hardware, installation, cabling, perform, end-to-end, software, configuration, hardware installation and cabling, perform end-to-end software configuration
 summary: There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
 ---
 = Videos - ASA A400
@@ -9,6 +9,7 @@ summary: There are two videos; one showing how to rack and cable your system and
 :imagesdir: ../media/
 
 [.lead]
+
 There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
 
 == Video one of two: Hardware installation and cabling

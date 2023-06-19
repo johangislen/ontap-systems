@@ -1,7 +1,7 @@
 ---
 permalink: asa400/chassis-replace-complete-system-restore-rma.html
 sidebar: sidebar
-keywords: aff a400, verify and set HA state, run diagnostics, complete the replacement process
+keywords: asa a400, verify and set HA state, run diagnostics, complete the replacement process
 summary: "You must verify the HA state of the chassis, run diagnostics, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit."
 ---
 = Complete chassis replacement - ASA A400
@@ -9,4 +9,5 @@ summary: "You must verify the HA state of the chassis, run diagnostics, and retu
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/400_chassis_replace_complete_system_restore_rma.adoc[]
