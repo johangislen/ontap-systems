@@ -1,10 +1,10 @@
 ---
 permalink: asa150/controller-replace-shutdown.html
 sidebar: sidebar
-keywords: aff a150, a150, aff, shut down the impaired controller
+keywords: asa a150, a150, asa, shut down the impaired controller
 summary: "You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration."
 ---
-= Shut down the impaired controller - AFF A150
+= Shut down the impaired controller - ASA A150
 :icons: font
 :imagesdir: ../media/
 
