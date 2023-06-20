@@ -2,7 +2,7 @@
 permalink: a220/install-quick-guide.html
 sidebar: sidebar
 keywords: fas2700, aff a220, quick, guide, graphic, instructions, install, rack, cable
-summary: "This guide gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up."
+summary: "This page gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up."
 ---
 = Quick guide - AFF A220
 :icons: font
@@ -10,7 +10,7 @@ summary: "This guide gives graphic instructions for a typical installation of yo
 
 [.lead]
 
-This guide gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
+This page gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
 
 Access the _Installation and Setup Instructions_ PDF poster:
 
