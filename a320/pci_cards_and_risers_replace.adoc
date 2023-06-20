@@ -68,7 +68,7 @@ image::../media/drw_a320_pci_card_replace_animated_gif.png[]
 
 == Sep 4: Install the controller module
 
-After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it.
 
 . If you have not already done so, close the air duct at the rear of the controller module and reinstall the cover over the PCIe cards.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
@@ -94,11 +94,11 @@ The controller module begins to boot as soon as it is fully seated in the chassi
  .. Release the latches to lock the controller module into place.
  .. Recable the power supply.
  .. If you have not already done so, reinstall the cable management device.
- .. Interrupt the normal boot process by pressing `Ctrl-C`.
+
 
 == Step 5: Restore the controller module to operation
 
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
