@@ -1,14 +1,14 @@
 ---
-permalink: fas2700/bootmedia-recovery-image-boot-non-2n-mcc.html
+permalink: a220/bootmedia-recovery-image-boot-non-2n-mcc.html
 sidebar: sidebar
-keywords: fas2700, aff 220, boot, recovery, image, restore, file, system, environmental, varible
+keywords: aff 220, boot, recovery, image, restore, file, system, environmental, varible
 summary: "You must boot the ONTAP image from the USB drive, restore the file system, and verify the environmental variables."
 ---
-= Boot the recovery image - AFF A220 and FAS2700
-:icons: font
+= Boot the recovery image - AFF A220
 :imagesdir: ../media/
 
 [.lead]
+
 You must boot the ONTAP image from the USB drive, restore the file system, and verify the environmental variables.
 
 .Steps

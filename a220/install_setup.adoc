@@ -1,7 +1,7 @@
 ---
-permalink: fas2700/install-setup.html
+permalink: a220/install-setup.html
 sidebar: sidebar
-keywords: fas 2700, install, setup, initial configuration
+keywords: aff a220, install, setup, initial configuration
 summary: 'Install and set up your system.'
 ---
 = Start here: Choose your installation and setup experience
@@ -9,6 +9,7 @@ summary: 'Install and set up your system.'
 :imagesdir: ../media/
 
 [.lead]
+
 For most configurations, you can choose from different content formats.
 
 * link:../fas2700/install-quick-guide.html[Quick steps]

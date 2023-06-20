@@ -1,10 +1,10 @@
 ---
-permalink: fas2700/install-detailed-guide.html
+permalink: a220/install-detailed-guide.html
 sidebar: sidebar
-keywords: fas2700, aff a220, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
+keywords: aff a220, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
 summary: "This guide gives detailed step-by-step instructions for installing a typical NetApp system."
 ---
-= Detailed guide - AFF A220 and FAS2700
+= Detailed guide - AFF A220
 :icons: font
 :imagesdir: ../media/
 
