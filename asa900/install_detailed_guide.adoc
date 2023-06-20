@@ -1,15 +1,16 @@
 ---
 permalink: asa900/install_detailed_guide.html
 sidebar: sidebar
-keywords: AFF A900
-summary: 'This a gives detailed step-by-step instructions for installing a typical NetApp system.'
+keywords: ASA A900
+summary: 'Detailed step-by-step instructions for installing a typical NetApp system.'
 ---
-= Detailed steps - AFF 900
+= Detailed steps - ASA 900
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This article gives detailed step-by-step instructions for installing a typical NetApp system. Use this article if you want more detailed installation instructions.
+
+This page provides detailed step-by-step instructions for installing a typical NetApp system. Use this article if you want more detailed installation instructions.
 
 == Step 1: Prepare for installation
 
