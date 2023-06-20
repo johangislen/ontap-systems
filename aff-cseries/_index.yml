@@ -5,7 +5,7 @@ indexpage:
       links:
         - title: AFF C-Series datasheet
           url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
-        - title: AFF C-Series features
+        - title: AFF C-Series platform overview
           url: https://www.netapp.com/data-storage/aff-c-series/
     - title: Install and setup
       links:

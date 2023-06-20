@@ -1,16 +1,12 @@
 indexpage:
-  lead: NetApp’s All SAN Array (ASA) delivers a simplified and dedicated SAN experience that provides continuous data availability for your organization’s mission-critical databases and other SAN workloads.
+  lead: FAS storage systems help you build a storage infrastructure that is simple, smart, and trusted.
   tiles:
     - title: Get started
       links:
-        - title: ASA software configuration
-          url: https://docs.netapp.com/us-en/ontap/task_asa_software_configuration.html
-        - title: ASA datasheet
-          url: https://www.netapp.com/data-storage/san-storage-area-network/
-        - title: ASA solution brief
-          url: https://www.netapp.com/pdf.html?item=/media/19466-SB-4081.pdf
-        - title: ASA technical report
-          url: https://www.netapp.com/pdf.html?item=/media/10379-tr4515.pdf
+        - title: FAS datasheet
+          url: https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf
+        - title: FAS platform overview
+          url: https://www.netapp.com/data-storage/fas/
     - title: Install and setup
       links:
         - title: ASA A150

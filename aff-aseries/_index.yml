@@ -5,7 +5,7 @@ indexpage:
       links:
         - title: AFF A-Series datasheet
           url: https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf
-        - title: AFF A-Series features
+        - title: AFF A-Series platform overview
           url: https://www.netapp.com/data-storage/aff-a-series/
     - title: Install and setup
       links:
