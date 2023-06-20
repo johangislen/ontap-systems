@@ -1,5 +1,5 @@
 ---
-permalink: aff800/index.html
+permalink: a800/index.html
 sidebar: sidebar
 keywords: aff A800 maintenance, maintenance, repairing A800, repairing aff A800, replace aff A800 components, replace aff A800 components
 summary: Maintain the AFF A800 hardware
