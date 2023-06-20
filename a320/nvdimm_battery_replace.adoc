@@ -84,7 +84,7 @@ The controller module begins to boot as soon as it is fully seated in the chassi
  .. Recable the power supply.
  .. If you have not already done so, reinstall the cable management device.
 
-== Step 6: Restore the controller module to operation
+== Step 5: Restore the controller module to operation
 
 You must recable the system, give back the controller module, and then reenable automatic giveback.
 
@@ -95,6 +95,6 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
-== Step 7: Return the failed part to NetApp
+== Step 6: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
