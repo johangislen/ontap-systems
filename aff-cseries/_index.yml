@@ -1,16 +1,12 @@
 indexpage:
-  lead: NetApp’s All SAN Array (AFF) delivers a simplified and dedicated SAN experience that provides continuous data availability for your organization’s mission-critical databases and other SAN workloads.
+  lead: AFF C-Series systems are built on high-density NVMe capacity flash technology.
   tiles:
     - title: Get started
       links:
-        - title: AFF software configuration
-          url: https://docs.netapp.com/us-en/ontap/task_c_software_configuration.html
-        - title: AFF datasheet
-          url: https://www.netapp.com/data-storage/san-storage-area-network/
-        - title: AFF solution brief
-          url: https://www.netapp.com/pdf.html?item=/media/19466-SB-4081.pdf
-        - title: AFF technical report
-          url: https://www.netapp.com/pdf.html?item=/media/10379-tr4515.pdf
+        - title: AFF C-Series datasheet
+          url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
+        - title: AFF C-Series features
+          url: https://www.netapp.com/data-storage/aff-c-series/
     - title: Install and setup
       links:
         - title: AFF C150
