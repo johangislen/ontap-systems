@@ -9,7 +9,8 @@ summary: This section gives detailed step-by-step instructions for installing an
 :imagesdir: ../media/
 
 [.lead]
-This section gives detailed step-by-step instructions for installing an ASA A250 system.
+
+This page gives detailed step-by-step instructions for installing an ASA A250 system.
 
 == Step 1: Prepare for installation
 

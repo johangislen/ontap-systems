@@ -1,7 +1,7 @@
 ---
 permalink: asa800/bootmedia-recovery-image-boot-non-2n-mcc.html
 sidebar: sidebar
-keywords: aff a800, boot the recovery image
+keywords: asa a800, boot the recovery image
 summary: You must boot the ONTAP image from the USB drive, restore the file system, and verify the environmental variables.
 ---
 = Boot the recovery image - ASA A800
@@ -9,4 +9,5 @@ summary: You must boot the ONTAP image from the USB drive, restore the file syst
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/800_bootmedia_encryption_preshutdown_checks.adoc[]

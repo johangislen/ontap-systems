@@ -9,7 +9,8 @@ summary: This section gives graphic instructions for a typical installation of y
 :imagesdir: ../media/
 
 [.lead]
-This section gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
+
+This page gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
 
 Access the _Installation and Setup Instructions_ PDF poster:
 

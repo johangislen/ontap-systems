@@ -1,7 +1,7 @@
 ---
 permalink: asa800/fan-replace.html
 sidebar: sidebar
-keywords: aff a800, replace a fan
+keywords: asa a800, replace a fan
 summary: "You must remove the controller module from the chassis when you replace a failed fan module and replace it with a new fan module."
 ---
 = Replace a fan - AFF A800
@@ -9,4 +9,5 @@ summary: "You must remove the controller module from the chassis when you replac
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/800_fan_replace.adoc[]

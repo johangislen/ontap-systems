@@ -7,6 +7,7 @@ summary: 'Prior to shutting down the impaired controller and checking the status
 = Pre-shutdown checks for onboard encryption keys - ASA A900
 
 [.lead]
+
 include::../_include/encryption_steps_before_shutdown.adoc[]
 
 == ONTAP 9.6 and later

@@ -1,15 +1,15 @@
 ---
 permalink: asa800/drive-replace.html
 sidebar: sidebar
-keywords: aff a800, replace the drives
+keywords: asa a800, replace the drives
 summary: You must replace a drive when the platform logs a warning message to the system console indicating that a drive has failed. In addition, both the fault LED on the operator display panel and the fault LED on the failed drive are illuminated.
-
 ---
 = Replace SSD Drive or HDD Drive - ASA A800
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/drive_hotswap_intro.adoc[]
 
 

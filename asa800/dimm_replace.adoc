@@ -1,7 +1,7 @@
 ---
 permalink: asa800/dimm-replace.html
 sidebar: sidebar
-keywords: aff a800, replace a dimm
+keywords: asa a800, replace a dimm
 summary: "You must replace a DIMM in the controller module when your system registers an increasing number of correctable error correction codes (ECC); failure to do so causes a system panic."
 ---
 = Replace DIMM - ASA A800
@@ -9,4 +9,5 @@ summary: "You must replace a DIMM in the controller module when your system regi
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/800_dimm_replace.adoc[]

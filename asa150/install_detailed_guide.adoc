@@ -1,14 +1,15 @@
 ---
 permalink: asa150/install-detailed-guide.html
 sidebar: sidebar
-keywords: aff a150, a150, aff, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
+keywords: asa a150, a150, asa, detailed, guide, prepare, install, hardware, cable, controllers, node, switchless, cluster, network, configuration, system, setup, discovery
 summary: "This guide gives detailed step-by-step instructions for installing a typical NetApp system."
 ---
-= Detailed guide - AFF A150
+= Detailed guide - ASA A150
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+
 Learn how to install your AFF A150 system.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].

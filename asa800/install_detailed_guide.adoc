@@ -1,15 +1,15 @@
 ---
 permalink: asa800/install-detailed-guide.html
 sidebar: sidebar
-keywords: aff a800, detailed installation
+keywords: asa a800, detailed installation
 summary: This section gives detailed step-by-step instructions for installing an AFF A800 system.
 ---
-= Detailed steps - AFF A800
+= Detailed steps - ASA A800
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This section gives detailed step-by-step instructions for installing an AFF A800 system.
+This page gives detailed step-by-step instructions for installing an ASA A800 system.
 
 == Step 1: Prepare for installation
 
