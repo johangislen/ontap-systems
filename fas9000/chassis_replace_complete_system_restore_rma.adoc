@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, sysdiages, ha-config, switchback, chassis
 summary: "You must verify the HA state of the chassis, run diagnostics, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit."
 ---
-= Complete the restoration and replacement process - AFF A700 and FAS9000
+= Complete the restoration and replacement process - FAS9000
 :icons: font
 :imagesdir: ../media/
 

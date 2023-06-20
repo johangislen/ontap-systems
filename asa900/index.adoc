@@ -31,10 +31,6 @@ You must replace a DIMM (dual in-line memory module) when a memory mismatch is p
 
 The DCPM (destage controller power module) contains the NVRAM11 battery.
 
-== Drive
-
-A drive is a device that provides the physical storage media for data.
-
 == Fan
 
 The fan cools the controller.
@@ -43,13 +39,13 @@ The fan cools the controller.
 
 The  I/O module (Input/Output module) is a hardware component that acts as an intermediary between the controller and various devices or systems that need to exchange data with the controller.
 
-== LED USB module
+== LED USB
 
 The LED USB module provides connectivity to console ports and system status. 
 
 == NVRAM
 
- The NVMEM module (Non-Volatile Memory) stores persistent data such as configuration settings, calibration values, and user-specific information.  It allows the controller to retain this data across power cycles or system reboots.
+ The NVRAM module (Non-Volatile Random Access Memory) allows the controller to retain data across power cycles or system reboots.
 
 == Power supply
 

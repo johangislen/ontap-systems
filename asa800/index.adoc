@@ -35,13 +35,13 @@ A drive is a device that provides the physical storage media for data.
 
 The fan cools the controller.
 
-== NVDIMM battery
-
-A NVDIMM battery is responsible for maintaining power to the NVDIMM module.
-
 == NVDIMM
 
 The NVDIMM (non-volatile dual in-line memory module) manages the data transfer from the volatile memory to the non-volatile storage, and maintains data integrity in the event of a power loss or system shutdown. 
+
+== NVDIMM battery
+
+A NVDIMM battery is responsible for maintaining power to the NVDIMM module.
 
 == PCIe card
 

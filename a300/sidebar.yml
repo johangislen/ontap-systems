@@ -1,6 +1,5 @@
 section: a300
 title: AFF A300 systems
-url: /a300/index.html
 entries:
  - title: Install and setup
    pdf-filename: AFF A300 Install and Setup
@@ -17,7 +16,7 @@ entries:
    pdf-filename: AFF A300 Maintain
    entries:
    - title: Overview
-     url: /a300/maintain-overview.html
+     url: /a300/index.html
    - title: Boot media
      pdf-filename: AFF A300 Boot Media
      entries:

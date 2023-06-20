@@ -1,6 +1,5 @@
 section: a700s
 title: AFF A700s systems
-url: /a700s/index.html
 entries:
  - title: Install and setup
    pdf-filename: AFF A700s Install and Setup
@@ -17,7 +16,7 @@ entries:
    pdf-filename: AFF A700s Maintain
    entries:
     - title: Overview
-      url: /a700s/maintain-overview.html
+      url: /a700s/index.html
     - title: Boot media
       pdf-filename: AFF A700s Boot Media
       entries:
