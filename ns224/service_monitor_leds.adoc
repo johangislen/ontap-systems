@@ -182,4 +182,4 @@ Check event messages to determine corrective action to take.
 
 The following illustration is of an NVMe drive:
 
-image::../media/drw_diskdrive_ds224c.gif[]
+image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=150px]
