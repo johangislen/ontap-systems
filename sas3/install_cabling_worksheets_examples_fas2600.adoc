@@ -48,7 +48,7 @@ The following worksheet and cabling example uses port pair 0a/0b:
 
 NOTE: This section does not apply to FAS2800 or FAS25XX systems.
 
-image::../media/drw_fas2600_mpha_worksheet.png[]
+image::../media/drw_fas2600_mpha_worksheet_IEOPS-1255.svg[width=500px]
 
 image::../media/drw_fas2600_mpha_IEOPS-1256.svg[width=500]
 
