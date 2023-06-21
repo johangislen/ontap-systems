@@ -359,11 +359,11 @@ If network discovery is not enabled on your laptop, you must complete the config
 +
 NOTE: See your laptop or console's online help for how to configure the console port.
 
- .. Connect the laptop or console to the switch on the management subnet.
+ .. Connect the laptop or console to the management switch.
 +
-image::../media/drw_console_client_mgmt_subnet_affa250.png[]
+image::../media/dwr_laptop_to_switch_only.svg[width=400px]
 
- .. Assign a TCP/IP address to the laptop or console, using one that is on the management subnet.
+ .. Assign a TCP/IP address to the laptop or console, using one that is on the management switch.
  . Use the following animation to power on and set shelf IDs for one or more drive shelves:
 +
 For NS224 drive shelves, shelf IDs are pre-set to 00 and 01. If you want to change the shelf IDs, use the straightened end of a paperclip, or narrow tipped ball point pen to access the shelf ID button behind the faceplate.
