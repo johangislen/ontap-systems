@@ -231,7 +231,7 @@ Ports 0a and 0b1 are cabled across the two controllers when there are no externa
 
 The following shows the controller's internal connections and external cabling that achieves tri-path HA connectivity: 
 
-image::../media/IEOPS-950, drw_fas2800_concept_tpha.svg[width=440px]
+image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[width=440px]
 
 The FAS2800 external SAS ports: 
 
