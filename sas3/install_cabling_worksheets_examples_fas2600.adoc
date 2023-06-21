@@ -46,11 +46,11 @@ image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=520px]
 
 The following worksheet and cabling example uses port pair 0a/0b:
 
-NOTE: This section does not apply to FAS2800 or FAS25XX.
+NOTE: This section does not apply to FAS2800 or FAS25XX systems.
 
 image::../media/drw_fas2600_mpha_worksheet.png[]
 
-image::../media/drw_fas2600_mpha.png[]
+image::../media/drw_fas2600_mpha_IEOPS-1256.svg[width=500]
 
 == FAS2600 series multipath configuration with one multi-shelf stack
 
