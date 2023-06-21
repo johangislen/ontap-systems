@@ -144,9 +144,7 @@ Check event messages to determine corrective action to take.
 |===
 The following illustration is of a power supply:
 
-The two LED icons act as the labels and LEDs, meaning the icons themselves illuminate--there are no adjacent LEDs.
-
-image::../media/28_dwg_e2860_de460c_psu.gif[]
+image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[width=400px]
 
 == Drive LEDs
 
