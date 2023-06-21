@@ -26,7 +26,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 The controller module moves slightly out of the chassis.
 +
-image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=440px]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=400px]
 +
 |===
 a|
@@ -47,8 +47,10 @@ Make sure that you support the bottom of the controller module as you slide it o
 +
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
 +
-image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=600px]
-
+Illustration - Remove the empty risers from the replacement controller module
++
+image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=500px]
++
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
  .. Rotate the riser locking latch on the left side of riser 1 up and toward air duct, lift the riser up, and then set it aside.
