@@ -26,7 +26,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 The controller module moves slightly out of the chassis.
 +
-image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=400px]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
 |===
 a|
@@ -47,9 +47,7 @@ Make sure that you support the bottom of the controller module as you slide it o
 +
 video::49053752-e813-4c15-a917-ab190147fa6e[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
 +
-Illustration - Remove the empty risers from the replacement controller module
-+
-image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=500px]
+image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=550px]
 +
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
@@ -88,7 +86,7 @@ You can use the following animation, illustration, or the written steps to move 
 
 video::94d115b2-b02a-4234-805c-aad9012f204c[panopto, title="Animation - Move the NVDIMM battery"]
 
-image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=500px]
+image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=550px]
 
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
@@ -109,7 +107,7 @@ You can use the following animation, illustration, or the written steps to move 
 
 video::2a14099c-85de-4a84-867c-aad9012efac8[panopto, title="Animation - Move the boot media"]
 
-image::../media/drw_c400_replace_boot_media_IEOPS-1217.svg[width=500px]
+image::../media/drw_c400_replace_boot_media_IEOPS-1217.svg[width=550px]
 
 . Locate and remove the boot media from the controller module:
  .. Press the blue button at the end of the boot media until the lip on the boot media clears the blue button.
@@ -138,7 +136,7 @@ Moving the mezzanine card and riser 3 (right riser):
 
 video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto, title="Animation - Move the mezzanine card and riser 3"]
 
-image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=500px]
+image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=550px]
 
 . Move PCIe risers one and two from the impaired controller module to the replacement controller module:
  .. Remove any SFP or QSFP modules that might be in the PCIe cards.
