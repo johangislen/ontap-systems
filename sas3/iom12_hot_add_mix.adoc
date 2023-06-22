@@ -167,7 +167,7 @@ NOTE: The migration instructions provide the system requirements for IBACP.
 
 == Prepare to manually assign drive ownership for a hot-add
 
-If you are manually assigning drive ownership for the IOM12 shelves you are hot-adding, then you need to disable automatic drive assignment if it is enabled.
+If you are manually assigning drive ownership for the IOM12/IOM12B shelves you are hot-adding, then you need to disable automatic drive assignment if it is enabled.
 
 .Before you begin
 
@@ -303,7 +303,7 @@ You must turn off both power switches, wait 10 seconds, and then turn them back 
 
 == Cable shelves for a hot-add
 
-How you cable an IOM12/IOM12B shelf to a stack of IOM6 shelves depends on whether the IOM12 shelf is the initial IOM12/IOM12B shelf, meaning no other IOM12 shelf exists in the stack, or whether it is an additional IOM12/IOM12B shelf to an existing mixed stack, meaning one or more IOM12/IOM12B shelves already exists in the stack. It also depends on whether the stack has multipath HA, tri-path HA, multipath, single-path HA, or single-path connectivity.
+How you cable an IOM12/IOM12B shelf to a stack of IOM6 shelves depends on whether the IOM12/IOM12B shelf is the initial IOM12/IOM12B shelf, meaning no other IOM12/IOM12B shelf exists in the stack, or whether it is an additional IOM12/IOM12B shelf to an existing mixed stack, meaning one or more IOM12/IOM12B shelves already exists in the stack. It also depends on whether the stack has multipath HA, tri-path HA, multipath, single-path HA, or single-path connectivity.
 
 .Before you begin
 
@@ -331,7 +331,7 @@ For example:
 +
  Controller <-> IOM6 <-> IOM6 <---> IOM12/IOM12B <-> IOM12/IOM12B <-> Controller
 +
-** In an HA pair with internal storage (IOM12E/IOM12G), a single speed transition within a stack having two IOM12 shelves and two IOM6 shelves is depicted as:
+** In an HA pair with internal storage (IOM12E/IOM12G), a single speed transition within a stack having two IOM12/IOM12B shelves and two IOM6 shelves is depicted as:
 +
  IOM12E 0b/IOM12G 0b1 <-> IOM12/IOM12B <-> IOM12/IOM12B <---> IOM6 <-> IOM6 <-> IOM12E 0a/IOM12G 0a
 +

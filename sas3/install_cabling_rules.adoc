@@ -11,7 +11,7 @@ summary: "Disk shelves with IOM12/IOM12B modules can be cabled in HA pair and si
 [.lead]
 Disk shelves with IOM12/IOM12B modules can be cabled in HA pair and single-controller configurations (for supported platforms) by applying the SAS cabling rules: configuration rules, controller slot numbering rules, shelf-to-shelf connection rules, controller-to-stack connection rules, and if applicable, mini-SAS HD SAS optical cable rules.
 
-NOTE: The SAS cabling rules regarding controller slot numbering rules, shelf-to-shelf connection rules, and controller-to-stack connection rules described in this guide are the same rules that apply to all SAS disk shelves, whether they have IOM12/IOM12B, IOM6, or IOM3 modules. However, the information in this guide is specific to the unique characteristics of disk shelves with IOM12 modules and their use in supported configurations.
+NOTE: The SAS cabling rules regarding controller slot numbering rules, shelf-to-shelf connection rules, and controller-to-stack connection rules described in this guide are the same rules that apply to all SAS disk shelves, whether they have IOM12/IOM12B, IOM6, or IOM3 modules. However, the information in this guide is specific to the unique characteristics of disk shelves with IOM12/IOM12B modules and their use in supported configurations.
 
 The SAS cabling rules regarding configuration rules and mini-SAS HD SAS optical cable rules described in this guide are specific to disk shelves with IOM12/IOM12B modules.
 
@@ -48,7 +48,7 @@ Information about the FAS2800 connectivity can be found in the <<Tri-path HA con
 
 [NOTE]
 ====
-For FAS2800 HA pairs, although the cabling to external shelves is single-path HA, because of each controller's internal connection of port 0c to its partner controller, the HA pair configuration is multipath HA. 
+For FAS2800 HA pairs, although the cabling to external shelves is single-path HA, because of each controller's internal connection of port 0b to its local expander (IOM12G) and port 0c to its partner’s expander, the HA pair configuration is multipath HA.
 ====
 
 * Single-controller configurations must be cabled as multipath or quad-path configurations, with the following exceptions:
@@ -81,8 +81,9 @@ When you have more than one disk shelf in a stack of disk shelves, they connect 
 
 === Standard shelf-to-shelf connectivity
 
-* Standard shelf-to-shelf connectivity is used in multipath HA, multipath, single-path HA, and single-path configurations.
-* Standard shelf-to-shelf connectivity is what is being used in existing SAS storage configurations with IOM3 and IOM6 modules: one cable connection is needed between disk shelves in each domain--domain A (IOM A) and domain B (IOM B).
+* Standard shelf-to-shelf connectivity is used in any stack of disk shelves with more than one disk shelf.
++
+One cable connection is needed between disk shelves in each domain--domain A (IOM A) and domain B (IOM B).
 * Best practice is to use IOM ports 3 and 1 for standard shelf-to-shelf connectivity.
 +
 From the logical first shelf to the logical last shelf in a stack, you connect IOM port 3 to the next shelf's IOM port 1 in domain A and then domain B.
