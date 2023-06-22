@@ -26,21 +26,21 @@ image::../media/drw_fas2600_cable_color_key.png[]
 
 The following example shows that no cabling is needed to acheive multipath HA connectivity:
 
-image::../media/IEOPS-954, drw_fas2800_noshelf_mpha.svg[width=500px]
+image::../media/drw_fas2800_noshelf_mpha_IEOPS-954.svg[width=500px]
 
 == FAS2800 platform in a tri-path HA configuration with no external shelves
 
 The following cabling example shows required cabling between the two controllers to achieve tri-path connectivity:
 
-image::../media/IEOPS-955, drw_fas2800_noshelf_tpha.svg[width=500px]
+image::../media/drw_fas2800_noshelf_tpha_IEOPS-955.svg[width=500px]
 
 == FAS2800 platform in a tri-path HA configuration with one multi-shelf stack
 
 The following worksheet and cabling example uses port pair 0a/0b1:
 
-image::../media/IEOPS-948, drw_fas2800_worksheet.svg[width=530px]
+image::../media/drw_fas2800_worksheet_IEOPS-948.svg[width=530px]
 
-image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=520px]
+image::../media/drw_fas2800_withshelves_tpha_IEOPS-949.svg[width=520px]
 
 == Platforms with internal storage in a multipath HA configuration with one multi-shelf stack
 
