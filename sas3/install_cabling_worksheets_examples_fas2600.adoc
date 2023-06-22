@@ -16,7 +16,7 @@ NOTE: This information does not apply to FAS25XX platforms.
 * If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about supported configurations, shelf-to-shelf connectivity, and controller-to-shelf connectivity.
 * Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller 0b port connections from controller 0a port connections.
 +
-image::../media/IEOPS-947, drw_fas2600_controller_to_stack_cable_type_key.svg[width=440px]
+image::../media/drw_fas2600_controller_to_stack_cable_type_key_IEOPS-947.svg[width=440px]
 
 * Cabling examples show controller-to-stack connections and shelf-to-shelf connections in two different colors to distinguish connectivity through IOM A (domain A) and IOM B (domain B).
 +
