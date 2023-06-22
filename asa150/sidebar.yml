@@ -16,7 +16,7 @@ entries:
       pdf-filename: ASA A150 Maintain
       entries:
       - title: Overview
-        url: /asa150/index.html
+        url: /asa150/maintain-overview.html
       - title: Boot media
         pdf-filename: ASA A150 Boot Media
         entries:

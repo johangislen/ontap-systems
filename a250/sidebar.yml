@@ -16,7 +16,7 @@ entries:
     pdf-filename: AFF A250 Maintain
     entries:
     - title: Overview
-      url: /a250/index.html
+      url: /a250/maintain-overview.html
     # START boot media replacement
     - title: Boot media
       pdf-filename: AFF A250 Boot Media

@@ -16,7 +16,7 @@ entries:
     pdf-filename: AFF A900 Maintain
     entries:
     - title: Overview
-      url: /a900/index.html
+      url: /a900/maintain-overview.html
       # START boot media
     - title: Boot media
       pdf-filename: AFF A900 Boot Media

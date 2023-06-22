@@ -16,6 +16,8 @@ entries:
   - title: Maintain
     pdf-filename: AFF C400 Maintain
     entries:
+    - title: Overview
+      url: /c400/maintain-overview.html
     - title: Boot media
       pdf-filename: AFF C400 Boot Media
       entries:

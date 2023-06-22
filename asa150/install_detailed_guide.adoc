@@ -10,7 +10,7 @@ summary: "This guide gives detailed step-by-step instructions for installing a t
 
 [.lead]
 
-Learn how to install your AFF A150 system.
+Learn how to install your ASA A150 system.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
 

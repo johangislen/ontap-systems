@@ -16,7 +16,7 @@ entries:
    pdf-filename: ASA A800 Maintain
    entries:
    - title: Overview
-     url: /asa800/index.html
+     url: /asa800/maintain-overview.html
       # START boot media
    - title: Boot media
      pdf-filename: ASA A800 Boot Media

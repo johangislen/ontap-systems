@@ -22,15 +22,15 @@ indexpage:
     - title: Maintain your system
       links:
         - title: AFF C150
-          url: ../c150/index.html
+          url: ../c150/maintain-overview.html
         - title: AFF C250
-          url: ../c250/index.html
+          url: ../c250/maintain-overview.html
         - title: AFF C400
-          url: ../c400/index.html
+          url: ../c400/maintain-overview.html
         - title: AFF C800
-          url: ../c800/index.html
+          url: ../c800/maintain-overview.html
         - title: AFF C900
-          url: ../c900/index.html
+          url: ../c900/maintain-overview.html
     - title: Supported switches
       links:
         - title: Broadcom-supported BES-53248
@@ -44,5 +44,5 @@ indexpage:
         - title: System hardware upgrade
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
         - title: ONTAP software upgrade
-          url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
+          url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
     

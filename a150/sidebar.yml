@@ -16,7 +16,7 @@ entries:
       pdf-filename: AFF A150 Maintain
       entries:
       - title: Overview
-        url: /a150/index.html
+        url: /a150/maintain-overview.html
       - title: Boot media
         pdf-filename: AFF A150 Boot Media
         entries:

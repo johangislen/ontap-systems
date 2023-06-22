@@ -26,19 +26,19 @@ indexpage:
     - title: Maintain your system
       links:
         - title: AFF A150
-          url: ../a150/index.html
+          url: ../a150/maintain-overview.html
         - title: AFF A200
-          url: ../a200/index.html
+          url: ../a200/maintain-overview.html
         - title: AFF A250
-          url: ../a250/index.html
+          url: ../a250/maintain-overview.html
         - title: AFF A400
-          url: ../a400/index.html
+          url: ../a400/maintain-overview.html
         - title: AFF A700
-          url: ../a700/index.html
+          url: ../a700/maintain-overview.html
         - title: AFF A800
-          url: ../a800/index.html
+          url: ../a800/maintain-overview.html
         - title: AFF A900
-          url: ../a900/index.html
+          url: ../a900/maintain-overview.html
     - title: Supported switches
       links:
         - title: Broadcom-supported BES-53248
@@ -52,7 +52,7 @@ indexpage:
         - title: System hardware upgrade
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
         - title: ONTAP software upgrade
-          url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
+          url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
         - title: Replace internal disk drive (video)
           url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
     
