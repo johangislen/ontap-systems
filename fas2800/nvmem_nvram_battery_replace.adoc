@@ -57,7 +57,7 @@ NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you
 This typically occurs during an uncontrolled shutdown after ONTAP has successfully booted.
 . Locate the NVMEM battery in the controller module.
 +
-video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV batery"]
+video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV battery"]
 +
 image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
 +
@@ -128,7 +128,7 @@ You can safely respond `y` to these prompts.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 6: Return the failed part to NetApp
 

@@ -8,7 +8,7 @@ summary: "You must verify the HA state of the chassis and run System-Level diagn
 :icons: font
 :imagesdir: ../media/
 
-Verify the HA state of the chassis and run diagnostics, switch back aggregates, and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
+Verify the HA state of the chassis bring up the system,and return the failed part to NetApp, as described in the RMA instructions shipped with the kit.
 
 == Step 1: Verify and set the HA state of the chassis
 
@@ -19,27 +19,35 @@ You must verify the HA state of the chassis, and, if necessary, update the state
 The HA state should be the same for all components.
 
 . If the displayed system state for the chassis does not match your system configuration:
- .. Set the HA state for the chassis based on the system's existing configuration: `ha-config modify chassis _HA-state_`
+ .. Set the HA state for the chassis based on the system's existing configuration: `ha-config modify chassis _ha-state_`
 +
 The value for HA-state can be one of the following:
 
 *** `ha`
-*** `mcc`
-*** `mcc-2n`
-*** `mccip`
-
+*** `non-ha`
  .. Confirm that the setting has changed: `ha-config show`
 . If you have not already done so, recable the rest of your system.
 . Exit Maintenance mode: `halt`.    The LOADER prompt appears.
 . Boot the controller modules.
 
-== Step 2: Restore automatic giveback and AutSupport
+== Step 2: Bring up the system
 
-Restore automatic giveback and AutoSupport if they have been disabled.
+. If you have not done so, plug the power cables back into the PSUs.
+. Turn on the PSUs by toggling the rocker switched to *ON*, and wait for the controllers to power up completely.
+. Check the front and the back of the chassis and controllers for any fault lights after power up. 
+. Connect to the SP or BMC IP address of the nodes via SSH. This will be the same address used to shut down the nodes.
+. Perform additional health checks as described in https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP[How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP^]
+. Turn AutoSupport back on (end the maintenance window message):
+`system node autosupport invoke -node * -type all -message MAINT=end`
 
-. Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. If an  Autosupport maintenance window wa triggered, end it by using the  `system node autosupport invoke -node * -type all -message MAINT=END`
+====
+NOTE: As a best practice, you should do the following:
 
-== Step 4: Return the failed part to NetApp
+* Resolve any https://activeiq.netapp.com/[Active IQ Wellness Alerts and Risks^] (Active IQ will take time to process post-power up AutoSupports - expect a delay in results)
+* Run https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor[Active IQ Config Advisor^]
+* Check system health using https://kb.netapp.com/onprem/ontap/os/How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP[How_to_perform_a_cluster_health_check_with_a_script_in_ONTAP^]
+====
+
+== Step 3: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]

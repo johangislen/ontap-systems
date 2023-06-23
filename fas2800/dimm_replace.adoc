@@ -59,7 +59,7 @@ Controller module cover release button
 [.lead]
 Locate the DIMM inside the controller, remove it, and replace it.
 
-NOTE: Before replacing a DIMM, you need to unplugg the NVMEM battery from the controller module.
+NOTE: Before replacing a DIMM, you need to unplug the NVMEM battery from the controller module.
 
 .Steps
 . If you are not already grounded, properly ground yourself.
@@ -174,7 +174,7 @@ You can safely respond `y` to these prompts.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore Autosupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
 
 == Step 6: Return the failed part to NetApp
 

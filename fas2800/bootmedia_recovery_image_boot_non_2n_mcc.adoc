@@ -80,6 +80,6 @@ a|
 If any interfaces are listed as "false", revert those interfaces back to their home port using the `net int revert -vserver _vserver_name_ -lif _lif_name_` command.
 
 . Move the console cable to the repaired controller and run the `version -v` command to check the ONTAP versions.
-. If you are not using storage encryption, restore automatic giveback and Autosupport:
+. If you are not using storage encryption, restore automatic giveback and AutoSupport:
 .. Restore automatic giveback if you disabled it by using the `storage failover modify -node local -auto-giveback true` command.
-.. If an Autosupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
+.. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.

@@ -2,17 +2,17 @@
 permalink: fas2800/chassis-replace-move-hardware.html
 sidebar: sidebar
 keywords: fas2800, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap
-summary: "Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the new chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the new chassis of the same model as the impaired chassis."
+summary: "Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the replacement chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the replacement chassis of the same model as the impaired chassis."
 ---
 = Move and replace hardware - FAS2800
 :icons: font
 :imagesdir: ../media/
 
-Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the new chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the new chassis of the same model as the impaired chassis.
+Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the replacement chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the replacement chassis of the same model as the impaired chassis.
 
 == Step 1: Move a power supply
 
-Moving out a power supply when replacing a chassis involves turning off, disconnecting, and removing the power supply from the old chassis and installing and connecting it on the replacement chassis.
+Moving out a power supply when replacing a chassis involves turning off, disconnecting, and removing the power supply from the impaired chassis and installing and connecting it on the replacement chassis.
 
 . If you are not already grounded, properly ground yourself.
 . Turn off the power supply and disconnect the power cables:
@@ -39,7 +39,7 @@ NOTE: Only connect the power cable to the power supply. Do not connect the power
 
 == Step 2: Remove the controller module
 
-Remove the controller module or modules from the old chassis.
+Remove the controller module or modules from the impaired chassis.
 
 . Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
 +
@@ -53,9 +53,9 @@ image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 . Set the controller module aside in a safe place.
 . Repeat these steps for the second controller module in the chassis.
 
-== Step 3: Move drives to the new chassis
+== Step 3: Move drives to the replacement chassis
 
-You need to move the drives from each bay opening in the old chassis to the same bay opening in the new chassis.
+Move the drives from each drive bay opening in the impaired chassis to the same bay opening in the replacement chassis.
 
 . Gently remove the bezel from the front of the system.
 . Remove the drives:
@@ -68,7 +68,7 @@ NOTE: When removing a drive, always use two hands to support its weight.
 +
 NOTE: Drives are fragile. Handle them as little as possible to prevent damage to them.
 
-. Align the drive from the old chassis with the same bay opening in the new chassis.
+. Align the drive from the impaired chassis with the same bay opening in the replacement chassis.
 . Gently push the drive into the chassis as far as it will go.
 +
 The cam handle engages and begins to rotate to the closed position.
@@ -84,16 +84,16 @@ Be sure to close the cam handle slowly so that it aligns correctly with the fron
 Remove the existing chassis from the equipment rack or system cabinet and install the replacement chassis in the equipment rack or system cabinet.
 
 . Remove the screws from the chassis mount points.
-. With the help of two or three people, slide the old chassis off the rack rails in a system cabinet or _L_ brackets in an equipment rack, and then set it aside.
+. With the help of two or three people, slide the impaired chassis off the rack rails in a system cabinet or _L_ brackets in an equipment rack, and then set it aside.
 . If you are not already grounded, properly ground yourself.
 . Using two or three people, install the replacement chassis into the equipment rack or system cabinet by guiding the chassis onto the rack rails in a system cabinet or _L_ brackets in an equipment rack.
 . Slide the chassis all the way into the equipment rack or system cabinet.
-. Secure the front of the chassis to the equipment rack or system cabinet, using the screws you removed from the old chassis.
+. Secure the front of the chassis to the equipment rack or system cabinet, using the screws you removed from the impaired chassis.
 . If you have not already done so, install the bezel.
 
 == Step 5: Install the controller
 
-After you install the controller module and any other components into the new chassis, boot it to a state where you can run the interconnect diagnostic test.
+Install the controller module and any other components into the replacement chassis, boot it tto Maintenance mode.
 
 For HA pairs with two controller modules in the same chassis, the sequence in which you install the controller module is especially important because it attempts to reboot as soon as you completely seat it in the chassis.
 
@@ -102,7 +102,7 @@ For HA pairs with two controller modules in the same chassis, the sequence in wh
 NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
 
 . Recable the console to the controller module, and then reconnect the management port.
-. Repeat the preceding steps for the second controller in the new chassis.
+. Repeat the preceding steps for the second controller in the replacement chassis.
 . Complete the installation of the controller module:
 .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +
@@ -110,7 +110,7 @@ NOTE: Do not use excessive force when sliding the controller module into the cha
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
- .. Repeat the preceding steps for the second controller module in the new chassis.
+ .. Repeat the preceding steps for the second controller module in the replacement chassis.
 
 . Connect the power supplies to different power sources, and then turn them on.
 . Boot each controller to Maintenance mode:
