@@ -9,28 +9,28 @@ indexpage:
           url: https://www.netapp.com/data-storage/fas/
     - title: Install and setup
       links:
-        - title: ASA A150
-          url: ../asa150/install-setup.html
-        - title: ASA A250
-          url: ../asa250/install-setup.html
-        - title: ASA A400
-          url: ../asa400/install-setup.html
-        - title: ASA A800
-          url: ../asa800/install-setup.html
-        - title: ASA A900
-          url: ../asa900/install_setup.html
+        - title: FAS500f
+          url: ../fas500f/install-setup.html
+        - title: FAS2700
+          url: ../fas2700/install-setup.html
+        - title: FAS8300 and FAS8700
+          url: ../fas8300/install-setup.html
+        - title: FAS9000
+          url: ../fas9000/install-setup.html
+        - title: FAS9500
+          url: ../fas9500/install_setup.html
     - title: Maintain your system
       links:
-        - title: ASA A150
-          url: ../asa150/index.html
-        - title: ASA A250
-          url: ../asa250/index.html
-        - title: ASA A400
-          url: ../asa400/index.html
-        - title: ASA A800
-          url: ../asa800/index.html
-        - title: ASA A900
-          url: ../asa900/index.html
+        - title: FAS500f
+          url: ../fas500f/maintain-overview.html
+        - title: FAS2700
+          url: ../fas2700/maintain-overview.html
+        - title: FAS8300 and FAS8700
+          url: ../fas8300/maintain-overview.html
+        - title: FAS9000
+          url: ../fas9000/maintain-overview.html
+        - title: FAS9500
+          url: ../fas9500/maintain-overview.html
     - title: Supported switches
       links:
         - title: Broadcom-supported BES-53248
@@ -44,5 +44,7 @@ indexpage:
         - title: System hardware upgrade
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
         - title: ONTAP software upgrade
-          url: https://docs.netapp.com/us-en/ontap/upgrade/index.html
+          url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
+        - title: Replace internal disk drive (video)
+          url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
     
