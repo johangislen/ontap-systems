@@ -16,7 +16,8 @@ entries:
   - title: Maintain
     pdf-filename: FAS9500 Maintain
     entries:
-# END Add I/O module
+    - title: Overview
+      url: /fas9500/maintain-overview.html
       # START boot media
     - title: Boot media
       pdf-filename: FAS9500 Boot Media
