@@ -58,7 +58,7 @@ The location LED on the operator display panel and both NSM modules illuminate w
 
 Change...The following illustration is of a DS224C disk shelf operator display panel with the end cap on:
 
-image::../media/drw_opd.gif[]
+image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
 == NSM module LEDs
 
