@@ -1,0 +1,14 @@
+---
+permalink: asa-c250/controller-replace-recable-reassign-disks.html
+sidebar: sidebar
+keywords: asa c250, how to recable the system, how to reassign disks
+summary: You must recable the storage and confirm disk reassignment.
+---
+= Recable the system and reassign disks - ASA C250
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/250_controller-replace-recable-reassign-disks.adoc[]
+
