@@ -9,6 +9,7 @@ summary: Prior to shutting down the impaired controller and checking the status 
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/encryption_steps_before_shutdown.adoc[]
 
  ** If <lno-DARE> is not displayed in the command output, and the system is running ONTAP 9.6 or later, go to the next section.

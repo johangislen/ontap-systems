@@ -9,4 +9,5 @@ summary: "To replace the chassis, you must shutdown the controllers."
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/shutdown_chassis.adoc[]

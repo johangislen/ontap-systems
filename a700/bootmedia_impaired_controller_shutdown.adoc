@@ -4,11 +4,14 @@ sidebar: sidebar
 keywords: aff a700, fas9000, shut, down, impaired, controller, take, over
 summary: "You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration."
 ---
-= Shut down the impaired controller - AFF A700 and FAS9000
+= Shut down the impaired controller - AFF A700
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
+
+Shut down or take over the impaired controller using the appropriate procedure for your configuration.
+
 == Option 1: Most systems
 
 include::../_include/shutdown_bootmedia.adoc[]

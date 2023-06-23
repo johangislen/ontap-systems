@@ -9,4 +9,5 @@ summary: You locate the failed boot media in the controller module by removing t
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/250_bootmedia-replace.adoc[]

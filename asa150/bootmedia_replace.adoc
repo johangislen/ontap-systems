@@ -8,11 +8,6 @@ summary: 'You must locate the boot media in the controller and follow the direct
 :icons: font
 :imagesdir: ../media/
 
-To replace the boot media, you must remove the impaired controller module, install the replacement boot media, and transfer the boot image to a USB flash drive.
-
-== Step 1: Remove the controller module
-:icons: font
-:imagesdir: ../media/
-
 [.lead]
+
 include::../_include/150_bootmedia_replace.adoc[]

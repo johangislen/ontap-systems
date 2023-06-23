@@ -9,6 +9,7 @@ summary: "To replace the chassis, you must shutdown the controllers."
 :imagesdir: ../media/
 
 [.lead]
+
 To replace the chassis, you must shutdown the controllers.
 
 == Option 1: Shut down the controllers
