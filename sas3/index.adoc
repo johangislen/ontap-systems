@@ -1,11 +1,9 @@
 ---
-layout: landing-page
-sidebar: sidebar
 permalink: sas3/index.html
-summary: The storage shelf documentation lets you install, setup, and maintain your system.
+sidebar: sidebar
+keywords: SAS shelves
+summary: SAS shelves
 ---
-
-= SAS shelves with IOM12/IOM12B modules
-:hardbreaks:
-:linkattrs:
-:imagesdir: ./media/
+= SAS shelves
+:icons: font
+:imagesdir: ../media/

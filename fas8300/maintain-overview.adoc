@@ -1,10 +1,10 @@
 ---
-permalink: fas2700/maintain-overview.html
+permalink: fas8300/maintain-overview.html
 sidebar: sidebar
-keywords: fas2700 maintenance, maintenance, repairing, repairing fas2700, replace fas2700 components, replace fas2700 components
-summary: Maintain the ASA C800 hardware
+keywords: fas8300 maintenance, maintenance, repairing, repairing fas8300, replace fas8300 components, replace fas8300 components
+summary: Maintain the FAS8330 and FAS8700 hardware
 ---
-= Maintain FAS2700 hardware
+= Maintain FAS8300 and FAs8700 hardware
 :icons: font
 :imagesdir: ../media/
 
