@@ -251,6 +251,7 @@ image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 image::../media/oie_cable_sfp_gbe_copper.svg[width=100px]
 
 IMPORTANT: DO NOT plug in the power cords. 
+
 --
 .Option 2: Cable a switched cluster
 --

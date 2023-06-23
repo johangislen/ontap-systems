@@ -92,15 +92,29 @@ Check the boot media to make sure that it is seated squarely and completely in t
 Install the system image on the replacement boot media using a USB flash drive with the image installed on it. You must restore the var file system during this procedure.
 
 .Before you begin
-* You must have a USB flash drive, formatted to FAT32, with at least 4GB capacity.
+* You must have a USB flash drive, formatted to MBR/FAT32, with at least 4GB capacity.
 * You must have a network connection.
 
 .Steps
 . Download the appropriate image version of ONTAP to the formatted USB flash drive:
 .. Use https://kb.netapp.com/onprem/ontap/dm/Encryption/How_to_determine_if_the_running_ONTAP_version_supports_NetApp_Volume_Encryption_(NVE)[How to determine if the running ONTAP version supports NetApp Volume Encryption (NVE)^] to determine if volume encryption is currently supported.
-** If NVE is supported on the cluster, downlad the image with NetApp Volume Encryption.
+** If NVE is supported on the cluster, download the image with NetApp Volume Encryption.
 ** If NVE is not supported on the cluster, download the image without NetApp Volume Encryption.
 See https://kb.netapp.com/onprem/ontap/os/Which_ONTAP_image_should_I_download%3F_With_or_without_Volume_Encryption%3F[Which ONTAP image should I download? With or without Volume Encryption?^] for more details.
+. Unzip the downloaded image.
++
+NOTE: If you are extracting the contents using Windows, do not use WinZip to extract the netboot image. Use another extraction tool, such as 7-Zip or WinRAR.
++
+There are two folders in the unzipped service image file:
+
+  *** `boot`
+  *** `efi`
+
+ .. Copy the `efi` folder to the top directory on the USB flash drive.
++
+The USB flash drive should have the efi folder and the same Service Image (BIOS) version of what the impaired controller is running.
+
+ .. Remove the USB flash drive from your laptop.
 . Install the controller module:
 .. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
 .. Recable the controller module.
