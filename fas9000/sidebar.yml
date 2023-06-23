@@ -84,7 +84,7 @@ entries:
         url: /fas9000/nvram-module-or-nvram-dimm-replacement.html
       - title: Power supply
         url: /fas9000/power-supply-swap-out.html
-      - title: RTC battery
+      - title: Real-time clock battery
         url: /fas9000/rtc-battery-replace.html
         # START X91148A module
       - title: X91148A module

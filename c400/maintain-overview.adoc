@@ -9,7 +9,7 @@ summary: Maintain the ASA C400 hardware
 :imagesdir: ../media/
 
 [.lead]
-For the ASA C400 storage system, you can perform maintenance procedures on the following components.
+For the AFF C400 storage system, you can perform maintenance procedures on the following components.
 
 == Boot media
 

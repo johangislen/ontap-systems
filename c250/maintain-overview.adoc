@@ -9,7 +9,7 @@ summary: Maintain the ASA C250 hardware
 :imagesdir: ../media/
 
 [.lead]
-For the ASA C250 storage system, you can perform maintenance procedures on the following components.
+For the AFF C250 storage system, you can perform maintenance procedures on the following components.
 
 == Boot media
 

@@ -99,5 +99,5 @@ entries:
     - title: Power supply
       url: /fas9500/power_supply_swap_out.html
       # END Power supply replace
-    - title: RTC battery
+    - title: Real-time clock battery
       url: /fas9500/rtc_battery_replace.html
