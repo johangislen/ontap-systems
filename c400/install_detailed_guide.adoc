@@ -17,22 +17,21 @@ https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documen
 
 == Step 1: Prepare for installation
 
-[.lead]
 To install your system, you need to create an account, register the system, and get license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
 
-You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
-
+* You need to have access to the Hardware Universe for information about site requirements as well as additional information on your configured system. You might also want to have access to the Release Notes for your version of ONTAP for more information about this system.
++
 https://hwu.netapp.com[NetApp Hardware Universe]
-
++
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286[Find the Release Notes for your version of ONTAP 9]
 
-You need to provide the following at your site:
+* You need to provide the following at your site:
 
-* Rack space for the storage system
-* Phillips #2 screwdriver
-* Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
+** Rack space for the storage system
+** Phillips #2 screwdriver
+** Additional networking cables to connect your system to your network switch and laptop or console with a Web browser
 
 .Steps
 . Unpack the contents of all boxes.
@@ -128,7 +127,6 @@ https://library.netapp.com/ecm/ecm_download_file/ECMLP2862613[ONTAP Configuratio
 
 == Step 2: Install the hardware
 
-[.lead]
 You need to install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 . Install the rail kits, as needed.
@@ -146,20 +144,25 @@ image::../media/drw_c400_cable_tray_IEOPS-1208.svg[width=440px]
 
 == Step 3: Cable controllers to your network
 
-[.lead]
-You can cable the controllers to your network by using the two-node switchless cluster method or by using the cluster interconnect network.
+You can cable the controllers to your network by using the two-node switchless cluster method or by using the switched cluster method.
 
-NOTE: If the port labels on the card are not visible, you can identify the ports by checking the card installation orientation (for C400, the PCIe connector socket is on the left side of the card slot), and then look for the card by part number in NetApp Hardware Universe, which shows a graphic of the bezel with the port labels. You can find the card part number using the sysconfig -a command or on the system packing list.
+.About this task
+* If the port labels on the card are not visible, you can identify the ports by checking the card installation orientation (for C400, the PCIe connector socket is on the left side of the card slot), and then look for the card by part number in NetApp Hardware Universe, which shows a graphic of the bezel with the port labels. You can find the card part number using the sysconfig -a command or on the system packing list.
+* If you are cabling an MetroCluster IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace).
 
-NOTE: If you are cabling an MetroCluster IP configuration, ports e0a/e0b are available for hosting data LIFs (usually in Default IPSpace). 
+// start tabbed area
 
-=== Option 1: Cable a two-node switchless cluster
+[role="tabbed-block"]
+====
 
-[.lead]
-The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches. The cluster interconnect and HA ports are cabled on both controller modules.
+.Option 1: Cable a two-node switchless cluster
+--
+A controller module's cluster interconnect and HA ports are cabled to its partner controller module. The optional data ports, optional NIC cards, and management ports on the controller modules are connected to switches.
 
+.Before you begin
 You must have contacted your network administrator for information about connecting the system to the switches.
 
+.About this task
 Be sure to check the direction of the cable pull-tabs when inserting the cables in the ports. Cable pull-tabs are up for all onboard ports and down for expansion (NIC) cards.
 
 image::../media/oie_cable_pull_tab_up.png[]
@@ -175,13 +178,16 @@ image::../media/drw_c400_TNSC-networking-cabling_IEOPS-1189.svg[width=500px]
 
 . Go to <<Step 4: Cable controllers to drive shelves>> for drive shelf cabling instructions.
 
-=== Option 2: Cable a switched cluster
+--
 
-[.lead]
-The optional data ports, optional NIC cards, mezzanine cards, and management ports on the controller modules are connected to switches. The cluster interconnect and HA ports are cabled on to the cluster/HA switch.
+.Option 2: Cable a switched cluster
+--
+Controller module cluster interconnect and HA ports are cabled to the cluster/HA switch. The optional data ports, optional NIC cards, mezzanine cards, and management ports are connected to switches. 
 
+.Before you begin
 You must have contacted your network administrator for information about connecting the system to the switches.
 
+.About this task
 Be sure to check the direction of the cable pull-tabs when inserting the cables in the ports. Cable pull-tabs are up for all onboard ports and down for expansion (NIC) cards.
 
 image::../media/oie_cable_pull_tab_up.png[]
@@ -197,16 +203,19 @@ image::../media/drw_c400_switched_network_cabling_IEOPS-1190.svg[width=500px]
 
 . Go to <<Step 4: Cable controllers to drive shelves>> for drive shelf cabling instructions.
 
+--
+====
+// end tabbed area
+
 == Step 4: Cable controllers to drive shelves
 
-[.lead]
 The following options show you how to cable one or two NS224 drive shelves to your system.
 
 === Option 1: Cable the controllers to a single drive shelf
 
-[.lead]
 You must cable each controller to the NSM modules on the NS224 drive shelf.
 
+.About this task
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the NS224 are up.
 
 image::../media/oie_cable_pull_tab_up.png[]
@@ -222,9 +231,9 @@ image::../media/drw_c400_one_ns224_shelf_IEOPS-1191.svg[width=500px]
 
 === Option 2: Cable the controllers to two drive shelves
 
-[.lead]
 You must cable each controller to the NSM modules on both NS224 drive shelves.
 
+.About this task
 Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the NS224 are up.
 
 image::../media/oie_cable_pull_tab_up.png[]
@@ -240,12 +249,10 @@ image::../media/drw_c400_two_ns224_shelves_IEOPS-1192.svg[width=500px]
 
 == Step 5: Complete system setup and configuration
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 === Option 1: Completing system setup and configuration if network discovery is enabled
 
-[.lead]
 If you have network discovery enabled on your laptop, you can complete system setup and configuration using automatic cluster discovery.
 
 . Use the following animation to power on and set shelf IDs for one or more drive shelves:
@@ -259,9 +266,9 @@ video::c500e747-30f8-4763-9065-afbf00008e7f[panopto, title="Animation - Set driv
 +
 See your laptop's online help for more information.
 
-. Use the following animation to connect your laptop to the Management switch.
-+
-video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto, title="Animation - Connect your laptop to the Management switch"]
+. Connect your laptop to the Management switch.
+
+image::../media/dwr_laptop_to_switch_only.svg[width=400px]
 
 . Select an ONTAP icon listed to discover:
 +
@@ -299,8 +306,6 @@ https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor]
 
 === Option 2: Completing system setup and configuration if network discovery is not enabled
 
-
-[.lead]
 If network discovery is not enabled on your laptop, you must complete the configuration and setup using this task.
 
 . Cable and configure your laptop or console:
