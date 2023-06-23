@@ -1,15 +1,15 @@
 ---
-permalink: a700/maintain-overview.html
+permalink: fas9500/maintain-overview.html
 sidebar: sidebar
-keywords: aff A700 maintenance, maintenance, repairing A700, repairing aff A700, replace aff A700 components, replace aff A700 components
-summary: Maintain the ASA A700 hardware
+keywords: FAS9500 maintenance, maintenance, repairing FAS9500, repairing aff FAS9500, replace FAS9500 components, replace FAS9500 components
+summary: Maintain the ASA FAS9500 hardware
 ---
-= Maintain AFF A700 hardware
+= Maintain FAS9500 hardware
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For the AFF A700 storage system, you can perform maintenance procedures on the following components.
+For the FAS9500 storage system, you can perform maintenance procedures on the following components.
 
 == Boot media
 
@@ -57,7 +57,3 @@ A power supply provides a redundant power source in a controller shelf.
 == Real-time clock battery
 
 A real time clock battery preserves system date and time information if the power is off. 
-
-== X91148A module
-
-The X91148A module is an I/O module that acts as an intermediary between the controller and various devices or systems that need to exchange data with the controller.

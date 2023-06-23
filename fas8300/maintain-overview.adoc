@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: fas8300 maintenance, maintenance, repairing, repairing fas8300, replace fas8300 components, replace fas8300 components
 summary: Maintain the FAS8330 and FAS8700 hardware
 ---
-= Maintain FAS8300 and FAs8700 hardware
+= Maintain FAS8300 and FAS8700 hardware
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For the FAS2700 storage system, you can perform maintenance procedures on the following components.
+For the FAS8300 and FAS8700 storage systems, you can perform maintenance procedures on the following components.
 
 == Boot media
 
@@ -31,14 +31,23 @@ A controller consists of a board, firmware, and software. It controls the drives
 
 You must replace a DIMM (dual in-line memory module) when a memory mismatch is present, or you have a failed DIMM.
 
-== Drive
+== Fan
 
-A drive is a device that provides the physical storage media for data.
+The fan cools the controller.
 
+== NVDIMM battery
 
-== NVMEM battery
+A NVDIMM battery is responsible for maintaining power to the NVDIMM module.
 
-A battery is included with the controller and preserves cached data if the AC power fails.
+== NVDIMM
+
+ The NVDIMM (non-volatile dual in-line memory module) manages the data transfer from the volatile memory to the non-volatile storage, and maintains data integrity in the event of a power loss or system shutdown. 
+
+== PCIe or Mezzanine card
+
+A PCIe (peripheral component interconnect express) card is an expansion card that plugs into the PCIe slot on the motherboard. 
+
+A Mezzanine card is an expansion card that is designed to be inserted into a specialized slot on the motherboard. 
 
 == Power supply
 

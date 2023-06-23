@@ -16,9 +16,6 @@ entries:
   - title: Maintain
     pdf-filename: FAS9500 Maintain
     entries:
-# START Add I/O module
-    - title: Add I/O module
-      url: /fas9500/add_io_module.html
 # END Add I/O module
       # START boot media
     - title: Boot media
@@ -83,14 +80,18 @@ entries:
       # END fan
       # START I/O module replace
     - title: I/O module
-      url: /fas9500/pci_cards_and_risers_replace.html
+      entries:
+        - title: Replace
+          url: /fas9500/pci_cards_and_risers_replace.html
+        - title: Add
+          url: /fas9500/add_io_module.html
       # END I/O module replace
   # START LED USB
-    - title: LED USB module
+    - title: LED USB
       url: /fas9500/led_module_replace.html
   # END LED USB
       # START NVRAM module and/or NVRAM DIMMs replace
-    - title: NVRAM module and/or NVRAM DIMMs
+    - title: NVRAM
       url: /fas9500/nvram_module_or_nvram_dimm_replacement.html
       # END NVRAM module and/or NVRAM DIMMs replace
       # START Power supply replacement
