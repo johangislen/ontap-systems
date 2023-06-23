@@ -1,5 +1,5 @@
 ---
-permalink: fas9000/bootmedia-impaired-controller-shutdown.html
+permalink: a700/bootmedia-impaired-controller-shutdown.html
 sidebar: sidebar
 keywords: aff a700, fas9000, shut, down, impaired, controller, take, over
 summary: "You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration."

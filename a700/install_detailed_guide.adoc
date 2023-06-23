@@ -1,10 +1,10 @@
 ---
-permalink: fas9000/install-detailed-guide.html
+permalink: a700/install-detailed-guide.html
 sidebar: sidebar
-keywords: aff a700, fas9000, detailed, guide, prepare, install, hardware, two, node, switchless, cluster, cable, controller, ds212c, ds224c, ns224, drive, shelf, complete, system, setup, configuration, network, discovery
+keywords: aff a700, detailed, guide, prepare, install, hardware, two, node, switchless, cluster, cable, controller, ds212c, ds224c, ns224, drive, shelf, complete, system, setup, configuration, network, discovery
 summary: 'This guide gives detailed step-by-step instructions for installing a typical NetApp system.'
 ---
-= Detailed guide - AFF A700 and FAS9000
+= Detailed guide - AFF A700
 :icons: font
 :imagesdir: ../media/
 

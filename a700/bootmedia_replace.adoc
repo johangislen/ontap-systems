@@ -1,10 +1,10 @@
 ---
-permalink: fas9000/bootmedia-replace.html
+permalink: a700/bootmedia-replace.html
 sidebar: sidebar
 keywords: aff a700, fas9000, open, controller, module, system, access, component
 summary: "To access components inside the controller, you must first remove the controller module from the system and then remove the cover on the controller module."
 ---
-= Replace the boot media - AFF A700 and FAS9000
+= Replace the boot media - AFF A700
 :icons: font
 :imagesdir: ../media/
 
