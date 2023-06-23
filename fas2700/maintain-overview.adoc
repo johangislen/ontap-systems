@@ -1,21 +1,26 @@
 ---
-permalink: c250/maintain-overview.html
+permalink: fas2700/maintain-overview.html
 sidebar: sidebar
-keywords: aff C250 maintenance, maintenance, repairing C250, repairing aff C250, replace aff C250 components, replace aff C250 components
-summary: Maintain the ASA C250 hardware
+keywords: fas2700 maintenance, maintenance, repairing, repairing fas2700, replace fas2700 components, replace fas2700 components
+summary: Maintain the ASA C800 hardware
 ---
-= Maintain AFF C250 hardware
+= Maintain FAS2700 hardware
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For the ASA C250 storage system, you can perform maintenance procedures on the following components.
+For the FAS2700 storage system, you can perform maintenance procedures on the following components.
 
-== Boot media
+== Boot media link
 
 The boot media stores a primary and secondary set of boot image files that the system uses when it boots. 
 
+== Caching module
+
+You must replace the controller’s caching module when your system registers a single AutoSupport (ASUP) message that the module has gone offline.
+
 == Chassis
+
 The chassis is the physical enclosure housing all the controller components such as the controller/CPU unit, power supply, and I/O.
 
 == Controller
@@ -30,11 +35,6 @@ You must replace a DIMM (dual in-line memory module) when a memory mismatch is p
 
 A drive is a device that provides the physical storage media for data.
 
-== Fan
-The fan cools the controller.
-
-== Mezzanine card
-A Mezzanine card is a printed circuit board that plugs directly into another plug-in card. 
 
 == NVMEM battery
 
@@ -44,5 +44,6 @@ A battery is included with the controller and preserves cached data if the AC po
 
 A power supply provides a redundant power source in a controller shelf.
 
-== Real time clock battery
+== Real-time clock battery
+
 A real time clock battery preserves system date and time information if the power is off. 
