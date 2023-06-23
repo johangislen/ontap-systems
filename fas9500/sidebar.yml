@@ -72,7 +72,7 @@ entries:
       url: /fas9500/dimm_replace.html
       # END DIMM replace
       # START DCPM battery replacement
-    - title: Destage control power module
+    - title: DCPM
       url: /fas9500/dcpm_NVRAM11_battery_replace.html
       # END DCPM battery replacement
       # START Fan
