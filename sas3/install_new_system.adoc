@@ -44,9 +44,9 @@ You must set shelf IDs so they are unique within the HA pair or single-controlle
 The labels show the stack number; for example, *Loop or Stack #: 1* and *Loop or Stack #: 2*. Disk shelves that do not contain the root aggregates only show the disk shelf serial number on the labels.
 
 * If at system setup and configuration, you do not configure the system to use automatic disk ownership assignment, you need to manually assign disk ownership.
-* In-band Alternate Control Path (ACP) is automatically enabled.
+* In-band Alternate Control Path (IBACP) is automatically enabled.
 +
-In-band ACP is not supported on single-path HA or single-path configurations.
+IBACP is not supported on single-path HA or single-path configurations.
 
 === Best practice considerations
 

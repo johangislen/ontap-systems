@@ -13,10 +13,10 @@ You can use the completed controller-to-stack cabling worksheets and cabling exa
 
 NOTE: This information does not apply to FAS25XX platforms.
 
-* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about supported configurations, shelf-to-shelf connectivity, and controller-to-shelf connectivity.
-* Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller 0b port connections from controller 0a port connections.
+* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules and concepts] for information about supported configurations, shelf-to-shelf connectivity, and controller-to-shelf connectivity.
+* Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller 0b/0b1 port connections from controller 0a port connections.
 +
-image::../media/IEOPS-947, drw_fas2600_controller_to_stack_cable_type_key.svg[width=440px]
+image::../media/drw_fas2600_controller_to_stack_cable_type_key_IEOPS-947.svg[width=440px]
 
 * Cabling examples show controller-to-stack connections and shelf-to-shelf connections in two different colors to distinguish connectivity through IOM A (domain A) and IOM B (domain B).
 +
@@ -26,31 +26,31 @@ image::../media/drw_fas2600_cable_color_key.png[]
 
 The following example shows that no cabling is needed to acheive multipath HA connectivity:
 
-image::../media/IEOPS-954, drw_fas2800_noshelf_mpha.svg[width=440px]
+image::../media/drw_fas2800_noshelf_mpha_IEOPS-954.svg[width=500px]
 
 == FAS2800 platform in a tri-path HA configuration with no external shelves
 
 The following cabling example shows required cabling between the two controllers to achieve tri-path connectivity:
 
-image::../media/IEOPS-955, drw_fas2800_noshelf_tpha.svg[width=440px]
+image::../media/drw_fas2800_noshelf_tpha_IEOPS-955.svg[width=500px]
 
 == FAS2800 platform in a tri-path HA configuration with one multi-shelf stack
 
 The following worksheet and cabling example uses port pair 0a/0b1:
 
-image::../media/IEOPS-948, drw_fas2800_worksheet.svg[width=440px]
+image::../media/drw_fas2800_worksheet_IEOPS-948.svg[width=530px]
 
-image::../media/IEOPS-949, drw_fas2800_withshelves_tpha.svg[width=440px]
+image::../media/drw_fas2800_withshelves_tpha_IEOPS-949.svg[width=520px]
 
 == Platforms with internal storage in a multipath HA configuration with one multi-shelf stack
 
 The following worksheet and cabling example uses port pair 0a/0b:
 
-NOTE: This section does not apply to FAS2820 or FAS25XX.
+NOTE: This section does not apply to FAS2800 or FAS25XX systems.
 
-image::../media/drw_fas2600_mpha_worksheet.png[]
+image::../media/drw_fas2600_mpha_worksheet_IEOPS-1255.svg[width=500px]
 
-image::../media/drw_fas2600_mpha.png[]
+image::../media/drw_fas2600_mpha_IEOPS-1256.svg[width=500]
 
 == FAS2600 series multipath configuration with one multi-shelf stack
 
