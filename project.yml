@@ -80,6 +80,7 @@ sidebar:
         - title: Run device failure diagnostics
           url: /platform-supplemental/sldiag-device-failure-diagnostics.html
     - title: Drive shelves
+      url: /drive-shelves/index.html
       entries:
         - section: ns224
         - section: sas3
