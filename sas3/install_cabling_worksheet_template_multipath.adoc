@@ -26,7 +26,7 @@ Examples of completed worksheets are provided for multipath HA and multipath con
 A configuration with two quad-port SAS HBAs and two stacks of disk shelves with IOM12/IOM12B modules is used for the worksheet examples.
 
 * The worksheet template allows for up to six stacks; you need to add more columns if needed.
-* If needed, you can refer to the link:install-cabling-rules.html[SAS cabling rules] for information about supported configurations, the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including use of port pairs).
+* If needed, you can refer to the link:install-cabling-rules.html[SAS cabling rules and concepts] for information about supported configurations, the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including use of port pairs).
 * If needed, after you complete the worksheet, you can refer to link:install-cabling-worksheets-how-to-read-multipath.html[How to read a worksheet to cable controller-to-stack connections for multipathed connectivity]
 
 image::../media/drw_worksheet_mpha_template.gif[]

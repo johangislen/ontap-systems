@@ -1,10 +1,10 @@
 ---
 permalink: sas3/install-cabling-rules.html
 sidebar: sidebar
-keywords: disk, shelves, shelf, iom12, module, single-controller, configuration, support, platform, sas, cabling, cable, rule, controller, shelf-to-shelf, connection, rule, controller-to-stack, mini-sas, hd, optical, cable, rule, sas cabling rules, iom12b
+keywords: disk, shelves, shelf, iom12, module, single-controller, configuration, support, platform, sas, cabling, cable, rule, controller, shelf-to-shelf, connection, rule, controller-to-stack, mini-sas, hd, optical, cable, rule, sas cabling rules, iom12b, concepts
 summary: "Disk shelves with IOM12/IOM12B modules can be cabled in HA pair and single-controller configurations (for supported platforms)."
 ---
-= SAS cabling rules - shelves with IOM12/IOM12B modules
+= SAS cabling rules and concepts - shelves with IOM12/IOM12B modules
 :icons: font
 :imagesdir: ../media/
 

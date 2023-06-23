@@ -13,7 +13,7 @@ You can use the controller-to-stack cabling worksheets and cabling examples to c
 
 NOTE: This information applies to platforms without internal storage.
 
-* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about supported configurations, the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
+* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules and concepts] for information about supported configurations, the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
 * If needed, you can refer to link:install-cabling-worksheets-how-to-read-multipath.html[How to read a worksheet to cable controller-to-stack connections for multipathed connectivity].
 * Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller A and C port connections from controller B and D port connections.
 +

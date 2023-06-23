@@ -13,8 +13,8 @@ You can use the completed controller-to-stack cabling worksheets and cabling exa
 
 NOTE: This information does not apply to FAS25XX platforms.
 
-* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about supported configurations, shelf-to-shelf connectivity, and controller-to-shelf connectivity.
-* Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller 0b port connections from controller 0a port connections.
+* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules and concepts] for information about supported configurations, shelf-to-shelf connectivity, and controller-to-shelf connectivity.
+* Cabling examples show controller-to-stack cables as solid or dashed to distinguish controller 0b/0b1 port connections from controller 0a port connections.
 +
 image::../media/drw_fas2600_controller_to_stack_cable_type_key_IEOPS-947.svg[width=440px]
 
