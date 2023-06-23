@@ -4,7 +4,7 @@ indexpage:
     - title: Install and setup
       links:
         - title: AFF A220
-          url: ../a220/install_setup.html
+          url: ../a220/install-setup.html
         - title: AFF A300
           url: ../a300/install-setup.html
         - title: AFF A320
