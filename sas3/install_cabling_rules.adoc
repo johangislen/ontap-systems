@@ -234,7 +234,7 @@ The following shows the controller's internal connections and external cabling t
 
 image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[width=440px]
 
-The FAS2800 external SAS ports: 
+Test The FAS2800 external SAS ports: 
 
 * The 0a port is from the internal HBA (like other platforms with an internal shelf).
 * The 0b1 port is from the internal shelf (like the 0b ports on other platforms with an internal shelf).
