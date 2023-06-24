@@ -20,12 +20,10 @@ video::6c035199-9b79-494b-9c65-af9a015ffaf0[panopto, title="Animation - Replace 
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 include::../_include/shutdown_no_mcc.adoc[]
 
 == Step 2: Remove controller module
 
-[.lead]
 Remove the controller module from the system and then remove the controller module cover.
 
 .Steps
@@ -56,7 +54,6 @@ Controller module cover release button
 
 == Step 3: Replace the DIMMs
 
-[.lead]
 Locate the DIMM inside the controller, remove it, and replace it.
 
 NOTE: Before replacing a DIMM, you need to unplug the NVMEM battery from the controller module.
@@ -135,7 +132,6 @@ Make sure that the plug locks down into the battery power socket on the motherbo
 
 == Step 4: Reinstall the controller module
 
-[.lead]
 Reinstall the controller module into the chassis.
 
 .Steps
@@ -170,11 +166,10 @@ You can safely respond `y` to these prompts.
 
 == Step 5: Restore automatic giveback and AutSupport
 
-[.lead]
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
 
 == Step 6: Return the failed part to NetApp
 

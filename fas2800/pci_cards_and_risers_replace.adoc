@@ -39,6 +39,7 @@ image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 . Turn the controller module over and place it on a flat, stable surface.
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
+
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
 
 [cols="1,3"]
@@ -60,6 +61,7 @@ Replace the mezzanine card.
 +
 image::../media/drw_2850_replace_HIC_IEOPS-700.svg[width=500px]
 
++
 [cols="1,3"]
 |===
 
@@ -75,12 +77,10 @@ PCIe mezzanine card
 |===
 
 .. Remove the mezzanine card bezel by sliding it straight out from thr controller module.
-.. Loosen the thumbscrews on the mezzanine card.  
+.. Loosen the thumbscrews on the mezzanine card and lift the mezzanine card straight up.  
 +
 NOTE: You can loosen the thumbscrews with your fingers or a screwdriver. If you use your fingers, you might need to rotate the NV battery up for better finger purchase on the thumbscrew next to it.
 +
-.. Lift the mezzanine card straight up.  
-
 . Reinstall the mezzanine card:
 .. Align the socket on the replacement mezzanine card plug with the socket on the motherboard, and then gently seat the card squarely into the socket.
 .. Tighten the three thumbscrews on the mezzanine card.
