@@ -113,7 +113,7 @@ The controller begins to boot as soon as it is seated in the chassis.
  .. Bind the cables to the cable management device with the hook and loop strap.
  . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
- Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
 
 == Step 5: Return the failed part to NetApp
 

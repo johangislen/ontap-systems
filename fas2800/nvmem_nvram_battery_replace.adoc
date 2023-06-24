@@ -128,7 +128,8 @@ You can safely respond `y` to these prompts.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
+
 
 == Step 6: Return the failed part to NetApp
 
