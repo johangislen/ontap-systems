@@ -19,7 +19,7 @@ sidebar:
           url: /whats-new.html
         - title: Get up and running
           url: /get-up-and-run.html
-    - title: AFF A-Series systems
+    - title: AFF A-series systems
       url: /aff-aseries/index.html 
       entries:   
       - section: a150
@@ -29,21 +29,27 @@ sidebar:
       - section: a700
       - section: a800
       - section: a900
-    - title: AFF C-Series systems
+    - title: AFF C-series systems
       url: /aff-cseries/index.html
       entries:
       - section: c190
       - section: c250
       - section: c400
       - section: c800
-    - title: All SAN Array systems
-      url: /all-san/index.html 
+    - title: ASA A-series systems
+      url: /allsan-a-series/index.html
       entries:    
       - section: asa150
       - section: asa250
       - section: asa400
       - section: asa800
       - section: asa900
+    - title: ASA C-series systems
+      url: /allsan-c-series/index.html 
+      entries:    
+      - section: asa-c250
+      - section: asa-c400
+      - section: asa-c800
     - title: FAS systems
       url: /fas/index.html
       entries:
