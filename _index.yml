@@ -1,5 +1,5 @@
 indexpage:
-  lead: NetApp's AFF and FAS storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
+  lead: NetApp's AFF and FAS and All SAN Array storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
   tiles:
     - title: Get started
       links:
@@ -12,14 +12,15 @@ indexpage:
     - title: Storage platforms
       links:
         - title: AFF A-series systems
-          url: /a150/index.html
+          url: /aff-aseries/index.html
         - title: AFF C-series systems
-          url: /a220/index.html
+          url: /aff-cseries/index.html
         - title: ASA A-series systems
           url: /allsan-a-series/index.html
         - title: ASA C-series systems
-          url: /allsan-a-series/index.html
+          url: /allsan-c-series/index.html
         - title: FAS systems
+          url: /fas/index.html
         - title: End-of-availability systems
           url: /endofavail/index.html
     - title: Networking
