@@ -9,14 +9,16 @@ indexpage:
           url: /get-up-and-run.html
         - title: ONTAP Release Notes
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-    - title: AFF/FAS platforms
+    - title: AFF, ASA and FAS platforms
       links:
-        - title: AFF A-Series systems
+        - title: AFF A-series systems
           url: /a150/index.html
-        - title: AFF C-Series systems
+        - title: AFF C-series systems
           url: /a220/index.html
-        - title: All SAN systems
-          url: /all-san/index.html
+        - title: ASA A-series systems
+          url: /allsan-a-series/index.html
+        - title: ASA C-series systems
+          url: /allsan-a-series/index.html
         - title: FAS systems
         - title: End-of-availability systems
           url: /endofavail/index.html
