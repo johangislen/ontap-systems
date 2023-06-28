@@ -180,7 +180,7 @@ The DIMM will rotate up a little.
 +
 NOTE: Carefully hold the DIMM by the edges to avoid pressure on the components on the DIMM circuit board.
 . Verify that the NVMEM battery is not plugged into the replacement controller module.
-. Install the DIMMs in the replacement controller in the same place they were in the failed controller:
+. Install the DIMMs in the replacement controller in the same place they were in the impaired controller:
 .. Push carefully, but firmly, on the top edge of the DIMM until the ejector tabs snap into place over the notches at the ends of the DIMM.
 +
 The DIMM fits tightly in the slot, but should go in easily. If not, realign the DIMM with the slot and reinsert it.
@@ -193,7 +193,7 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 Remove the caching module from the impaired controller module install it into replacement controller module.
 
-image::../media/drw_2850_replace_caching_module_IEOPS-697.svg[width=500px]
+image::../media/drw_2850_replace_caching module_IEOPS-697.svg[width=500px]
 
 [cols="1,3"]
 |===
