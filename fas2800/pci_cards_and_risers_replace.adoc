@@ -8,7 +8,7 @@ summary: To replace a PCIe or mezzanine card, you must disconnect the cables and
 :icons: font
 :imagesdir: ../media/
 
-
+[.lead]
 Replace the mezzanine card by disconnecting the cables and any SFP and QSFP modules from the card, replace the failed mezzanine card, and then recable the cards.
 
 * You can use this procedure with all versions of ONTAP supported by your system

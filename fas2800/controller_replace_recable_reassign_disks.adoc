@@ -8,7 +8,7 @@ summary: "You must recable the storage and confirm disk reassignment."
 :icons: font
 :imagesdir: ../media/
 
-
+[.lead]
 To complete the replacement procedure and restore your system to full operation, you must recable the storage, confirm disk reassignment, restore the NetApp Storage Encryption configuration (if necessary), and install licenses for the new controller. You must complete a series of tasks before restoring your system to full operation.
 
 == Step 1: Recable the system

@@ -8,6 +8,7 @@ summary: "To replace the controller module hardware, you must remove the impaire
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Replace the impaired controller module hardware by removing the impaired controller, moving FRU components to the replacement controller module, installing the replacement controller module in the chassis, and then booting the replacement controller module.
 
 video::c83a3301-3161-4d65-86e8-af540147576a[panopto, title="Animation - Replace a controller module"]

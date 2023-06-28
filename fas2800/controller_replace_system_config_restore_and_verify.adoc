@@ -8,6 +8,7 @@ summary: "After completing the hardware replacement and booting to Maintenance m
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 After completing the hardware replacement and booting the replacement controller, verify the low-level system configuration of the replacement controller and reconfigure system settings as necessary.
 
 == Step 1: Set and verify system time after replacing the controller
