@@ -173,5 +173,4 @@ Restore automatic giveback and AutoSupport if they have been disabled.
 
 == Step 6: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
