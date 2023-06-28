@@ -9,6 +9,4 @@ summary: You replace the real-time clock (RTC) battery in the controller module 
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_rtc-battery-replace.adoc[]
-

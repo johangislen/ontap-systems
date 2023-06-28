@@ -9,6 +9,4 @@ summary: You must recable the storage and confirm disk reassignment.
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_controller-replace-recable-reassign-disks.adoc[]
-

@@ -9,5 +9,4 @@ summary: The boot media stores a primary and secondary set of system \(boot imag
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_bootmedia-replace-overview.adoc[]
