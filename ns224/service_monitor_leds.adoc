@@ -56,7 +56,7 @@ The system administrator activated this LED function to aid in physically locati
 The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 |===
 
-Change...The following illustration is of a DS224C disk shelf operator display panel with the end cap on:
+The following illustration is of a DS224C disk shelf operator display panel with the end cap on:
 
 image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
@@ -104,7 +104,7 @@ The location LED on the operator display panel and both IOM12/IOM12B modules ill
 |===
 The following illustration is of an NSM module:
 
-image::../media/drw_iom12.gif[]
+image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
 
 == Power supply LEDs
 
