@@ -10,4 +10,4 @@ summary: You must boot the ONTAP image from the USB drive, restore the file syst
 
 [.lead]
 
-include::../_include/bootmedia-recovery-image-boot-non-2n-mcc.adoc[]
+include::../_include/250_bootmedia-recovery-image-boot-non-2n-mcc.adoc[]
