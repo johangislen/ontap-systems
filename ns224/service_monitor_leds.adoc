@@ -76,9 +76,9 @@ Attention
 a|
 Solid amber
 a|
-IOM12/IOM12B module function: An error occurred with the function of the IOM12/IOM12B module.
+NSM module function: An error occurred with the function of the IOM12/IOM12B module.
 
-SAS port function: Less than all four SAS lanes established a link (with either an adapter or another disk shelf).
+NVMe port function: Less than all four SAS lanes established a link (with either an adapter or another disk shelf).
 
 Check event messages to determine corrective action to take.
 
