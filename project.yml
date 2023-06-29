@@ -3,6 +3,7 @@ settings:
   name: "Install and maintain"
   internal:
     pdf_enabled: false
+    lipi_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: true
