@@ -83,7 +83,7 @@ The NVDIMM LED blinks while destaging contents when you halt the system. After t
 
 You can use the following animation, illustration, or the written steps to replace the NVDIMM battery.
 
-video::1f1425a8-5a91-4810-82da-aad9012efa4f[panopto, title="Animation - Replace the NVDIMM battery"]
+video::0521b0f4-8b58-4aa7-aaf2-b03100020356[panopto, title="Animation - Replace the NVDIMM battery"]
 
 image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=500px]
 

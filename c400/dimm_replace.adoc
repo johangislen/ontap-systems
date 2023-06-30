@@ -85,7 +85,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 NOTE: The animation and illustration show empty slots for sockets without DIMMs. These empty sockets are populated with blanks.
 
-video::175c6597-449e-4dc8-8c02-aad9012f08b5[panopto, title="Animation - Replace a system DIMM"]
+video::93025369-2f61-46b1-bd51-b03100040fe6[panopto, title="Animation - Replace a system DIMM"]
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM.png[]
 

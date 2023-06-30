@@ -82,7 +82,7 @@ To replace a PCIe card, you must locate the failed PCIe card, remove the riser t
 
 You can use the following animation, illustration, or the written steps to replace a PCIe card.
 
-video::84339f87-321c-400e-985e-aae10182cd24[panopto, title="Animation - Replace a PCIe card"]
+video::ed42334e-8eb2-48dd-b447-b0300189230f[panopto, title="Animation - Replace a PCIe card"]
 
 image:../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=500px]
 
@@ -117,7 +117,7 @@ The mezzanine card is located under riser number 3 (slots 4 and 5). You must rem
 
 You can use the following animation, illustration, or the written steps to replace the mezzanine card.
 
-video::4e00f5b1-8ca5-4cd6-9881-aadb01578e52[panopto, title="Animation - Replace the mezzanine card"]
+video::e3fd32b6-bdbb-4c53-b666-b030018a5744[panopto, title="Animation - Replace the mezzanine card"]
 
 image::../media/drw_c400_replace-mezz-card_IEOPS-1236.svg[width=500px]
 
