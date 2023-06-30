@@ -26,7 +26,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 The controller module moves slightly out of the chassis.
 +
-image:../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
 |===
 a|
@@ -45,10 +45,10 @@ Make sure that you support the bottom of the controller module as you slide it o
 . Place the controller module on a stable, flat surface.
 . On the replacement controller module, open the air duct and remove the empty risers from the controller module using the animation, illustration, or the written steps:
 +
-video::49053752-e813-4c15-a917-ab190147fa6e[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
-
-image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=500px]
-
+video::018a1c3c-0a26-4f48-bd60-b0300184c147[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
++
+image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=550px]
++
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
  .. Rotate the riser locking latch on the left side of riser 1 up and toward air duct, lift the riser up, and then set it aside.
@@ -60,11 +60,11 @@ You must move the power supply from the impaired controller module to the replac
 
 You can use the following animation, illustration, or the written steps to move the power supplies to the replacement controller module.
 
-video::92060115-1967-475b-b517-aad9012f130c[panopto, title="Animation - Move the power supplies"]
+video::6cac8f5f-dc11-4b1d-9b18-b03001858fda[panopto, title="Animation - Move the power supplies"]
 
 . Remove the power supply:
 +
-image::../media/drw_A400_psu.png[]
+image::../media/drw_c400_psu_IEOPS-1237.svg[width=500px]
 
  .. Rotate the cam handle so that it can be used to pull the power supply out of the chassis.
  .. Press the blue locking tab to release the power supply from the chassis.
@@ -84,9 +84,9 @@ To move the NVDIMM battery from the impaired controller module to the replacemen
 
 You can use the following animation, illustration, or the written steps to move the NVDIMM battery from the impaired controller module to the replacement controller module.
 
-video::94d115b2-b02a-4234-805c-aad9012f204c[panopto, title="Animation - Move the NVDIMM battery"]
+video::d38ef37e-aa0e-46ff-9283-b03001864e0c[panopto, title="Animation - Move the NVDIMM battery"]
 
-image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[width=500px]
+image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=550px]
 
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
@@ -105,9 +105,9 @@ You must locate the boot media, and then follow the directions to remove it from
 
 You can use the following animation, illustration, or the written steps to move the boot media from the impaired controller module to the replacement controller module.
 
-video::2a14099c-85de-4a84-867c-aad9012efac8[panopto, title="Animation - Move the boot media"]
+video::01d3d868-4c8a-4385-b264-b0300186fc58[panopto, title="Animation - Move the boot media"]
 
-image::../media/drw_A400_Replace-boot_media_IEOPS-1007.svg[width=500px]
+image::../media/drw_c400_replace_boot_media_IEOPS-1217.svg[width=550px]
 
 . Locate and remove the boot media from the controller module:
  .. Press the blue button at the end of the boot media until the lip on the boot media clears the blue button.
@@ -130,13 +130,13 @@ You can use the following animations, illustrations, or the written steps to mov
 
 Moving PCIe riser 1 and 2 (left and middle risers):
 
-video::f4ee1d4d-6029-4fe6-a063-aad9012f170b[panopto, title="Animation - Move PCI risers 1 and 2"]
+video::a38898c3-61a2-47bd-9011-b0300183540d[panopto, title="Animation - Move PCI risers 1 and 2"]
 
 Moving the mezzanine card and riser 3 (right riser):
 
-video::b0c3b575-3434-4e00-a421-aad9012f2e9e[panopto, title="Animation - Move the mezzanine card and riser 3"]
+video::54c98658-29a3-423b-ae01-b030018091f5[panopto, title="Animation - Move the mezzanine card and riser 3"]
 
-image::../media/drw_A400_Replace-PCIe-cards_IEOPS-1008.svg[width=500px]
+image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=550px]
 
 . Move PCIe risers one and two from the impaired controller module to the replacement controller module:
  .. Remove any SFP or QSFP modules that might be in the PCIe cards.
@@ -166,7 +166,7 @@ You must have the new controller module ready so that you can move the DIMMs dir
 
 You can use the following animation, illustration, or the written steps to move the DIMMs from the impaired controller module to the replacement controller module.
 
-video::717b52fa-f236-4f3d-b07d-aad9012f51a3[panopto, title="Animation - Move the DIMMs"]
+video::c5c77fd1-b566-467f-a1cd-b0300187de35[panopto, title="Animation - Move the DIMMs"]
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[width=500px]
 

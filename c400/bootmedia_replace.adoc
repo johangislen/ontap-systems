@@ -60,7 +60,7 @@ NOTE: You must log into the NetApp Support Site to display the _Statement of Vol
 
 You can use the following animation, illustration, or the written steps to replace the boot media.
 
-video::e0825a97-c57d-47d7-b87d-aad9012efa12[panopto, title="Animation - Replace the boot media"]
+video::034f21ac-da55-4129-aaaa-b030017e5b49[panopto, title="Animation - Replace the boot media"]
 
 .Steps
 . Open the air duct:

@@ -56,7 +56,7 @@ Leave the cables in the cable management device so that when you reinstall the c
 +
 The controller module moves slightly out of the chassis.
 +
-image::../media/drw_A400_Remove_controller.png[]
+image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
 |===
 a|
@@ -83,9 +83,9 @@ The NVDIMM LED blinks while destaging contents when you halt the system. After t
 
 You can use the following animation, illustration, or the written steps to replace the NVDIMM battery.
 
-video::1f1425a8-5a91-4810-82da-aad9012efa4f[panopto, title="Animation - Replace the NVDIMM battery"]
+video::0521b0f4-8b58-4aa7-aaf2-b03100020356[panopto, title="Animation - Replace the NVDIMM battery"]
 
-image::../media/drw_A400_nvdimm-batt_IEOPS-1004.svg[width=500px]
+image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=500px]
 
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
