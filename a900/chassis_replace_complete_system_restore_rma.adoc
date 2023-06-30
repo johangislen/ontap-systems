@@ -30,7 +30,7 @@ The value for HA-state can be one of the following:
 . Confirm that the setting has changed: `ha-config show`
 . If you have not already done so, recable the rest of your system.
 
-== Step2: Bring up the system
+== Step 2: Bring up the system
 
 . If you have not done so, plug the power cables back into the PSUs.
 . Turn on the PSUs by toggling the rocker switched to *ON*, and wait for the controllers to power up completely.

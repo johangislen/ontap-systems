@@ -13,7 +13,7 @@ You can use this example to guide you through how to read and apply a completed 
 
 .Before you begin
 
-If you have a platform with internal storage, including FAS2600 series, AFF A200, FAS2700 series, AFF A220, and later, use the following (these platforms use a unique worksheet):
+If you have a platform with internal storage, use the following worksheet:
 
 link:install-cabling-worksheets-examples-fas2600.html[Controller-to-stack cabling worksheets and cabling examples for platforms with internal storage]
 
@@ -26,7 +26,7 @@ The configuration used in this example is a multipath HA configuration with two 
 NOTE: When you have more port pairs than you need to cable the stacks in your system, the best practice is to skip port pairs to optimize the SAS ports on your system. By optimizing SAS ports, you optimize your system's performance.
 
 * If you have a single-controller configuration, skip substeps b and d for cabling to a second controller.
-* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
+* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules and concepts] for information about the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
 
 The port pairs are cabled using every other port pair in the worksheet: 1a/2b and 1c/2d.
 
