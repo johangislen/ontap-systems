@@ -8,6 +8,7 @@ summary: "To replace an NVMEM battery in the system, you must remove the control
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module.
 
 All other components in the system must be functioning properly; if not, you must contact technical support.
@@ -128,7 +129,8 @@ You can safely respond `y` to these prompts.
 Restore automatic giveback and AutoSupport if they have been disabled.
 
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
+
 
 == Step 6: Return the failed part to NetApp
 

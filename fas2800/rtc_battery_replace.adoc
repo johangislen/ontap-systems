@@ -57,9 +57,9 @@ NOTE: Note the polarity of the battery as you remove it from the holder. The bat
 . Note the polarity of the RTC battery, and then insert it into the holder by tilting the battery at an angle and pushing down.
 . Visually inspect the battery to make sure that it is completely installed into the holder and that the polarity is correct.
 
-== Step 4: Reinstall the controller module and set time/date after RTC battery replacement
+== Step 4: Reinstall the controller module
 
-After you replace a component within the controller module, you must reinstall the controller module in the system chassis, reset the time and date on the controller, and then boot it.
+Reinstall the controller module and boot it to the LOADER prompt..
 
 . Turn the controller module over and align the end with the opening in the chassis.
 . Gently push the controller module halfway into the system.Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
@@ -75,14 +75,21 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
 
+
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
+
 +
 NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
++
+
+The controller begins to boot as soon as it is seated in the chassis.
 
  .. If you have not already done so, reinstall the cable management device.
  .. Bind the cables to the cable management device with the hook and loop strap.
  .. Reconnect the power cables to the power supplies and to the power sources, and then turn on the power to start the boot process.
  .. Halt the controller at the LOADER prompt.
+
+== Step 5: Set time/date after RTC battery replacement
 . Reset the time and date on the controller:
  .. Check the date and time on the healthy controller with the `show date` command.
  .. At the LOADER prompt on the target controller, check the time and date.
@@ -92,8 +99,8 @@ NOTE: Do not use excessive force when sliding the controller module into the cha
 . At the LOADER prompt, enter `bye` to reinitialize the PCIe cards and other components and let the controller reboot.
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
-. Restore AutoSupport using the `system node autosupport invoke -node * -type all -message MAINT=END`
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
 
-== Step 5: Return the failed part to NetApp
+== Step 6: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]
