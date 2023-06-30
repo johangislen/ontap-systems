@@ -222,9 +222,9 @@ image::../media/drw_fas2600_mpha_domain_example_IEOPS-1172.svg[width=440px]
 
 === Tri-path HA connectivity
 
-Tri-path HA connectivity is available on FAS2800 HA pairs. Tri-path HA connectivity has three paths from each controller to internal and external shelves:
+Tri-path HA connectivity is available on FAS2800 HA pairs. Tri-path HA connectivity has three paths from each controller to internal (IOM12G) and external shelves:
 
-* Each controller’s internal connection of port 0b to its local expander (IOM12G) and port 0c to its partner’s expander gives an HA pair multipath HA connectivity.
+* Each controller’s internal connection of port 0b to its local IOM12G and port 0c to its partner’s IOM12G gives an HA pair multipath HA connectivity.
 
 * The cabling of each controller's external storage ports, 0a and 0b1, gives an HA pair tri-path HA connectivity.
 +
@@ -236,8 +236,8 @@ image::../media/drw_fas2800_concept_tpha_IEOPS-950.svg[width=440px]
 
 The FAS2800 external SAS ports: 
 
-* The 0a port is the HBA port (like other platforms with internal storage).
-* The 0b1 port is from the internal storage (like the 0b ports on other platforms with internal storage).
+* The 0a port is from the internal HBA (like other platforms with an internal shelf).
+* The 0b1 port is from the internal shelf (like the 0b ports on other platforms with an internal shelf).
 * The 0b2 port is not used. It is disabled. If a cable is connected to it, an error message is generated.
 
 image::../media/drw_sas3_ports_on_fas2800_IEOPS-946 (1).svg[width=440px]
