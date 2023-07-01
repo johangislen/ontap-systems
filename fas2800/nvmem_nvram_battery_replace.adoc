@@ -1,0 +1,137 @@
+---
+permalink: fas2800/nvmem-nvram-battery-replace.html
+sidebar: sidebar
+keywords: fas2800, replace, nvmem, battery, shut, down, impaired, controller, controller, system, aggregates, metrocluster, configuration, reinstall
+summary: "To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module."
+---
+= Replace the NVMEM battery - FAS2800
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module.
+
+All other components in the system must be functioning properly; if not, you must contact technical support.
+
+== Step 1: Shut down the impaired controller
+
+include::../_include/shutdown_no_mcc.adoc[]
+
+== Step 2: Remove and open the controller module
+
+Remove and open the controller module.
+
+.Steps
+. If you are not already grounded, properly ground yourself.
+. Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
++
+Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
+
+. Remove and set aside the cable management devices from the left and right sides of the controller module.
++
+. Squeeze the latch on the cam handle until it releases, open the cam handle fully to release the controller module from the midplane, and then, using two hands, pull the controller module out of the chassis.
++
+image::../media/drw_2850_pcm_remove_install_IEOPS-694.svg[width=500px]
+
+. Turn the controller module over and place it on a flat, stable surface.
+. Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
++
+image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
+
+== Step 3: Replace the NVMEM battery
+
+Remove the failed NVMEM battery from the system and replace it with a new NVMEM battery.
+
+.Steps
+. If you are not already grounded, properly ground yourself.
+. Check the NVMEM LED:
+ ** If your system is in an HA configuration, go to the next step.
+ ** If your system is in a stand-alone configuration, cleanly shut down the controller module, and then check the NVRAM LED identified by the NV icon.
++
+image::../media/drw_hw_nvram_icon.svg[width=70px]
++
+NOTE: The NVRAM LED blinks while destaging contents to the flash memory when you halt the system. After the destage is complete, the LED turns off.
+
+  *** If power is lost without a clean shutdown, the NVMEM LED flashes until the destage is complete, and then the LED turns off.
+  *** If the LED is on and power is on, unwritten data is stored on NVMEM.
++
+This typically occurs during an uncontrolled shutdown after ONTAP has successfully booted.
+. Locate the NVMEM battery in the controller module.
++
+video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV battery"]
++
+image::../media/drw_2850_replace_nvbattery_IEOPS-715.svg[width=500px]
++
+[cols="1,3"]
+|===
+
+a|
+image::../media/legend_icon_01.svg[width=30px]
+a|
+Battery release tab
+a|
+image::../media/legend_icon_02.svg[width=30px]
+a|
+Battery power connector
+
+|===
+
+. Remove the failed battery from the controller module:
+.. Press the blue button on the side of the controller module.
+.. Slide the battery up until it clears the holding brackets, and then lift the battery out of the controller module.
+.. Unplug the battery from the controller module
+. Remove the replacement battery from its package.
+Install the replacement battery:
+.. Plug the battery plug back into the socket on the controller module.
++
+Make sure that the plug locks down into the battery socket on the motherboard.  
++
+.. Aligning the battery with the holding brackets on the sheet metal side wall.
+.. Slide the battery pack down until the battery latch engages and clicks into the opening on the side wall.
+. Reinstall the controller module cover and lock it into place.
+
+== Step 4: Reinstall the controller module
+
+After you replace components in the controller module, reinstall it into the chassis.
+
+.Steps
+. If you are not already grounded, properly ground yourself.
+. If you have not already done so, replace the cover on the controller module.
+. Turn the controller module over and align the end with the opening in the chassis.
+. Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
++
+NOTE: Do not completely insert the controller module in the chassis until instructed to do so.
+
+. Recable the system, as needed.
++
+If you removed the media converters (QSFPs or SFPs), remember to reinstall them if you are using fiber optic cables.
+
+. Complete the reinstallation of the controller module:
+ .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
++
+NOTE: Do not use excessive force when sliding the controller module into the chassis to avoid damaging the connectors.
++
+The controller begins to boot as soon as it is seated in the chassis.
+
+ .. If you have not already done so, reinstall the cable management device.
+ .. Bind the cables to the cable management device with the hook and loop strap.
+. Reboot the controller module.  
+
++
+NOTE: During the boot process, you might see the following prompts:
++
+* A prompt warning of a system ID mismatch and asking to override the system ID.
+* A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down.
+You can safely respond `y` to these prompts.
+
+== Step 5: Restore automatic giveback and AutSupport
+
+Restore automatic giveback and AutoSupport if they have been disabled.
+
+. Restore automatic giveback by using the `storage failover modify -node local -auto-giveback true` command.
+. If an AutoSupport maintenance window was triggered, end it by using the `system node autosupport invoke -node * -type all -message MAINT=END` command.
+
+
+== Step 6: Return the failed part to NetApp
+
+include::../_include/complete_rma.adoc[]

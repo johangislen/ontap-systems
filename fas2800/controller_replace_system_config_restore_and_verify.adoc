@@ -1,0 +1,44 @@
+---
+permalink: fas2800/controller-replace-system-config-restore-and-verify.html
+sidebar: sidebar
+keywords: fas2800, restore and verify the system configuration, verify and set the ha state of the controller module, run system-level diagnostics
+summary: "After completing the hardware replacement and booting to Maintenance mode, you verify the low-level system configuration of the replacement controller and reconfigure system settings as necessary."
+---
+= Restore and verify the system configuration - FAS2800
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After completing the hardware replacement and booting the replacement controller, verify the low-level system configuration of the replacement controller and reconfigure system settings as necessary.
+
+== Step 1: Set and verify system time after replacing the controller
+
+include::../_include/set_time_after_controller_rep.adoc[]
+
+== Step 2:  Verify and set the HA state of the controller module
+
+You must verify the `HA` state of the controller module and, if necessary, update the state to match your system configuration.
+
+. In Maintenance mode from the new controller module, verify that all components display the same `HA` state: `ha-config show`
++
+The HA state should be the same for all components.
+
+. If the displayed system state for the controller does not match your system configuration, set the HA state for the replacement controller module: `ha-config modify controller _HA-state_`
++
+The value for HA-state can be one of the following:
+
+*** `ha`
+*** `mcc`
+*** `mcc-2n`
+*** `mccip`
+
+.. Confirm that the setting has changed: `ha-config show`
+. Reboot the controller module.
+
++
+NOTE: During the boot process, you might see the following prompts:
++
+* A prompt warning of a system ID mismatch and asking to override the system ID.
+* A prompt warning that when entering Maintenance mode in an HA configuration you must ensure that the healthy controller remains down.
+You can safely respond `y` to these prompts.
++
