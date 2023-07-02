@@ -28,21 +28,18 @@ a|
 Solid green
 a|
 One or more power supplies are supplying power to the drive shelf.
-.2+|
+a|
 image:../media/drw_sas_fault_icon.png[]
-.2+|
+a|
 Attention
 a|
 Solid amber
 a|
-An error occurred with the function of one of more shelf FRUs.
-
+* An error occurred with the function of one of more shelf FRUs.
++
 Check event messages to determine corrective action to take.
-a|
-Blinking amber
-a|
-The shelf ID is in a pending state.
-
+* The shelf ID is in a pending state.
++
 Power cycle the drive shelf for the shelf ID to take affect.
 a|
 image:../media/drw_sas3_location_icon.gif[]
