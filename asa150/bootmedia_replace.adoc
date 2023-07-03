@@ -9,5 +9,4 @@ summary: 'You must locate the boot media in the controller and follow the direct
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/150_bootmedia_replace.adoc[]

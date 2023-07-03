@@ -9,6 +9,4 @@ summary: "Move the power supplies, hard drives, and controller module or modules
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/150_chassis_replace_move_hardware.adoc[]
-

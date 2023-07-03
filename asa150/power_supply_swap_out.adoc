@@ -9,5 +9,4 @@ summary: 'Swapping out a power supply involves turning off, disconnecting, and r
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/150_power_supply_swap_out.adoc[]
