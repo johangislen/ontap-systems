@@ -15,7 +15,9 @@ You can monitor the health of your drive shelf by understanding the location and
 
 The LEDs on the drive shelf front operator display panel indicate whether your drive shelf is functioning normally or there are problems with the hardware.
 
-The following table describes the three LEDs on the operator display panel:
+The following illustration and table describes the three LEDs on the operator display panel:
+
+image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
 [cols="4*",options="header"]
 |===
@@ -53,101 +55,97 @@ The system administrator activated this LED function to aid in physically locati
 The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 |===
 
-The following illustration is of a DS224C disk shelf operator display panel with the end cap on:
-
-image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
-
 == NSM module LEDs
 
 The LEDs on the NSM module indicate whether the module is functioning normally, whether it is ready for I/O traffic, and whether there are any problems with the hardware.
 
-The following table describes NSM module LEDs associated with the function of the module and the function of each NVMe port on the module.
-
-[cols="4*",options="header"]
-|===
-| LED icon| LED name| State| Description
-a|
-image:../media/drw_sas_fault_icon.png[]
-a|
-Attention
-a|
-Solid amber
-a|
-NSM module function: An error occurred with the function of the IOM12/IOM12B module.
-
-NVMe port function: Less than all four SAS lanes established a link (with either an adapter or another disk shelf).
-
-Check event messages to determine corrective action to take.
-
-a|
-LNK
-a|
-Port link
-a|
-Solid green
-a|
-One or more of the four SAS lanes established a link (with either an adapter or another disk shelf).
-a|
-image:../media/drw_sas3_location_icon.gif[]
-a|
-Location
-a|
-Solid blue
-a|
-The system administrator activated this LED function to aid in physically locating the disk shelf with the failed IOM12/IOM12B module.
-
-The location LED on the operator display panel and both IOM12/IOM12B modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
-
-|===
-The following illustration is of an NSM module:
+The following illustration and table describes NSM module LEDs associated with the function of the module and the function of each NVMe port on the module.
 
 image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
 
-== Power supply LEDs
-
-The LEDs on the power supply indicate whether the power supply is functioning normally or there are hardware problems.
-
-The following table describes the two LEDs on a power supply:
-
 [cols="4*",options="header"]
 |===
-| LED icon| LED name| State| Description
-.2+|
-image:../media/drw_sas_power_icon.png[]
-.2+|
-Power
+| Call out| LED icon & name| State| Description
 a|
-Solid green
+image:../media/legend_icon_01.png[] 
 a|
-The power supply is functioning correctly.
+image:../media/drw_sas3_location_icon.gif[] Location
 a|
-Off
+Solid blue
 a|
-The power supply failed, the AC switch is turned off, the AC power cord is not properly installed, or electricity is not being properly supplied to the power supply.
+The system administrator activated this LED function to aid in physically locating the drive shelf with the failed NSM module.
 
-Check event messages to determine corrective action to take.
-
+The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 a|
-image:../media/drw_sas_fault_icon.png[]
+image:../media/legend_icon_02.png[] 
 a|
-Attention
+image:../media/drw_sas_fault_icon.png[] Attention
 a|
 Solid amber
 a|
-An error occurred with the function of the power supply.
+An error occurred with the function of the NSM module.
 
 Check event messages to determine corrective action to take.
+a|
+image:../media/legend_icon_03.png[]
+a|
+LNK Port link
+a|
+Solid green
+a|
+The port is functioning properly.
+a|
+image:../media/legend_icon_04.png[]
+a|
+image:../media/drw_sas_fault_icon.png[] Attention
+a|
+Solid amber
+a|
+The port has a fault or potential servicing is needed.
 
+Check event messages to determine corrective action to take.
 |===
-The following illustration is of a power supply:
+
+== Power supply LEDs
+
+The LEDs on an AC or DC power supply (PSU) indicate whether the PSU is functioning normally or there are hardware problems.
+
+The following illustration and table describes the bi-colored LED on a PSU. (The illustration is an AC PSU; however, the LED location is the same on the DC PSU):
 
 image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[width=400px]
 
+[cols="3*", options="header"]
+|===
+| Call out| State| Description
+.4+|
+image:../media/legend_icon_01.png[]
+a|
+Solid green
+a|
+The PSU is functioning correctly.
+a|
+Blinking green
+a|
+The PSU or the NSM module is not fully inserted.
+a|
+Solid red
+a|
+The AC or DC power cord is not plugged in but 12V (AC) or -48V (DC) standby is still available???
+a|
+Off
+a|
+The PSU failed, the AC or DC switch is turned off, the AC or DC power cord is not properly installed, or electricity is not being properly supplied to the PSU.
+
+Check event messages to determine corrective action to take.
+|===
+
 == Drive LEDs
 
-The LEDs on a drive indicates whether it is functioning normally or there are problems with the hardware.
+The LEDs on an NVMe drive indicates whether it is functioning normally or there are problems with the hardware.
 
-The following table describes the two LEDs on the drives:
+The following illustration and table describes the two LEDs on the drives:
+
+image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=100px]
 
 [cols="4*",options="header"]
 |===
@@ -177,6 +175,3 @@ Check event messages to determine corrective action to take.
 
 |===
 
-The following illustration is of an NVMe drive:
-
-image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=150px]
