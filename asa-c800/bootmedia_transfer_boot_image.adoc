@@ -9,5 +9,4 @@ summary: "The replacement boot media that you installed is without a boot image 
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/800_bootmedia_transfer_boot_image.adoc[]

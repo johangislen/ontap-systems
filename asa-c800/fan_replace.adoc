@@ -9,5 +9,4 @@ summary: "You must remove the controller module from the chassis when you replac
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/800_fan_replace.adoc[]

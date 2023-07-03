@@ -9,5 +9,4 @@ summary: "To replace a PCIe card, you must disconnect the cables from the cards,
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/800_pci_cards_and_risers_replace.adoc[]
