@@ -9,5 +9,4 @@ summary: You must review the prerequisites for the replacement procedure and sel
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_controller-replace-overview.adoc[]
