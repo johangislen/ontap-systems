@@ -11,6 +11,8 @@ summary: You can monitor the health of your drive shelf by understanding the loc
 [.lead]
 You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
 
+NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf that needs servicing. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
+
 == Operator display panel LEDs
 
 The LEDs on the drive shelf front operator display panel (ODP) indicate whether your drive shelf is functioning normally or there are problems with the hardware.
@@ -50,7 +52,7 @@ Location
 a|
 Solid blue
 a|
-The system administrator activated this LED function to aid in physically locating the drive shelf requiring service.
+The system administrator activates this LED function to aid in physically locating the drive shelf requiring service.
 
 The location LED on the ODP and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 |===
@@ -99,9 +101,7 @@ Amber
 a|
 NVMe port: Attention
 |===
-
-NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf with the failed NSM module. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
-
+NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf that needs servicing. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 [cols="4*",options="header"]
 |===
 | Status| NSM Attention (Amber)| Port LNK (Green)| Port Attention (Amber)
@@ -269,28 +269,46 @@ Amber
 [cols="4*",options="header"]
 |===
 | Status| Power/Activity (Green)| Attention (Amber)| Associated ODP LED
-.2+|
-image:../media/legend_icon_01.png[]
-.2+|
-Activity
 a|
-Solid green
+Drive installed and operational
 a|
-The drive has power.
+On/Blink off with activity
 a|
-Blinking green
+Any state
 a|
-The drive has power and I/O operations are in progress.
+N/A
 a|
-image:../media/legend_icon_02.png[]
+Drive failure
 a|
-Attention
+On/Blink off with activity
 a|
-Solid amber
+On
 a|
-An error occurred with the function of the drive.
-
-Check event messages to determine corrective action to take.
+Attention (Amber)
+a|
+SES device identify set
+a|
+On/Blink off with activity
+a|
+On
+a|
+Attention (Amber)
+a|
+SES device fault bit set
+a|
+On/Blink off with activity
+a|
+On
+a|
+Attention (Amber)
+a|
+Power control circuit failure
+a|
+Off
+a|
+Any state
+a|
+Attention (Amber)
 
 |===
 
