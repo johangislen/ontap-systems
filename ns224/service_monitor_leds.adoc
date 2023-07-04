@@ -104,7 +104,7 @@ a|
 NVMe port: Attention
 |===
 
-[cols="4,1,1,1" options="header"]
+[cols="3,1,1,1" options="header"]
 |===
 | Status| NSM Attention (Amber)| Port LNK (Green)| Port Attention (Amber)
 a|
@@ -190,7 +190,7 @@ a|
 The bi-color LED indicates power/activity when green and a fault when red.
 |===
 
-[cols="4,1,1" options="header"]
+[cols="3,1,1" options="header"]
 |===
 | Status| Power/activity (Green)| Attention (Red)
 a|
@@ -268,7 +268,7 @@ a|
 Amber
 |===
 
-[cols="4,1,1,1" options="header"]
+[cols="3,1,1,1" options="header"]
 |===
 | Status| Power/Activity (Green)| Attention (Amber)| Associated ODP LED
 a|
