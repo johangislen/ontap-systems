@@ -46,7 +46,7 @@ a|
 * An error occurred with the function of one of more shelf FRUs.
 +
 Check event messages to determine corrective action to take.
-* The shelf ID is in a pending state???
+* The shelf ID is in a pending state.
 +
 Power cycle the drive shelf for the shelf ID to take affect.
 a|
@@ -67,7 +67,7 @@ The following illustration and tables describe NSM module LEDs associated with t
 
 image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
 
-[cols="1,2,2,5" options="header"]
+[cols="1,1,2,4" options="header"]
 |===
 | Call out| LED icon| Color| Description
 a|
@@ -104,7 +104,7 @@ a|
 NVMe port: Attention
 |===
 
-[cols="3,2,2,2" options="header"]
+[cols="4,1,1,1" options="header"]
 |===
 | Status| NSM Attention (Amber)| Port LNK (Green)| Port Attention (Amber)
 a|
@@ -190,7 +190,7 @@ a|
 The bi-color LED indicates power/activity when green and a fault when red.
 |===
 
-[cols="3,2,2" options="header"]
+[cols="4,1,1" options="header"]
 |===
 | Status| Power/activity (Green)| Attention (Red)
 a|
@@ -268,7 +268,7 @@ a|
 Amber
 |===
 
-[cols="3,2,2,2" options="header"]
+[cols="4,1,1,1" options="header"]
 |===
 | Status| Power/Activity (Green)| Attention (Amber)| Associated ODP LED
 a|
