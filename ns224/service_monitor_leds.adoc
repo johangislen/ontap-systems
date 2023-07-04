@@ -11,7 +11,11 @@ summary: You can monitor the health of your drive shelf by understanding the loc
 [.lead]
 You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
 
-NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf that needs servicing. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
+If needed, you can turn on the shelf's Location (blue) LEDs to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
+
+If you do not know the `_shelf_name_` of the affected shelf, run the `storage shelf show` command.
+
+A shelf has three location LEDs: one on the operator display panel (ODP) and one on each NSM module. Location LEDs remain illuminated for 30 minutes. You can turn them off by entering the same command, but using the `off` option.
 
 == Operator display panel LEDs
 
@@ -21,7 +25,7 @@ The following illustration and table describes the three LEDs on the ODP:
 
 image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
-[cols="4*",options="header"]
+[cols="1,2,2,5" options="header"]
 |===
 | LED icon| LED name| State| Description
 a|
@@ -42,7 +46,7 @@ a|
 * An error occurred with the function of one of more shelf FRUs.
 +
 Check event messages to determine corrective action to take.
-* The shelf ID is in a pending state.
+* The shelf ID is in a pending state???
 +
 Power cycle the drive shelf for the shelf ID to take affect.
 a|
@@ -52,20 +56,18 @@ Location
 a|
 Solid blue
 a|
-The system administrator activates this LED function to aid in physically locating the drive shelf requiring service.
-
-The location LED on the ODP and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
+The system administrator activates this LED function.
 |===
 
 == NSM module LEDs
 
-The LEDs on the NSM module indicate whether the module is functioning normally, whether it is ready for I/O traffic, and whether there are any problems with the hardware.
+The LEDs on an NSM module indicate whether the module is functioning normally, whether it is ready for I/O traffic, and whether there are any problems with the hardware.
 
-The following illustration and table describes NSM module LEDs associated with the function of the module and the function of each NVMe port on the module.
+The following illustration and tables describe NSM module LEDs associated with the function of a module and the function of each NVMe port on a module.
 
 image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
 
-[cols="4*",options="header"]
+[cols="1,2,2,5" options="header"]
 |===
 | Call out| LED icon| Color| Description
 a|
@@ -101,8 +103,8 @@ Amber
 a|
 NVMe port: Attention
 |===
-NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf that needs servicing. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
-[cols="4*",options="header"]
+
+[cols="3,2,2,2" options="header"]
 |===
 | Status| NSM Attention (Amber)| Port LNK (Green)| Port Attention (Amber)
 a|
@@ -142,7 +144,7 @@ Host port connection link active
 a|
 Any state
 a|
-On (steady, not activity)
+On (Steady, no activity)...meaning Solid if no activity?
 a|
 Any state
 a|
@@ -150,13 +152,13 @@ Host port connection w/ fault
 a|
 On
 a|
-On (off if all are faulted)
+On (Off if all are faulted)
 a|
 On
 a|
 BIOS boot from primary BIOS image after power is on
 a|
-Blink (1.0 Hz 20% duty)
+Blinks (1.0Hz 20% duty)
 a|
 Any state
 a|
@@ -164,7 +166,7 @@ Any state
 a|
 BIOS boot from secondary BIOS image after power is on
 a|
-Blink (1.0 Hz 75% duty)
+Blinks (1.0Hz 75% duty)
 a|
 Any state
 a|
@@ -175,11 +177,11 @@ Any state
 
 The LEDs on an AC or DC power supply (PSU) indicate whether the PSU is functioning normally or there are hardware problems.
 
-The following illustration and table describes the bi-colored LED on a PSU. (The illustration is an AC PSU; however, the LED location is the same on the DC PSU):
+The following illustration and tables describe the LED on a PSU. (The illustration is an AC PSU; however, the LED location is the same on the DC PSU):
 
 image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[width=400px]
 
-[cols="2*", options="header"]
+[cols="1,4" options="header"]
 |===
 | Call out| Description
 a|
@@ -188,7 +190,7 @@ a|
 The bi-color LED indicates power/activity when green and a fault when red.
 |===
 
-[cols="3*", options="header"]
+[cols="3,2,2" options="header"]
 |===
 | Status| Power/activity (Green)| Attention (Red)
 a|
@@ -206,7 +208,7 @@ On
 a|
 AC/CD power on, in stand-by mode in an enclosure
 a|
-Blink (0.5 Hz 50% duty)
+Blinks (0.5Hz 50% duty)
 a|
 Off
 a|
@@ -236,7 +238,7 @@ On
 a|
 Firmware update mode
 a|
-Blink (2 Hz)
+Blinks (2Hz)
 a|
 Off
 |===
@@ -245,11 +247,11 @@ Off
 
 The LEDs on an NVMe drive indicates whether it is functioning normally or there are problems with the hardware.
 
-The following illustration and table describes the two LEDs on the drives:
+The following illustration and tables describe the two LEDs on an NVMe drive:
 
 image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=100px]
 
-[cols="3*", options="header"]
+[cols="1,2,2" options="header"]
 |===
 | Call out| LED name| Color
 a|
@@ -266,13 +268,13 @@ a|
 Amber
 |===
 
-[cols="4*",options="header"]
+[cols="3,2,2,2" options="header"]
 |===
 | Status| Power/Activity (Green)| Attention (Amber)| Associated ODP LED
 a|
 Drive installed and operational
 a|
-On/Blink off with activity
+On/Blinks with activity
 a|
 Any state
 a|
@@ -280,7 +282,7 @@ N/A
 a|
 Drive failure
 a|
-On/Blink off with activity
+On/Blinks with activity
 a|
 On
 a|
@@ -288,7 +290,7 @@ Attention (Amber)
 a|
 SES device identify set
 a|
-On/Blink off with activity
+On/Blinks with activity
 a|
 On
 a|
@@ -296,7 +298,7 @@ Attention (Amber)
 a|
 SES device fault bit set
 a|
-On/Blink off with activity
+On/Blinks with activity
 a|
 On
 a|
