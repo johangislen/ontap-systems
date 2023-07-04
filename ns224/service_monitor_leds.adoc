@@ -13,9 +13,9 @@ You can monitor the health of your drive shelf by understanding the location and
 
 == Operator display panel LEDs
 
-The LEDs on the drive shelf front operator display panel indicate whether your drive shelf is functioning normally or there are problems with the hardware.
+The LEDs on the drive shelf front operator display panel (ODP) indicate whether your drive shelf is functioning normally or there are problems with the hardware.
 
-The following illustration and table describes the three LEDs on the operator display panel:
+The following illustration and table describes the three LEDs on the ODP:
 
 image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
@@ -52,7 +52,7 @@ Solid blue
 a|
 The system administrator activated this LED function to aid in physically locating the drive shelf requiring service.
 
-The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
+The location LED on the ODP and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 |===
 
 == NSM module LEDs
@@ -65,45 +65,110 @@ image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
 
 [cols="4*",options="header"]
 |===
-| Call out| LED icon & name| State| Description
+| Call out| LED icon| Color| Description
 a|
 image:../media/legend_icon_01.png[] 
 a|
-image:../media/drw_sas3_location_icon.gif[] Location
+image:../media/drw_sas3_location_icon.gif[]
 a|
-Solid blue
+Blue
 a|
-The system administrator activated this LED function to aid in physically locating the drive shelf with the failed NSM module.
+NSM module: Location
+a|
+image:../media/legend_icon_02.png[]
+a|
+image:../media/drw_sas_fault_icon.png[]
+a|
+Amber
+a|
+NSM module: Attention
+a|
+image:../media/legend_icon_03.png[] 
+a|
+LNK
+a|
+Green
+a|
+NVMe port: link status
+a|
+image:../media/legend_icon_04.png[] 
+a|
+image:../media/drw_sas_fault_icon.png[]
+a|
+Amber
+a|
+NVMe port: Attention
+|===
 
-The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
-a|
-image:../media/legend_icon_02.png[] 
-a|
-image:../media/drw_sas_fault_icon.png[] Attention
-a|
-Solid amber
-a|
-An error occurred with the function of the NSM module.
+NOTE: The location (blue) LED is activated by the system administrator to aid in physically locating the drive shelf with the failed NSM module. The location LED on the operator display panel and both NSM modules illuminate when this LED function is activated. Location LEDs automatically turn off after 30 minutes.
 
-Check event messages to determine corrective action to take.
+[cols="4*",options="header"]
+|===
+| Status| NSM Attention (Amber)| Port LNK (Green)| Port Attention (Amber)
 a|
-image:../media/legend_icon_03.png[]
+NSM normal
 a|
-LNK Port link
+Off
 a|
-Solid green
+Any state
 a|
-The port is functioning properly.
+Off
 a|
-image:../media/legend_icon_04.png[]
+NSM fault
 a|
-image:../media/drw_sas_fault_icon.png[] Attention
+On
 a|
-Solid amber
+Any state
 a|
-The port has a fault or potential servicing is needed.
-
-Check event messages to determine corrective action to take.
+Any state
+a|
+NSM VPD Error
+a|
+On
+a|
+Any state
+a|
+Any state
+a|
+No host port connections
+a|
+Any state
+a|
+Off
+a|
+Off
+a|
+Host port connection link active
+a|
+Any state
+a|
+On (steady, not activity)
+a|
+Any state
+a|
+Host port connection w/ fault
+a|
+On
+a|
+On (off if all are faulted)
+a|
+On
+a|
+BIOS boot from primary BIOS image after power is on
+a|
+Blink (1.0 Hz 20% duty)
+a|
+Any state
+a|
+Any state
+a|
+BIOS boot from secondary BIOS image after power is on
+a|
+Blink (1.0 Hz 75% duty)
+a|
+Any state
+a|
+Any state
 |===
 
 == Power supply LEDs
@@ -114,29 +179,66 @@ The following illustration and table describes the bi-colored LED on a PSU. (The
 
 image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[width=400px]
 
-[cols="3*", options="header"]
+[cols="2*", options="header"]
 |===
-| Call out| State| Description
-.4+|
+| Call out| Description
+a|
 image:../media/legend_icon_01.png[]
 a|
-Solid green
+The bi-color LED indicates power/activity when green and a fault when red.
+|===
+
+[cols="3*", options="header"]
+|===
+| Status| Power/activity (Green)| Attention (Red)
 a|
-The PSU is functioning correctly.
-a|
-Blinking green
-a|
-The PSU or the NSM module is not fully inserted.
-a|
-Solid red
-a|
-The AC or DC power cord is not plugged in but 12V (AC) or -48V (DC) standby is still available???
+No AC/DC power to the enclosure
 a|
 Off
 a|
-The PSU failed, the AC or DC switch is turned off, the AC or DC power cord is not properly installed, or electricity is not being properly supplied to the PSU.
-
-Check event messages to determine corrective action to take.
+Off
+a|
+No AC/DC power to the PSU
+a|
+Off
+a|
+On
+a|
+AC/CD power on, in stand-by mode in an enclosure
+a|
+Blink (0.5 Hz 50% duty)
+a|
+Off
+a|
+AC/DC power on, but PSU not in enclosure
+a|
+Off
+a|
+On
+a|
+PSU operating correctly
+a|
+On
+a|
+Off
+a|
+PSU failure
+a|
+Off
+a|
+On
+a|
+Fan failure
+a|
+Off
+a|
+On
+a|
+Firmware update mode
+a|
+Blink (2 Hz)
+a|
+Off
 |===
 
 == Drive LEDs
@@ -147,9 +249,26 @@ The following illustration and table describes the two LEDs on the drives:
 
 image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=100px]
 
+[cols="3*", options="header"]
+|===
+| Call out| LED name| Color
+a|
+image:../media/legend_icon_01.png[]
+a|
+Power/activity
+a|
+Green
+a|
+image:../media/legend_icon_02.png[]
+a|
+Attention
+a|
+Amber
+|===
+
 [cols="4*",options="header"]
 |===
-| Callout| LED name| State| Description
+| Status| Power/Activity (Green)| Attention (Amber)| Associated ODP LED
 .2+|
 image:../media/legend_icon_01.png[]
 .2+|
