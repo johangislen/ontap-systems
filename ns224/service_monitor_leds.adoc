@@ -17,6 +17,10 @@ If you do not know the `_shelf_name_` of the affected shelf, run the `storage sh
 
 A shelf has three location LEDs: one on the operator display panel (ODP) and one on each NSM module. Location LEDs remain illuminated for 30 minutes. You can turn them off by entering the same command, but using the `off` option.
 
+ON: steady (solid) or blinking
+
+ANY STATE: on or off
+
 == Operator display panel LEDs
 
 The LEDs on the drive shelf front operator display panel (ODP) indicate whether your drive shelf is functioning normally or there are problems with the hardware.
@@ -144,7 +148,7 @@ Host port connection link active
 a|
 Any state
 a|
-On (Steady, no activity)...meaning Solid if no activity?
+On (Steady/solid, no activity)
 a|
 Any state
 a|
@@ -152,13 +156,13 @@ Host port connection w/ fault
 a|
 On
 a|
-On (Off if all are faulted)
+On (Off if all lanes are faulted)
 a|
 On
 a|
 BIOS boot from primary BIOS image after power is on
 a|
-Blinks (1.0Hz 20% duty)
+Blinks
 a|
 Any state
 a|
@@ -166,7 +170,7 @@ Any state
 a|
 BIOS boot from secondary BIOS image after power is on
 a|
-Blinks (1.0Hz 75% duty)
+Blinks
 a|
 Any state
 a|
@@ -187,12 +191,12 @@ image::../media/drw_ns224_psu_leds_IEOPS-1261.svg[width=400px]
 a|
 image:../media/legend_icon_01.png[]
 a|
-The bi-color LED indicates power/activity when green and a fault when red.
+The bi-color LED indicates power/activity when green and a fault when amber.
 |===
 
 [cols="2,1,1" options="header"]
 |===
-| Status| Power/activity (Green)| Attention (Red)
+| Status| Power/activity (Green)| Attention (Amber)
 a|
 No AC/DC power to the enclosure
 a|
@@ -208,7 +212,7 @@ On
 a|
 AC/CD power on, in stand-by mode in an enclosure
 a|
-Blinks (0.5Hz 50% duty)
+Blinks
 a|
 Off
 a|
@@ -238,7 +242,7 @@ On
 a|
 Firmware update mode
 a|
-Blinks (2Hz)
+Blinks
 a|
 Off
 |===
