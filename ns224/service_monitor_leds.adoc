@@ -249,7 +249,7 @@ The LEDs on an NVMe drive indicates whether it is functioning normally or there 
 
 The following illustration and tables describe the two LEDs on an NVMe drive:
 
-image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=100px]
+image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=120px]
 
 [cols="1,2,2" options="header"]
 |===
