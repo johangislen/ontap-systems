@@ -11,15 +11,17 @@ summary: You can monitor the health of your drive shelf by understanding the loc
 [.lead]
 You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
 
-If needed, you can turn on the shelf's Location (blue) LEDs to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
-
+* If needed, you can turn on the shelf's Location (blue) LEDs to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
++
 If you do not know the `_shelf_name_` of the affected shelf, run the `storage shelf show` command.
-
++
 A shelf has three location LEDs: one on the operator display panel (ODP) and one on each NSM module. Location LEDs remain illuminated for 30 minutes. You can turn them off by entering the same command, but using the `off` option.
 
-ON: steady (solid) or blinking
-
-ANY STATE: on or off
+* An LED state can be:
+** "On": The LED illumination is solid/steady
+** "Off": The LED is not illuminated
+** "Blinks": The LED turns on and off at a varying interval/speed
+** "Any state": The LED can be "On", "Off", or "Blinks"
 
 == Operator display panel LEDs
 
@@ -97,7 +99,7 @@ LNK
 a|
 Green
 a|
-NVMe port: link status
+NVMe port: Link/port status
 a|
 image:../media/legend_icon_04.png[] 
 a|
@@ -105,7 +107,7 @@ image:../media/drw_sas_fault_icon.png[]
 a|
 Amber
 a|
-NVMe port: Attention
+NVMe port: Link/port attention
 |===
 
 [cols="2,1,1,1" options="header"]
@@ -148,7 +150,7 @@ Host port connection link active
 a|
 Any state
 a|
-On (Steady/solid, no activity)
+On/Blinks with activity
 a|
 Any state
 a|
@@ -156,7 +158,7 @@ Host port connection w/ fault
 a|
 On
 a|
-On (Off if all lanes are faulted)
+On/Off if all lanes are faulted
 a|
 On
 a|
