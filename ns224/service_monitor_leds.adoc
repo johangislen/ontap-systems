@@ -20,7 +20,7 @@ A shelf has three location LEDs: one on the operator display panel (ODP) and one
 * An LED state can be:
 ** "On": The LED illumination is solid/steady
 ** "Off": The LED is not illuminated
-** "Blinks": The LED turns on and off at a varying interval/speed
+** "Blinks": The LED turns on and off at a varying interval
 ** "Any state": The LED can be "On", "Off", or "Blinks"
 
 == Operator display panel LEDs
@@ -31,23 +31,23 @@ The following illustration and table describes the three LEDs on the ODP:
 
 image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 
-[cols="1,2,2,5" options="header"]
+[cols="1,2,1,5" options="header"]
 |===
-| LED icon| LED name| State| Description
+| LED icon| LED name & color| State| Description
 a|
 image:../media/drw_sas_power_icon.png[]
 a|
-Power
+Power (Green)
 a|
-Solid green
+On 
 a|
 One or more power supplies are supplying power to the drive shelf.
 a|
 image:../media/drw_sas_fault_icon.png[]
 a|
-Attention
+Attention (Amber)
 a|
-Solid amber
+On
 a|
 * An error occurred with the function of one of more shelf FRUs.
 +
@@ -58,9 +58,9 @@ Power cycle the drive shelf for the shelf ID to take affect.
 a|
 image:../media/drw_sas3_location_icon.gif[]
 a|
-Location
+Location (Blue)
 a|
-Solid blue
+On
 a|
 The system administrator activates this LED function.
 |===
@@ -71,7 +71,7 @@ The LEDs on an NSM module indicate whether the module is functioning normally, w
 
 The following illustration and tables describe NSM module LEDs associated with the function of a module and the function of each NVMe port on a module.
 
-image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=500px]
+image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=550px]
 
 [cols="1,1,2,4" options="header"]
 |===
@@ -99,7 +99,7 @@ LNK
 a|
 Green
 a|
-NVMe port: Link/port status
+NVMe port/link: status
 a|
 image:../media/legend_icon_04.png[] 
 a|
@@ -107,7 +107,7 @@ image:../media/drw_sas_fault_icon.png[]
 a|
 Amber
 a|
-NVMe port: Link/port attention
+NVMe port/link: attention
 |===
 
 [cols="2,1,1,1" options="header"]
