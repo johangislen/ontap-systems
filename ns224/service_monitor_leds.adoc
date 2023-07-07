@@ -20,8 +20,8 @@ A shelf has three location LEDs: one on the operator display panel (ODP) and one
 * An LED state can be:
 ** "On": The LED illumination is solid/steady
 ** "Off": The LED is not illuminated
-** "Blinks": The LED turns on and off at a varying interval
-** "Any state": The LED can be "On", "Off", or "Blinks"
+** "Blink": The LED turns on and off at varying intervals depending on the FRU status
+** "Any state": The LED can be "On", "Off", or "Blink"
 
 == Operator display panel LEDs
 
@@ -164,7 +164,7 @@ On
 a|
 BIOS boot from primary BIOS image after power up
 a|
-Blinks (1.0Hz 20% duty)
+Blink (1.0Hz 20% duty)
 a|
 Any state
 a|
@@ -172,7 +172,7 @@ Any state
 a|
 BIOS boot from secondary BIOS image after power up
 a|
-Blinks (1.0Hz 75% duty)
+Blink (1.0Hz 75% duty)
 a|
 Any state
 a|
@@ -215,7 +215,7 @@ On
 a|
 AC/DC power on, but PSU not in enclosure
 a|
-Blinks (0.5Hz, 50% duty)
+Blink (0.5Hz, 50% duty)
 a|
 Off
 a|
@@ -239,7 +239,7 @@ On
 a|
 Firmware update mode
 a|
-Blinks (2Hz)
+Blink (2Hz)
 a|
 Off
 |===
