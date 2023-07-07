@@ -138,7 +138,7 @@ Any state
 a|
 Any state
 a|
-No host port connections
+No host port connection
 a|
 Any state
 a|
@@ -162,17 +162,17 @@ On/Off if all lanes are faulted
 a|
 On
 a|
-BIOS boot from primary BIOS image after power is on
+BIOS boot from primary BIOS image after power up
 a|
-Blinks
-a|
-Any state
+Blinks (1.0Hz 20% duty)
 a|
 Any state
 a|
-BIOS boot from secondary BIOS image after power is on
+Any state
 a|
-Blinks
+BIOS boot from secondary BIOS image after power up
+a|
+Blinks (1.0Hz 75% duty)
 a|
 Any state
 a|
@@ -211,18 +211,13 @@ a|
 Off
 a|
 On
-a|
-AC/CD power on, in stand-by mode in an enclosure
-a|
-Blinks
-a|
-Off
+
 a|
 AC/DC power on, but PSU not in enclosure
 a|
-Off
+Blinks (0.5Hz, 50% duty)
 a|
-On
+Off
 a|
 PSU operating correctly
 a|
@@ -244,7 +239,7 @@ On
 a|
 Firmware update mode
 a|
-Blinks
+Blinks (2Hz)
 a|
 Off
 |===
@@ -298,9 +293,9 @@ SES device identify set
 a|
 On/Blinks with activity
 a|
-On
+Blinks
 a|
-Attention (Amber)
+Attention (Amber) is off
 a|
 SES device fault bit set
 a|
