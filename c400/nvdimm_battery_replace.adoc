@@ -80,7 +80,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::0521b0f4-8b58-4aa7-aaf2-b03100020356[panopto, title="Animation - Replace the NVDIMM battery"]
 
-image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=500px]
+image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=600px]
 
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.

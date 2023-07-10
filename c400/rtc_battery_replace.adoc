@@ -79,7 +79,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::12ea4bc1-75e2-43e7-be91-b0310000fd34[panopto, title="Animation - Replace the RTC battery"]
 
-image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[width=500px]
+image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[width=600px]
 
 . If you are not already grounded, properly ground yourself.
 . Open the air duct:
