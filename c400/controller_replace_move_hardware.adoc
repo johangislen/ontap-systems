@@ -47,7 +47,7 @@ Make sure that you support the bottom of the controller module as you slide it o
 +
 video::018a1c3c-0a26-4f48-bd60-b0300184c147[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
 +
-image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=600px]
+image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=550px]
 +
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
