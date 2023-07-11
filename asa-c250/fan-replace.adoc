@@ -9,5 +9,4 @@ summary: To replace a fan, remove the failed fan module and replace it with a ne
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_fan-replace.adoc[]

@@ -9,5 +9,4 @@ summary: To shut down the impaired controller module, you must determine the sta
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/shutdown_most_frus.adoc[]

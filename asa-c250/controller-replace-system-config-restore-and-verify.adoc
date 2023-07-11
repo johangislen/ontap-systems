@@ -9,6 +9,4 @@ summary: "After completing the hardware replacement and booting to Maintenance m
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_controller-replace-system-config-restore-and-verify.adoc[]
-

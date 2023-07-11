@@ -9,5 +9,4 @@ summary: "You must verify the HA state of the chassis and run System-Level diagn
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/150_chassis_replace_complete_system_restore_rma.adoc[]

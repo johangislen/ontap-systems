@@ -9,5 +9,4 @@ summary: After you have completed the FRU replacement in a two-node MetroCluster
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/2n_mcc_switchback.adoc[]

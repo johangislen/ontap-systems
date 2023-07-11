@@ -9,5 +9,4 @@ summary: You must replace the NVDIMM in the controller module when your system r
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/400_nvdimm_replace.adoc[]

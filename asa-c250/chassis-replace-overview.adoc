@@ -9,5 +9,4 @@ summary: "You replace an impaired chassis the new chassis of the same model as t
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/250_chassis-replace-overview.adoc[]
