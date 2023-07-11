@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: aff-aseries/index.html
 summary: The storage system documentation lets you install, setup, and maintain your AFF A-Series system.
 ---
-= AFF A-Series Systems
+= AFF A-series Systems
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

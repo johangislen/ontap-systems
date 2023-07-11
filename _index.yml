@@ -1,5 +1,5 @@
 indexpage:
-  lead: NetApp's AFF and FAS storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
+  lead: NetApp's AFF and FAS and All SAN Array storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
   tiles:
     - title: Get started
       links:
@@ -9,21 +9,24 @@ indexpage:
           url: /get-up-and-run.html
         - title: ONTAP Release Notes
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-    - title: AFF/FAS platforms
+    - title: Storage platforms
       links:
-        - title: AFF A-Series systems
-          url: /a150/index.html
-        - title: AFF C-Series systems
-          url: /a220/index.html
-        - title: All SAN systems
-          url: /all-san/index.html
+        - title: AFF A-series systems
+          url: /aff-aseries/index.html
+        - title: AFF C-series systems
+          url: /aff-cseries/index.html
+        - title: ASA A-series systems
+          url: /allsan-a-series/index.html
+        - title: ASA C-series systems
+          url: /allsan-c-series/index.html
         - title: FAS systems
+          url: /fas/index.html
         - title: End-of-availability systems
           url: /endofavail/index.html
     - title: Networking
       links:
         - title: Drive shelves
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/index.html
+          url: /drive-shelves/index.html
         - title: Switches
           url: https://docs.netapp.com/us-en/ontap-systems-switches/index.html
     - title: Diagnostics
