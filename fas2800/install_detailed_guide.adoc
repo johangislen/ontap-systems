@@ -469,7 +469,7 @@ video::c600f366-4d30-481a-89d9-ab1b0066589b[panopto, title="Animation - Set driv
 . Turn on the power switches to both nodes.
 +
 image::../media/dwr_2800_turn_on_power_IEOPS-898.svg[width=500px]
-
++
 NOTE: Initial booting may take up to eight minutes.
 
 . Assign an initial node management IP address to one of the nodes.
