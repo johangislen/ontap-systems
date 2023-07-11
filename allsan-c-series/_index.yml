@@ -17,15 +17,15 @@ indexpage:
           url: ../asa-c250/install-setup.html
         - title: ASA C400
           url: ../asa-c400/install-setup.html
-        - title: ASA AC00
+        - title: ASA C800
           url: ../asa-c800/install-setup.html
     - title: Maintain your system
       links:
-        - title: ASA A250
+        - title: ASA C250
           url: ../asa-c250/maintain-overview.html
-        - title: ASA A400
+        - title: ASA C400
           url: ../asa-c400/maintain-overview.html
-        - title: ASA A800
+        - title: ASA C800
           url: ../asa-c800/maintain-overview.html
     - title: Supported switches
       links:
