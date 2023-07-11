@@ -52,7 +52,7 @@ a|
 * An error occurred with the function of one of more shelf FRUs.
 +
 Check event messages to determine corrective action to take.
-* The shelf ID is in a pending state.
+* If the two-digit shelf ID is also blinking, the shelf ID is in a pending state.
 +
 Power cycle the drive shelf for the shelf ID to take affect.
 a|
@@ -164,7 +164,7 @@ On
 a|
 BIOS boot from primary BIOS image after power up
 a|
-Blink (1.0Hz 20% duty)
+Blink
 a|
 Any state
 a|
@@ -172,7 +172,7 @@ Any state
 a|
 BIOS boot from secondary BIOS image after power up
 a|
-Blink (1.0Hz 75% duty)
+Blink
 a|
 Any state
 a|
@@ -215,7 +215,7 @@ On
 a|
 AC/DC power on, but PSU not in enclosure
 a|
-Blink (0.5Hz, 50% duty)
+Blink
 a|
 Off
 a|
@@ -239,7 +239,7 @@ On
 a|
 Firmware update mode
 a|
-Blink (2Hz)
+Blink
 a|
 Off
 |===
