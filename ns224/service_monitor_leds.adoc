@@ -62,7 +62,7 @@ Location (Blue)
 a|
 On
 a|
-The system administrator activates this LED function.
+The system administrator activated this LED function.
 |===
 
 == NSM module LEDs
