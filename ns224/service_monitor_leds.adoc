@@ -6,16 +6,16 @@ summary: You can monitor the health of your drive shelf by understanding the loc
 ---
 = Monitor drive shelf LEDs - NS224 shelves
 :icons: font
-:imagesdir: ../media/
+both:imagesdir: ../media/
 
 [.lead]
 You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
 
-* If needed, you can turn on the shelf's Location (blue) LEDs to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
+* The location (blue) LEDs, on a shelf's operator display panel (ODP) and both NSM modules, can be activated to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
 +
 If you do not know the `_shelf_name_` of the affected shelf, run the `storage shelf show` command.
 +
-A shelf has three location LEDs: one on the operator display panel (ODP) and one on each NSM module. Location LEDs remain illuminated for 30 minutes. You can turn them off by entering the same command, but using the `off` option.
+Location LEDs remain illuminated for 30 minutes. You can turn them off by entering the same command, but using the `off` option.
 
 * An LED state can be:
 ** "On": The LED illumination is solid/steady
