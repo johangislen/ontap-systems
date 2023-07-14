@@ -9,4 +9,5 @@ summary: "You must verify the HA state of the chassis, run diagnostics, and retu
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/900_chassis_replace_complete_system_restore_rma.adoc[]

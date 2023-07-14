@@ -27,7 +27,7 @@ entries:
         url: /a900/bootmedia_encryption_preshutdown_checks.html
       - title: Shut down impaired controller
         url: /a900/bootmedia_impaired_controller_shutdown.html
-      - title: Replace failed boot media
+      - title: Replace boot image
         url: /a900/bootmedia_replace.html
       - title: Boot recovery image
         url: /a900/bootmedia_recovery_image.html

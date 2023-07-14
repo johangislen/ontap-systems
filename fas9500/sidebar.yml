@@ -27,7 +27,7 @@ entries:
         url: /fas9500/bootmedia_encryption_preshutdown_checks.html
       - title: Shut down the impaired controller
         url: /fas9500/bootmedia_impaired_controller_shutdown.html
-      - title: Transfer the boot image and replace the failed boot media
+      - title: Replace boot image
         url: /fas9500/bootmedia_replace.html
       - title: Boot the recovery image
         url: /fas9500/bootmedia_recovery_image.html

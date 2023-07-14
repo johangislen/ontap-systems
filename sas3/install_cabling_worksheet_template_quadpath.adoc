@@ -29,7 +29,7 @@ The second set of cabling is referred to as "`quad-pathed`" because completing t
 +
 Each port pair designated for multipathed cabling is encircled by an oval that is the color associated with the stack it is cabled to. Each port pair designated for quad-pathed cabling is encircled by a rectangle that is the color associated with the stack it is cabled to. Stack 1 is associated with the color blue; stack 2 is associated with the color orange.
 
-* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules] for information about the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
+* If needed, you can refer to link:install-cabling-rules.html[SAS cabling rules and concepts] for information about the controller slot numbering convention, shelf-to-shelf connectivity, and controller-to-shelf connectivity (including the use of port pairs).
 * If needed, after you complete the worksheet, you can refer to link:install-cabling-worksheets-how-to-read-quadpath.html[How to read a worksheet to cable controller-to-stack connections for quad-pathed connectivity].
 
 image::../media/drw_worksheet_quad_pathed_template_nau.gif[]

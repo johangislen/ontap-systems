@@ -16,13 +16,13 @@ entries:
       entries:
       - title: Overview
         url: /sas3/overview-cabling-rules-examples.html
-      - title: SAS cabling rules
+      - title: SAS cabling rules and concepts
         url: /sas3/install-cabling-rules.html
-      - title: Cabling worksheets for common multipath HA configurations
+      - title: Cabling worksheets and examples for multipath HA
         url: /sas3/install-cabling-worksheets-examples-multipath.html
       - title: Cabling worksheets for platforms with internal storage
         url: /sas3/install-cabling-worksheets-examples-fas2600.html
-      - title: Cabling worksheets for a quad-path HA config with two quad-port SAS HBAs
+      - title: Cabling worksheet and example for a quad-path HA
         url: /sas3/install-worksheets-examples-quadpath.html
       - title: Cabling worksheet for multipathed connectivity
         url: /sas3/install-cabling-worksheet-template-multipath.html
