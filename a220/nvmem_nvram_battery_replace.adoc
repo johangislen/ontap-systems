@@ -1,0 +1,13 @@
+---
+permalink: a220/nvmem-nvram-battery-replace.html
+sidebar: sidebar
+keywords: aff a220, replace, nvmem, battery, shut, down, impaired, controller, controller, system, diagnostics, aggregates, metrocluster, configuration, reinstall
+summary: "To replace an NVMEM battery in the system, you must remove the controller module from the system, open it, replace the battery, and close and replace the controller module."
+---
+= Replace the NVMEM battery - AFF A220
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/220_2700_nvmem_nvram_battery_replace.adoc[]

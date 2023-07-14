@@ -1,0 +1,13 @@
+---
+permalink: a220/power-supply-swap-out.html
+sidebar: sidebar
+keywords: aff a220, swap, power, supply, turn off, disconnect, remove, old, install, connect, turn on, replacement
+summary: 'Swapping out a power supply involves turning off, disconnecting, and removing the old power supply and installing, connecting, and turning on the replacement power supply.'
+---
+= Swap out a power supply - AFF A220
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/220_2700_power_supply_swap_out.adoc[]

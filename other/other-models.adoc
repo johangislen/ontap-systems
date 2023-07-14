@@ -9,4 +9,5 @@ summary: You can use these links to find documentation for other AFF and FAS sys
 :imagesdir: ../media/
 
 [.lead]
-You can use these links to find documentation for other AFF and FAS platforms. Documentation for AFF and FAS systems that have reached the end of hardware support are available for customer use in the link:https://mysupport.netapp.com/documentation/productsatoz/index.html?archive=true[Archive].
+
+Documentation for AFF and FAS systems that have reached the end of hardware support are available for customer use in the link:https://mysupport.netapp.com/documentation/productsatoz/index.html?archive=true[Archive].

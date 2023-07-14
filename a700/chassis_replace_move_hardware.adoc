@@ -1,0 +1,13 @@
+---
+permalink: a700/chassis-replace-move-hardware.html
+sidebar: sidebar
+keywords: aff a700, fas9000, move hardware
+summary: "Move the fans, hard drives, and controller module or modules from the impaired chassis to the new chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the new chassis of the same model as the impaired chassis."
+---
+= Move and replace hardware - AFF A700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/700_9000_chassis_replace_move_hardware.adoc[]

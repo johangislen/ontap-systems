@@ -1,0 +1,12 @@
+---
+permalink: asa150/bootmedia-replace.html
+sidebar: sidebar
+keywords: asa a150, a150, asa, replace, boot, media, controller, module, fru map
+summary: 'You must locate the boot media in the controller and follow the directions to replace it.'
+---
+= Replace the boot media - ASA A150
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+include::../_include/150_bootmedia_replace.adoc[]

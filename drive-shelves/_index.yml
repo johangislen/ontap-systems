@@ -1,0 +1,59 @@
+indexpage:
+  lead: 
+  tiles:
+    - title: Install NS224 shelves
+      links:
+        - title: Hot-add shelf
+          url: ../ns224/hot-add-shelf.html
+        - title: Change shelf ID
+          url: ../ns224/change-shelf-id.html
+        - title: Cable shelves as switch-attached storage
+          url: ../ns224/cable-as-switch-attached.html
+    - title: Install SAS shelves
+      links:
+        - title: Install shelf in new storage system
+          url: ../sas3/install-new-system.html
+        - title: Hot-add shelf
+          url: ../sas3/install-hot-add-shelf.html
+        - title: Change shelf ID
+          url: ../sas3/install-change-shelf-id.html
+        - title: Hot-add shelf to stack of IOM6 shelves (mixed stack)
+          url: ../sas3/iom12-hot-add-mix.html
+        - title: SAS cabling rules, worksheets, and examples
+          url: ../sas3/overview-cabling-rules-examples.html
+    - title: Maintain NS224 shelves
+      links:
+        - title: Boot media
+          url: ../ns224/service-replace-boot-media.html
+        - title: DIMM
+          url: ../ns224/service-replace-dimm.html
+        - title: Drive
+          url: ./ns224/service-replace-drive.html
+        - title: Fan
+          url: ./ns224/service-replace-fan.html
+        - title: Hot-remove shelf
+          url: ./ns224/hot-remove-shelf.html
+        - title: NSM module
+          url: ./ns224/service-replace-nsm100.html
+        - title: Power supply
+          url: ./ns224/service-replace-power-supply.html
+        - title: RTC battery
+          url: ./ns224/service-replace-rtc-battery.html
+    - title: Maintain SAS shelves
+      links:
+        - title: Disk drive in DS224C or DS212C shelf
+          url: ../sas3/service-hot-swap-drive-ds224c-ds212c.html
+        - title: Disk drive in DS460C shelf
+          url: ../sas3/service-hot-swap-drive-ds460c.html
+        - title: Drive drawer in DS460C shelf
+          url: ../sas3/service-replace-drawer-ds460c.html
+        - title: Fan in DS460C shelf
+          url: ../sas3/service-replace-fan-ds460c.html
+        - title: Hot-remove a shelf
+          url: ../sas3/hot-remove-shelf.html
+        - title: IOM12/IOM12B module
+          url: ../sas3/service-hot-swap-iom.html
+        - title: Power supply
+          url: ../sas3/service-hot-swap-power-supply.html
+        - title: Shelf LED status conditions
+          url: ../sas3/service-monitor-leds.html

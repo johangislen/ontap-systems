@@ -1,0 +1,13 @@
+---
+permalink: a700/bootmedia-recovery-image-boot-options.html
+sidebar: sidebar
+keywords: aff a700, fas9000, boot, recovery, image, two, node, metrocluster, configuration
+summary: "The procedure for booting the impaired node from the recovery image depends on whether the system is in a two-node MetroCluster configuration."
+---
+= Boot the recovery image - AFF A700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/700_9000_bootmedia_recovery_image_boot_options.adoc[]

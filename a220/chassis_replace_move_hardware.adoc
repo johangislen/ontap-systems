@@ -1,0 +1,13 @@
+---
+permalink: a220/chassis-replace-move-hardware.html
+sidebar: sidebar
+keywords: aff a220, replace, chassis, shut down, controller, metrocluster, power, supply, ha, state, controller, configuration, switch, aggregates, replace, move, remove, swap
+summary: "Move the power supplies, hard drives, and controller module or modules from the impaired chassis to the new chassis, and swap out the impaired chassis from the equipment rack or system cabinet with the new chassis of the same model as the impaired chassis."
+---
+= Move and replace hardware - AFF A220
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/220_2700_chassis_replace_move_hardware.adoc[]

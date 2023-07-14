@@ -1,0 +1,13 @@
+---
+permalink: a700/controller-replace-system-config-restore-and-verify.html
+sidebar: sidebar
+keywords: aff a700, fas9000, verify, ha, state, controller, module, system, diagnostics
+summary: "After completing the hardware replacement and booting to Maintenance mode, you verify the low-level system configuration of the replacement controller and reconfigure system settings as necessary."
+---
+= Restore and verify the system configuration - AFF A700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/700_9000_controller_replace_system_config_restore_and_verify.adoc[]

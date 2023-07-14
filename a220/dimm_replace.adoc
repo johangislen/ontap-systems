@@ -1,0 +1,13 @@
+---
+permalink: a220/dimm-replace.html
+sidebar: sidebar
+keywords: aff, a220, replace, dimm, shut, down, impaired, controller, controller, metrocluster, replace, system, reinstall, diagnostics, module, filed, part, aggregates,
+summary: "You must replace a DIMM in the controller module when your system registers an increasing number of correctable error correction codes (ECC); failure to do so causes a system panic."
+---
+= Replace a DIMM - AFF A220
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/220_2700_dimm_replace.adoc[]
