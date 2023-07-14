@@ -162,15 +162,7 @@ On/Off if all lanes are faulted
 a|
 On
 a|
-BIOS boot from primary BIOS image after power up
-a|
-Blink
-a|
-Any state
-a|
-Any state
-a|
-BIOS boot from secondary BIOS image after power up
+BIOS boot from BIOS image after power up
 a|
 Blink
 a|
@@ -258,15 +250,16 @@ image::../media/drw_ns224_drive_leds_IEOPS-1263.svg[width=120px]
 a|
 image:../media/legend_icon_01.png[]
 a|
-Power/activity
-a|
-Green
-a|
-image:../media/legend_icon_02.png[]
-a|
 Attention
 a|
 Amber
+a|
+image:../media/legend_icon_02.png[]
+a|
+Power/activity
+a|
+Green
+
 |===
 
 [cols="2,1,1,1" options="header"]
