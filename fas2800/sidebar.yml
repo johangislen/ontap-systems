@@ -25,7 +25,7 @@ entries:
             url: /fas2800/bootmedia-encryption-preshutdown-checks.html
           - title: Shut down impaired controller
             url: /fas2800/bootmedia-impaired-controller-shutdown.html
-          - title: Replace boot the boot media and transfer the boot image
+          - title: Replace boot image
             url: /fas2800/bootmedia-replace.html
           - title: Boot recovery image
             url: /fas2800/bootmedia-recovery-image-boot-non-2n-mcc.html
