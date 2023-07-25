@@ -92,7 +92,10 @@ indexpage:
         - title: Platform upgrade (MetroCluster config)
           url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html
         - title: ONTAP software docs
-          url: https://docs.netapp.com/us-en/ontap/index.html
+          url: https://docs.netapp.com/us-en/ontap/index.html  
+
+    - title: Tools and support
+      links:
         - title: NetApp Hardware Universe
           url: https://hwu.netapp.com/
         - title: NetApp Active IQ Digital Advisor
@@ -105,5 +108,3 @@ indexpage:
           url: https://hwu.netapp.com/      
         - title: NetApp Knowledge Base
           url: https://kb.netapp.com/
-        - title: Active IQ (login required)
-          url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
