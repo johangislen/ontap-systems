@@ -44,12 +44,6 @@ sidebar:
       - section: asa400
       - section: asa800
       - section: asa900
-    - title: ASA C-series systems
-      url: /allsan-c-series/index.html 
-      entries:    
-      - section: asa-c250
-      - section: asa-c400
-      - section: asa-c800
     - title: FAS systems
       url: /fas/index.html
       entries:

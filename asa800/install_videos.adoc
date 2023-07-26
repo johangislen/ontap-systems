@@ -18,6 +18,8 @@ The following video shows how to install and cable your new system.
 
 video::2a61ed74-a0ce-46c3-86d2-ab4b013c0030[panopto, title="Animation - Installation and Setup of an AFF A800]
 
+NOTE: The ASA A800 uses the same installation procedure as the AFF A800 system.
+
 == Video two of two: Perform end-to-end software configuration
 
 The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.

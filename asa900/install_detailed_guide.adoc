@@ -353,7 +353,7 @@ Cable either a single NS224 drive shelf or two NS224 drive shelves to your contr
 .Option 1: Cable the controllers to a single NS224 drive shelf
 --
 
-You must cable each controller to the NSM modules on the NS224 drive shelf on an AFF A900 system.
+You must cable each controller to the NSM modules on the NS224 drive shelf.
 
 .Before you begin
 

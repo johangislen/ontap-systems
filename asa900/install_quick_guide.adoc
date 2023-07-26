@@ -1,7 +1,7 @@
 ---
 permalink: asa900/install_quick_guide.html
 sidebar: sidebar
-keywords: AFF A900
+keywords: ASA A900
 summary: 'Provides  graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up.'
 ---
 = Quick steps - ASA A900
@@ -15,3 +15,5 @@ This page provides graphic instructions for a typical installation of your syste
 Access the _Installation and Setup Instructions_ PDF poster:
 
 link:../media/PDF/December_2022_Rev-2_AFFA900_ISI.pdf[AFF A900 Installation and Setup Instructions^]
+
+NOTE: The ASA A900 uses the same installation procedure as the AFF A900 system.
