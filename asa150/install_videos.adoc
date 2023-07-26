@@ -21,6 +21,8 @@ The following video shows how to install and cable your system.
 +
 video::561d941a-f387-4eb9-a10a-afb30029eb36[panopto, title="Animation - Install and setup of an AFF A150"]
 
+NOTE: The ASA A150 uses the same installation procedure as the AFF A150 system.
+
 End-to-end software configuration::
 +
 The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.

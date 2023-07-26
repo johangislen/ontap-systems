@@ -18,6 +18,8 @@ The following video shows how to install and cable your new system.
 
 video::fe6876d5-9332-4b2e-89be-ac6900027ba5[panopto, title="Animation - Installation and Setup of an AFF A250"]
 
+NOTE: The ASA A250 uses the same installation procedure as the AFF A250 system.
+
 == Video two of two: Performing end-to-end software configuration
 
 The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.

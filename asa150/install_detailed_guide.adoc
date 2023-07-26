@@ -17,7 +17,7 @@ If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/
 == Step 1: Prepare for installation
 
 [.lead]
-To install your AFF A150 system, create an account on the NetApp Support Site, register your system, and obtain your license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
+To install your system, create an account on the NetApp Support Site, register your system, and obtain your license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
 * Make sure you have access to link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements as well as additional information on your configured system. 
