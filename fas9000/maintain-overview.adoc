@@ -1,0 +1,63 @@
+---
+permalink: fas9000/maintain-overview.html
+sidebar: sidebar
+keywords: fas9000 maintenance, maintenance, repairing fas9000, repairing fas9000, replace fas9000 components, replace fas9000 components
+summary: Maintain the ASA A700 hardware
+---
+= Maintain FAS9000 hardware
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For the FAS9000 storage system, you can perform maintenance procedures on the following components.
+
+== Boot media
+
+The boot media stores a primary and secondary set of boot image files that the system uses when it boots. 
+
+== Caching module
+You must replace the controller’s caching module when your system registers a single AutoSupport (ASUP) message that the module has gone offline.
+
+== Chassis
+
+The chassis is the physical enclosure housing all the controller components such as the controller/CPU unit, power supply, and I/O.
+
+== Controller
+
+A controller consists of a board, firmware, and software. It controls the drives and implements the ONTAP functions.
+
+== DCPM
+
+The DCPM (destage controller power module) contains the NVRAM11 battery.
+
+== DIMM
+
+You must replace a DIMM (dual in-line memory module) when a memory mismatch is present, or you have a failed DIMM.
+
+== Fan
+
+The fan cools the controller.
+
+== I/O module
+
+The  I/O module (Input/Output module) is a hardware component that acts as an intermediary between the controller and various devices or systems that need to exchange data with the controller.
+
+== LED USB
+
+The LED USB module provides connectivity to console ports and system status. 
+
+== NVRAM
+
+The NVRAM module (Non-Volatile Random Access Memory) allows the controller to retain data across power cycles or system reboots.
+
+== Power supply
+
+A power supply provides a redundant power source in a controller shelf.
+
+== Real-time clock battery
+
+A real time clock battery preserves system date and time information if the power is off. 
+
+== X91148A module
+
+The X91148A module is an I/O module that acts as an intermediary between the controller and various devices or systems that need to exchange data with the controller.

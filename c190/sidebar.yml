@@ -16,6 +16,8 @@ entries:
  - title: Maintain
    pdf-filename: AFF C190 Maintain
    entries:
+    - title: Overview
+      url: /c190/maintain-overview.html
       # START boot media replacement
     - title: Boot media
       pdf-filename: AFF C190 Boot Media

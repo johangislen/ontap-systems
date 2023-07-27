@@ -119,7 +119,7 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 a|
 An HA pair
 a|
-The controller module begins to boot as soon as it is fully seated in the chassis. Be prepared to interrupt the boot process.
+The controller module begins to boot as soon as it is fully seated in the chassis.
 
  .. With the cam handle in the open position, firmly push the controller module in until it meets the midplane and is fully seated, and then close the cam handle to the locked position.
 +

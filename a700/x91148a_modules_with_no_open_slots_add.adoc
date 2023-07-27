@@ -1,0 +1,13 @@
+---
+permalink: a700/x91148a-modules-with-no-open-slots-add.html
+sidebar: sidebar
+keywords: aff a700, add, x91148a, storage, module, no, open, slots, system, nic
+summary: "You must remove one more or more existing NIC or storage modules in your system in order to install one or more X91148A storage modules into your fully-populated system."
+---
+= Add an X91148A storage module in a system with no open slots - A700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/700_9000_x91148a_modules_with_no_open_slots_add.adoc[]

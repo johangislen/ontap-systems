@@ -1,0 +1,13 @@
+---
+permalink: asa800/controller-replace-overview.html
+sidebar: sidebar
+keywords: asa a800, prerequisite, replace the controller module
+summary: "You must review the prerequisites for the replacement procedure and select the correct one for your version of the ONTAP operating system."
+---
+= Overview of controller replacement - ASA A800
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/800_controller_replace_overview.adoc[]

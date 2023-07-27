@@ -1,6 +1,5 @@
 section: c800
 title: AFF C800 systems
-url: /c800/index.html
 entries:
  - title: Install and setup
    pdf-filename: AFF C800 Install and Setup
@@ -16,6 +15,8 @@ entries:
  - title: Maintain
    pdf-filename: AFF C800 Maintain
    entries:
+   - title: Overview
+     url: /c800/maintain-overview.html
       # START boot media
    - title: Boot media
      pdf-filename: AFF C800 Boot Media

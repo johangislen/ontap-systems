@@ -1,8 +1,8 @@
 ---
 permalink: c190/chassis-replace-complete-rma.html
 sidebar: sidebar
-keywords: aff c190, verify and set HA state, run diagnostics
-summary: "You must verify the HA state of the chassis and run System-Level diagnostics."
+keywords: aff c190, verify and set HA state
+summary: "You must verify the HA state of the chassis."
 ---
 = Restore and verify the configuration - AFF C190
 :icons: font
@@ -35,27 +35,7 @@ The value for `_HA-state_` can be one of the following:
 +
 `*ha-config show*`
 . If you have not already done so, recable the rest of your system.
-. The next step depends on your system configuration.
-+
-[%header,cols="1,2"]
-|===
-| If your system is in...| Then...
-a|
-A stand-alone configuration
-a|
-
- .. Exit Maintenance mode:
-+
-`*halt*`
- .. Go to link:chassis-replace-move-hardware.html[Completing the replacement process].
-a|
-An HA pair with a second controller module
-a|
-Exit Maintenance mode:
-`*halt*`
-
-The LOADER prompt appears.
-|===
+. Reboot the system.
 
 
 == Step 2: Return the failed part to NetApp

@@ -1,4 +1,4 @@
-You must recable the controller module's storage and network connections.
+Recable the controller module's storage and network connections.
 
 .Steps
 . Recable the system.

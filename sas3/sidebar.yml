@@ -1,6 +1,5 @@
 section: sas3
-title: SAS shelves with IOM12/IOM12B modules
-url: /sas3/index.html
+title: SAS shelves
 entries:
   - title: Install and cable
     pdf-filename: Shelves with IOM12/IOM2B Modules Install and Cable
@@ -9,7 +8,7 @@ entries:
       url: /sas3/install-new-system.html
     - title: Hot-add shelf
       url: /sas3/install-hot-add-shelf.html
-    - title: Hot-add IOM12/IOM12B shelves to a stack of IOM6 shelves
+    - title: Hot-add IOM12/IOM12B shelves to stack of IOM6 shelves
       url: /sas3/iom12-hot-add-mix.html
     - title: Change shelf ID
       url: /sas3/install-change-shelf-id.html
@@ -17,21 +16,21 @@ entries:
       entries:
       - title: Overview
         url: /sas3/overview-cabling-rules-examples.html
-      - title: SAS cabling rules
+      - title: SAS cabling rules and concepts
         url: /sas3/install-cabling-rules.html
-      - title: Cabling worksheets and examples for common multipath HA configurations
+      - title: Cabling worksheets and examples for multipath HA
         url: /sas3/install-cabling-worksheets-examples-multipath.html
-      - title: Cabling worksheets and examples for platforms with internal storage
+      - title: Cabling worksheets for platforms with internal storage
         url: /sas3/install-cabling-worksheets-examples-fas2600.html
-      - title: Cabling worksheet and example for a quad-path HA configuration with two quad-port SAS HBAs
+      - title: Cabling worksheet and example for a quad-path HA
         url: /sas3/install-worksheets-examples-quadpath.html
-      - title: Cabling worksheet template for multipathed connectivity
+      - title: Cabling worksheet for multipathed connectivity
         url: /sas3/install-cabling-worksheet-template-multipath.html
-      - title: Cabling worksheet template for quad-pathed connectivity
+      - title: Cabling worksheet for quad-pathed connectivity
         url: /sas3/install-cabling-worksheet-template-quadpath.html
-      - title: How to read worksheet to cable for multipathed connectivity
+      - title: How to read worksheet for multipathed connectivity
         url: /sas3/install-cabling-worksheets-how-to-read-multipath.html
-      - title: How to read worksheet to cable for quad-pathed connectivity
+      - title: How to read worksheet for quad-pathed connectivity
         url: /sas3/install-cabling-worksheets-how-to-read-quadpath.html
   - title: Maintain
     pdf-filename: Shelves with IOM12/IOM12B Modules Maintain

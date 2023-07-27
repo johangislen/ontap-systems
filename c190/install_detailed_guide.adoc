@@ -125,7 +125,27 @@ image::../media/drw_cable_management_arm_install.png[]
 
 Cable the controllers to your network by using the two-node switchless cluster method or the cluster interconnect network method.
 
-UTA2 ports, Ethernet data network and management ports on the controller modules are connected to switches. The cluster interconnect ports are cabled on both controller modules.
+The following table identifies the cable type with the call out number and cable color in the illustrations for both two-node switchless cluster network cabling and switched cluster network cabling. 
+
+[options="header" cols="20%,80%"]
+|===
+| Cabling|Connection type
+a|
+image::../media/oie_legend_icon_1_lg.svg[width=40px]
+a|
+Cluster interconnect
+a|
+image::../media/oie_legend_icon_2_o.svg[width=40px]
+a|
+Controllers to host data network switches
+a|
+image::../media/oie_legend_icon_3_lp.svg[width=40px]
+a|
+Controllers to management network switch
+a|
+image::../media/oie_legend_icon_attn_symbol.svg[width=40px]
+
+|===
 
 // start tabbed area
 
@@ -148,7 +168,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
 .About this task
-You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
+Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 UTA2 data network configurations:: 
@@ -168,7 +188,7 @@ Perform the following steps on each controller module.
 image:../media/drw_c190_u_tnsc_clust_cbling.png[]
 +
 
-. Do one of the following:
+. Cable the controllers to either a UTA2 data network or an Ethernet network.
 [horizontal]
 UTA2 data network configurations:: 
 Use one of the following cable types to cable the e0c/0c and e0d/0d or e0e/0e and e0f/0f data ports to your host network. 
@@ -205,7 +225,7 @@ NOTE: As you insert the connector, you should feel it click into place; if you d
 NOTE: If connecting to an optical switch, insert the SFP into the controller port before cabling to the port.
 
 .About this task
-You can use either the UTA2 data network ports or the ethernet data network ports  to connect the controllers to your host network. Refer to the following cabling illustrations when cabling between the controllers and the switches.
+Refer to the following cabling illustrations when cabling between the controllers and the switches.
 
 [horizontal]
 Unified network configurations::
@@ -225,7 +245,7 @@ Perform the following steps on each controller module.
 +
 image:../media/drw_c190_u_switched_clust_cbling.png[]
 +
-. Do one of the following:
+. Cable the controllers to either a UTA2 data network or an Ethernet network.
 [horizontal]
 UTA2 data network configurations::
 Use one of the following cable types to cable the e0c/0c and e0d/0d or e0e/0e and e0f/0f data ports to your host network.
@@ -272,9 +292,9 @@ NOTE: Initial booting may take up to eight minutes..
 +
 See your laptop's online help for more information.
 
-. Use the animation to connect your laptop to the Management switch:
-+
-video::d61f983e-f911-4b76-8b3a-ab1b0066909b[panopto, title="Animation - Connect your laptop to the Management switch"]
+. Connect your laptop to the Management switch:
+
+image::../media/dwr_laptop_to_switch_only.svg[width=400px]
 
 . Select an ONTAP icon listed to discover:
 +

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, chassis replacement, shutdown
 summary: "To replace the chassis, you must shutdown the controllers."
 ---
-= Shut down the controllers - AFF A700 and FAS9000
+= Shut down the controllers - FAS9000
 :icons: font
 :imagesdir: ../media/
 
