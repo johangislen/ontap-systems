@@ -116,7 +116,9 @@ NOTE: Make sure that the card is completely and squarely seated into the riser s
 
 == Step 3: Move PCIe cards
 
-As part of the controller replacement process, you must remove both PCIe riser modules, Riser 2 (the middle riser) and Riser 3 (riser on the far right) from the impaired controller module, remove the PCIe cards from the riser modules, and install them in the same riser modules in the replacement controller module. You will install the riser modules into the replacement controller module once the DIMMs have been moved to the replacement controller module.
+As part of the controller replacement process, you must remove both PCIe riser modules, Riser 2 (the middle riser) and Riser 3 (riser on the far right) from the impaired controller module, remove the PCIe cards from the riser modules, and install the cards in the same riser modules in the replacement controller module. You will install the riser modules into the replacement controller module once the DIMMs have been moved to the replacement controller module.
+
+IMPORTANT: Do not install the risers from the impaired controller module into the replacement controller module.
 
 . Remove the PCIe riser from the controller module:
  .. Remove any SFP modules that might be in the PCIe cards.
@@ -151,11 +153,12 @@ Riser 2 (middle riser) and PCI cards in riser slots 2 and 3.
  .. Press the locking bracket on the side of the PCIe riser, and then rotate it to the open position.
  .. Remove the PCIe card from the riser.
 . Remove the corresponding riser from the replacement controller module.
-. Install the PCIe card into the same slot in PCIe riser:
+. Install the PCIe card into the riser from the replacement controller and then reinstall the riser back into the replacement controller:
  .. Align the card with the card guide on the riser and the card socket in the riser, and then slide it squarely into the socket in the riser.
 +
-NOTE: Make sure that the card is completely and squarely seated into the riser socket.
-
+Make sure that the card is completely and squarely seated into the riser socket.
++
+.. Reinstall the riser into the replacement controller module.
  .. Swing the locking latch into place until it clicks into the locked position.
 . Repeat the preceding steps for Riser 3 and PCIe cards in slots 4 and 5 in the impaired controller module.
 
