@@ -18,6 +18,8 @@ The following video shows how to install and cable your new system.
 
 video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto, title="Animation - AFF A400 Installation and setup instructions"]
 
+NOTE: The ASA A400 uses the same installation procedure as the AFF A400 system.
+
 == Video two of two: Perform end-to-end software configuration
 
 The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.

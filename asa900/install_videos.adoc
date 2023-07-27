@@ -18,6 +18,7 @@ The following video shows how to install and cable your new system.
 
 video::4c222e90-864b-4435-9405-adf200112f3e[panopto, title="Animation - AFF A900 Installation and setup instructions"]
 
+NOTE: The ASA A900 uses the same installation procedure as the AFF A900 system.
 
 == Video two of two: Performing end-to-end software configuration
 
