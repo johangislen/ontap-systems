@@ -119,7 +119,7 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::e3fd32b6-bdbb-4c53-b666-b030018a5744[panopto, title="Animation - Replace the mezzanine card"]
 
-image::../media/drw_c400_replace-mezz-card_IEOPS-1236.svg[width=500px]
+image::../media/drw_c400_replace-mezz-card_IEOPS-1236.svg[width=550px]
 
 . Remove riser number 3 (slots 4 and 5):
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.
@@ -141,7 +141,6 @@ The riser raises up slightly from the controller module.
 
 == Step 5: Install the controller module
 
-[.lead]
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
 . If you have not already done so, close the air duct.
@@ -175,7 +174,6 @@ NOTE: If your system stops at the boot menu, select the option to boot to LOADER
 
 == Step 6: Restore the controller module to operation
 
-[.lead]
 To restore the controller, you must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
@@ -187,10 +185,8 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 
 == Step 7: Switch back aggregates in a two-node MetroCluster configuration
 
-[.lead]
 include::../_include/2n_mcc_switchback.adoc[]
 
 == Step 8: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]
