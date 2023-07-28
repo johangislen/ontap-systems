@@ -260,7 +260,7 @@ Install the USB LED modules in the replacement chassis.
 
 == Step 13: Install the controller
 
-After you install the controller module and any other components into the replacement chassis, boot it to a state where you can run the interconnect diagnostic test.
+After you install the controller module and any other components into the replacement chassis, boot the system.
 
 . If you are not already grounded, properly ground yourself.
 . Connect the power supplies to different power sources, and then turn them on.

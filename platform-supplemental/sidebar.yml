@@ -2,24 +2,6 @@ section: platform-supplemental
 title: Other platform procedures
 entries:
 # I will be very surprised if I got these structured correctly. MB
-  - title: System-level diagnostics
-    entries:
-      - title: Introduction
-        url: /platform-supplemental/sldiag-introduction.html
-      - title: Requirements
-        url: /platform-supplemental/sldiag-requirements.html
-      - title: How to use command-line help
-        url: /platform-supplemental/sldiag-use-cli-help.html
-      - title: Run system install diagnostics
-        url: /platform-supplemental/sldiag-system-installation-diagnostics.html
-      - title: Run system panic diagnostics
-        url: /platform-supplemental/sldiag-system-panic-diagnostics.html
-      - title: Run slow system response diagnostics
-        url: /platform-supplemental/sldiag-slow-system-diagnostics.html
-      - title: Run hardware install diagnostics
-        url: /platform-supplemental/sldiag-hardware-installation-diagnostics.html
-      - title: Run device failure diagnostics
-        url: /platform-supplemental/sldiag-device-failure-diagnostics.html
   - title: SuperRail kit
     url: /platform-supplemental/superrail-install.html
   - title: AFF A700/FAS9000 two-post rail kit

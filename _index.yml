@@ -1,5 +1,5 @@
 indexpage:
-  lead: NetApp's AFF and FAS storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
+  lead: NetApp's AFF and FAS and All SAN Array storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your AFF, FAS, or All SAN Array systems.
   tiles:
     - title: Get started
       links:
@@ -7,104 +7,43 @@ indexpage:
           url: /whats-new.html
         - title: Quick start
           url: /get-up-and-run.html
-        - title: AFF A-Series system data sheet
-          url: https://www.netapp.com/pdf.html?item=/media/7828-DS-3582-AFF-A-Series.pdf
-        - title:  AFF C-Series system data sheet
-          url: https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf
-        - title: FAS system data sheet
-          url: https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf
-        - title: AFF and FAS storage data sheet
-          url: https://www.netapp.com/data-storage/disk-shelves-storage-media/
         - title: ONTAP Release Notes
           url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508
-    - title: AFF A-Series systems
+    - title: Storage platforms
       links:
-        - title: AFF A150
-          url: /a150/index.html
-        - title: AFF A220
-          url: /a220/index.html
-        - title: AFF A250
-          url: /a250/index.html
-        - title: AFF A400
-          url: /a400/index.html
-        - title: AFF A700
-          url: /a700/index.html
-        - title: AFF A800
-          url: /a800/index.html
-        - title: AFF A900
-          url: /a900/index.html
-    - title: AFF C-Series systems
+        - title: AFF A-series systems
+          url: /aff-aseries/index.html
+        - title: AFF C-series systems
+          url: /aff-cseries/index.html
+        - title: ASA A-series systems
+          url: /allsan-a-series/index.html
+        - title: FAS systems
+          url: /fas/index.html
+        - title: End-of-availability systems
+          url: /endofavail/index.html
+    - title: Networking
       links:
-        - title: AFF C190
-          url: /c190/index.html
-        - title: AFF C250
-          url: /c250/index.html
-        - title: AFF C400
-          url: /c400/index.html
-        - title: AFF C800
-          url: /c800/index.html
-    - title: FAS systems
+        - title: Drive shelves
+          url: /drive-shelves/index.html
+        - title: Switches
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/index.html
+    - title: Doc resources
       links:
-        - title: FAS500f
-          url: /fas500f/index.html
-        - title: FAS2700
-          url: /fas2700/index.html
-        - title: FAS2800
-          url: /fas2800/index.html
-        - title: FAS8300
-          url: /fas8300/index.html
-        - title: FAS8700
-          url: /fas8300/index.html
-        - title: FAS9000
-          url: /fas9000/index.html
-        - title: FAS9500
-          url: /fas9500/index.html
-    - title: End-of-availability systems
-      links:
-        - title: AFF A200
-          url: /a200/index.html
-        - title: AFF A300
-          url: /a300/index.html
-        - title: AFF A320
-          url: /a320/index.html
-        - title: AFF A700s
-          url: /a700s/index.html
-        - title: FAS2600
-          url: /fas2600/index.html
-        - title: FAS8200
-          url: /fas8200/index.html
-    - title: Supported switches
-      links:
-        - title: Broadcom-supported BES-53248
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
-        - title: Cisco 9336C-FX2
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
-        - title: Cisco 9336-FX2 in shared configurations
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
-        - title: NVIDIA SN2100 
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-nvidia-sn2100/configure-overview-sn2100-storage.html
-        - title: End-of-availability switches
-          url: https://docs.netapp.com/us-en/ontap-systems-switches/overview-eod.html
-    - title: Related ONTAP docs
-      links:
-        - title: Platform upgrade (most systems)
+        - title: Platform upgrade (Most systems)
           url: https://docs.netapp.com/us-en/ontap-systems-upgrade/index.html
         - title: Platform upgrade (MetroCluster config)
           url: https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/concept_choosing_an_upgrade_method_mcc.html
-        - title: ONTAP software docs
-          url: https://docs.netapp.com/us-en/ontap/index.html  
-
-    - title: Tools and support
+        - title: ONTAP software
+          url: https://docs.netapp.com/us-en/ontap/index.html
+        - title: Digital Advisor
+          url: https://docs.netapp.com/us-en/active-iq/index.html 
+    - title: Tools & support
       links:
-        - title: NetApp Hardware Universe
-          url: https://hwu.netapp.com/
-        - title: NetApp Active IQ Digital Advisor
-          url: https://docs.netapp.com/us-en/active-iq/index.html
-        - title: NetApp Active IQ Config Advisor
-          url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor
         - title: NetApp Interoperability Matrix
           url: https://mysupport.netapp.com/matrix/#welcome
         - title: NetApp Hardware Universe
           url: https://hwu.netapp.com/      
         - title: NetApp Knowledge Base
           url: https://kb.netapp.com/
+        - title: Active IQ (login required)
+          url: https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor

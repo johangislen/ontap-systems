@@ -1,7 +1,7 @@
 ---
 permalink: fas8300/nvdimm-replace.html
 sidebar: sidebar
-keywords: fas8300, fas8700, replace, nvmem, battery, remove, controller, module, controller, metrocluster, configuration, diagnostics, aggregate, configuration, reinstall, run, system, switch, shut, down
+keywords: fas8300, fas8700, replace, nvmem, battery, remove, controller, module, controller, metrocluster, configuration, aggregate, configuration, reinstall, run, system, switch, shut, down
 summary: "You must replace the NVDIMM in the controller module when your system registers that the flash lifetime is almost at an end or that the identified NVDIMM is not healthy in general; failure to do so causes a system panic."
 ---
 = Replace an NVDIMM - FAS8300 and FAS8700
@@ -104,7 +104,7 @@ NOTE: Visually inspect the NVDIMM to verify that it is evenly aligned and fully 
 
 == Step 4: Install the controller module
 
-After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it.
 
 You can use the following animation, illustration, or the written steps to install the controller module in the chassis.
 
@@ -138,34 +138,12 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 NOTE: If your system stops at the boot menu, select the option to boot to LOADER.
 
  .. At the LOADER prompt, enter `bye` to reinitialize the PCIe cards and other components.
- .. Interrupt the boot process and boot to the LOADER prompt by pressing `Ctrl-C`.
-+
-If your system stops at the boot menu, select the option to boot to LOADER.
 
-== Step 5: Run diagnostics
 
-After you have replaced the NVDIMM in your system, you should run diagnostic tests on that component.
 
-Your system must be at the LOADER prompt to start diagnostics.
+== Step 5: Restore the controller module to operation
 
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-.Steps
-. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node _node_name_`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
-. Select *Test Memory* from the displayed menu.
-. Select *NVDIMM Test* from the displayed menu.
-. Proceed based on the result of the preceding step:
- ** If the test failed, correct the failure, and then rerun the test.
- ** If the test reported no failures, select `Reboot` from the menu to reboot the system.
-
-== Step 6: Restore the controller module to operation after running diagnostics
-
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 .Steps
 . Recable the system, as needed.
@@ -175,10 +153,10 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode `_impaired_node_name_``
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
-== Step 7: Switch back aggregates in a two-node MetroCluster configuration
+== Step 6: Switch back aggregates in a two-node MetroCluster configuration
 
 include::../_include/2n_mcc_switchback.adoc[]
 
-== Step 8: Return the failed part to NetApp
+== Step 7: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]

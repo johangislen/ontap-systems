@@ -1,6 +1,5 @@
 section: fas9000
 title: FAS9000 systems
-url: /fas9000/index.html
 entries:
     - title: Install and setup
       pdf-filename: FAS9000 Install and Setup
@@ -16,6 +15,8 @@ entries:
     - title: Maintain
       pdf-filename: FAS9000 Maintain
       entries:
+      - title: Overview
+        url: /fas9000/maintain-overview.html
         # START boot media
       - title: Boot media
         pdf-filename: FAS9000 Boot Media
@@ -53,7 +54,7 @@ entries:
         - title: Complete replacement
           url: /fas9000/chassis-replace-complete-system-restore-rma.html
       # START controller module replacement
-      - title: Controller module
+      - title: Controller
         pdf-filename: FAS9000 Controller
         entries:
         - title: Overview
@@ -77,13 +78,13 @@ entries:
         url: /fas9000/fan-swap-out.html
       - title: I/O module
         url: /fas9000/pci-cards-and-risers-replace.html
-      - title: LED USB module
+      - title: LED USB
         url: /fas9000/led-module-replace.html
       - title: NVRAM
         url: /fas9000/nvram-module-or-nvram-dimm-replacement.html
       - title: Power supply
         url: /fas9000/power-supply-swap-out.html
-      - title: RTC battery
+      - title: Real-time clock battery
         url: /fas9000/rtc-battery-replace.html
         # START X91148A module
       - title: X91148A module
@@ -91,8 +92,8 @@ entries:
         entries:
         - title: Overview
           url: /fas9000/x91148a-module-install-overview.html
-        - title: AFF A700 system with open slots
+        - title: Add X91148A module in system with open slots
           url: /fas9000/x91148a-modules-with-open-slots-add.html
-        - title: AFF A700 system no open slots
+        - title: Add X91148A  withmodule in system with no open slots
           url: /fas9000/x91148a-modules-with-no-open-slots-add.html
           # END X91148A module

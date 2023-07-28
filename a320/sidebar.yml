@@ -1,6 +1,5 @@
 section: a320
 title: AFF A320 systems
-url: /a320/index.html
 entries:
   - title: Install and setup
     pdf-filename: AFF A320 Install and Setup
@@ -16,7 +15,8 @@ entries:
   - title: Maintain
     pdf-filename: AFF A320 Maintain
     entries:
-      # START boot media replacement
+    - title: Overview
+      url: /a320/maintain-overview.html
     - title: Boot media
       pdf-filename: AFF A320 Boot Media
       entries:

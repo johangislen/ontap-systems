@@ -1,6 +1,5 @@
 section: a400
 title: AFF A400 systems
-url: /a400/index.html
 entries:
   - title: Install and setup
     pdf-filename: AFF A400 Install and Setup
@@ -16,6 +15,8 @@ entries:
   - title: Maintain
     pdf-filename: AFF A400 Maintain
     entries:
+    - title: Overview
+      url: /a400/maintain-overview.html
     - title: Boot media
       pdf-filename: AFF A400 Boot Media
       entries:
@@ -42,22 +43,22 @@ entries:
         url: /a400/chassis-replace-overview.html
       - title: Shut down impaired controller
         url: /a400/chassis-replace-shutdown.html
-      - title: Replace hardware
+      - title: Replace chassis
         url: /a400/chassis-replace-move-hardware.html
-      - title: Complete replacement
+      - title: Complete chassis replacement
         url: /a400/chassis-replace-complete-system-restore-rma.html
-    - title: Controller module
+    - title: Controller
       pdf-filename: AFF A400 Controller Module
       entries:
       - title: Overview
         url: /a400/controller-replace-overview.html
       - title: Shut down impaired controller
         url: /a400/controller-replace-shutdown.html
-      - title: Replace controller module
+      - title: Replace controller
         url: /a400/controller-replace-move-hardware.html
       - title: Restore system configuration
         url: /a400/controller-replace-system-config-restore-and-verify.html
-      - title: Recable the system
+      - title: Recable system
         url: /a400/controller-replace-recable-reassign-disks.html
       - title: Complete system restoration
         url: /a400/controller-replace-restore-system-rma.html

@@ -1,0 +1,13 @@
+---
+permalink: asa900/controller_replace_recable_reassign_disks.html
+sidebar: sidebar
+keywords:
+summary:
+---
+= Recable the system - ASA A900
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/900_controller_replace_recable_reassign_disks.adoc[]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, detailed, guide, prepare, install, hardware, two, node, switchless, cluster, cable, controller, ds212c, ds224c, ns224, drive, shelf, complete, system, setup, configuration, network, discovery
 summary: 'This guide gives detailed step-by-step instructions for installing a typical NetApp system.'
 ---
-= Detailed guide - AFF A700 and FAS9000
+= Detailed guide - FAS9000
 :icons: font
 :imagesdir: ../media/
 
@@ -250,11 +250,11 @@ image:../media/Cable_shelves_new_system_IOM12_shelves.png[]
 +
 . Go to <<Step 5: Complete system setup and configuration>> to complete system setup and configuration.
 
-=== Option 2: Cable the controllers to a single NS224 drive shelf in AFF A700 and ASA AFF A700 systems running ONTAP 9.8 and later only
+=== Option 2: Cable the controllers to a single NS224 drive shelf in ASA AFF A700 systems running ONTAP 9.8 and later only
 
 You must cable each controller to the NSM modules on the NS224 drive shelf on an AFF A700 or ASA AFF A700 running system ONTAP 9.8 or later.
 
-* This task applies to AFF A700 and ASA AFF A700 running ONTAP 9.8 or later only.
+* This task applies to ASA AFF A700 running ONTAP 9.8 or later only.
 * The systems must have at least one X91148A module installed in slots 3 and/or 7 for each controller. The animation or illustrations show this module installed in both slots 3 and 7.
 * Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the storage modules are up, while the pull tabs on the shelves are down.
 +
@@ -275,11 +275,11 @@ image::../media/single_NS224_shelf.png[]
 
 . Go to <<Step 5: Complete system setup and configuration>> to complete system setup and configuration.
 
-=== Option 3: Cable the controllers to two NS224 drive shelves in AFF A700 and ASA AFF A700 systems running ONTAP 9.8 and later only
+=== Option 3: Cable the controllers to two NS224 drive shelves in ASA AFF A700 systems running ONTAP 9.8 and later only
 
 You must cable each controller to the NSM modules on the NS224 drive shelves on an AFF A700 or ASA AFF A700 running system ONTAP 9.8 or later.
 
-* This task applies to AFF A700 and ASA AFF A700 running ONTAP 9.8 or later only.
+* This task applies to ASA AFF A700 running ONTAP 9.8 or later only.
 * The systems must have two X91148A modules, per controller, installed in slots 3 and 7.
 * Be sure to check the illustration arrow for the proper cable connector pull-tab orientation. The cable pull-tab for the storage modules are up, while the pull tabs on the shelves are down.
 +
