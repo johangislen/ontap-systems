@@ -27,3 +27,5 @@ indexpage:
           url: /service-replace-power-supply.html
         - title: RTC battery
           url: /service-replace-rtc-battery.html
+        - title: Shelf LED status conditions
+          url: /service-monitor-leds.html
