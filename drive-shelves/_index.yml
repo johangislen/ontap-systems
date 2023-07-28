@@ -29,6 +29,8 @@ indexpage:
           url: ../ns224/service-replace-dimm.html
         - title: Drive
           url: ./ns224/service-replace-drive.html
+        - title: Drive shelf LEDs
+          url: ./ns224/service-monitor-leds.html
         - title: Fan
           url: ./ns224/service-replace-fan.html
         - title: Hot-remove shelf
