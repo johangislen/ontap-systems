@@ -1,0 +1,50 @@
+---
+permalink: fas8200/maintain-overview.html
+sidebar: sidebar
+keywords: fas2600 maintenance, maintenance, repairing fas2600, repairing fas2600, replace aff fas2600 components, replace aff fas2600 components
+summary: Maintain the fas2600 hardware
+---
+= Maintain FAS8200 hardware
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For the FAS8200 storage system, you can perform maintenance procedures on the following components.
+
+== Boot media
+
+The boot media stores a primary and secondary set of boot image files that the system uses when it boots. 
+
+== Caching module
+
+You must replace the controller's caching module when your system registers a single AutoSupport (ASUP) message that the module has gone offline.
+
+== Chassis
+The chassis is the physical enclosure housing all the controller components such as the controller/CPU unit, power supply, and I/O.
+
+== Controller
+
+A controller consists of a board, firmware, and software. It controls the drives and implements the ONTAP functions.
+
+== DIMM
+
+You must replace a DIMM (dual in-line memory module) when a memory mismatch is present, or you have a failed DIMM.
+
+== Drive
+
+A drive is a device that provides the physical storage media for data.
+
+== NVEM Battery
+
+A battery is included with a controller and preserves cached data if the AC power fails.
+
+== PCIe card
+
+A PCIe (peripheral component interconnect express) card is an expansion card that plugs into the PCIe slot on the motherboard.
+
+== Power supply
+
+A power supply provides a redundant power source in a controller shelf.
+
+== Real time clock battery
+A real time clock battery preserves system date and time information if the power is off. 

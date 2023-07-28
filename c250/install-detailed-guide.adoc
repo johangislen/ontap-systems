@@ -9,6 +9,7 @@ summary: This section gives detailed step-by-step instructions for installing an
 :imagesdir: ../media/
 
 [.lead]
+include::../_include/250_install-detailed-guide.adoc[]
 This section gives detailed step-by-step instructions for installing an AFF C250 system.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^].

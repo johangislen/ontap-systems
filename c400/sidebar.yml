@@ -1,6 +1,5 @@
 section: c400
 title: AFF C400 systems
-url: /c400/index.html
 entries:
   - title: Install and setup
     pdf-filename: AFF C400 Install and Setup
@@ -16,6 +15,8 @@ entries:
   - title: Maintain
     pdf-filename: AFF C400 Maintain
     entries:
+    - title: Overview
+      url: /c400/maintain-overview.html
     - title: Boot media
       pdf-filename: AFF C400 Boot Media
       entries:
