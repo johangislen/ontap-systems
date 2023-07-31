@@ -9,4 +9,5 @@ summary: Replacing a power supply \(PSU\) involves disconnecting the target PSU 
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/400_power_supply_replace.adoc[]
