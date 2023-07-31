@@ -1,0 +1,50 @@
+indexpage:
+  lead: FAS storage systems help you build a storage infrastructure that is simple, smart, and trusted.
+  tiles:
+    - title: Get started
+      links:
+        - title: FAS datasheet
+          url: https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf
+        - title: FAS platform overview
+          url: https://www.netapp.com/data-storage/fas/
+    - title: Install and setup
+      links:
+        - title: FAS500f
+          url: ../fas500f/install-setup.html
+        - title: FAS2700
+          url: ../fas2700/install-setup.html
+        - title: FAS8300 and FAS8700
+          url: ../fas8300/install-setup.html
+        - title: FAS9000
+          url: ../fas9000/install-setup.html
+        - title: FAS9500
+          url: ../fas9500/install_setup.html
+    - title: Maintain your system
+      links:
+        - title: FAS500f
+          url: ../fas500f/maintain-overview.html
+        - title: FAS2700
+          url: ../fas2700/maintain-overview.html
+        - title: FAS8300 and FAS8700
+          url: ../fas8300/maintain-overview.html
+        - title: FAS9000
+          url: ../fas9000/maintain-overview.html
+        - title: FAS9500
+          url: ../fas9500/maintain-overview.html
+    - title: Supported switches
+      links:
+        - title: Broadcom-supported BES-53248
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+        - title: Cisco 9336C-FX2
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+        - title: Cisco 9336-FX2 in shared configurations
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+    - title: More doc resources
+      links:
+        - title: System hardware upgrade
+          url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
+        - title: ONTAP software upgrade
+          url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
+        - title: Replace internal disk drive (video)
+          url: https://www.youtube.com/watch?v=Ziqg9HL8oYQ
+    

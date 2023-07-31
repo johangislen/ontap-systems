@@ -169,9 +169,9 @@ NOTE: If your system stops at the boot menu, select the option to boot to LOADER
 
 include::../_include/2n_mcc_switchback.adoc[]
 
-== Step 7: Restore the controller module to operation after running diagnostics
+== Step 7: Restore the controller module to operation
 
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 .Steps
 . Recable the system, as needed.

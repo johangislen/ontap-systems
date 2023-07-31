@@ -1,7 +1,7 @@
 ---
 permalink: a320/nvdimm-battery-replace.html
 sidebar: sidebar
-keywords: aff, a320, aff a320, replace, nvdimm, battery, remove, controller, module, reinstall, shut, down, impair, diagnostic, operation, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, run diagnostics, restore the controller module to operation after running diagnostics
+keywords: aff, a320, aff a320, replace, nvdimm, battery, remove, controller, module, reinstall, shut, down, impair, operation, replace the nvdimm battery, shut down the impaired controller, remove the controller module, replace the nvdimm battery, install the controller module, restore the controller module to operation
 summary: To replace the NVDIMM battery, you must remove the controller module, remove the battery, replace the battery, and then reinstall the controller module.
 ---
 = Replace the NVDIMM battery - AFF A320
@@ -57,7 +57,7 @@ image::../media/drw_a320_nvbat_move_animated_gif.png[]
 
 == Step 4: Install the controller module
 
-After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it..
 
 . If you have not already done so, close the air duct at the rear of the controller module and reinstall the cover over the PCIe cards.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.
@@ -83,30 +83,10 @@ The controller module begins to boot as soon as it is fully seated in the chassi
  .. Release the latches to lock the controller module into place.
  .. Recable the power supply.
  .. If you have not already done so, reinstall the cable management device.
- .. Interrupt the normal boot process by pressing `Ctrl-C`.
 
-== Step 5: Run diagnostics
+== Step 5: Restore the controller module to operation
 
-After you have replaced a component in your system, you should run diagnostic tests on that component.
-
-Your system must be at the LOADER prompt to start diagnostics.
-
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
-. Select *Test system* from the displayed menu to run diagnostics tests.
-. Proceed based on the result of the preceding step:
- ** If the scan show problems, correct the issue, and then rerun the scan.
- ** If the scan reported no failures, select Reboot from the menu to reboot the system.
-
-== Step 6: Restore the controller module to operation after running diagnostics
-
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
@@ -115,6 +95,6 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
-== Step 7: Return the failed part to NetApp
+== Step 6: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]

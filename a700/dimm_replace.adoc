@@ -1,0 +1,13 @@
+---
+permalink: a700/dimm-replace.html
+sidebar: sidebar
+keywords: aff a700, fas9000, replace, dimm, shut, down, impaired, controller, module, reinstall, system, node, aggregates, metrocluster, replacement
+summary: "You must replace a DIMM in the controller module when your system registers an increasing number of correctable error correction codes (ECC); failure to do so causes a system panic."
+---
+= Replace a DIMM - AFF A700
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+
+include::../_include/700_9000_dimm_replace.adoc[]

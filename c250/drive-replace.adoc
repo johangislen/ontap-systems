@@ -13,4 +13,3 @@ include::../_include/drive_hotswap_ssd_intro.adoc[]
 
 .Steps
 include::../_include/drive_hotswap_ssd.adoc[]
-
