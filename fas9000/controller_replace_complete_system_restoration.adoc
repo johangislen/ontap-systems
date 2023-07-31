@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aff a700, fas9000, storage encryption, licenses, storage encryption, volume encryption, serial number, metrocluster, switchback
 summary: "To complete the replacement procedure and restore your system to full operation, you must recable the storage, restore the NetApp Storage Encryption configuration (if necessary), and install licenses for the new controller."
 ---
-= Complete system restoration - AFF A700 and FAS9000
+= Complete system restoration - FAS9000
 :icons: font
 :imagesdir: ../media/
 

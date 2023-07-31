@@ -1,6 +1,5 @@
 section: fas500f
 title: FAS500f systems
-url: /fas500f/index.html
 entries:
   - title: Install and setup
     pdf-filename: FAS500f Install and Setup
@@ -16,6 +15,8 @@ entries:
   - title: Maintain
     pdf-filename: FAS500f Maintain
     entries:
+    - title: Overview
+      url: /fas500f/maintain-overview.html
 # Boot media start
     - title: Boot media
       pdf-filename: FAS500f Boot Media

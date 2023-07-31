@@ -306,7 +306,7 @@ You only need to assign shelf IDs on one controller.
 +
 Shelf IDs appear in disk shelf digital display windows.
 +
-NOTE: Before you boot the system, best practice is to take this opportunity to verify cabling is correct, a root aggregate is present, and run system-level diagnostics to identify any faulty components.
+NOTE: Before you boot the system, best practice is to take this opportunity to verify cabling is correct and a root aggregate is present..
 
  .. Complete system setup and configuration as instructed by the installation and setup instructions for your platform model.
 

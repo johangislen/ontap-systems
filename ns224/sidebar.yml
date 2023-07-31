@@ -1,13 +1,12 @@
 section: ns224
 title: NS224 shelves
-url: /ns224/index.html
 entries:
   - title: Install and cable
     pdf-filename: NS224 Shelves Install and Cable
     entries:
-    - title: Hot-add a shelf
+    - title: Hot-add shelf
       url: /ns224/hot-add-shelf.html
-    - title: Change a shelf ID
+    - title: Change shelf ID
       url: /ns224/change-shelf-id.html
     - title: Cable shelves as switch-attached storage
       url: /ns224/cable-as-switch-attached.html
@@ -20,6 +19,8 @@ entries:
       url: /ns224/service-replace-dimm.html
     - title: Drive
       url: /ns224/service-replace-drive.html
+    - title: Drive shelf LEDs
+      url: /ns224/service-monitor-leds.html
     - title: Fan
       url: /ns224/service-replace-fan.html
     - title: Hot-remove shelf
