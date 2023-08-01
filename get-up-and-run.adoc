@@ -36,7 +36,7 @@ Install your AFF, ASA and FAS controllers in the rack or cabinet. Access the ins
 
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF A800]
 
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html[AFF A900]
+* https://docs.netapp.com/us-en/ontap-systems/a900/install_setup.html[AFF A900]
 
 [role="quick-margin-para"]
 **AFF C-Series systems**
@@ -199,7 +199,7 @@ After you have configured your switches and installed the required software, acc
 
 * https://docs.netapp.com/us-en/ontap-systems/a800/install-setup.html[AFF A800]
 
-* https://docs.netapp.com/us-en/ontap-systems/a900/install_detailed_guide.html[AFF A900]
+* https://docs.netapp.com/us-en/ontap-systems/a900/install_setup.html[AFF A900]
 
 
 [role="quick-margin-para"]
