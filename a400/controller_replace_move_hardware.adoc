@@ -10,4 +10,4 @@ summary: "To replace the controller module hardware, you must remove the impaire
 
 [.lead]
 
-include::../_include/400_controller_replace_move_hardware.adoc[]
+include::../_include/400_aseries_controller_replace_move_hardware.adoc[]
