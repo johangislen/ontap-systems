@@ -3,14 +3,14 @@ sidebar: sidebar
 permalink: whats-new.html
 sidebar: sidebar
 keywords: new, features, fas, aff systems
-summary: 'Learn about the new features for FAS and AFF systems.'
+summary: 'Learn about the new features for AFF, ASA and FAS systems.'
 ---
-= What's new for FAS and AFF systems
+= What's new for AFF, ASA and FAS systems
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Learn about the new features for FAS and AFF systems.
+Learn about the new features for AFF, ASA and FAS systems.
 
 == New adapter support
 include::../_include/new-adapter.adoc[]

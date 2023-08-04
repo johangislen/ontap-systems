@@ -104,11 +104,13 @@ Fan module
 
 == Step 4: Move the boot media
 
-There is one boot media device in the AFF A250 under the air duct in the controller module. You must move it from the impaired controller module to the replacement controller module.
+You must move the boot media device from the impaired controller module to the replacement controller module.
 
 You need a #1 magnetic Phillips head screwdriver to remove the screw that holds the boot media in place. Due to the space constraints within the controller module, you should also have a magnet to transfer the screw on to so that you do not lose it.
 
 . Locate and move the boot media from the impaired controller module to the replacement controller module.
++
+The boot media is located under the air duct cover you removed earlier in this procedure.
 +
 image::../media/drw_a250_replace_boot_media.png[]
 +
@@ -123,9 +125,9 @@ a|
 Lift the boot media out of the impaired controller module.
 |===
 
- .. Using the #1 magnetic screwdriver, remove the screw from the boot media, and set it aside safely on the magnet.
- .. Gently lift the boot media directly out of the socket and align it into place in the replacement controller module.
- .. Using the #1 magnetic screwdriver, insert and tighten the screw on the boot media.
+ . Using the #1 magnetic screwdriver, remove the screw from the boot media, and set it aside safely on the magnet.
+ . Gently lift the boot media directly out of the socket and align it into place in the replacement controller module.
+ . Using the #1 magnetic screwdriver, insert and tighten the screw on the boot media.
 +
 NOTE: Do not apply force when tightening the screw on the boot media; you might crack it.
 

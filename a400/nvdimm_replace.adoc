@@ -10,5 +10,5 @@ summary: You must replace the NVDIMM in the controller module when your system r
 
 [.lead]
 400_nvdimm_replace.adoc
-include::../_include/400_nvdimm_replace.adoc[]
+include::../_include/400_aseries_nvdimm_replace.adoc[]
 
