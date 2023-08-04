@@ -13,6 +13,8 @@ indexpage:
           url: ../fas500f/install-setup.html
         - title: FAS2700
           url: ../fas2700/install-setup.html
+        - title: FAS2800
+          url: ../fas2800/install-setup.html
         - title: FAS8300 and FAS8700
           url: ../fas8300/install-setup.html
         - title: FAS9000
@@ -25,6 +27,8 @@ indexpage:
           url: ../fas500f/maintain-overview.html
         - title: FAS2700
           url: ../fas2700/maintain-overview.html
+        - title: FAS2800
+          url: ../fas2800/maintain-overview.html
         - title: FAS8300 and FAS8700
           url: ../fas8300/maintain-overview.html
         - title: FAS9000
