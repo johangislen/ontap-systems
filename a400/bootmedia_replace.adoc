@@ -9,4 +9,4 @@ summary: You must locate the boot media in the controller module \(see the FRU m
 :imagesdir: ../media/
 
 [.lead]
-include::../_include/400_bootmedia_replace.adoc[]
+include::../_include/400_aseries_bootmedia_replace.adoc[]
