@@ -9,4 +9,5 @@ summary: "To replace the controller module hardware, you must remove the impaire
 :imagesdir: ../media/
 
 [.lead]
+
 include::../_include/400_controller_replace_move_hardware.adoc[]
