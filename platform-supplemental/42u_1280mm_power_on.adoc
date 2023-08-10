@@ -13,8 +13,12 @@ You must connect the system components to the PDUs, route the PDU cables to the 
 
 You must have separate power circuits available for each PDU in your system cabinet.
 
-. Connect your equipment to the PDUs, making sure that you connect each component's power supplies to a PDU on opposite sides of the system cabinet.
+. Connect your equipment to the PDUs:
+.. Connect the controller power supplies to different PDUs connected to different power sources.
+.. Connect the drive shelf power supplies to different PDUs connected to different power sources.
+.. Connect any switch power supplies to different PDUs connected to different power sources.
 . Feed the PDU power cables through an opening in the system cabinet.
+image::../media/cabinet_power_cabling_IEOPS-1320.svg[width=320pc]
 +
 Use one of the following openings:
 
