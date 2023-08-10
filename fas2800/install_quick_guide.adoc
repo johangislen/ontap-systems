@@ -13,4 +13,4 @@ This guide gives graphic instructions for a typical installation of your system 
 
 Access the _Installation and Setup Instructions_ PDF poster:
 
-link:../media/PDF/June_2023_Rev-1_FAS2800_ISI.pdf[FAS2800 Systems Installation and Setup Instructions]
+link:../media/PDF/June_2023_Rev-2_FAS2800_ISI_IEOPS-1316.pdf[FAS2800 Systems Installation and Setup Instructions]
