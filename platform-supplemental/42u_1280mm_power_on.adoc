@@ -11,16 +11,19 @@ summary: You must connect the system components to the PDUs, route the PDU cable
 [.lead]
 You must connect the system components to the PDUs, route the PDU cables to the AC power sources, connect them to the power sources, and power on the system.
 
+IMPORTANT: To prevent a system outage if a PDU fails, do not plug both power cables from any component into one PDU. Distribute the load across the PDS that are plugged into different circuits, as shown in the illustration.
+
 You must have separate power circuits available for each PDU in your system cabinet.
 
 . Connect your equipment to the PDUs:
 .. Connect the controller power supplies to different PDUs connected to different power sources.
 .. Connect the drive shelf power supplies to different PDUs connected to different power sources.
 .. Connect any switch power supplies to different PDUs connected to different power sources.
-. Feed the PDU power cables through an opening in the system cabinet.
-image::../media/cabinet_power_cabling_IEOPS-1320.svg[width=320pc]
 +
-Use one of the following openings:
+image::../media/cabinet_power_cabling_IEOPS-1320.svg[width=250px]
++
+
+Feed the PDU power cables through one of the following openings in the system cabinet:
 
  ** The top of the system cabinet
  ** Between the rear door bottom and frame of the system cabinet
