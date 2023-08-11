@@ -9,5 +9,4 @@ summary: The procedure for booting the impaired controller from the recovery ima
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/400_aseries_bootmedia_recovery_image_boot_options.adoc[]

@@ -16,10 +16,6 @@ https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf[AFF A250/AFF ASA A2
 a|
 ONTAP 9.8
 a|
-https://hwu.netapp.com/ProductSpecs/Index[FAS2820]
-a|
-ONTAP 9.13.1
-a|
 https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS500f]
 a|
 ONTAP 9.8

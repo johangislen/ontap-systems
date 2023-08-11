@@ -19,4 +19,5 @@ include::../_include/encryption_steps_before_shutdown.adoc[]
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 include::../_include/encryption_check_96_later.adoc[]
