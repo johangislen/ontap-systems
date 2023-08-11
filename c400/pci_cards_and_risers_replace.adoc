@@ -9,5 +9,4 @@ summary: To replace a PCIe or mezzanine card, you must disconnect the cables and
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/400_pci_cards_and_risers_replace.adoc[]

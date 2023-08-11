@@ -2,9 +2,9 @@
 layout: landing-page
 sidebar: sidebar
 permalink: drive-shelves/index.html
-summary: The NS224 and SAS shelves are specifically designed for NetApp AFF, ASA and FAS systems to support your diverse business and application demands.
+summary: The NS224 and SAS shelves are specifically designed for NetApp AFF and FAS systems to support your diverse business and application demands.
 ---
-=  Drive Shelves for AFF, ASA and FAS Systems
+=  Drive Shelves for AFF and FAS Systems
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

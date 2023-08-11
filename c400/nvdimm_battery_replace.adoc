@@ -9,5 +9,4 @@ summary: To replace the NVDIMM battery, you must remove the controller module, r
 :imagesdir: ../media/
 
 [.lead]
-
 include::../_include/400_nvdimm_battery_replace.adoc[]

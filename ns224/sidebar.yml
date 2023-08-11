@@ -31,3 +31,5 @@ entries:
       url: /ns224/service-replace-power-supply.html
     - title: Real-time clock battery
       url: /ns224/service-replace-rtc-battery.html
+    - title: Shelf LED status conditions
+      url: /ns224/service-monitor-leds.html
