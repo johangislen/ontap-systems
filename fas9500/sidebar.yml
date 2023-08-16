@@ -72,7 +72,7 @@ entries:
       # END DIMM replace
       # START DCPM battery replacement
     - title: DCPM
-      url: /fas9500/dcpm_NVRAM11_battery_replace.html
+      url: /fas9500/dcpm-nvram11-battery-replace.html
       # END DCPM battery replacement
       # START Fan
     - title: Fan
