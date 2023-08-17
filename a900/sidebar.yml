@@ -70,7 +70,7 @@ entries:
       # END DIMM replace
       # START DCPM battery replacement
     - title: DCPM
-      url: /a900/dcpm_NVRAM11_battery_replace.html
+      url: /a900/dcpm-nvram11-battery-replace.html
       # END DCPM battery replacement
       # START Fan
     - title: Fan

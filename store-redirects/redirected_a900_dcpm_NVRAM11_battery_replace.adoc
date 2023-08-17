@@ -1,0 +1,4 @@
+---
+permalink: a900/dcpm_NVRAM11_battery_replace.html
+redirect: ontap-systems/a900/dcpm-nvram11-battery-replace.html
+---
