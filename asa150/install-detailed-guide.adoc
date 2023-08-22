@@ -32,7 +32,7 @@ To install your system, create an account on the NetApp Support Site, register y
 . Unpack the contents of all boxes.
 . Record the system serial number from the controllers.
 +
-image::../media/drw_ssn_label.png[]
+image::../media/drw_ssn_label.png[Example of the system serial number showing location of the number]
 +
 . Set up your account:
  .. Log in to your existing account or create an account.
@@ -80,7 +80,7 @@ X6536-R6 (112-00090), 5m
 
 X6554-R6(112-00189), 15m
 a|
-image:../media/oie_cable_fiber_lc_connector.png[]
+image:../media/oie_cable_fiber_lc_connector.png[Illustration showing an fiber optic LC connector]
 a|
 FC host network
 a|
@@ -112,7 +112,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.png[Illustration showing a micro USB connector]
 a|
 Console connection during software setup on non-Windows or Mac laptop/console
 a|
@@ -197,7 +197,7 @@ Use one of the following cable types to cable the UTA2 data ports to your host n
 * For an FC host, use 0c and 0d *or* 0e and 0f.
 * For an 10GbE system, use e0c and e0d *or* e0e and e0f. 
 +
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
+image:../media/drw_c190_u_fc_10gbe_cbling.png[Illustration showing the data port connections as described in the surrounding text]
 +
 You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
 
@@ -255,7 +255,7 @@ Use one of the following cable types to cable the UTA2 data ports to your host n
 * For an FC host, use 0c and 0d **or** 0e and 0f.
 * For an 10GbE system, use e0c and e0d **or** e0e and e0f.
 +
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
+image:../media/drw_c190_u_fc_10gbe_cbling.png[Illustration showing the data port connections as described in the surrounding text]
 +
 You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
 Ethernet network configurations::
