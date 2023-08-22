@@ -30,10 +30,10 @@ image::../media/drw_a700s_pcm_remove.png[]
 
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -51,14 +51,14 @@ image::../media/drw_a700s_open_air_duct.png[]
 
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Risers
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Air duct
 |===
@@ -78,18 +78,18 @@ image::../media/drw_a700s_boot_media_replace.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 2 (middle PCIe module)
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Boot media screw
 a|
-image:../media/legend_icon_04.png[]
+image:../media/legend_icon_04.png[Callout number 4]
 a|
 Boot media
 |===
