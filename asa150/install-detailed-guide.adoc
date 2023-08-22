@@ -16,7 +16,6 @@ If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/
 
 == Step 1: Prepare for installation
 
-[.lead]
 To install your system, create an account on the NetApp Support Site, register your system, and obtain your license keys. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
 
 .Before you begin
@@ -130,7 +129,6 @@ Powering up the system
 
 == Step 2: Install the hardware
 
-[.lead]
 Install your system in a 4-post rack or NetApp system cabinet, as applicable.
 
 .Steps
@@ -149,7 +147,6 @@ image::../media/drw_cable_management_arm_install.png[]
 
 == Step 3: Cable controllers to network
 
-[.lead]
 Cable the controllers to your network by using either the two-node switchless cluster method or the cluster interconnect network method.
 
 Management network, UTA2 data network, Ethernet data network, and management ports on the controllers are connected to switches. The cluster interconnect ports are cabled on both controllers.
@@ -319,7 +316,6 @@ If you have more than one drive shelf stack, see link:../com.netapp.doc.hw-ds-sa
 
 == Step 5: Complete system setup
 
-[.lead]
 You can complete the system setup and configuration using cluster discovery with only a connection to the switch and laptop, or by connecting directly to a controller in the system and then connecting to the management switch.
 
 // start tabbed area
