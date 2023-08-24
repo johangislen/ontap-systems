@@ -32,7 +32,7 @@ You need to provide the following at your site:
 . Unpack the contents of all boxes.
 . Record the system serial number from the controllers.
 +
-image::../media/drw_ssn_label.png[]
+image::../media/drw_ssn_label.png[Example of the system serial number showing location of the number]
 
 . Set up your account:
  .. Log in to your existing account or create an account.
@@ -83,7 +83,7 @@ X6536-R6 (112-00090), 5m
 
 X6554-R6(112-00189), 15m
 a|
-image:../media/oie_cable_fiber_lc_connector.png[]
+image:../media/oie_cable_fiber_lc_connector.png[Illustration showing an fiber optic LC connector]
 a|
 FC host network
 a|
@@ -115,7 +115,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.png[Illustration showing a micro USB connector]
 a|
 Console connection during software setup on non-Windows or Mac laptop/console
 a|
@@ -198,7 +198,7 @@ An FC host
 
 NOTE: You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
+image:../media/drw_c190_u_fc_10gbe_cbling.png[Illustration showing the data port connections as described in the surrounding text]
 a|
 image:../media/oie_legend_icon_3_lp.png[]
 a|
@@ -257,7 +257,7 @@ A 10GbE
 
 NOTE: You can connect one port pair as CNA and one port pair as FC, or you can connect both port pairs as CNA or both port pairs as FC.
 
-image:../media/drw_c190_u_fc_10gbe_cbling.png[]
+image:../media/drw_c190_u_fc_10gbe_cbling.png[Illustration showing the data port connections as described in the surrounding text]
 a|
 image:../media/oie_legend_icon_3_lp.png[]
 a|
@@ -299,7 +299,7 @@ Cable the cluster interconnect ports to each other with the cluster interconnect
 
  ** e0a to e0a
  ** e0b to e0b
-image:../media/drw_c190_e_tnsc_clust_cbling.png[]
+image:../media/drw_c190_e_tnsc_clust_cbling.png[Illustration showing the cluster interconnections between the ports on the back of the controllers]
 a|
 image:../media/oie_legend_icon_2_o.png[]
 a|

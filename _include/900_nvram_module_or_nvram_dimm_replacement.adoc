@@ -60,10 +60,10 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam latch completely unlocked
 |===
@@ -77,10 +77,10 @@ image::../media/drw_a900_remove_NVRAM_module_contents.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cover locking button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM and DIMM ejector tabs
 |===
@@ -117,10 +117,10 @@ image::../media/drw_a900_move-remove_NVRAM_module.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 cam latch completely unlocked
 |===
@@ -134,10 +134,10 @@ image::../media/drw_a900_remove_NVRAM_module_contents.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cover locking button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM and DIMM ejector tabs
 |===
