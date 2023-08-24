@@ -7,12 +7,9 @@ NOTE: It is a best practice to replace the power supply within two minutes of re
 +
 IMPORTANT: Do not mix PSUs with different efficiency ratings. Always replace like for like.
 
-You can use the following animation, illustration, or the written steps to replace the power supply.
+You can use the following illustration with the written steps to replace the power supply.
 
-video::60567649-288a-48b7-bc90-aae100199959[panopto, title="Animation - Replace a power supply"]
-
-
-image::../media/drw_A400_psu.png[]
+image::../media/drw_c400_psu_IEOPS-1237.svg[width=500px]
 
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the LEDs on the power supplies.
