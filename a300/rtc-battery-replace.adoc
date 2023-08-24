@@ -57,10 +57,10 @@ image::../media/drw_8020_cam_handle_thumbscrew.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Thumbscrew
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam handle
 |===

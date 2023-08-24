@@ -34,10 +34,10 @@ image::../media/drw_a700s_replace_psu.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Blue power supply locking tab
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Power supply
 |===

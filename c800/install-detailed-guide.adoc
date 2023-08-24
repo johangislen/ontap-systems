@@ -31,7 +31,7 @@ You need to provide the following at your site:
 . Unpack the contents of all boxes.
 . Record the system serial number from the controllers.
 +
-image::../media/drw_ssn_label.png[]
+image::../media/drw_ssn_label.png[Example of the system serial number showing location of the number]
 
 .Steps
 . Set up your account:
@@ -108,7 +108,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.png[Illustration showing a micro USB connector]
 a|
 Console connection during software setup
 a|
@@ -195,7 +195,7 @@ image:../media/drw_affa800_tnsc_clust_cabling.png[]
 a|
 image:../media/oie_legend_icon_3_lp.png[]
 a|
-Cable the management ports to the management network switches    image:../media/drw_affa800_mgmt_cabling.png[]
+Cable the management ports to the management network switches    image:../media/drw_affa800_mgmt_cabling.png[Illustration showing location of the management ports on the back of the system]
 a|
 image:../media/oie_legend_icon_attn_symbol.png[]
 a|
@@ -252,7 +252,7 @@ image:../media/drw_affa800_switched_clust_cabling.png[]
 a|
 image:../media/oie_legend_icon_3_lp.png[]
 a|
-Cable the management ports to the management network switches    image:../media/drw_affa800_mgmt_cabling.png[]
+Cable the management ports to the management network switches    image:../media/drw_affa800_mgmt_cabling.png[Illustration showing location of the management ports on the back of the system]
 
 a|
 image:../media/oie_legend_icon_attn_symbol.png[]

@@ -13,11 +13,11 @@ image::../media/drw_9000_remove_pcm.png[]
 
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Cam handle release button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam handle
 |===
@@ -32,7 +32,7 @@ image::../media/drw_9000_pcm_open.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Controller module cover locking button
 |===
@@ -48,11 +48,11 @@ image::../media/drw_9000_remove_boot_dev.gif[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Press release tab
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Boot media
 |===
@@ -84,11 +84,11 @@ image::../media/drw_9000_replace_pcm_dimms.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 DIMM ejector tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM
 |===
