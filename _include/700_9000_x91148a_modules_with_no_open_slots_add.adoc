@@ -39,10 +39,10 @@ image::../media/drw_9000_remove_pcie_module.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 I/O cam latch completely unlocked
 |===
@@ -90,10 +90,10 @@ image::../media/drw_9000_remove_pcie_module.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 I/O cam latch completely unlocked
 |===

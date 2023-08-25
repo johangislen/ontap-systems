@@ -66,10 +66,10 @@ image::../media/drw_a700s_pcm_remove.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -87,15 +87,15 @@ image::../media/drw_a700s_open_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Risers
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Air duct
 |===
@@ -112,19 +112,19 @@ image::../media/drw_a700s_dimm_replace.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Air duct cover
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 1 and DIMM bank 1-4
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Riser 2 and DIMM bank 5-8 and 9-12
 a|
-image:../media/legend_icon_04.png[]
+image:../media/legend_icon_04.png[Callout number 4]
 a|
 Riser 3 and DIMM 13-16
 |===

@@ -22,10 +22,10 @@ image::../media/drw_a900_remove_PCM.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cam handle release button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam handle
 |===
@@ -43,7 +43,7 @@ image::../media/drw_a900_PCM_open.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Controller module cover locking button
 |===
 
@@ -60,10 +60,10 @@ image::../media/drw_a900_remove_boot_dev.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Press release tab
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Boot media
 |===
@@ -99,10 +99,10 @@ image::../media/drw_a900_replace_PCM_dimms.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 DIMM ejector tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM
 |===
@@ -144,10 +144,10 @@ image::../media/drw_a900_remove_PCM.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cam handle release button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam handle
 |===

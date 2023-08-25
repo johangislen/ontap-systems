@@ -154,7 +154,6 @@ After you replace the FRU, you must reboot the controller module.
 
 == Step 5: Reassigning disks
 
-[.lead]
 You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
 
 NOTE: This procedure applies only to systems running ONTAP in an HA pair.
@@ -243,7 +242,6 @@ dr-group-id            cluster node           configuration-state
 
 == Step 6: Restore Storage and Volume Encryption functionality
 
-[.lead]
 If you have storage encryption enabled, use the appropriate procedure.
 
 [role="tabbed-block"]
@@ -379,5 +377,4 @@ NOTE: You can use the `security key-manager key query -key-type NSE-AK` command 
 
 == Step 7: Return the failed part to NetApp
 
-[.lead]
 include::../_include/complete_rma.adoc[]

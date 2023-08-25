@@ -15,10 +15,10 @@ image::../media/drw_a900_remove_replace_LED_mod.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Locking button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 USB LED module
 a|

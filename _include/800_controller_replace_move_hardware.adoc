@@ -25,10 +25,10 @@ image::../media/drw_a800_pcm_remove.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -47,15 +47,15 @@ image::../media/drw_a800_open_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Slide air duct towards fan modules
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Rotate air duct towards fan modules
 |===
@@ -73,10 +73,10 @@ image::../media/drw_a800_replace_psu.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Blue power supply locking tab
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Power supply
 |===
@@ -98,10 +98,10 @@ image::../media/drw_a800_replace_fan.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Fan locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Fan module
 |===
@@ -120,14 +120,14 @@ image::../media/drw_a800_nvdimm_battery_replace.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct riser
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 NVDIMM battery plug
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 NVDIMM battery pack
 |===
@@ -156,10 +156,10 @@ image::../media/drw_a800_riser_2_3_remove.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 1 (left riser), Riser 2 (middle riser), and 3 (right riser) locking latches
 |===
@@ -196,10 +196,10 @@ image::../media/drw_a800_no_risers_nvdimm_move.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 NVDIMMs
 |===
@@ -232,22 +232,22 @@ image::../media/drw_a800_pcm_replace_only_boot_media.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 3
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Phillips #1 screwdriver
 a|
-image:../media/legend_icon_04.png[]
+image:../media/legend_icon_04.png[Callout number 4]
 a|
 Boot media screw
 a|
-image:../media/legend_icon_05.png[]
+image:../media/legend_icon_05.png[Callout number 5]
 a|
 Boot media
 |===
@@ -290,10 +290,10 @@ image::../media/drw_a700s_close_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Slide plunger
 |===
