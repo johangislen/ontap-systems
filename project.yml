@@ -9,7 +9,7 @@ settings:
   rss_page: "whats-new.html"
 sidebar:
   entries:
-    - title: AFF, ASA and FAS system docs
+    - title: ONTAP hardware system docs
       url: "/index.html"
     - title: Release notes
       url: /rel-notes.html
@@ -127,6 +127,6 @@ sidebar:
     - title: Legal notices
       url: "/legal-notices.html"
 product-family:
-  name: AFF and FAS Systems
+  name: ONTAP hardware Systems
   repo: ontap-systems-family
 
