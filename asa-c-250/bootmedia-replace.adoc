@@ -1,0 +1,12 @@
+---
+permalink: c250/bootmedia-replace.html
+sidebar: sidebar
+keywords: asa c250, replace the boot media
+summary: You locate the failed boot media in the controller module by removing the air duct on the controller module before you can replace the boot media.
+---
+= Replace the boot media - ASA C250
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+include::../_include/250_bootmedia-replace.adoc[]

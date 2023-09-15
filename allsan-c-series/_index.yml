@@ -1,0 +1,44 @@
+indexpage:
+  lead: NetApp’s All SAN Array (ASA) delivers a simplified and dedicated SAN experience that provides continuous data availability for your organization’s mission-critical databases and other SAN workloads.
+  tiles:
+    - title: Get started
+      links:
+        - title: ASA software configuration
+          url: https://docs.netapp.com/us-en/ontap/task_asa_software_configuration.html
+        - title: ASA datasheet
+          url: https://www.netapp.com/data-storage/san-storage-area-network/
+        - title: ASA solution brief
+          url: https://www.netapp.com/pdf.html?item=/media/19466-SB-4081.pdf
+        - title: ASA technical report
+          url: https://www.netapp.com/pdf.html?item=/media/85671-tr-4968.pdf
+    - title: Install and setup
+      links:
+        - title: ASA C250
+          url: ../asa250/install-setup.html
+        - title: ASA C400
+          url: ../asa400/install-setup.html
+        - title: ASA C800
+          url: ../asa800/install-setup.html
+    - title: Maintain your system
+      links:
+        - title: ASA C250
+          url: ../asa250/maintain-overview.html
+        - title: ASA C400
+          url: ../asa400/maintain-overview.html
+        - title: ASA C800
+          url: ../asa800/maintain-overview.html
+    - title: Supported switches
+      links:
+        - title: Broadcom-supported BES-53248
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-bes-53248/configure-new-switch-overview.html
+        - title: Cisco 9336C-FX2
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2/configure-switch-overview-9336c-cluster.html
+        - title: Cisco 9336-FX2 in shared configurations
+          url: https://docs.netapp.com/us-en/ontap-systems-switches/switch-cisco-9336c-fx2-shared/configure-switch-overview-9336c-shared.html
+    - title: More doc resources
+      links:
+        - title: System hardware upgrade
+          url: https://docs.netapp.com/us-en/ontap-systems-upgrade/
+        - title: ONTAP software upgrade
+          url: https://docs.netapp.com/us-en/ontap/upgrade/maintain-overview.html
+    
