@@ -1,15 +1,15 @@
 ---
-permalink: a800/maintain-overview.html
+permalink: c800/maintain-overview.html
 sidebar: sidebar
-keywords: asa A800 maintenance, maintenance, repairing A800, repairing asa A800, replace asa A800 components, replace asa A800 components
-summary: Maintain the ASA A800 hardware
+keywords: asa C800 maintenance, maintenance, repairing C800, repairing asa C800, replace asa C800 components, replace asa C800 components
+summary: Maintain the ASA C800 hardware
 ---
-= Maintain ASA A800 hardware
+= Maintain ASA C800 hardware
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For the ASA A800 storage system, you can perform maintenance procedures on the following components.
+For the ASA C800 storage system, you can perform maintenance procedures on the following components.
 
 == Boot media
 
