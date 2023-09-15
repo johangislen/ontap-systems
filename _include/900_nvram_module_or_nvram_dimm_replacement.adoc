@@ -160,9 +160,7 @@ After you replace the FRU, you must reboot the controller module.
 
 You must confirm the system ID change when you boot the replacement controller and then verify that the change was implemented.
 
-NOTE: This procedure applies only to systems running ONTAP in an HA pair.
-
-CAUTION: Disk reassignment is only needed when replacing the NVRAM module. 
+CAUTION: Disk reassignment is only needed when replacing the NVRAM module and does not apply to NVRAM DIMM replacement. 
 
 .Steps
 . If the replacement controller is in Maintenance mode (showing the `*>` prompt), exit Maintenance mode and go to the LOADER prompt: `halt`
@@ -247,6 +245,8 @@ dr-group-id            cluster node           configuration-state
 == Step 6: Restore Storage and Volume Encryption functionality
 
 If you have storage encryption enabled, use the appropriate procedure.
+
+IMPORTANT:  This step does not apply to NVRAM DIMM replacement.
 
 [role="tabbed-block"]
 ====
