@@ -1,5 +1,5 @@
 ---
-permalink: c400/install-setup.html
+permalink: asa-c400/install-setup.html
 sidebar: sidebar
 keywords: asa c400, install, setup, initial configuration
 summary: 'Install and set up your system.'
@@ -11,15 +11,15 @@ summary: 'Install and set up your system.'
 [.lead]
 For most configurations, you can choose from different content formats.
 
-* link:../c400/install-quick-guide.html[Quick steps]
+* link:../asa-c400/install-quick-guide.html[Quick steps]
 +
 A printable PDF of step-by-step instructions with live links to additional content.
 
-* link:../c400/install-videos.html[Video steps]
+* link:../asa-c400/install-videos.html[Video steps]
 +
 Video step-by-step instructions.
 
-* link:../c400/install-detailed-guide.html[Detailed steps]
+* link:../asa-c400/install-detailed-guide.html[Detailed steps]
 +
 Online step-by-step instructions with live links to additional content.
 
