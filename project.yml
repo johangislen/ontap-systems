@@ -68,6 +68,7 @@ sidebar:
         - section: a700s
         - section: fas2600
         - section: fas8200
+        - section: other
     - title: Drive shelves
       url: /drive-shelves/index.html
       entries:
@@ -123,7 +124,6 @@ sidebar:
               url: /platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html
             - title: Reinstall door and illuminated badge
               url: /platform-supplemental/42u-1280mm-reinstall-door-and-badge.html
-    - section: other
     - title: Legal notices
       url: "/legal-notices.html"
 product-family:
