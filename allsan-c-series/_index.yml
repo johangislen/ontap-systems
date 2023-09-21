@@ -14,19 +14,19 @@ indexpage:
     - title: Install and setup
       links:
         - title: ASA C250
-          url: ../asa-c-250/install-setup.html
+          url: ../asa-c250/install-setup.html
         - title: ASA C400
-          url: ../asa-c-400/install-setup.html
+          url: ../asa-c400/install-setup.html
         - title: ASA C800
-          url: ../asa-c-800/install-setup.html
+          url: ../asa-c800/install-setup.html
     - title: Maintain your system
       links:
         - title: ASA C250
-          url: ../asa-c-250/maintain-overview.html
+          url: ../asa-c250/maintain-overview.html
         - title: ASA C400
-          url: ../asa-c-400/maintain-overview.html
+          url: ../asa-c400/maintain-overview.html
         - title: ASA C800
-          url: ../asa-c-800/maintain-overview.html
+          url: ../asa-c800/maintain-overview.html
     - title: Supported switches
       links:
         - title: Broadcom-supported BES-53248
