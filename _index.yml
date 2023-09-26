@@ -23,7 +23,7 @@ indexpage:
           url: /fas/index.html
         - title: End-of-availability systems
           url: /endofavail/index.html
-    - title: Networking
+    - title: Shelves and switches
       links:
         - title: Drive shelves
           url: /drive-shelves/index.html
