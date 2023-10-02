@@ -46,10 +46,10 @@ image::../media/drw_9000_remove_flashcache.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Orange release button (gray on empty FlashCache modules)
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 FlashCache cam handle
 |===
@@ -77,10 +77,10 @@ image::../media/drw_9000_move_remove_nvram_module.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 I/O latch completely unlocked
 |===
@@ -90,10 +90,10 @@ image::../media/drw_9000_remove_nvram_module_contents.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cover locking button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM and DIMM ejector tabs
 |===
@@ -125,10 +125,10 @@ image::../media/drw_9000_move_remove_nvram_module.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Lettered and numbered I/O cam latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 I/O latch completely unlocked
 |===
@@ -138,10 +138,10 @@ image::../media/drw_9000_remove_nvram_module_contents.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Cover locking button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 DIMM and DIMM ejector tabs
 |===
@@ -178,7 +178,7 @@ Select one of the following options for instructions on how to reassign disks to
 
 You must confirm the system ID change when you boot the _replacement_ node and then verify that the change was implemented.
 
-This procedure applies only to systems running ONTAP in an HA pair.
+CAUTION: Disk reassignment is only needed when replacing the NVRAM module and does not apply to NVRAM DIMM replacement. 
 
 .Steps
 . If the replacement node is in Maintenance mode (showing the `*>` prompt, exit Maintenance mode and go to the LOADER prompt: `halt`

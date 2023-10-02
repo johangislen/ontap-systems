@@ -21,11 +21,11 @@ image::../media/drw_a800_pcm_remove.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -43,15 +43,15 @@ image::../media/drw_a800_open_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Slide air duct towards fan modules
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Rotate air duct towards fan modules
 |===
@@ -69,22 +69,22 @@ image::../media/drw_a800_boot_media_replace.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 3
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Phillips #1 screwdriver
 a|
-image:../media/legend_icon_04.png[]
+image:../media/legend_icon_04.png[Callout number 4]
 a|
 Boot media screw
 a|
-image:../media/legend_icon_05.png[]
+image:../media/legend_icon_05.png[Callout number 5]
 a|Boot media
 |===
 
@@ -147,11 +147,11 @@ image::../media/drw_a800_close_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Air duct
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Risers
 |===

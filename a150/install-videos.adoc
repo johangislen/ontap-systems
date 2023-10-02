@@ -8,6 +8,7 @@ summary: "There are two videos; one showing how to rack and cable your system an
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Use the following videos to learn how to rack and cable your system and perform initial system configuration.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
