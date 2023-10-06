@@ -10,8 +10,6 @@ entries:
      url: /a300/install-setup.html
    - title: Quick steps
      url: /a300/install-setup-linkout.html
-   - title: Video steps
-     url: /a300/install-video-linkout.html
  - title: Maintain
    pdf-filename: AFF A300 Maintain
    entries:
