@@ -9,7 +9,7 @@ summary: You can monitor the health of your drive shelf by understanding the loc
 both:imagesdir: ../media/
 
 [.lead]
-TEST You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
+You can monitor the health of your drive shelf by understanding the location and status conditions of the LEDs on your drive shelf components.
 
 * The location (blue) LEDs, on a shelf's operator display panel (ODP) and both NSM modules, can be activated to aid in physically locating the shelf that needs servicing: `storage shelf location-led modify -shelf-name _shelf_name_ -led-status on`
 +
