@@ -201,6 +201,8 @@ image::../media/drw_affa250_mgmt_cabling.png[]
 == Step 4: Cable to host network or storage (Optional)
 You have configuration-dependent optional cabling to the Fibre Channel or iSCSI host networks or direct-attached storage. This cabling is not exclusive; you can have cabling to a host network and storage.
 
+NOTE: link:https://hwu.netapp.com[NetApp Hardware Universe^] slot priority for host network cards (FC or 25GbE) is slot 2. However, if you have both cards, the FC card goes in slot 2 and the 25GbE card goes in slot 1 (as shown below). If you have an external shelf, the storage card goes in slot 1, the only supported slot for shelves.
+
 // start tabbed area
 
 [role="tabbed-block"]
