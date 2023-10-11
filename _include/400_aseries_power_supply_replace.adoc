@@ -11,6 +11,19 @@ You can use the following illustration with the written steps to replace the pow
 
 image::../media/drw_A400_psu.png[]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+PSU locking tab
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Power cable retainer
+|===
+
+
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the LEDs on the power supplies.
 . Disconnect the power supply:
