@@ -9,7 +9,7 @@ IMPORTANT: Do not mix PSUs with different efficiency ratings. Always replace lik
 
 You can use the following illustration with the written steps to replace the power supply.
 
-image::../media/drw_c400_psu_IEOPS-1237.svg[width=500px]
+image::../media/drw_A400_psu.png[]
 
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the LEDs on the power supplies.
