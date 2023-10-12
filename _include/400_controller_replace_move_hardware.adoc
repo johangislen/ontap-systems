@@ -43,7 +43,7 @@ video::49053752-e813-4c15-a917-ab190147fa6e[panopto, title="Animation - Remove t
 
 image::../media/drw_a400_empty_riser_remove_IEOPS-1002.svg[width=500px]
 
- [cols="10,90"]
+[cols="10,90"]
 |===
 a|
 image:../media/legend_icon_01.png[Callout number 1] 
