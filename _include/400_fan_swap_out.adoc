@@ -8,6 +8,26 @@ video::ae59d53d-7746-402c-bd6b-aad9012efa89[panopto, title="Animation - Replace 
 
 image::../media/drw_A400_Replace_fan.png[]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Fan handle
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Locking tab
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+Fan 
+a|
+image:../media/legend_icon_04.png[Callout number 4]
+a|
+Status LED
+|===
+
 . If you are not already grounded, properly ground yourself.
 . Remove the bezel (if necessary) with two hands, by grasping the openings on each side of the bezel, and then pulling it toward you until the bezel releases from the ball studs on the chassis frame.
 . Identify the fan module that you must replace by checking the console error messages and looking at the Attention LED on each fan module.

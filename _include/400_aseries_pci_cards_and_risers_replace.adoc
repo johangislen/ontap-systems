@@ -5,7 +5,6 @@ To replace a PCIe or mezzanine card, you must disconnect the cables and any SFP 
 
 == Step 1: Shut down the impaired controller
 
-[.lead]
 You can shut down or take over the impaired controller using different procedures, depending on the storage system hardware configuration.
 
 [role="tabbed-block"]
@@ -15,7 +14,6 @@ You can shut down or take over the impaired controller using different procedure
 
 --
 
-[.lead]
 include::../_include/shutdown_most_frus.adoc[]
 
 --
@@ -24,7 +22,6 @@ include::../_include/shutdown_most_frus.adoc[]
 
 --
 
-[.lead]
 include::../_include/shutdown_2n_mcc.adoc[]
 
 --
@@ -32,7 +29,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 == Step 2: Remove the controller module
 
-[.lead]
 To access components inside the controller module, you must remove the controller module from the chassis.
 
 . If you are not already grounded, properly ground yourself.
@@ -59,7 +55,6 @@ a|
 Controller moves slightly out of chassis
 |===
 
-
 . Slide the controller module out of the chassis.
 +
 Make sure that you support the bottom of the controller module as you slide it out of the chassis.
@@ -68,12 +63,7 @@ Make sure that you support the bottom of the controller module as you slide it o
 
 == Step 3: Replace a PCIe card
 
-[.lead]
 To replace a PCIe card, you must locate the failed PCIe card, remove the riser that contains the card from the controller module, replace the card, and then reinstall the PCIe riser in the controller module.
-
-You can use the following animation, illustration, or the written steps to replace a PCIe card.
-
-video::ed42334e-8eb2-48dd-b447-b0300189230f[panopto, title="Animation - Replace a PCIe card"]
 
 image:../media/drw_A400_Replace-PCIe-cards.png[]
 
@@ -96,7 +86,6 @@ image:../media/legend_icon_04.png[Callout number 4]
 a|
 PCI card
 |===
-
 
 . Remove the riser containing the card to be replaced:
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.
@@ -124,7 +113,6 @@ NOTE: If you are installing a card in the bottom slot and cannot see the card so
 
 == Step 4: Replace the mezzanine card
 
-[.lead]
 The mezzanine card is located under riser number 3 (slots 4 and 5). You must remove that riser to access the mezzanine card, replace the mezzanine card, and then reinstall riser number 3. See the FRU map on the controller module for more information.
 
 You can use the following animation, illustration, or the written steps to replace the mezzanine card.
@@ -147,7 +135,6 @@ image:../media/legend_icon_03.png[Callout number 3]
 a|
 Riser card
 |===
-
 
 . Remove riser number 3 (slots 4 and 5):
  .. Open the air duct by pressing the locking tabs on the sides of the air duct, slide it toward the back of the controller module, and then rotate it to its completely open position.

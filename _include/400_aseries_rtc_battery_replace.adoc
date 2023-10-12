@@ -67,9 +67,10 @@ You need to locate the RTC battery inside the controller module, and then follow
 
 You can use the following animation, illustration, or the written steps to replace the RTC battery.
 
-video::12ea4bc1-75e2-43e7-be91-b0310000fd34[panopto, title="Animation - Replace the RTC battery"]
+video::80fe7a9b-de6f-46e0-a18b-aadb0157263d[panopto, title="Animation - Replace the RTC battery"]
 
 image::../media/drw_A400_rtc-batt.png[]
+
 [cols="10,90"]
 |===
 a|

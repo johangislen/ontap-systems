@@ -23,7 +23,6 @@ a|
 Power cable retainer
 |===
 
-
 . If you are not already grounded, properly ground yourself.
 . Identify the power supply you want to replace, based on console error messages or through the LEDs on the power supplies.
 . Disconnect the power supply:

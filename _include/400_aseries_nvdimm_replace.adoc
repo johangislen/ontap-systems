@@ -13,7 +13,6 @@ Shut down or take over the impaired controller using the appropriate procedure f
 
 .Option 1: Most configurations
 --
-
 include::../_include/shutdown_most_frus.adoc[]
 --
 
@@ -27,19 +26,12 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 To access components inside the controller module, you must remove the controller module from the chassis.
 
-. If you are not already grounded, properly ground yourself.
-. Release the power cable retainers, and then unplug the cables from the power supplies.
-. Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
-+
-Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
+You can use the following animations, illustration, or the written steps to remove the controller module from the chassis.
 
-. Remove the cable management device from the controller module and set it aside.
-. Press down on both of the locking latches, and then rotate both latches downward at the same time.
-+
-The controller module moves slightly out of the chassis.
-+
-image::../media/drw_a400_Remove_controller.png[]
-+
+video::ca74d345-e213-4390-a599-aae10019ec82[panopto, title="Animation - Remove the controller module"]
+
+image::../media/drw_A400_Remove_controller.png[]
+
 [cols="10,90"]
 |===
 image:../media/legend_icon_01.png[Callout number 1]
@@ -51,6 +43,16 @@ a|
 Controller moves slightly out of chassis
 |===
 
+. If you are not already grounded, properly ground yourself.
+. Release the power cable retainers, and then unplug the cables from the power supplies.
+. Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
++
+Leave the cables in the cable management device so that when you reinstall the cable management device, the cables are organized.
+
+. Remove the cable management device from the controller module and set it aside.
+. Press down on both of the locking latches, and then rotate both latches downward at the same time.
++
+The controller module moves slightly out of the chassis.
 
 . Slide the controller module out of the chassis.
 +
@@ -142,13 +144,11 @@ The controller module begins to boot as soon as it is fully seated in the chassi
 NOTE: If your system stops at the boot menu, select the option to boot to LOADER.
 
  .. At the LOADER prompt, enter `bye` to reinitialize the PCIe cards and other components.
- .. Interrupt the boot process and boot to the LOADER prompt by pressing `Ctrl-C`.
-+
-If your system stops at the boot menu, select the option to boot to LOADER.
+
 
 == Step 5: Restore the controller module to operation
 
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
