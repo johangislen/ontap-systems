@@ -2,23 +2,13 @@
 permalink: fas8300/install-videos.html
 sidebar: sidebar
 keywords: fas8300, fas8700, video, rack, cable, system, manager, guided, setup, configuration
-summary: "There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration."
+summary: "The following video shows how to install and cable your new system."
 ---
-= Videos - FAS8300 and FAS8700
+= Video steps - FAS8300 and FAS8700
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
-
-== Video one of two: Hardware installation and cabling
-
 The following video shows how to install and cable your new system.
 
 video::05d5d8a7-4753-4546-9ddb-ab2001624e04[panopto, title="Animation - FAS8300 and FAS8700 Install and setup instructions"]
-
-== Video two of two: Performing end-to-end software configuration
-
-The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.
-
-video::WAE0afWhj1c?[youtube]

@@ -1,28 +1,18 @@
 ---
 permalink: c800/install-videos.html
 sidebar: sidebar
-keywords: aff c800, hardware installation and cabling video, perform end-to-end software configuration video
-summary: 'There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.'
+keywords: aff c800, hardware installation and cabling video
+summary: 'The following video shows how to install and cable your new system.'
 ---
-= Videos - AFF C800
+= Video steps - AFF C800
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-There are two videos - one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
-
-If you have a MetroCluster configuration, use the MetroCluster installation content.
-
-https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
-
-== Video one of two: Hardware installation and cabling
-
 The following video shows how to install and cable your new system.
 
 video::db9f506c-b08e-4b66-b781-afc40187b639[panopto, title="Animation - Installation and Setup of an AFF C800"]
 
-== Video two of two: Perform end-to-end software configuration
+If you have a MetroCluster configuration, use the MetroCluster installation content.
 
-The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.
-
-video::WAE0afWhj1c?[youtube]
+https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
