@@ -31,12 +31,6 @@ include::../_include/shutdown_2n_mcc.adoc[]
 
 To access components inside the controller module, you must remove the controller module from the chassis.
 
-You can use the following animations, illustration, or the written steps to remove the controller module from the chassis.
-
-video::ca74d345-e213-4390-a599-aae10019ec82[panopto, title="Animation - Remove the controller module"]
-
-image::../media/drw_A400_Remove_controller.png[]
-
 . If you are not already grounded, properly ground yourself.
 . Release the power cable retainers, and then unplug the cables from the power supplies.
 . Loosen the hook and loop strap binding the cables to the cable management device, and then unplug the system cables and SFPs (if needed) from the controller module, keeping track of where the cables were connected.
@@ -47,6 +41,19 @@ Leave the cables in the cable management device so that when you reinstall the c
 . Press down on both of the locking latches, and then rotate both latches downward at the same time.
 +
 The controller module moves slightly out of the chassis.
++
+image::../media/drw_A400_Remove_controller.png[]
++
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] a|
+Locking latches  
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller moves slightly out of chassis
+|===
 
 . Slide the controller module out of the chassis.
 +
@@ -62,7 +69,22 @@ You can use the following animation, illustration, or the written steps to repla
 
 video::80fe7a9b-de6f-46e0-a18b-aadb0157263d[panopto, title="Animation - Replace the RTC battery"]
 
-image::../media/drw_A400_rtc-batt_IEOPS-1003.svg[width=500px]
+image::../media/drw_A400_rtc-batt.png[]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] a|
+Middle riser  
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Remove RTC battery
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+Seat RTC battery
+|===
 
 . If you are not already grounded, properly ground yourself.
 . Open the air duct:
@@ -88,6 +110,18 @@ You can use the following animation, illustration, or the written steps to insta
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto, title="Animation - Install the controller module"]
 
 image::../media/drw_A400_Install_controller_source.png[]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Controller module
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller locking latches
+|===
 
 . If you have not already done so, close the air duct or controller module cover.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.

@@ -28,10 +28,10 @@ image::../media/drw_a800_pcm_remove.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -52,14 +52,14 @@ image::../media/drw_a800_open_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Slide air duct towards fan modules
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 Rotate air duct towards fan modules
 |===
@@ -75,10 +75,10 @@ image::../media/drw_a800_nvdimm_replace.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct cover
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Riser 2 and NVDIMM 11
 a|
@@ -119,10 +119,10 @@ image::../media/drw_a700s_close_air_duct.png[]
 [cols="1,4"]
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Locking tabs
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Slide plunger
 |===
