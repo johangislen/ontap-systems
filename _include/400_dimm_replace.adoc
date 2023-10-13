@@ -73,6 +73,22 @@ video::93025369-2f61-46b1-bd51-b03100040fe6[panopto, title="Animation - Replace 
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM.png[]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+DIMM locking tabs
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+DIMM
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+DIMM socket
+|===
+
 The DIMMs are located in sockets 2, 4, 13, and 15. The NVDIMM is located in slot 11.
 
 . Open the air duct:
@@ -100,6 +116,18 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 == Step 4: Install the controller module
 
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Controller module
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller locking latches
+|===
 
 . If you have not already done so, close the air duct.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.

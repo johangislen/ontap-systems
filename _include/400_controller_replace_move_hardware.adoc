@@ -55,6 +55,18 @@ video::6cac8f5f-dc11-4b1d-9b18-b03001858fda[panopto, title="Animation - Move the
 +
 image::../media/drw_c400_psu_IEOPS-1237.svg[width=500px]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+PSU locking tab
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Power cable retainer
+|===
+
  .. Rotate the cam handle so that it can be used to pull the power supply out of the chassis.
  .. Press the blue locking tab to release the power supply from the chassis.
  .. Using both hands, pull the power supply out of the chassis, and then set it aside.
@@ -77,6 +89,22 @@ video::d38ef37e-aa0e-46ff-9283-b03001864e0c[panopto, title="Animation - Move the
 
 image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=550px]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+NVDIMM battery plug
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+NVDIMM battery locking tab
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+NVDIMM battery
+|===
+
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
@@ -97,6 +125,18 @@ You can use the following animation, illustration, or the written steps to move 
 video::01d3d868-4c8a-4385-b264-b0300186fc58[panopto, title="Animation - Move the boot media"]
 
 image::../media/drw_c400_replace_boot_media_IEOPS-1217.svg[width=550px]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Boot media locking tab
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Boot media
+|===
 
 . Locate and remove the boot media from the controller module:
  .. Press the blue button at the end of the boot media until the lip on the boot media clears the blue button.
@@ -126,6 +166,26 @@ Moving the mezzanine card and riser 3 (right riser):
 video::54c98658-29a3-423b-ae01-b030018091f5[panopto, title="Animation - Move the mezzanine card and riser 3"]
 
 image::../media/drw_c400_replace_PCIe_cards_IEOPS-1235.svg[width=550px]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Riser locking latch
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+PCI card locking latch
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+PCI locking plate
+a|
+image:../media/legend_icon_04.png[Callout number 4]
+a|
+PCI card
+|===
 
 . Move PCIe risers one and two from the impaired controller module to the replacement controller module:
  .. Remove any SFP or QSFP modules that might be in the PCIe cards.
@@ -158,6 +218,22 @@ You can use the following animation, illustration, or the written steps to move 
 video::c5c77fd1-b566-467f-a1cd-b0300187de35[panopto, title="Animation - Move the DIMMs"]
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[width=500px]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+DIMM locking tabs
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+DIMM
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+DIMM socket
+|===
 
 . Locate the DIMMs on your controller module.
 . Note the orientation of the DIMM in the socket so that you can insert the DIMM in the replacement controller module in the proper orientation.

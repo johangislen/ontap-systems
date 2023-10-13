@@ -70,6 +70,21 @@ video::12ea4bc1-75e2-43e7-be91-b0310000fd34[panopto, title="Animation - Replace 
 
 image::../media/drw_c400_rtc_batt_IEOPS-1239.svg[width=550px]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] a|
+Middle riser  
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Remove RTC battery
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+Seat RTC battery
+|===
+
 . If you are not already grounded, properly ground yourself.
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.

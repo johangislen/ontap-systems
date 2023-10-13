@@ -71,6 +71,22 @@ video::0521b0f4-8b58-4aa7-aaf2-b03100020356[panopto, title="Animation - Replace 
 
 image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=550px]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Battery plug
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Locking tab
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+NVDIMM battery
+|===
+
 . Open the air duct:
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
@@ -84,6 +100,18 @@ image::../media/drw_c400_nvdimm_batt_IEOPS-1227.svg[width=550px]
 == Step 4: Install the controller module
 
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Controller module
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller locking latches
+|===
 
 . If you have not already done so, close the air duct.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.

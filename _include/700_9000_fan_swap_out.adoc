@@ -14,7 +14,7 @@ image::../media/drw_9000_remove_install_fan.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Orange release button
 |===
 

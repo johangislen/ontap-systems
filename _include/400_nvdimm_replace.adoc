@@ -73,6 +73,22 @@ video::7dfe09d8-eff8-41e3-9eb4-b03100032579[panopto, title="Animation - Replace 
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM_IEOPS-1009.svg[width=500px]
 
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+DIMM locking tabs
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+DIMM
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+DIMM socket
+|===
+
 . Open the air duct and then locate the NVDIMM in slot 11 on your controller module.
 +
 NOTE: The NVDIMM looks significantly different than system DIMMs.
