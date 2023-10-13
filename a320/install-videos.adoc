@@ -1,24 +1,14 @@
 ---
 permalink: a320/install-videos.html
 sidebar: sidebar
-keywords: aff, a320, aff a320, video, rack, cable, system, system, manager, guide, setup, configuration, hardware, installation, cabling, hardware installation and cabling, perform, end-to-end, software, performing end-to-end software configuration
-summary: 'There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.'
+keywords: aff, a320, aff a320, video, rack, cable, system, system, manager, guide, setup, configuration, hardware, installation, cabling, hardware installation and cabling
+summary: 'The video shows how to install and cable your new system.'
 ---
-= Videos - AFF A320
+= Video steps - AFF A320
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
-
-== Video one of two: Hardware installation and cabling
-
 The following video shows how to install and cable your new system.
 
 video::lLuiL0js7dI?[youtube]
-
-== Video two of two: Performing end-to-end software configuration
-
-The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.
-
-video::WAE0afWhj1c?[youtube]
