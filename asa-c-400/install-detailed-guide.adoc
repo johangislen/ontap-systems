@@ -9,7 +9,7 @@ summary: This guide gives detailed step-by-step instructions for installing a ty
 :imagesdir: ../media/
 
 [.lead]
-This guide gives detailed step-by-step instructions for installing a typical NetApp system. Use this guide if you want more detailed installation instructions.
+This page gives detailed step-by-step instructions for installing a typical NetApp system. Use these instructions if you want more details.
 
 == Step 1: Prepare for installation
 
