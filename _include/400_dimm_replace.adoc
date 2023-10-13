@@ -38,6 +38,16 @@ video::ca74d345-e213-4390-a599-aae10019ec82[panopto, title="Animation - Remove t
 
 image::../media/drw_A400_Remove_controller.png[]
 
+[cols="10,90"]
+|===
+image:../media/legend_icon_01.png[Callout number 1]
+a|
+Locking latches
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller moves slightly out of chassis
+|===
 
 . If you are not already grounded, properly ground yourself.
 . Release the power cable retainers, and then unplug the cables from the power supplies.
@@ -67,6 +77,22 @@ NOTE: The animation and illustration show empty slots for sockets without DIMMs.
 video::175c6597-449e-4dc8-8c02-aad9012f08b5[panopto, title="Animation - Replace a system DIMM"]
 
 image::../media/drw_A400_Replace-NVDIMM-DIMM.png[]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+DIMM locking tabs
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+DIMM
+a|
+image:../media/legend_icon_03.png[Callout number 3]
+a|
+DIMM socket
+|===
 
 The DIMMs are located in sockets 2, 4, 13, and 15. The NVDIMM is located in slot 11.
 
@@ -101,6 +127,18 @@ You can use the following animation, illustration, or the written steps to insta
 video::0310fe80-b129-4685-8fef-ab19010e720a[panopto, title="Animation - Install the controller module"]
 
 image::../media/drw_A400_Install_controller_source.png[]
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[Callout number 1] 
+a|
+Controller module
+a|
+image:../media/legend_icon_02.png[Callout number 2]
+a|
+Controller locking latches
+|===
 
 . If you have not already done so, close the air duct.
 . Align the end of the controller module with the opening in the chassis, and then gently push the controller module halfway into the system.

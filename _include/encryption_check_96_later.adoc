@@ -43,7 +43,7 @@ http://mysupport.netapp.com/[mysupport.netapp.com^]
 . If the `Key Manager` type displays `onboard` and the `Restored` column displays anything other than `yes`:
  .. Enter the onboard security key-manager sync command: `security key-manager onboard sync`
 +
-NOTE: Enter the customer's onboard key management passphrase at the prompt. If the passphrase cannot be provided, contact NetApp Support. http://mysupport.netapp.com/[mysupport.netapp.com^]
+NOTE: Enter the customer's 32 character, alphanumeric onboard key management passphrase at the prompt. If the passphrase cannot be provided, contact NetApp Support. http://mysupport.netapp.com/[mysupport.netapp.com^]
 
  .. Verify the `Restored` column shows `yes` for all authentication keys: `security key-manager key query`
  .. Verify that the `Key Manager` type shows `onboard`, and then manually back up the OKM information.
@@ -87,7 +87,7 @@ http://mysupport.netapp.com/[mysupport.netapp.com^]
 . If the `Key Manager` type displays `onboard` and the `Restored` column displays anything other than `yes`:
  .. Enter the onboard security key-manager sync command: `security key-manager onboard sync`
 +
-Enter the customer's onboard key management passphrase at the prompt. If the passphrase cannot be provided, contact NetApp Support.
+Enter the customer's 32 character, alphanumeric onboard key management passphrase at the prompt. If the passphrase cannot be provided, contact NetApp Support.
 +
 http://mysupport.netapp.com/[mysupport.netapp.com^]
 
