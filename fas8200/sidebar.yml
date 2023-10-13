@@ -10,8 +10,6 @@ entries:
      url: /fas8200/install-setup.html
    - title: Quick steps
      url: /fas8200/install-setup-linkout.html
-   - title: Video steps
-     url: /fas8200/install-video-linkout.html
  - title: Maintain
    pdf-filename: FAS8200 Maintain
    entries:
