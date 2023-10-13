@@ -2,26 +2,15 @@
 permalink: a150/install-videos.html
 sidebar: sidebar
 keywords: aff a150, a150, aff, aff a220, video, rack, cable, system, manager, guided, setup, configuration
-summary: "There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration."
+summary: 'The following video shows how to install and cable your system.'
 ---
-= Videos - AFF A150
+= Video steps - AFF A150
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Use the following videos to learn how to rack and cable your system and perform initial system configuration.
-
-If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
-
-[horizontal]
-Hardware installation and cabling::
-+
 The following video shows how to install and cable your system.
-+
+
 video::561d941a-f387-4eb9-a10a-afb30029eb36[panopto, title="Animation - Install and setup of an AFF A150"]
 
-End-to-end software configuration::
-+
-The following video shows end-to-end software configuration for systems running ONTAP 9.2 and later.
-+
-video::WAE0afWhj1c?[youtube]
+If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster documentation^].
