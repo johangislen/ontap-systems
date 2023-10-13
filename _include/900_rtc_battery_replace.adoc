@@ -38,11 +38,11 @@ image::../media/drw_a900_remove_PCM.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Cam handle release button
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Cam handle
 |===
@@ -58,7 +58,7 @@ image::../media/drw_a900_PCM_open.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 Controller module cover locking button
 |===
@@ -79,11 +79,11 @@ image::../media/drw_a900_remove_RTC_battery.png[]
 [cols="10,90"]
 |===
 a|
-image:../media/legend_icon_01.png[]
+image:../media/legend_icon_01.png[Callout number 1]
 a|
 RTC battery
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 RTC battery housing
 

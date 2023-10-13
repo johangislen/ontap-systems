@@ -26,10 +26,10 @@ image::../media/drw_a800_pcm_remove.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Locking latch
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 Locking pin
 |===
@@ -50,14 +50,14 @@ image::../media/drw_a800_nvdimm_battery_replace.png[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[]|
+image:../media/legend_icon_01.png[Callout number 1]|
 Air duct riser
 a|
-image:../media/legend_icon_02.png[]
+image:../media/legend_icon_02.png[Callout number 2]
 a|
 NVDIMM battery plug
 a|
-image:../media/legend_icon_03.png[]
+image:../media/legend_icon_03.png[Callout number 3]
 a|
 NVDIMM battery pack
 |===

@@ -27,7 +27,7 @@ image::../media/drw_9000_remove_install_psu_module.svg[]
 +
 |===
 a|
-image:../media/legend_icon_01.png[] a|
+image:../media/legend_icon_01.png[Callout number 1] a|
 Locking button
 |===
 

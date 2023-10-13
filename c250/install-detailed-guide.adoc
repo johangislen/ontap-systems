@@ -35,7 +35,7 @@ NOTE:
 . Unpack the contents of all boxes.
 . Record the system serial number from the controllers.
 +
-image::../media/drw_ssn_label.png[]
+image::../media/drw_ssn_label.png[Example of the system serial number showing location of the number]
 
 . Set up your account:
  .. Log in to your existing account or create an account.
@@ -99,7 +99,7 @@ Micro-USB console cable
 a|
 Not applicable
 a|
-image:../media/oie_cable_micro_usb.png[]
+image:../media/oie_cable_micro_usb.png[Illustration showing a micro USB connector]
 a|
 Console connection during software setup
 a|
@@ -206,6 +206,8 @@ IMPORTANT: DO NOT plug in the power cords at this point.
 == Step 4: Cable to host network or storage (Optional)
 
 You have configuration-dependent optional cabling to the Fibre Channel or iSCSI host networks or direct-attached storage. This cabling is not exclusive; you can have cabling to a host network and storage.
+
+NOTE: link:https://hwu.netapp.com[NetApp Hardware Universe^] slot priority for host network cards (Fibre Channel or 25GbE) is slot 2. However, if you have both cards, the Fibre Channel card goes in slot 2 and the 25GbE card goes in slot 1 (as shown in the options below). If you have an external shelf, the storage card goes in slot 1, the only supported slot for shelves.
 
 // start tabbed area
 
