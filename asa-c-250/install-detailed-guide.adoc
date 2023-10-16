@@ -9,7 +9,7 @@ summary: This section gives detailed step-by-step instructions for installing an
 :imagesdir: ../media/
 
 [.lead]
-This section gives detailed step-by-step instructions for installing an AFF A250 system.
+This section gives detailed step-by-step instructions for installing an ASA C250 system.
 
 == Step 1: Prepare for installation
 
