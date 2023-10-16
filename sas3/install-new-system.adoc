@@ -65,7 +65,7 @@ If any SAS cabling or duplicate shelf ID errors are generated, follow the correc
 +
 You need network access to download Config Advisor.
 +
-https://https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 
 === SAS cable handling considerations
 
@@ -322,7 +322,7 @@ You can use the wildcard character to assign more than one disk at once.
 +
 If any SAS cabling or duplicate shelf ID errors are generated, follow the corrective actions provided.
 +
-https://https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
+https://mysupport.netapp.com/site/tools[NetApp Downloads: Config Advisor^]
 +
 You can also run the `storage shelf show -fields shelf-id` command to see a list of shelf IDs already in use (and duplicates if present) in your system.
 
