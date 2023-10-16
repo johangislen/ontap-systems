@@ -10,4 +10,4 @@ summary: You must replace a DIMM in the controller module when your system regis
 
 [.lead]
 
-include::../_include/400_dimm_replace.adoc[]
+include::../_include/400_aseries_dimm_replace.adoc[]
