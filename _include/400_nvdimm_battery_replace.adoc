@@ -147,7 +147,7 @@ If your system stops at the boot menu, select the option to boot to LOADER.
 
 == Step 5: Restore the controller module to operation
 
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
