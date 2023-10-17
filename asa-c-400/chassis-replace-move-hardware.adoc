@@ -9,4 +9,4 @@ summary: "Move the fans, hard drives, and controller module or modules from the 
 :imagesdir: ../media/
 
 [.lead]
-include::../_include/400_aseries_chassis_replace_move_hardware.adoc[]
+include::../_include/400_chassis_replace_move_hardware.adoc[]
