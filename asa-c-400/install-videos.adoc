@@ -11,6 +11,10 @@ summary: There are two videos; one showing how to rack and cable your system and
 [.lead]
 The following video shows how to install and cable your new system.
 
-video::6cbbcb96-fe92-4040-a004-ab2001624dd7[panopto, title="Animation - AFF A400 Installation and setup instructions"]
+video::8e392453-beac-4db7-8088-aff1005e1f90[panopto, title="Animation - AFF C400 Installation and setup instructions"]
 
-NOTE: The ASA C400 uses the same installation procedure as the AFF A400 system.
+NOTE: The ASA C400 uses the same installation procedure as the AFF C400 system.
+
+If you have a MetroCluster configuration, use the MetroCluster installation content.
+
+https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^]
