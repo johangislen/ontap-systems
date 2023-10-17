@@ -17,6 +17,7 @@ The controller module moves slightly out of the chassis.
 +
 image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
+[cols="10,90"]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
@@ -37,7 +38,14 @@ Make sure that you support the bottom of the controller module as you slide it o
 video::018a1c3c-0a26-4f48-bd60-b0300184c147[panopto, title="Animation - Remove the empty risers from the replacement controller module"]
 +
 image::../media/drw_c400_empty_riser_remove_IEOPS-1225.svg[width=550px]
-+
+
+[cols="10,90"]
+|===
+a|
+image:../media/legend_icon_01.png[] a|
+Riser latches
+|===
+
  .. Press the locking tabs on the sides of the air duct in toward the middle of the controller module.
  .. Slide the air duct toward the back of the controller module, and then rotate it upward to its completely open position.
  .. Rotate the riser locking latch on the left side of riser 1 up and toward air duct, lift the riser up, and then set it aside.
@@ -269,6 +277,7 @@ NOTE: Do not completely insert the controller module in the chassis until instru
 +
 image::../media/drw_c400_install_controller_IEOPS-1226.svg[width=500px]
 +
+[cols="10,90"]
 |===
 a|
 image:../media/legend_icon_01.png[] a|

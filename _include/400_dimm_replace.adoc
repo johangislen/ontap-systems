@@ -45,6 +45,7 @@ The controller module moves slightly out of the chassis.
 +
 image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
+[cols="10,90"]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
@@ -117,6 +118,8 @@ NOTE: Visually inspect the DIMM to verify that it is evenly aligned and fully in
 
 After you have replaced the component in the controller module, you must reinstall the controller module into the chassis, and then boot it to Maintenance mode.
 
+image::../media/drw_c400_install_controller_IEOPS-1226.svg[width=500px]
+
 [cols="10,90"]
 |===
 a|
@@ -158,29 +161,9 @@ NOTE: If your system stops at the boot menu, select the option to boot to LOADER
 +
 If your system stops at the boot menu, select the option to boot to LOADER.
 
-== Step 5: Run diagnostics
+== Step 5: Restore the controller module to operation
 
-After you have replaced a system DIMM in your system, you should run diagnostic tests on that component.
-
-Your system must be at the LOADER prompt to start diagnostics.
-
-All commands in the diagnostic procedures are issued from the controller where the component is being replaced.
-
-. If the controller to be serviced is not at the LOADER prompt, reboot the controller: `system node halt -node node_name`
-+
-After you issue the command, you should wait until the system stops at the LOADER prompt.
-
-. At the LOADER prompt, access the special drivers specifically designed for system-level diagnostics to function properly: `boot_diags`
-. Select *Scan System* from the displayed menu to enable running the diagnostics tests.
-. Select *Test Memory* from the displayed menu.
-. Select an option from the displayed sub-menu and run the test.
-. Proceed based on the result of the preceding step:
- ** If the test failed, correct the failure, and then rerun the test.
- ** If the test reported no failures, select Reboot from the menu to reboot the system.
-
-== Step 6: Restore the controller module to operation after running diagnostics
-
-After completing diagnostics, you must recable the system, give back the controller module, and then reenable automatic giveback.
+You must recable the system, give back the controller module, and then reenable automatic giveback.
 
 . Recable the system, as needed.
 +
@@ -189,10 +172,10 @@ If you removed the media converters (QSFPs or SFPs), remember to reinstall them 
 . Return the controller to normal operation by giving back its storage: `storage failover giveback -ofnode _impaired_node_name_`
 . If automatic giveback was disabled, reenable it: `storage failover modify -node local -auto-giveback true`
 
-== Step 7: Switch back aggregates in a two-node MetroCluster configuration
+== Step 6: Switch back aggregates in a two-node MetroCluster configuration
 
 include::../_include/2n_mcc_switchback.adoc[]
 
-== Step 8: Return the failed part to NetApp
+== Step 7: Return the failed part to NetApp
 
 include::../_include/complete_rma.adoc[]

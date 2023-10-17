@@ -48,18 +48,6 @@ The controller module moves slightly out of the chassis.
 +
 image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
-|===
-a|
-image:../media/legend_icon_01.png[] a|
-Locking latches  
-a|
-image:../media/legend_icon_02.png[]
-a|
-Controller moves slightly out of chassis
-|===
-
-image::../media/drw_A400_Remove_controller.png[]
-
 [cols="10,90"]
 |===
 image:../media/legend_icon_01.png[Callout number 1]

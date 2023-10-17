@@ -44,6 +44,7 @@ The controller module moves slightly out of the chassis.
 +
 image::../media/drw_c400_remove_controller_IEOPS-1216.svg[width=500px]
 +
+[cols="10,90"]
 |===
 a|
 image:../media/legend_icon_01.png[] a|
