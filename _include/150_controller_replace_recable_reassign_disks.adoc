@@ -20,7 +20,7 @@ a|
 a|
 Stand-alone
 a|
-<<Option 2: Manually reassign the system ID on a stand-alone system in ONTAP>>>>]
+<<Option 2: Manually reassign the system ID on a stand-alone system in ONTAP>>
 a|
 Two-node MetroCluster configuration
 a|

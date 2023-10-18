@@ -166,7 +166,7 @@ This initiates the process of returning ownership of the impaired controller's a
 ====
 If the giveback is vetoed, you can consider overriding the vetoes.
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-hacg/home.html[ONTAP 9 High-Availability Configuration Guide]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[HA pair management]
 ====
 
  .. Monitor the progress of the giveback operation by using the ``storage failover show`-giveback` command.
