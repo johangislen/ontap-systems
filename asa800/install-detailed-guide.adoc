@@ -200,8 +200,8 @@ DO NOT plug in the power cords at this point.
 
 . To perform optional cabling, see:
 
- ** <<Option 1: Connect to a Fibre Channel host>>
- ** <<Option 2: Connect to a 10GbE host>>
+ ** <<Option 1: Cable to a Fibre Channel host network>>
+ ** <<Option 2: Cable to a 10GbE host network>>
  ** <<Option 3: Cable the controllers to a single drive shelf>>
  ** <<Option 4: Cable the controllers to two drive shelves>>
 
