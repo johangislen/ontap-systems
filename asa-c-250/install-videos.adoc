@@ -1,0 +1,16 @@
+---
+permalink: asa-c250/install-videos.html
+sidebar: sidebar
+keywords: asa c250, hardware installation and cabling video, performing end-to-end software configuration video
+summary: There are two videos; one showing how to rack and cable your system and one showing an example of using the System Manager Guided Setup to perform initial system configuration.
+---
+= Videos - ASA C250
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The following video shows how to install and cable your new system.
+
+video::fe6876d5-9332-4b2e-89be-ac6900027ba5[panopto, title="Animation - Installation and Setup of an AFF A250"]
+
+NOTE: The ASA C250 uses the same installation procedure as the AFF A250 system.

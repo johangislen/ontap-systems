@@ -1,5 +1,5 @@
 indexpage:
-  lead: NetApp's AFF, ASA and FAS storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your systems.
+  lead: NetApp's ONTAP hardware storage systems provide leading-edge, enterprise-class, scale-out all flash or hybrid storage with the industry's most advanced data management. Use the docs on this site to install, expand, upgrade and maintain your systems.
   tiles:
     - title: Get started
       links:
@@ -17,11 +17,13 @@ indexpage:
           url: /aff-cseries/index.html
         - title: ASA A-series systems
           url: /allsan-a-series/index.html
+        - title: ASA C-series systems
+          url: /allsan-c-series/index.html
         - title: FAS systems
           url: /fas/index.html
         - title: End-of-availability systems
           url: /endofavail/index.html
-    - title: Networking
+    - title: Shelves and switches
       links:
         - title: Drive shelves
           url: /drive-shelves/index.html
