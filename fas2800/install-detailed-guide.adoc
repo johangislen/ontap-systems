@@ -278,7 +278,7 @@ video::6553a3db-57dd-4247-b34a-afe8016315d4[panopto, title="Animation - Switched
 +
 image::../media/oie_cable_25Gb_Ethernet_SFP28_IEOPS-1069.svg[width=100pxx]
 +
-image::../media/drw_2800_tnsc_cluster_cabling_IEOPS-892.svg[width=500px]
+image::../media/drw_2800_switched_cluster_cabling_IEOPS-893.svg[width=500px]
 . Cable the e0M ports to the management network switches with the RJ45 cables:
 +
 image::../media/oie_cable_rj45.svg[width=100px]
