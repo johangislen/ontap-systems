@@ -1,0 +1,16 @@
+---
+permalink: asa-c400/install-quick-guide.html
+sidebar: sidebar
+keywords: asa c400, asa, c400, guide, graphic, instruction, installation, system, rack, cabling, cable, intitial, system, bring-up, guide, install, netapp, system, quick guide
+summary: This guide gives graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
+---
+= Quick guide - ASA C400
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The installation and setup procedure provides graphic instructions for a typical installation of your system from racking and cabling, through initial system bring-up. Use this guide if you are familiar with installing NetApp systems.
+
+Access the link:../media/PDF/March_2023_Rev1_AFFC400_ISI_IEOPS-1015.pdf[AFF C400 Installation and Setup Instructions^].
+
+NOTE: The ASA C400 uses the same installation procedure as the AFF C400 system.
