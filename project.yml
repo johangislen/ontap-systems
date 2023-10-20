@@ -9,7 +9,7 @@ settings:
   rss_page: "whats-new.html"
 sidebar:
   entries:
-    - title: AFF, ASA and FAS system docs
+    - title: ONTAP hardware systems docs
       url: "/index.html"
     - title: Release notes
       url: /rel-notes.html
@@ -44,6 +44,12 @@ sidebar:
       - section: asa400
       - section: asa800
       - section: asa900
+    - title: ASA C-series systems
+      url: /allsan-c-series/index.html
+      entries:    
+      - section: asa-c250
+      - section: asa-c400
+      - section: asa-c800
     - title: FAS systems
       url: /fas/index.html
       entries:
@@ -62,6 +68,7 @@ sidebar:
         - section: a700s
         - section: fas2600
         - section: fas8200
+        - section: other
     - title: Drive shelves
       url: /drive-shelves/index.html
       entries:
@@ -117,10 +124,9 @@ sidebar:
               url: /platform-supplemental/42u-1280mm-reverse-hinge-and-lock.html
             - title: Reinstall door and illuminated badge
               url: /platform-supplemental/42u-1280mm-reinstall-door-and-badge.html
-    - section: other
     - title: Legal notices
       url: "/legal-notices.html"
 product-family:
-  name: AFF and FAS Systems
+  name: ONTAP hardware systems
   repo: ontap-systems-family
 
