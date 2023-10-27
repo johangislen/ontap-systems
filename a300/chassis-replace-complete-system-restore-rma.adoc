@@ -42,14 +42,13 @@ A stand-alone configuration
 a|
 
  .. Exit Maintenance mode: `halt`
- .. Go to <<Step 4: Return the failed part to NetApp>>.
+ .. Go to <<Step 3: Return the failed part to NetApp>>.
 
 a|
 An HA pair with a second controller module
 a|
 Exit Maintenance mode: `halt`    The LOADER prompt appears.
 |===
-
 
 == Step 2: Switch back aggregates in a two-node MetroCluster configuration
 
