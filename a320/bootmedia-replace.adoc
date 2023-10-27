@@ -160,7 +160,7 @@ The impaired node takes back its storage, finishes booting, and then reboots and
 +
 NOTE: If the giveback is vetoed, you can consider overriding the vetoes.
 +
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-hacg/home.html[ONTAP 9 High-Availability Configuration Guide]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[HA pair management^]
 
  .. Monitor the progress of the giveback operation by using the `storage failover show-giveback` command.
  .. After the giveback operation is complete, confirm that the HA pair is healthy and that takeover is possible by using the `storage failover show` command.
