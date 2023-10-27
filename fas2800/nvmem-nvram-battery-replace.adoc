@@ -56,7 +56,7 @@ Remove the failed NVMEM battery from the system and replace it with a new NVMEM 
 . Open the cover by pressing the blue buttons on the sides of the controller module to release the cover, and then rotate the cover up and off of the controller module.
 +
 image::../media/drw_2850_open_controller_module_cover_IEOPS-695.svg[width=500px]
-***********
+
 . Locate the NVMEM battery in the controller module.
 +
 video::592217fb-4868-4294-a559-af4701725598[panopto, title="Animation - Replace the NV battery"]
