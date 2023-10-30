@@ -9,17 +9,14 @@ summary: This section gives detailed step-by-step instructions for installing an
 :imagesdir: ../media/
 
 [.lead]
-include::../_include/250_install-detailed-guide.adoc[]
-This section gives detailed step-by-step instructions for installing an AFF C250 system.
+
+This procedure gives detailed step-by-step instructions for installing an AFF C250 storage system.
 
 If you have a MetroCluster configuration, use the https://docs.netapp.com/us-en/ontap-metrocluster/index.html[MetroCluster Documentation^].
 
 == Step 1: Prepare for installation
 
-To install your AFF C250 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information.
-
-
-NOTE: 
+To install your AFF C250 system, you need to create an account and register the system. You also need to inventory the appropriate number and type of cables for your system and collect specific network information. 
 
 .Before you begin
 * Make sure you have access to the link:https://hwu.netapp.com[NetApp Hardware Universe^] (HWU) for information about site requirements. 
