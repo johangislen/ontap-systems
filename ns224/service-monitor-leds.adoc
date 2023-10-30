@@ -35,7 +35,7 @@ image::../media/drw_ns224_odp_leds_IEOPS-1262.svg[width=100px]
 |===
 | LED icon| LED name & color| State| Description
 a|
-image:../media/drw_sas_power_icon.png[]
+image::../media/drw_sas_power_icon.svg[width=20px]
 a|
 Power (Green)
 a|
@@ -43,7 +43,7 @@ On
 a|
 One or more power supplies are supplying power to the drive shelf.
 a|
-image:../media/drw_sas_fault_icon.png[]
+image::../media/drw_sas_fault_icon.svg[width=5px]
 a|
 Attention (Amber)
 a|
@@ -56,7 +56,7 @@ Check event messages to determine corrective action to take.
 +
 Power cycle the drive shelf for the shelf ID to take affect.
 a|
-image:../media/drw_sas3_location_icon.gif[]
+image::../media/drw_sas3_location_icon.svg[width=20px]
 a|
 Location (Blue)
 a|
@@ -79,7 +79,7 @@ image::../media/drw_ns224_nsm_leds_IEOPS-1270.svg[width=550px]
 a|
 image:../media/legend_icon_01.png[Callout number 1] 
 a|
-image:../media/drw_sas3_location_icon.gif[]
+image::../media/drw_sas3_location_icon.svg[width=20px]
 a|
 Blue
 a|
@@ -87,7 +87,7 @@ NSM module: Location
 a|
 image:../media/legend_icon_02.png[Callout number 2]
 a|
-image:../media/drw_sas_fault_icon.png[]
+image::../media/drw_sas_fault_icon.svg[width=5px]
 a|
 Amber
 a|
@@ -103,7 +103,7 @@ NVMe port/link: status
 a|
 image:../media/legend_icon_04.png[Callout number 4] 
 a|
-image:../media/drw_sas_fault_icon.png[]
+image::../media/drw_sas_fault_icon.svg[width=5px]
 a|
 Amber
 a|
@@ -307,4 +307,3 @@ a|
 Attention (Amber)
 
 |===
-
