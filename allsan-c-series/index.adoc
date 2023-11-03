@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: allsan-c-series/index.html
 summary: The storage system documentation lets you install, setup, and maintain your ASA C-Series system.
 ---
-= All SAN Array (ASA) C-Series Systems
+= All-Flash SAN Array (ASA) C-Series Systems
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/

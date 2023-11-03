@@ -4,7 +4,7 @@ sidebar: sidebar
 permalink: allsan-a-series/index.html
 summary: The storage system documentation lets you install, setup, and maintain your ASA A-Series system.
 ---
-= All SAN Array (ASA) A-Series Systems
+= All-Flash SAN Array (ASA) A-Series Systems
 :hardbreaks:
 :linkattrs:
 :imagesdir: ./media/
