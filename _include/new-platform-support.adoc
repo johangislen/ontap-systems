@@ -4,23 +4,51 @@
 |===
 | Platforms (with links to data sheets)| Available beginning
 a|
-https://hwu.netapp.com/ProductSpecs/Index[FAS9500]
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA C250]
 a|
-ONTAP 9.10.1P3 and 9.11.1
+ONTAP 9.13.1P1
 a|
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf[AFF A900]
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA C400]
 a|
-ONTAP 9.10.1
+ONTAP 9.13.1P1
 a|
-https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf[AFF A250/AFF ASA A250]
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA C800]
 a|
-ONTAP 9.8
+ONTAP 9.13.P11
 a|
 https://hwu.netapp.com/ProductSpecs/Index[FAS2820]
 a|
 ONTAP 9.13.1
 a|
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA A150]
+a|
+ONTAP 9.13.1
+a|
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA A250]
+a|
+ONTAP 9.13.1
+a|
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA A400]
+a|
+ONTAP 9.13.1
+a|
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA A800]
+a|
+ONTAP 9.13.1
+a|
+https://www.netapp.com/data-storage/all-flash-san-storage-array/[ASA A900]
+a|
+ONTAP 9.13.1
+a|
+https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf[AFF A900]
+a|
+ONTAP 9.10.1
+a|
 https://www.netapp.com/pdf.html?item=/media/7819-ds-4020.pdf[FAS500f]
+a|
+ONTAP 9.8
+a|
+https://www.netapp.com/pdf.html?item=/media/7828-ds-3582.pdf[AFF A250/AFF ASA A250]
 a|
 ONTAP 9.8
 a|
