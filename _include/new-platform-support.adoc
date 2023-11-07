@@ -34,9 +34,9 @@ https://www.netapp.com/pdf.html?item=/media/85736-DS-4254-NetApp-ASA.pdf[ASA A90
 a|
 ONTAP 9.13.1
 a|
-https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C250]
-https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C400]
-https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C800]
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C250]
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C400]
+* https://www.netapp.com/media/81583-da-4240-aff-c-series.pdf[AFF C800]
 a|
 ONTAP 9.12.1P1
 
