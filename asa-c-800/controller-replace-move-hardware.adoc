@@ -1,5 +1,5 @@
 ---
-permalink: asa-c800/controller-replace-move-hardware.html
+permalink: asa-c-800/controller-replace-move-hardware.html
 sidebar: sidebar
 keywords: asa c800, move the controller module hardware
 summary: "To replace a controller module, you must remove the impaired controller, move FRU components to the replacement controller module, install the replacement controller module in the chassis, and then boot the system to Maintenance mode."

@@ -1,5 +1,5 @@
 ---
-permalink: asa-c800/bootmedia-replace.html
+permalink: asa-c-800/bootmedia-replace.html
 sidebar: sidebar
 keywords: asa c800, replace the boot media
 summary: You locate the failed boot media in the controller module by removing Riser 3 on the controller module before you can replace the boot media.

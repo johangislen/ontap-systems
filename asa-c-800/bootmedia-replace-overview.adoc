@@ -1,5 +1,5 @@
 ---
-permalink: asa-c800/bootmedia-replace-overview.html
+permalink: asa-c-800/bootmedia-replace-overview.html
 sidebar: sidebar
 keywords: asa c800, replace the boot media
 summary: You must replace the failed component with a replacement FRU component you received from your provider.

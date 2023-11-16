@@ -1,5 +1,5 @@
 ---
-permalink: asa-c800/install-setup.html
+permalink: asa-c-800/install-setup.html
 sidebar: sidebar
 keywords: asa c800, initial configuration options
 summary: 'Install and set up your system.'

@@ -1,5 +1,5 @@
 ---
-permalink: asa-c800/fan-replace.html
+permalink: asa-c-800/fan-replace.html
 sidebar: sidebar
 keywords: asa c800, replace a fan
 summary: "You must remove the controller module from the chassis when you replace a failed fan module and replace it with a new fan module."
