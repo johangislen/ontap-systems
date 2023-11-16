@@ -1,5 +1,5 @@
 ---
-permalink: asa-c-800/install-detailed-guide.html
+permalink: asa-c800/install-detailed-guide.html
 sidebar: sidebar
 keywords: asa c800, detailed installation
 summary: This section gives detailed step-by-step instructions for installing an ASA C800 system.

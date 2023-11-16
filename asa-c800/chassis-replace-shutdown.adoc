@@ -1,5 +1,5 @@
 ---
-permalink: asa-c-800/chassis-replace-shutdown.html
+permalink: asa-c800/chassis-replace-shutdown.html
 sidebar: sidebar
 keywords: asa c800, shutdown the controllers
 summary: "To replace the chassis, you must shutdown the controllers."

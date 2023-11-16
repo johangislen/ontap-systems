@@ -1,5 +1,5 @@
 ---
-permalink: asa-c-250/install-detailed-guide.html
+permalink: asa-c250/install-detailed-guide.html
 sidebar: sidebar
 keywords: asa c250, detailed installation
 summary: This section gives detailed step-by-step instructions for installing an ASA C250 system.

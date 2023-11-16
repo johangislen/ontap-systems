@@ -70,7 +70,7 @@ Install your AFF, ASA and FAS controllers in the rack or cabinet. Access the ins
 [role="quick-margin-list"]
 * https://docs.netapp.com/us-en/ontap-systems/asa-c250/install-setup.html[ASA C250]
 
-* https://docs.netapp.com/us-en/ontap-systems/asa-c-400/install-setup.html[ASA C400]
+* https://docs.netapp.com/us-en/ontap-systems/asa-c400/install-setup.html[ASA C400]
 
 * https://docs.netapp.com/us-en/ontap-systems/asa-c800/install-setup.html[ASA C800]
 

@@ -1,5 +1,5 @@
 ---
-permalink: asa-c-800/nvdimm-battery-replace.html
+permalink: asa-c800/nvdimm-battery-replace.html
 sidebar: sidebar
 keywords: asa c800, replace the nvdimm battery
 summary: "To replace the NVDIMM battery, you must remove the controller module, remove the battery, replace the battery, and then reinstall the controller module."

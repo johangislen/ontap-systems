@@ -1,5 +1,5 @@
 ---
-permalink: asa-c-800/index.html
+permalink: asa-c800/index.html
 sidebar: sidebar
 keywords: asa C800 maintenance, maintenance, repairing C800, repairing asa C800, replace asa C800 components, replace asa C800 components
 summary: Maintain the ASA C800 hardware
