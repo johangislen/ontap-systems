@@ -13,7 +13,7 @@ If you have a system in which the NS224 drive shelves need to be cabled as switc
 
 * Cable NS224 drive shelves through storage switches:
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2876580[Information for cabling switch-attached NS224 drive shelves^]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2876580[NS224 NVMe Drive Shelf Cabling Guide^]
 
 * Install your storage switches:
 +
