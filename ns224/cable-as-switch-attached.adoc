@@ -11,7 +11,7 @@ summary: If you have a system in which the NS224 drive shelves need to be cabled
 [.lead]
 If you have a system in which the NS224 drive shelves need to be cabled as switch-attached storage (not direct-attached storage), use the information provided.
 
-* Cable NS224 drive shelves through storage switches:
+* Cable NS224 drive shelves through storage switches using the "NS224 NVMe Drive Shelf Cabling Guide" PDF:
 +
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2876580[NS224 NVMe Drive Shelf Cabling Guide^]
 
