@@ -32,7 +32,6 @@ sidebar:
     - title: AFF C-Series systems
       url: /aff-cseries/index.html
       entries:
-      - section: c190
       - section: c250
       - section: c400
       - section: c800
@@ -66,6 +65,7 @@ sidebar:
         - section: a300
         - section: a320
         - section: a700s
+        - section: c190
         - section: fas2600
         - section: fas8200
         - section: other
