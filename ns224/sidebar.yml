@@ -23,8 +23,12 @@ entries:
       url: /ns224/service-monitor-leds.html
     - title: Fan
       url: /ns224/service-replace-fan.html
-    - title: Hot-remove shelf
-      url: /ns224/hot-remove-shelf.html
+    - title: Shelf
+      entries:
+        - title: Cold-replace shelf
+          url: /ns224/cold-replace-shelf.html
+        - title: Hot-remove shelf
+          url: /ns224/hot-remove-shelf.html
     - title: NSM module
       url: /ns224/service-replace-nsm100.html
     - title: Power supply

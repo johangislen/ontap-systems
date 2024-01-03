@@ -45,8 +45,12 @@ entries:
       url: /sas3/service-monitor-leds.html
     - title: Fan module in DS460C shelf
       url: /sas3/service-replace-fan-ds460c.html
-    - title: Hot-remove shelf
-      url: /sas3/hot-remove-shelf.html
+    - title: Shelf
+      entries:
+        - title: Cold-replace shelf
+          url: /sas3/cold-replace-shelf.html
+        - title: Hot-remove shelf
+          url: /sas3/hot-remove-shelf.html
     - title: IOM12/IOM12B module
       url: /sas3/service-hot-swap-iom.html
     - title: Power supply
