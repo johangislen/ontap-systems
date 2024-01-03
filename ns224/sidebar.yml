@@ -23,7 +23,7 @@ entries:
       url: /ns224/service-monitor-leds.html
     - title: Fan
       url: /ns224/service-replace-fan.html
-    - title: Shelf
+    - title: Drive shelf
       entries:
         - title: Cold-replace shelf
           url: /ns224/cold-replace-shelf.html

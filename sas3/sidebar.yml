@@ -45,7 +45,7 @@ entries:
       url: /sas3/service-monitor-leds.html
     - title: Fan module in DS460C shelf
       url: /sas3/service-replace-fan-ds460c.html
-    - title: Shelf
+    - title: Drive shelf
       entries:
         - title: Cold-replace shelf
           url: /sas3/cold-replace-shelf.html
