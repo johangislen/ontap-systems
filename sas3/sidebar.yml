@@ -41,8 +41,6 @@ entries:
       url: /sas3/service-hot-swap-drive-ds460c.html
     - title: Drive drawer in DS460C shelf
       url: /sas3/service-replace-drawer-ds460c.html
-    - title: Fan module in DS460C shelf
-      url: /sas3/service-replace-fan-ds460c.html
     - title: Drive shelf
       entries:
         - title: Cold-replace shelf
@@ -51,6 +49,8 @@ entries:
           url: /sas3/hot-remove-shelf.html
         - title: Monitor shelf LEDs
           url: /sas3/service-monitor-leds.html
+    - title: Fan module in DS460C shelf
+      url: /sas3/service-replace-fan-ds460c.html
     - title: IOM12/IOM12B module
       url: /sas3/service-hot-swap-iom.html
     - title: Power supply
