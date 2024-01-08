@@ -10,10 +10,10 @@ summary: sas3 shelf overview.
 
 [.lead]
 
-The NetApp SAS3 sydrive shelf uses SAS connectors to connect to the storage system.
+The NetApp SAS3 drive shelf uses SAS connectors to connect to the storage system.
 
 Take the following actions to maintain your SAS3 drive shelf. 
 
-* link:cold-replace-shelf.adoc[Cold-replace a shelf]
-* link:hot-remove-shelf.adoc[Hot-remove a shelf]
-* link:service-monitor-leds.adoc[Monitor shelf LEDs]
+* link:cold-replace-shelf.html[Cold-replace a shelf]
+* link:hot-remove-shelf.html[Hot-remove a shelf]
+* link:service-monitor-leds.html[Monitor shelf LEDs]

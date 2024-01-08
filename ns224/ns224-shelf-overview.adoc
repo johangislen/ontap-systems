@@ -14,6 +14,6 @@ The NetApp NS224 drive shelf is a 2U rack unit that can hold up to 24 drives. Th
 
 Take the following actions to maintain your NS224 drive shelf. 
 
-* link:cold-replace-shelf.adoc[Cold-replace a shelf]
-* link:hot-remove-shelf.adoc[Hot-remove a shelf]
-* link:service-monitor-leds.adoc[Monitor shelf LEDs]
+* link:cold-replace-shelf.html[Cold-replace a shelf]
+* link:hot-remove-shelf.html[Hot-remove a shelf]
+* link:service-monitor-leds.html[Monitor shelf LEDs]
