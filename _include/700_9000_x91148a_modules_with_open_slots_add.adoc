@@ -61,7 +61,10 @@ The console connection shows that the node drops to the LOADER prompt when the t
  .. Slide the X91148A module into the slot until the lettered and numbered I/O cam latch begins to engage with the I/O cam pin.
  .. Push the I/O cam latch all the way up to lock the module in place.
  .. If you are installing a second X91148A module for storage, repeat this step for the module in slot 7.
-. Reboot controller A: `boot_ontap`
+. Reboot controller A from the LOADER prompt: `bye`
++
+NOTE: This reinitializes the PCIe cards and other components and reboots the node.
+
 . Giveback the node from the partner node: `storage failover giveback -ofnode target_node_name`
 . Enable automatic giveback if it was disabled: `storage failover modify -node local -auto-giveback true`
 . Repeat these steps for controller B.
