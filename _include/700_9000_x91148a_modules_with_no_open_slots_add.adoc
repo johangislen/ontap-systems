@@ -11,7 +11,7 @@ You must remove one more or more existing NIC or storage modules in your system 
 
 --
 
-.Option 1: Add an X91148A module as a NIC module in a system with no open slots
+.Option 1: Add an X91148A module as a NIC module
 
 You must remove one or more existing NIC or storage modules in your system in order to install one or more X91148A NIC modules into your fully-populated system.
 
@@ -69,7 +69,7 @@ NOTE: This reinitializes the PCIe cards and other components and reboots the nod
 
 --
 
-.Option 2: Adding an X91148A module as a storage module in a system with no open slots
+.Option 2: Adding an X91148A module as a storage module
 
 --
 
