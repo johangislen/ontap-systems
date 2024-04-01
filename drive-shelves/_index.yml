@@ -1,5 +1,8 @@
 indexpage:
+  title: Drive Shelves for AFF and FAS Systems
   lead: 
+  summary: The NS224 and SAS shelves are specifically designed for NetApp AFF and FAS systems to support your diverse business and application demands.
+  keywords: install ns224, hot-add, shelves, cable, drive-shelves
   tiles:
     - title: Install NS224 shelves
       links:
