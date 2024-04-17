@@ -154,7 +154,7 @@ Use the animation or the tabulated steps to complete the cabling between the con
 video::beec3966-0a01-473c-a5de-ac68017fbf29[panopto, title="Animation - Cable a two-node switchless cluster"]
 
 .Steps
-. Cable the cluster interconnect ports e0c to e0c and e0d to e0d with the 25GbE cluster interconnect cable.
+. Cable the cluster interconnect ports e0c to e0c and e0d to e0d with the 25GbE cluster interconnect cables.
 +
 image:../media/oie_cable_sfp_gbe_copper.png[]:
 +
