@@ -29,6 +29,12 @@ include::./_include/new-shelf-support.adoc[]
 include::./_include/new-hardware-updates.adoc[]
 
 == Legacy hardware no longer supported
-The following devices are no longer supported.
+The following systems and switches are no longer supported.
 
 include::./_include/new-legacy-hardware-no-support.adoc[]
+
+=== Related information
+
+* https://mysupport.netapp.com/site/info/cisco-ethernet-switch[Cisco Matrix]
+* https://mysupport.netapp.com/site/info/netapp-cluster-switch[NetApp switch matrix]
+* https://mysupport.netapp.com/info/communications/ECMLP2859128.html[End of Availability: NetApp Cluster Interconnect SKUs]
