@@ -27,3 +27,8 @@ include::./_include/new-shelf-support.adoc[]
 
 == New hardware updates
 include::./_include/new-hardware-updates.adoc[]
+
+== Legacy hardware no longer supported
+The following devices are no longer supported.
+
+include::./_include/new-legacy-hardware-no-support.adoc[]
