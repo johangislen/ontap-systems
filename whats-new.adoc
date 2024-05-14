@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 sidebar: sidebar
-keywords: new, features, fas, aff systems
+keywords: new, features,aff, asa,  fas, legacy, end-of-support
 summary: 'Learn about the new features for AFF, ASA and FAS systems.'
 ---
 
@@ -11,7 +11,7 @@ summary: 'Learn about the new features for AFF, ASA and FAS systems.'
 :imagesdir: ../media/
 
 [.lead]
-Learn about the new features for AFF, ASA and FAS systems.
+Learn about the new features for AFF, ASA and FAS systems and the legacy hardware no longer supported.
 
 == New platform support
 include::./_include/new-platform-support.adoc[]
@@ -29,7 +29,7 @@ include::./_include/new-shelf-support.adoc[]
 include::./_include/new-hardware-updates.adoc[]
 
 == Legacy hardware no longer supported
-The following systems and switches are no longer supported.
+The following systems and switches are no longer supported as of the specified version of ONTAP.
 
 include::./_include/new-legacy-hardware-no-support.adoc[]
 
