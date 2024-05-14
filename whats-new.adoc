@@ -3,7 +3,7 @@ sidebar: sidebar
 permalink: whats-new.html
 sidebar: sidebar
 keywords: new, features,aff, asa,  fas, legacy, end-of-support
-summary: 'Learn about the new features for AFF, ASA and FAS systems.'
+summary: 'Learn about the new features for AFF, ASA and FAS systems and the legacy hardware no longer supported.'
 ---
 
 = What's new for AFF, ASA and FAS systems
