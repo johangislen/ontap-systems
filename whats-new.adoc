@@ -35,6 +35,6 @@ include::./_include/new-legacy-hardware-no-support.adoc[]
 
 === Related information
 
-* https://mysupport.netapp.com/site/info/cisco-ethernet-switch[Cisco Matrix]
-* https://mysupport.netapp.com/site/info/netapp-cluster-switch[NetApp switch matrix]
-* https://mysupport.netapp.com/info/communications/ECMLP2859128.html[End of Availability: NetApp Cluster Interconnect SKUs]
+* https://mysupport.netapp.com/site/info/cisco-ethernet-switch[Supported Cisco Ethernet Switches]
+* https://mysupport.netapp.com/site/info/netapp-cluster-switch[Supported NetApp Ethernet Switches]
+*  https://mysupport.netapp.com/info/eoa/df_eoa_category_page.html?category=Platforms[End of Availability Platforms]
