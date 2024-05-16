@@ -11,7 +11,7 @@ summary: 'Learn about the new features for AFF, ASA and FAS systems and the lega
 :imagesdir: ../media/
 
 [.lead]
-Learn about the new features for AFF, ASA and FAS systems and the legacy hardware no longer supported.
+Learn about the new features for AFF, ASA and FAS systems.
 
 For details about known issues, limitations, and upgrade cautions in ONTAP 9 releases, refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508[ONTAP 9 Release Notes]. You must sign in with your NetApp account or create an account to access the Release Notes.
 
@@ -29,14 +29,3 @@ include::./_include/new-shelf-support.adoc[]
 
 == New hardware updates
 include::./_include/new-hardware-updates.adoc[]
-
-== Legacy hardware no longer supported
-The following systems and switches are no longer supported as of the specified version of ONTAP.
-
-include::./_include/new-legacy-hardware-no-support.adoc[]
-
-=== Related information
-
-* https://mysupport.netapp.com/site/info/cisco-ethernet-switch[Supported Cisco Ethernet Switches]
-* https://mysupport.netapp.com/site/info/netapp-cluster-switch[Supported NetApp Ethernet Switches]
-*  https://mysupport.netapp.com/info/eoa/df_eoa_category_page.html?category=Platforms[End of Availability Platforms]
