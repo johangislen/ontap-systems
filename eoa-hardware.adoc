@@ -15,7 +15,7 @@ The following systems and switches are no longer supported as of the specified v
 
 include::./_include/new-legacy-hardware-no-support.adoc[]
 
-== Related information
+=== Related information
 
 * https://mysupport.netapp.com/site/info/cisco-ethernet-switch[Supported Cisco Ethernet Switches]
 * https://mysupport.netapp.com/site/info/netapp-cluster-switch[Supported NetApp Ethernet Switches]
