@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ontap-systems | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/us-en/ontap-systems/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/us-en/ontap-systems</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <pubDate>Sun, 19 May 2024 23:43:49 -0400</pubDate>
+    <lastBuildDate>Sun, 19 May 2024 23:43:49 -0400</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>What's new for AFF, ASA and FAS systems (16 May 2024)</title>
+      <pubDate>Thu, 16 May 2024 13:54:48 -0400</pubDate>
+      <link>https://docs.netapp.com/us-en/ontap-systems/whats-new.html?time=1715882088</link>
+      <guid isPermaLink="false">Thu, 16 May 2024 13:54:48 -0400</guid>
+      <description><![CDATA[ Learn about the new features for AFF, ASA and FAS systems and the legacy hardware no longer supported. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
