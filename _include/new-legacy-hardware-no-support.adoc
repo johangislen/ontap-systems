@@ -4,6 +4,11 @@
 |===
 | System| Support discontinued from...
 a|
+* AFF A320
+* AFF A700s
+a|
+ONTAP 9.15.1
+a|
 * AFF A200
 * FAS2650
 * FAS2620
